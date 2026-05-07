@@ -306,6 +306,7 @@ function App() {
   const [reviewMode, setReviewMode] = useState(false);
   const [feedbackText, setFeedbackText] = useState("");
   const applyingUserRef = useRef(false);
+  const progressSaveQueueRef = useRef(Promise.resolve());
 
   useEffect(() => {
     async function initializeApp() {
@@ -435,6 +436,10 @@ function App() {
       ...(current || {}),
       ...user,
     }));
+  }
+
+  async function waitForPendingProgress() {
+    await progressSaveQueueRef.current.catch(() => {});
   }
 
   const filteredEntries = dataset
@@ -583,19 +588,29 @@ function App() {
       return;
     }
 
+    const userId = currentUser.userId;
     const progressPayload = buildProgressPayload(nextState);
-    const endpoint = nextState.completed
-      ? `/api/users/${currentUser.userId}/sessions/complete`
-      : nextState.isActive && nextState.currentIndex === 0 && nextState.answeredCount === 0
-        ? `/api/users/${currentUser.userId}/sessions/start`
-        : `/api/users/${currentUser.userId}/progress`;
-    const method = endpoint.endsWith("/progress") ? "PUT" : "POST";
 
-    const { user } = await requestJson(endpoint, {
-      method,
-      body: JSON.stringify({ progress: progressPayload }),
-    });
-    mergeUserSnapshot(user);
+    const queuedSave = progressSaveQueueRef.current
+      .catch(() => {})
+      .then(async () => {
+        const endpoint = nextState.completed
+          ? `/api/users/${userId}/sessions/complete`
+          : nextState.isActive && nextState.currentIndex === 0 && nextState.answeredCount === 0
+            ? `/api/users/${userId}/sessions/start`
+            : `/api/users/${userId}/progress`;
+        const method = endpoint.endsWith("/progress") ? "PUT" : "POST";
+
+        const { user } = await requestJson(endpoint, {
+          method,
+          body: JSON.stringify({ progress: progressPayload }),
+        });
+        mergeUserSnapshot(user);
+        setAuthError("");
+      });
+
+    progressSaveQueueRef.current = queuedSave;
+    await queuedSave;
   }
 
   async function startQuiz(reviewOnly) {
@@ -835,20 +850,24 @@ function App() {
     resetQuizState();
   }
 
-  function resumeSavedQuiz() {
+  async function resumeSavedQuiz() {
     if (!currentUser?.progress?.isActive) {
       return;
     }
 
-    applyUser(currentUser);
+    await waitForPendingProgress();
+    setAuthError("");
     setActivePage("quiz");
   }
 
-  function goToDashboard() {
+  async function goToDashboard() {
     if (!currentUser) {
       setActivePage("login");
       return;
     }
+
+    await waitForPendingProgress();
+    setAuthError("");
     setActivePage("dashboard");
   }
 
