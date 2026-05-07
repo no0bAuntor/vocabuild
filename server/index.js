@@ -246,12 +246,7 @@ app.post("/api/users/:userId/sessions/complete", async (request, response) => {
 
 app.use(express.static(distPath));
 
-app.get("*", (request, response, next) => {
-  if (request.path.startsWith("/api/")) {
-    next();
-    return;
-  }
-
+app.get(/^(?!\/api(?:\/|$)).*/, (_request, response) => {
   response.sendFile(path.join(distPath, "index.html"));
 });
 
