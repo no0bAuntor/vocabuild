@@ -10,6 +10,12 @@ const QUESTION_OPTIONS = [
   { value: "20", label: "20" },
   { value: "50", label: "50" },
   { value: "all", label: "All" },
+  { value: "custom", label: "Custom" },
+];
+
+const ORDER_OPTIONS = [
+  { value: "random", label: "Random" },
+  { value: "sorted", label: "Sorted" },
 ];
 
 function shuffle(items) {
@@ -26,14 +32,22 @@ function pickUnique(source, count) {
   return shuffle(unique).slice(0, Math.min(count, unique.length));
 }
 
-function buildDeck(entries, requestedCount) {
-  const shuffled = shuffle(entries);
+function sortEntries(entries, mode) {
+  if (mode === "sorted") {
+    return [...entries].sort((left, right) => left.english.localeCompare(right.english));
+  }
+
+  return shuffle(entries);
+}
+
+function buildDeck(entries, requestedCount, questionOrder) {
+  const ordered = sortEntries(entries, questionOrder);
   if (requestedCount === "all") {
-    return shuffled;
+    return ordered;
   }
 
   const limit = Number(requestedCount);
-  return shuffled.slice(0, Math.min(limit, shuffled.length));
+  return ordered.slice(0, Math.min(limit, ordered.length));
 }
 
 function buildQuestion(entry, pool, mode) {
@@ -70,6 +84,7 @@ function buildProgressPayload({
   reviewMode,
   activeMode,
   questionCount,
+  questionOrder,
   selectedSheets,
   isActive,
   completed,
@@ -80,6 +95,7 @@ function buildProgressPayload({
     reviewMode,
     mode: activeMode,
     questionCount,
+    questionOrder,
     selectedSheets,
     deckEntryIds: activeDeck.map((entry) => entry.id),
     currentIndex,
@@ -241,6 +257,31 @@ function QuestionCountPicker({ value, disabled, onChange }) {
   );
 }
 
+function QuestionOrderPicker({ value, disabled, onChange }) {
+  return (
+    <div className="mt-3 flex flex-wrap gap-3">
+      {ORDER_OPTIONS.map((option) => {
+        const active = option.value === value;
+        return (
+          <button
+            key={option.value}
+            type="button"
+            onClick={() => onChange(option.value)}
+            disabled={disabled}
+            className={`rounded-2xl border px-4 py-3 text-sm font-semibold transition ${
+              active
+                ? "border-amber-300 bg-amber-300 text-stone-950"
+                : "border-white/12 bg-white/10 text-white"
+            } disabled:cursor-not-allowed disabled:opacity-60`}
+          >
+            {option.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 function App() {
   const [dataset, setDataset] = useState(null);
   const [loadState, setLoadState] = useState("loading");
@@ -253,6 +294,8 @@ function App() {
   const [activeMode, setActiveMode] = useState("en-bn");
   const [selectedSheets, setSelectedSheets] = useState([]);
   const [questionCount, setQuestionCount] = useState("20");
+  const [customQuestionCount, setCustomQuestionCount] = useState("25");
+  const [questionOrder, setQuestionOrder] = useState("random");
   const [activeDeck, setActiveDeck] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -340,6 +383,14 @@ function App() {
     setSelectedSheets(nextSheets);
     setActiveMode(user.progress?.mode || user.preferences?.activeMode || "en-bn");
     setQuestionCount(user.progress?.questionCount || user.preferences?.questionCount || "20");
+    setCustomQuestionCount(
+      user.preferences?.customQuestionCount
+        ? String(user.preferences.customQuestionCount)
+        : "25",
+    );
+    setQuestionOrder(
+      user.progress?.questionOrder || user.preferences?.questionOrder || "random",
+    );
 
     const savedProgress = user.progress;
     if (savedProgress?.isActive && savedProgress.deckEntryIds?.length) {
@@ -404,6 +455,18 @@ function App() {
       ? Math.round((currentUser.stats.correctCount / currentUser.stats.answeredCount) * 100)
       : 0;
 
+  function resolveQuestionCount() {
+    if (questionCount === "custom") {
+      const parsed = Number(customQuestionCount);
+      if (!Number.isFinite(parsed) || parsed <= 0) {
+        return null;
+      }
+      return String(Math.floor(parsed));
+    }
+
+    return questionCount;
+  }
+
   async function savePreferences(nextPreferences) {
     if (!currentUser) {
       return;
@@ -426,6 +489,8 @@ function App() {
       await savePreferences({
         activeMode: mode,
         questionCount,
+        customQuestionCount,
+        questionOrder,
         selectedSheets,
       });
     } catch (error) {
@@ -447,6 +512,8 @@ function App() {
       await savePreferences({
         activeMode,
         questionCount,
+        customQuestionCount,
+        questionOrder,
         selectedSheets: nextSheets,
       });
     } catch (error) {
@@ -464,6 +531,46 @@ function App() {
       await savePreferences({
         activeMode,
         questionCount: value,
+        customQuestionCount,
+        questionOrder,
+        selectedSheets,
+      });
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
+    }
+  }
+
+  async function updateCustomQuestionCount(value) {
+    setCustomQuestionCount(value);
+    if (!currentUser || applyingUserRef.current) {
+      return;
+    }
+
+    try {
+      await savePreferences({
+        activeMode,
+        questionCount,
+        customQuestionCount: value,
+        questionOrder,
+        selectedSheets,
+      });
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
+    }
+  }
+
+  async function updateQuestionOrder(value) {
+    setQuestionOrder(value);
+    if (!currentUser || applyingUserRef.current) {
+      return;
+    }
+
+    try {
+      await savePreferences({
+        activeMode,
+        questionCount,
+        customQuestionCount,
+        questionOrder: value,
         selectedSheets,
       });
     } catch (error) {
@@ -507,7 +614,13 @@ function App() {
       return;
     }
 
-    const nextDeck = buildDeck(sourceEntries, questionCount);
+    const effectiveQuestionCount = resolveQuestionCount();
+    if (!effectiveQuestionCount) {
+      setFeedbackText("Enter a valid custom question count greater than 0.");
+      return;
+    }
+
+    const nextDeck = buildDeck(sourceEntries, effectiveQuestionCount, questionOrder);
     const firstQuestion = buildQuestion(nextDeck[0], filteredEntries, activeMode);
 
     setReviewMode(reviewOnly);
@@ -535,7 +648,8 @@ function App() {
         mistakes: reviewOnly ? mistakes : [],
         reviewMode: reviewOnly,
         activeMode,
-        questionCount,
+        questionCount: effectiveQuestionCount,
+        questionOrder,
         selectedSheets,
         isActive: true,
         completed: false,
@@ -579,6 +693,7 @@ function App() {
         reviewMode,
         activeMode,
         questionCount,
+        questionOrder,
         selectedSheets,
         isActive: true,
         completed: false,
@@ -612,6 +727,7 @@ function App() {
           reviewMode,
           activeMode,
           questionCount,
+          questionOrder,
           selectedSheets,
           isActive: false,
           completed: true,
@@ -642,6 +758,7 @@ function App() {
         reviewMode,
         activeMode,
         questionCount,
+        questionOrder,
         selectedSheets,
         isActive: true,
         completed: false,
@@ -712,6 +829,8 @@ function App() {
     }
     setActiveMode("en-bn");
     setQuestionCount("20");
+    setCustomQuestionCount("25");
+    setQuestionOrder("random");
     setActivePage("login");
     resetQuizState();
   }
@@ -929,6 +1048,26 @@ function App() {
                   disabled={controlsLocked}
                   onChange={updateQuestionCount}
                 />
+                {questionCount === "custom" && (
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    value={customQuestionCount}
+                    onChange={(event) => updateCustomQuestionCount(event.target.value)}
+                    disabled={controlsLocked}
+                    placeholder="Enter custom count"
+                    className="mt-4 w-40 rounded-2xl border border-white/10 bg-white/10 px-4 py-3 text-sm text-white outline-none disabled:cursor-not-allowed disabled:opacity-60"
+                  />
+                )}
+                <div className="mt-5">
+                  <SectionTitle label="Question Order" />
+                  <QuestionOrderPicker
+                    value={questionOrder}
+                    disabled={controlsLocked}
+                    onChange={updateQuestionOrder}
+                  />
+                </div>
                 {controlsLocked && (
                   <p className="mt-4 text-xs text-stone-300">
                     Finish or resume the saved quiz before changing deck settings.

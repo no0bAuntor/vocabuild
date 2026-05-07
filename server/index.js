@@ -35,6 +35,7 @@ const progressSchema = new mongoose.Schema(
     reviewMode: { type: Boolean, default: false },
     mode: { type: String, default: "en-bn" },
     questionCount: { type: String, default: "20" },
+    questionOrder: { type: String, default: "random" },
     selectedSheets: { type: [String], default: [] },
     deckEntryIds: { type: [Number], default: [] },
     currentIndex: { type: Number, default: -1 },
@@ -56,6 +57,7 @@ const userSchema = new mongoose.Schema(
     preferences: {
       activeMode: { type: String, default: "en-bn" },
       questionCount: { type: String, default: "20" },
+      questionOrder: { type: String, default: "random" },
       selectedSheets: { type: [String], default: [] },
     },
     stats: {
