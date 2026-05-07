@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(232, 183, 95, 0.32), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(20, 120, 109, 0.22), transparent 34%),
+    linear-gradient(180deg, #f7f1e7 0%, #ece2d1 100%);
+  color: #1f1a16;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(20, 120, 109, 0.18);
+}

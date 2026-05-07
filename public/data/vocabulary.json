@@ -1,0 +1,8268 @@
+{
+  "metadata": {
+    "sourceWorkbook": "Vocabulary.xlsx",
+    "includedSheets": [
+      "War",
+      "Random",
+      "A World Undone",
+      "Competitive Exams",
+      "Analogy"
+    ],
+    "sourceCounts": {
+      "War": 204,
+      "Random": 217,
+      "A World Undone": 97,
+      "Competitive Exams": 259,
+      "Analogy": 259
+    },
+    "blankRows": {
+      "War": 785,
+      "Random": 723,
+      "A World Undone": 861,
+      "Competitive Exams": 641,
+      "Analogy": 726
+    },
+    "incompleteRows": {
+      "War": 0,
+      "Random": 0,
+      "A World Undone": 1,
+      "Competitive Exams": 90,
+      "Analogy": 3
+    },
+    "totalSourcePairs": 1036,
+    "uniqueEntries": 1028
+  },
+  "entries": [
+    {
+      "id": 1,
+      "english": "abandon",
+      "bengali": "পরিত্যাগ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 2,
+      "english": "accuses",
+      "bengali": "অভিযুক্ত করে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 3,
+      "english": "adequate",
+      "bengali": "যথেষ্ট",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 4,
+      "english": "adoption",
+      "bengali": "গ্রহণ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 5,
+      "english": "alias",
+      "bengali": "ছদ্মনাম",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 6,
+      "english": "alliances",
+      "bengali": "জোট",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 7,
+      "english": "ambiguity",
+      "bengali": "অস্পষ্টতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 8,
+      "english": "amid",
+      "bengali": "মধ্যে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 9,
+      "english": "analogous",
+      "bengali": "সদৃশ",
+      "sources": [
+        "War",
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 10,
+      "english": "animosity",
+      "bengali": "শত্রুতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 11,
+      "english": "armistice",
+      "bengali": "যুদ্ধবিরতি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 12,
+      "english": "atrocities",
+      "bengali": "নৃশংসতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 13,
+      "english": "attenuator",
+      "bengali": "দুর্বলকারী",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 14,
+      "english": "attrition",
+      "bengali": "ক্ষয়",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 15,
+      "english": "avid",
+      "bengali": "উৎসাহী",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 16,
+      "english": "barbed",
+      "bengali": "কাঁটাযুক্ত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 17,
+      "english": "barely",
+      "bengali": "অল্পমাত্রায়",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 18,
+      "english": "beleaguered",
+      "bengali": "অবরুদ্ধ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 19,
+      "english": "beneath",
+      "bengali": "নিচে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 20,
+      "english": "besieged",
+      "bengali": "অবরোধকৃত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 21,
+      "english": "beyond",
+      "bengali": "অতীত / বাইরে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 22,
+      "english": "blockade",
+      "bengali": "অবরোধ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 23,
+      "english": "bogged down",
+      "bengali": "আটকে পড়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 24,
+      "english": "bombard",
+      "bengali": "গোলাবর্ষণ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 25,
+      "english": "brink",
+      "bengali": "কিনারা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 26,
+      "english": "brink of conflict",
+      "bengali": "সংঘাতের দ্বারপ্রান্তে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 27,
+      "english": "brutal",
+      "bengali": "নিষ্ঠুর",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 28,
+      "english": "calibrated",
+      "bengali": "সঠিকভাবে সমন্বিত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 29,
+      "english": "called off",
+      "bengali": "বাতিল করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 30,
+      "english": "casualty",
+      "bengali": "হতাহত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 31,
+      "english": "catastrophic",
+      "bengali": "ভয়াবহ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 32,
+      "english": "catenary",
+      "bengali": "ঝুলন্ত বক্ররেখা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 33,
+      "english": "cavalry",
+      "bengali": "অশ্বারোহী সেনা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 34,
+      "english": "chaos",
+      "bengali": "বিশৃঙ্খলা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 35,
+      "english": "collision",
+      "bengali": "সংঘর্ষ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 36,
+      "english": "compatibility",
+      "bengali": "সামঞ্জস্যতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 37,
+      "english": "compensates",
+      "bengali": "ক্ষতিপূরণ দেয়",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 38,
+      "english": "compression",
+      "bengali": "সংকোচন",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 39,
+      "english": "confessions",
+      "bengali": "স্বীকারোক্তি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 40,
+      "english": "conscription",
+      "bengali": "বাধ্যতামূলক সামরিক নিয়োগ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 41,
+      "english": "consequence",
+      "bengali": "ফলাফল",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 42,
+      "english": "contagious",
+      "bengali": "সংক্রামক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 43,
+      "english": "contested region",
+      "bengali": "বিতর্কিত অঞ্চল",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 44,
+      "english": "contraband",
+      "bengali": "নিষিদ্ধ / পাচারকৃত পণ্য",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 45,
+      "english": "convoys",
+      "bengali": "রক্ষিত যানবাহনের বহর",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 46,
+      "english": "crony",
+      "bengali": "ঘনিষ্ঠ কিন্তু পক্ষপাতপ্রাপ্ত বন্ধু",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 47,
+      "english": "decisive",
+      "bengali": "চূড়ান্ত / নির্ণায়ক",
+      "sources": [
+        "War",
+        "Random"
+      ]
+    },
+    {
+      "id": 48,
+      "english": "delegation",
+      "bengali": "প্রতিনিধি দল",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 49,
+      "english": "denounced",
+      "bengali": "তীব্র নিন্দা করেছে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 50,
+      "english": "deportation",
+      "bengali": "দেশ থেকে বহিষ্কার",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 51,
+      "english": "desperate",
+      "bengali": "মরিয়া / হতাশ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 52,
+      "english": "devastating",
+      "bengali": "বিধ্বংসী",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 53,
+      "english": "dialect",
+      "bengali": "উপভাষা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 54,
+      "english": "discontent",
+      "bengali": "অসন্তোষ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 55,
+      "english": "dispute",
+      "bengali": "বিরোধ / বিবাদ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 56,
+      "english": "diversionary",
+      "bengali": "মনোযোগ ঘোরানোর",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 57,
+      "english": "drafted",
+      "bengali": "নিয়োগ করা হয়েছে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 58,
+      "english": "drag into",
+      "bengali": "জোর করে জড়ানো",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 59,
+      "english": "endure",
+      "bengali": "সহ্য করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 60,
+      "english": "engulfed",
+      "bengali": "গ্রাস করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 61,
+      "english": "entangled",
+      "bengali": "জড়িয়ে পড়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 62,
+      "english": "entente",
+      "bengali": "সৌহার্দ্যপূর্ণ চুক্তি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 63,
+      "english": "escalate",
+      "bengali": "তীব্র হওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 64,
+      "english": "escort",
+      "bengali": "পাহারা দেওয়া / সঙ্গ দেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 65,
+      "english": "evacuated",
+      "bengali": "সরিয়ে নেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 66,
+      "english": "expeditionary",
+      "bengali": "অভিযানমূলক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 67,
+      "english": "exploit",
+      "bengali": "শোষণ করা / কাজে লাগানো",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 68,
+      "english": "exposure",
+      "bengali": "উন্মুক্ততা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 69,
+      "english": "fade",
+      "bengali": "ম্লান হওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 70,
+      "english": "far-flung",
+      "bengali": "দূরবর্তী",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 71,
+      "english": "fierce",
+      "bengali": "প্রচণ্ড",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 72,
+      "english": "fleet",
+      "bengali": "জাহাজ/যানবাহনের বহর",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 73,
+      "english": "flexibility",
+      "bengali": "নমনীয়তা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 74,
+      "english": "forefathers",
+      "bengali": "পূর্বপুরুষরা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 75,
+      "english": "fortress",
+      "bengali": "দুর্গ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 76,
+      "english": "fragile",
+      "bengali": "ভঙ্গুর",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 77,
+      "english": "gamble",
+      "bengali": "ঝুঁকি নেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 78,
+      "english": "giggling",
+      "bengali": "খিকখিক করে হাসা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 79,
+      "english": "give in",
+      "bengali": "হাল ছেড়ে দেওয়া / মেনে নেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 80,
+      "english": "grasp",
+      "bengali": "বোঝা / দৃঢ়ভাবে ধরা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 81,
+      "english": "halted",
+      "bengali": "থামানো / বন্ধ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 82,
+      "english": "imitate",
+      "bengali": "অনুকরণ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 83,
+      "english": "immense",
+      "bengali": "অপার / বিশাল",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 84,
+      "english": "immunity",
+      "bengali": "রোগ প্রতিরোধ ক্ষমতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 85,
+      "english": "impose",
+      "bengali": "আরোপ করা / চাপিয়ে দেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 86,
+      "english": "Inceptive",
+      "bengali": "প্রারম্ভিক / সূচনামূলক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 87,
+      "english": "incorporate",
+      "bengali": "অন্তর্ভুক্ত করা / সংযুক্ত করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 88,
+      "english": "indignity",
+      "bengali": "অপমান",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 89,
+      "english": "inevitable",
+      "bengali": "অনিবার্য",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 90,
+      "english": "infantry",
+      "bengali": "পদাতিক বাহিনী",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 91,
+      "english": "Infer",
+      "bengali": "অনুমান করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 92,
+      "english": "infiltration",
+      "bengali": "অনুপ্রবেশ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 93,
+      "english": "inflated",
+      "bengali": "ফুলানো / অতিরঞ্জিত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 94,
+      "english": "inflicting",
+      "bengali": "কষ্ট দেওয়া / প্রয়োগ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 95,
+      "english": "insist",
+      "bengali": "জোর করা / জিদ ধরা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 96,
+      "english": "instantaneous",
+      "bengali": "তাৎক্ষণিক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 97,
+      "english": "instinct",
+      "bengali": "স্বাভাবিক প্রবৃত্তি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 98,
+      "english": "interpret",
+      "bengali": "ব্যাখ্যা করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 99,
+      "english": "Interrogation",
+      "bengali": "জেরা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 100,
+      "english": "intervention",
+      "bengali": "হস্তক্ষেপ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 101,
+      "english": "intuitive",
+      "bengali": "স্বজ্ঞাত / সহজাত বোধসম্পন্ন",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 102,
+      "english": "invade",
+      "bengali": "আক্রমণ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 103,
+      "english": "invasion",
+      "bengali": "আক্রমণ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 104,
+      "english": "irrational",
+      "bengali": "অযৌক্তিক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 105,
+      "english": "Isolationism",
+      "bengali": "বিচ্ছিন্নতাবাদ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 106,
+      "english": "laborious",
+      "bengali": "পরিশ্রমসাধ্য",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 107,
+      "english": "last-ditch",
+      "bengali": "শেষ চেষ্টা / চরম প্রচেষ্টা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 108,
+      "english": "Ludicrous",
+      "bengali": "হাস্যকর / অযৌক্তিক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 109,
+      "english": "Mediocre",
+      "bengali": "মাঝারি মানের",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 110,
+      "english": "Meek",
+      "bengali": "নম্র / ভীরু",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 111,
+      "english": "merchant",
+      "bengali": "ব্যবসায়ী / বণিক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 112,
+      "english": "mischievously",
+      "bengali": "দুষ্টুমি করে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 113,
+      "english": "miser",
+      "bengali": "কৃপণ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 114,
+      "english": "mobilise",
+      "bengali": "সংগঠিত করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 115,
+      "english": "mortgage",
+      "bengali": "বন্ধক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 116,
+      "english": "Mourner",
+      "bengali": "শোকাহত ব্যক্তি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 117,
+      "english": "mutiny",
+      "bengali": "বিদ্রোহ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 118,
+      "english": "nectar",
+      "bengali": "ফুলের রস / অমৃত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 119,
+      "english": "notion",
+      "bengali": "ধারণা / মতামত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 120,
+      "english": "occupy",
+      "bengali": "দখল করা / স্থান নেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 121,
+      "english": "off-ramp",
+      "bengali": "মহাসড়ক থেকে বের হওয়ার পথ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 122,
+      "english": "outbreak",
+      "bengali": "প্রাদুর্ভাব / হঠাৎ বিস্তার",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 123,
+      "english": "outflank",
+      "bengali": "পাশ কাটিয়ে আক্রমণ করা / কৌশলে হারানো",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 124,
+      "english": "outnumbered",
+      "bengali": "সংখ্যায় কম হওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 125,
+      "english": "outraged",
+      "bengali": "অত্যন্ত ক্ষুব্ধ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 126,
+      "english": "overruns",
+      "bengali": "ব্যয় বা সময়সীমা ছাড়িয়ে যাওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 127,
+      "english": "overwhelmed",
+      "bengali": "অভিভূত / চাপে পড়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 128,
+      "english": "Paranoia",
+      "bengali": "অতিরিক্ত সন্দেহ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 129,
+      "english": "peninsula",
+      "bengali": "উপদ্বীপ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 130,
+      "english": "perish",
+      "bengali": "মারা যাওয়া / ধ্বংস হওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 131,
+      "english": "perpetrator",
+      "bengali": "অপরাধী",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 132,
+      "english": "persecuted",
+      "bengali": "নির্যাতিত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 133,
+      "english": "persuade",
+      "bengali": "বোঝানো / রাজি করানো",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 134,
+      "english": "pivot",
+      "bengali": "ঘূর্ণন করা / মোড় ঘোরা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 135,
+      "english": "plea",
+      "bengali": "অনুরোধ / আবেদন",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 136,
+      "english": "pledge",
+      "bengali": "প্রতিশ্রুতি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 137,
+      "english": "poised",
+      "bengali": "প্রস্তুত / স্থির",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 138,
+      "english": "portable",
+      "bengali": "বহনযোগ্য",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 139,
+      "english": "potential war",
+      "bengali": "সম্ভাব্য যুদ্ধ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 140,
+      "english": "pour",
+      "bengali": "ঢালা / ঝরা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 141,
+      "english": "presumed",
+      "bengali": "অনুমান করা / ধরে নেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 142,
+      "english": "proclaimed",
+      "bengali": "ঘোষণা করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 143,
+      "english": "prone",
+      "bengali": "প্রবণ / ঝোঁক আছে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 144,
+      "english": "propeller",
+      "bengali": "প্রপেলার / পাখা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 145,
+      "english": "province",
+      "bengali": "প্রদেশ",
+      "sources": [
+        "War",
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 146,
+      "english": "provisional",
+      "bengali": "অস্থায়ী",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 147,
+      "english": "provocation",
+      "bengali": "উসকানি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 148,
+      "english": "purge",
+      "bengali": "পরিশুদ্ধ করা / সরিয়ে ফেলা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 149,
+      "english": "quagmire",
+      "bengali": "জটিল অবস্থা / জলাবদ্ধতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 150,
+      "english": "recognize",
+      "bengali": "চিনতে পারা / স্বীকৃতি দেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 151,
+      "english": "refuse",
+      "bengali": "প্রত্যাখ্যান করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 152,
+      "english": "Reich",
+      "bengali": "সাম্রাজ্য",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 153,
+      "english": "reliability",
+      "bengali": "নির্ভরযোগ্যতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 154,
+      "english": "reluctant",
+      "bengali": "অনিচ্ছুক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 155,
+      "english": "remnants",
+      "bengali": "অবশিষ্টাংশ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 156,
+      "english": "remorseless",
+      "bengali": "নির্দয়",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 157,
+      "english": "reparation",
+      "bengali": "ক্ষতিপূরণ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 158,
+      "english": "resentment",
+      "bengali": "ক্ষোভ / অভিমান",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 159,
+      "english": "restraint",
+      "bengali": "সংযম",
+      "sources": [
+        "War",
+        "Analogy"
+      ]
+    },
+    {
+      "id": 160,
+      "english": "retaliate",
+      "bengali": "প্রতিশোধ নেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 161,
+      "english": "retreat",
+      "bengali": "পিছু হটা / প্রত্যাহার",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 162,
+      "english": "revolt",
+      "bengali": "বিদ্রোহ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 163,
+      "english": "rhetoric",
+      "bengali": "বাকচাতুর্য",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 164,
+      "english": "sealed",
+      "bengali": "সিল করা / বন্ধ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 165,
+      "english": "seize",
+      "bengali": "দখল করা / জব্দ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 166,
+      "english": "shore-forts",
+      "bengali": "উপকূলীয় দুর্গ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 167,
+      "english": "sight",
+      "bengali": "দৃষ্টি / দৃশ্য",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 168,
+      "english": "skewed",
+      "bengali": "বক্র / পক্ষপাতদুষ্ট",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 169,
+      "english": "skim",
+      "bengali": "দ্রুত পড়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 170,
+      "english": "slant",
+      "bengali": "কাত / পক্ষপাত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 171,
+      "english": "Snivelling",
+      "bengali": "কান্নাকাটি করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 172,
+      "english": "soak up",
+      "bengali": "শোষণ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 173,
+      "english": "soar",
+      "bengali": "উড়ে ওঠা / দ্রুত বৃদ্ধি পাওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 174,
+      "english": "sophistication",
+      "bengali": "জটিলতা / উন্নত মান",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 175,
+      "english": "spatial",
+      "bengali": "স্থানিক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 176,
+      "english": "sphere",
+      "bengali": "গোলক",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 177,
+      "english": "stalemate",
+      "bengali": "অচলাবস্থা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 178,
+      "english": "starts out",
+      "bengali": "শুরু করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 179,
+      "english": "stranded",
+      "bengali": "আটকে পড়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 180,
+      "english": "sturdy",
+      "bengali": "মজবুত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 181,
+      "english": "substantial",
+      "bengali": "উল্লেখযোগ্য / পর্যাপ্ত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 182,
+      "english": "surges",
+      "bengali": "হঠাৎ বৃদ্ধি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 183,
+      "english": "suspicion",
+      "bengali": "সন্দেহ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 184,
+      "english": "swayed",
+      "bengali": "প্রভাবিত করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 185,
+      "english": "tangible",
+      "bengali": "স্পর্শযোগ্য / বাস্তব",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 186,
+      "english": "terrifying",
+      "bengali": "ভয়ঙ্কর",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 187,
+      "english": "thrust",
+      "bengali": "ধাক্কা / চাপ দেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 188,
+      "english": "to plug",
+      "bengali": "আটকানো / বন্ধ করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 189,
+      "english": "tormented",
+      "bengali": "পীড়িত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 190,
+      "english": "torpedoed",
+      "bengali": "ধ্বংস করা / ব্যাহত করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 191,
+      "english": "treaty",
+      "bengali": "চুক্তি",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 192,
+      "english": "trench",
+      "bengali": "পরিখা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 193,
+      "english": "turbulent",
+      "bengali": "অশান্ত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 194,
+      "english": "unleash",
+      "bengali": "মুক্ত করা / ছেড়ে দেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 195,
+      "english": "urged",
+      "bengali": "অনুরোধ করা / জোর দেওয়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 196,
+      "english": "Urgent summons",
+      "bengali": "জরুরি তলব",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 197,
+      "english": "utility",
+      "bengali": "উপযোগিতা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 198,
+      "english": "veteran",
+      "bengali": "অভিজ্ঞ / প্রবীণ",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 199,
+      "english": "Voraciously",
+      "bengali": "অত্যন্ত আগ্রহের সাথে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 200,
+      "english": "war-torn",
+      "bengali": "যুদ্ধবিধ্বস্ত",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 201,
+      "english": "wiggle",
+      "bengali": "নড়াচড়া করা / দুলতে থাকা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 202,
+      "english": "wiped out",
+      "bengali": "সম্পূর্ণ ধ্বংস করা / ক্লান্ত হয়ে পড়া",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 203,
+      "english": "withdrawn",
+      "bengali": "নিজেকে গুটিয়ে নেওয়া / প্রত্যাহার করা",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 204,
+      "english": "Zealously",
+      "bengali": "অত্যন্ত উৎসাহের সাথে",
+      "sources": [
+        "War"
+      ]
+    },
+    {
+      "id": 205,
+      "english": "authoritative",
+      "bengali": "প্রভাবশালী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 206,
+      "english": "enormous",
+      "bengali": "প্রচন্ড",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 207,
+      "english": "awe-inspiring",
+      "bengali": "অদ্ভুতভাবে প্রশংসনীয়",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 208,
+      "english": "frightening",
+      "bengali": "ভয়ঙ্কর",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 209,
+      "english": "formidable",
+      "bengali": "ভয়ঙ্কর, দুর্ধর্ষ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 210,
+      "english": "embark",
+      "bengali": "প্রারম্ভ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 211,
+      "english": "humongous",
+      "bengali": "প্রচন্ড বড়",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 212,
+      "english": "unabridged",
+      "bengali": "সম্পূর্ণ সংস্করণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 213,
+      "english": "rattle off",
+      "bengali": "সরাসরি বা দ্রুত বলে দেওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 214,
+      "english": "agony",
+      "bengali": "যন্ত্রনা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 215,
+      "english": "let up",
+      "bengali": "থামা বা কমে যাওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 216,
+      "english": "dreadful",
+      "bengali": "ভয়ানক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 217,
+      "english": "chide",
+      "bengali": "বিরোধিতা করা, বকাঝকা করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 218,
+      "english": "cling",
+      "bengali": "আটকে থাকা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 219,
+      "english": "creep",
+      "bengali": "হামাগুড়ি দেওয়া, আস্তে আস্তে হাটা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 220,
+      "english": "anvil",
+      "bengali": "লোহার বড় ব্লক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 221,
+      "english": "subvert",
+      "bengali": "উল্টিয়ে ফেলা/ধ্বংস করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 222,
+      "english": "deceived",
+      "bengali": "প্রতারিত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 223,
+      "english": "bureaucracy",
+      "bengali": "আমলাতন্ত্র",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 224,
+      "english": "seize",
+      "bengali": "জোর করে দখল করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 225,
+      "english": "dismantled",
+      "bengali": "ভেঙে ফেলা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 226,
+      "english": "coalitions",
+      "bengali": "জোটসমূহ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 227,
+      "english": "knit",
+      "bengali": "জোড়া লাগানো",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 228,
+      "english": "cleave",
+      "bengali": "চিরে ফেলা / আঁকড়ে ধরা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 229,
+      "english": "seismic",
+      "bengali": "ভূমিকম্পসদৃশ / ব্যাপক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 230,
+      "english": "verdict",
+      "bengali": "রায়",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 231,
+      "english": "condemn",
+      "bengali": "নিন্দা করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 232,
+      "english": "coercive",
+      "bengali": "জোরপূর্বক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 233,
+      "english": "exiled",
+      "bengali": "নির্বাসিত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 234,
+      "english": "authoritarian",
+      "bengali": "স্বৈরাচারী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 235,
+      "english": "disappearance",
+      "bengali": "অন্তর্ধান",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 236,
+      "english": "surveillance",
+      "bengali": "নজরদারি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 237,
+      "english": "severity",
+      "bengali": "তীব্রতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 238,
+      "english": "shortcomings",
+      "bengali": "ত্রুটি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 239,
+      "english": "stark",
+      "bengali": "তীব্র / স্পষ্ট",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 240,
+      "english": "pathogens",
+      "bengali": "রোগজীবাণু",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 241,
+      "english": "grim",
+      "bengali": "ভয়াবহ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 242,
+      "english": "neonatal",
+      "bengali": "নবজাতক-সংক্রান্ত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 243,
+      "english": "allude",
+      "bengali": "ইঙ্গিত করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 244,
+      "english": "embankment",
+      "bengali": "বাঁধ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 245,
+      "english": "prone",
+      "bengali": "প্রবণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 246,
+      "english": "issuance",
+      "bengali": "ইস্যু / জারি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 247,
+      "english": "complication",
+      "bengali": "জটিলতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 248,
+      "english": "overdue",
+      "bengali": "দেরি হয়ে গেছে এমন",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 249,
+      "english": "deepen",
+      "bengali": "আরও গভীর করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 250,
+      "english": "evolve",
+      "bengali": "বিকশিত হওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 251,
+      "english": "misquote",
+      "bengali": "ভুল উদ্ধৃতি দেওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 252,
+      "english": "constrains",
+      "bengali": "সীমাবদ্ধ করে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 253,
+      "english": "suppress",
+      "bengali": "দমন করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 254,
+      "english": "pebble",
+      "bengali": "নুড়ি পাথর",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 255,
+      "english": "tremble",
+      "bengali": "কাঁপা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 256,
+      "english": "consent",
+      "bengali": "সম্মতি, রাজি হওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 257,
+      "english": "confined",
+      "bengali": "সীমাবদ্ধ, আবদ্ধ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 258,
+      "english": "collimate",
+      "bengali": "সমান্তরাল করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 259,
+      "english": "forth",
+      "bengali": "এগিয়ে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 260,
+      "english": "tremor",
+      "bengali": "কাঁপুনি, কম্পন",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 261,
+      "english": "abducting",
+      "bengali": "অপহরণ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 262,
+      "english": "measles",
+      "bengali": "হাম (একটি সংক্রামক ভাইরাসজনিত রোগ)",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 263,
+      "english": "stunned",
+      "bengali": "হতবাক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 264,
+      "english": "brazen",
+      "bengali": "নির্লজ্জ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 265,
+      "english": "statecraft",
+      "bengali": "রাষ্ট্রনীতি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 266,
+      "english": "relapse",
+      "bengali": "পুনরায় অবনতি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 267,
+      "english": "ramson",
+      "bengali": "মুক্তিপণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 268,
+      "english": "dungeon",
+      "bengali": "অন্ধকূপ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 269,
+      "english": "audacity",
+      "bengali": "দুঃসাহস",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 270,
+      "english": "gambit",
+      "bengali": "কৌশলগত চাল",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 271,
+      "english": "disguised",
+      "bengali": "ছদ্মবেশী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 272,
+      "english": "proposition",
+      "bengali": "প্রস্তাব",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 273,
+      "english": "autonomous",
+      "bengali": "স্বায়ত্তশাসিত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 274,
+      "english": "precarious",
+      "bengali": "অনিশ্চিত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 275,
+      "english": "proximity",
+      "bengali": "নিকটতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 276,
+      "english": "possession",
+      "bengali": "মালিকানা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 277,
+      "english": "precedent",
+      "bengali": "দৃষ্টান্ত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 278,
+      "english": "doctrine",
+      "bengali": "মতবাদ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 279,
+      "english": "atrophied",
+      "bengali": "ক্ষয়প্রাপ্ত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 280,
+      "english": "profound",
+      "bengali": "গভীর",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 281,
+      "english": "martial",
+      "bengali": "সামরিক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 282,
+      "english": "enfeebled",
+      "bengali": "দুর্বল করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 283,
+      "english": "entrust",
+      "bengali": "দায়িত্ব দেওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 284,
+      "english": "covets",
+      "bengali": "লোভ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 285,
+      "english": "inherent",
+      "bengali": "অন্তর্নিহিত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 286,
+      "english": "acquisition",
+      "bengali": "অধিগ্রহণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 287,
+      "english": "tidy",
+      "bengali": "পরিপাটি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 288,
+      "english": "pursuit",
+      "bengali": "অনুসরণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 289,
+      "english": "posture",
+      "bengali": "অবস্থান",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 290,
+      "english": "consolidate",
+      "bengali": "সংহত করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 291,
+      "english": "imperial",
+      "bengali": "সাম্রাজ্যবাদী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 292,
+      "english": "etch",
+      "bengali": "খোদাই করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 293,
+      "english": "retrograde",
+      "bengali": "পশ্চাৎমুখী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 294,
+      "english": "rip",
+      "bengali": "ছিঁড়ে ফেলা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 295,
+      "english": "underfunding",
+      "bengali": "অর্থের ঘাটতি, স্বল্প তহবিল",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 296,
+      "english": "contour",
+      "bengali": "আকৃতি / বাহ্যরেখা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 297,
+      "english": "swift",
+      "bengali": "দ্রুত / ত্বরিত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 298,
+      "english": "habitats",
+      "bengali": "আবাসস্থল / প্রাকৃতিক বসবাসের স্থান",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 299,
+      "english": "downpour",
+      "bengali": "মুষলধারে বৃষ্টি / প্রবল বর্ষণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 300,
+      "english": "sacrosanct",
+      "bengali": "পবিত্র ও অখণ্ডনীয় / অলঙ্ঘনীয়",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 301,
+      "english": "Detain",
+      "bengali": "আটক রাখা / হেফাজতে রাখা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 302,
+      "english": "disperse",
+      "bengali": "ছত্রভঙ্গ করা / ছড়িয়ে পড়া / বিচ্ছুরিত করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 303,
+      "english": "unrest",
+      "bengali": "অশান্তি / অস্থিরতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 304,
+      "english": "grieve",
+      "bengali": "শোক করা / দুঃখ করা / শোকাহত হওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 305,
+      "english": "prevail",
+      "bengali": "বিজয়ী হওয়া / প্রাধান্য পাওয়া / কার্যকর থাকা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 306,
+      "english": "condescension",
+      "bengali": "ঔদ্ধত্যপূর্ণ আচরণ / তাচ্ছিল্যপূর্ণ ব্যবহার",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 307,
+      "english": "indifference",
+      "bengali": "উদাসীনতা / অনাগ্রহ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 308,
+      "english": "adoration",
+      "bengali": "গভীর ভালোবাসা / পূজার মতো শ্রদ্ধা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 309,
+      "english": "contemporaries",
+      "bengali": "সমসাময়িকরা / একই সময়ে বসবাসকারী মানুষ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 310,
+      "english": "extent",
+      "bengali": "মাত্রা / পরিমাণ / ব্যাপ্তি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 311,
+      "english": "hinder",
+      "bengali": "বাধা দেওয়া / প্রতিবন্ধকতা সৃষ্টি করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 312,
+      "english": "prolong",
+      "bengali": "দীর্ঘায়িত করা / দীর্ঘ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 313,
+      "english": "ecologist",
+      "bengali": "পরিবেশবিদ / প্রতিবেশবিদ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 314,
+      "english": "technocrat",
+      "bengali": "প্রযুক্তিবিদ প্রশাসক / প্রযুক্তিনির্ভর নীতিনির্ধারক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 315,
+      "english": "virtuosity",
+      "bengali": "অসাধারণ দক্ষতা / পারদর্শিতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 316,
+      "english": "precursor",
+      "bengali": "পূর্বসূরি / অগ্রদূত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 317,
+      "english": "exhausted",
+      "bengali": "সম্পূর্ণ ক্লান্ত / শক্তিহীন",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 318,
+      "english": "draftsmanship",
+      "bengali": "অঙ্কন দক্ষতা / নকশা অঙ্কনের পারদর্শিতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 319,
+      "english": "foreshadow",
+      "bengali": "পূর্বাভাস দেওয়া / আগাম ইঙ্গিত করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 320,
+      "english": "cowardice",
+      "bengali": "ভীরুতা / কাপুরুষতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 321,
+      "english": "emerge",
+      "bengali": "আবির্ভূত হওয়া / প্রকাশ পাওয়া / বেরিয়ে আসা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 322,
+      "english": "ordeal",
+      "bengali": "কঠিন পরীক্ষা / ভয়ংকর অভিজ্ঞতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 323,
+      "english": "unscathed",
+      "bengali": "অক্ষত / ক্ষতিগ্রস্ত না হওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 324,
+      "english": "intact",
+      "bengali": "অক্ষত / অক্ষুণ্ণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 325,
+      "english": "impaired",
+      "bengali": "ক্ষতিগ্রস্ত / দুর্বল হয়ে যাওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 326,
+      "english": "impugned",
+      "bengali": "প্রশ্নবিদ্ধ করা / সত্যতা বা সততা নিয়ে সন্দেহ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 327,
+      "english": "tarnished",
+      "bengali": "কলঙ্কিত করা / উজ্জ্বলতা হারানো",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 328,
+      "english": "sullied",
+      "bengali": "কলুষিত করা / মলিন করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 329,
+      "english": "dogmatic",
+      "bengali": "একগুঁয়ে মতবাদী / নিজের মতকে একমাত্র সঠিক মনে করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 330,
+      "english": "assimilate",
+      "bengali": "আত্মস্থ করা / একীভূত করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 331,
+      "english": "adhere",
+      "bengali": "মেনে চলা / দৃঢ়ভাবে অনুসরণ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 332,
+      "english": "refer",
+      "bengali": "উল্লেখ করা / নির্দেশ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 333,
+      "english": "disregard",
+      "bengali": "উপেক্ষা করা / তোয়াক্কা না করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 334,
+      "english": "incline",
+      "bengali": "ঝোঁক থাকা / প্রবণ হওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 335,
+      "english": "advocate",
+      "bengali": "সমর্থন করা / সমর্থক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 336,
+      "english": "petulant",
+      "bengali": "খিটখিটে / রাগী ও শিশুসুলভ আচরণকারী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 337,
+      "english": "insight",
+      "bengali": "অন্তর্দৃষ্টি / গভীর উপলব্ধি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 338,
+      "english": "enthusiastic",
+      "bengali": "উৎসাহী / আগ্রহী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 339,
+      "english": "acclaimed",
+      "bengali": "প্রশংসিত / সুনামপ্রাপ্ত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 340,
+      "english": "homogeneity",
+      "bengali": "সমজাতীয়তা / একরূপতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 341,
+      "english": "contrast",
+      "bengali": "বৈপরীত্য / তুলনা করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 342,
+      "english": "metamorphosed",
+      "bengali": "রূপান্তরিত হয়েছে / সম্পূর্ণ পরিবর্তিত হয়েছে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 343,
+      "english": "intelligibility",
+      "bengali": "বোধগম্যতা / সহজে বোঝা যায় এমন গুণ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 344,
+      "english": "refrain",
+      "bengali": "বিরত থাকা / পুনরাবৃত্ত অংশ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 345,
+      "english": "reluctant",
+      "bengali": "অনিচ্ছুক / দ্বিধাগ্রস্ত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 346,
+      "english": "inquisitive",
+      "bengali": "কৌতূহলী / জানতে আগ্রহী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 347,
+      "english": "presumptuous",
+      "bengali": "ঔদ্ধত্যপূর্ণ / বাড়াবাড়ি আত্মবিশ্বাসী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 348,
+      "english": "venturing",
+      "bengali": "সাহস করে চেষ্টা করা / ঝুঁকি নেওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 349,
+      "english": "censorious",
+      "bengali": "কঠোর সমালোচনামূলক / দোষ খোঁজার প্রবণতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 350,
+      "english": "undercutting",
+      "bengali": "দুর্বল করে দেওয়া / কম দামে প্রতিযোগিতা করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 351,
+      "english": "moralistic",
+      "bengali": "নীতিবাদী / অতিরিক্ত নীতিকথামূলক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 352,
+      "english": "obscurity",
+      "bengali": "অজ্ঞাত অবস্থা / অখ্যাতি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 353,
+      "english": "trouble",
+      "bengali": "সমস্যা / ঝামেলা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 354,
+      "english": "misdeed",
+      "bengali": "দুষ্কর্ম / খারাপ কাজ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 355,
+      "english": "coerce",
+      "bengali": "জোর করে বাধ্য করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 356,
+      "english": "intimidate",
+      "bengali": "ভয় দেখানো",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 357,
+      "english": "reliance",
+      "bengali": "নির্ভরতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 358,
+      "english": "exposure",
+      "bengali": "প্রকাশ / উন্মোচন",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 359,
+      "english": "irreparable",
+      "bengali": "অপূরণীয়",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 360,
+      "english": "cuckoo",
+      "bengali": "পাগলাটে / কোকিল পাখি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 361,
+      "english": "blithely",
+      "bengali": "নির্ভাবনায় / উদাসীনভাবে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 362,
+      "english": "mettlesome",
+      "bengali": "সাহসী / উদ্যমী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 363,
+      "english": "lackluster",
+      "bengali": "নিষ্প্রভ / প্রাণহীন",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 364,
+      "english": "feckless",
+      "bengali": "অদক্ষ / অকার্যকর",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 365,
+      "english": "penchant",
+      "bengali": "প্রবণতা / ঝোঁক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 366,
+      "english": "denigrate",
+      "bengali": "ছোট করা / নিন্দা করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 367,
+      "english": "foolhardy",
+      "bengali": "অবিবেচক সাহসী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 368,
+      "english": "insipid",
+      "bengali": "নিরস / স্বাদহীন",
+      "sources": [
+        "Random",
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 369,
+      "english": "cumbersome",
+      "bengali": "ঝামেলাপূর্ণ / ভারী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 370,
+      "english": "flaunting",
+      "bengali": "দেমাক করে প্রদর্শন করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 371,
+      "english": "gullible",
+      "bengali": "সহজে বিশ্বাস করে",
+      "sources": [
+        "Random",
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 372,
+      "english": "imperturbability",
+      "bengali": "অচঞ্চলতা / অস্থির না হওয়া",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 373,
+      "english": "deliberate",
+      "bengali": "ইচ্ছাকৃত / গভীরভাবে চিন্তা করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 374,
+      "english": "reassure",
+      "bengali": "আশ্বস্ত করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 375,
+      "english": "culpability",
+      "bengali": "দোষ / দায়",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 376,
+      "english": "intrigue",
+      "bengali": "চক্রান্ত / আগ্রহ জাগানো",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 377,
+      "english": "reproof",
+      "bengali": "ভর্ত্সনা / তিরস্কার",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 378,
+      "english": "remorse",
+      "bengali": "অনুতাপ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 379,
+      "english": "loquacity",
+      "bengali": "বাকপ্রবণতা / বেশি কথা বলা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 380,
+      "english": "probity",
+      "bengali": "সততা / নৈতিকতা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 381,
+      "english": "futile",
+      "bengali": "নিষ্ফল / অর্থহীন",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 382,
+      "english": "combativeness",
+      "bengali": "লড়াকু স্বভাব",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 383,
+      "english": "recognition",
+      "bengali": "স্বীকৃতি / চেনা / স্বীকারোক্তি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 384,
+      "english": "Uninterested",
+      "bengali": "আগ্রহহীন / অনাগ্রহী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 385,
+      "english": "counterfeit",
+      "bengali": "নকল / জাল",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 386,
+      "english": "garrison",
+      "bengali": "সেনাঘাঁটি / সৈন্য মোতায়েন করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 387,
+      "english": "pilferage",
+      "bengali": "চুরি / অল্প অল্প করে চুরি করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 388,
+      "english": "ration",
+      "bengali": "রেশন / সীমিত করে বণ্টন করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 389,
+      "english": "expansionist",
+      "bengali": "সম্প্রসারণবাদী",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 390,
+      "english": "catalog (catalogue)",
+      "bengali": "তালিকা / সূচি / তালিকাভুক্ত করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 391,
+      "english": "expenditure",
+      "bengali": "ব্যয় / খরচ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 392,
+      "english": "nonchalant",
+      "bengali": "উদাসীন / ভাবলেশহীন",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 393,
+      "english": "cornerstone",
+      "bengali": "ভিত্তিপ্রস্তর / মূল ভিত্তি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 394,
+      "english": "commence",
+      "bengali": "শুরু করা / আরম্ভ করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 395,
+      "english": "extensive",
+      "bengali": "বিস্তৃত / ব্যাপক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 396,
+      "english": "soprano",
+      "bengali": "সর্বোচ্চ স্বরের গায়িকা / উচ্চ স্বর",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 397,
+      "english": "recurring",
+      "bengali": "বারবার ঘটছে এমন / পুনরাবৃত্ত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 398,
+      "english": "carnage",
+      "bengali": "হত্যাযজ্ঞ / ব্যাপক ধ্বংস ও রক্তপাত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 399,
+      "english": "curbing",
+      "bengali": "নিয়ন্ত্রণ করা / দমন করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 400,
+      "english": "fatalities",
+      "bengali": "প্রাণহানি / মৃত্যুর ঘটনা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 401,
+      "english": "harrowing",
+      "bengali": "মর্মান্তিক / ভয়াবহ",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 402,
+      "english": "complacency",
+      "bengali": "আত্মতুষ্টি / আত্মসন্তুষ্টি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 403,
+      "english": "stock",
+      "bengali": "মজুত / শেয়ার / পণ্যভাণ্ডার",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 404,
+      "english": "regarding",
+      "bengali": "সম্পর্কে / বিষয়ে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 405,
+      "english": "presence",
+      "bengali": "উপস্থিতি / অস্তিত্ব",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 406,
+      "english": "drastically",
+      "bengali": "ব্যাপকভাবে / নাটকীয়ভাবে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 407,
+      "english": "rush",
+      "bengali": "তাড়াহুড়া করা / হুড়োহুড়ি",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 408,
+      "english": "disregard",
+      "bengali": "উপেক্ষা করা / অগ্রাহ্য করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 409,
+      "english": "fatal",
+      "bengali": "প্রাণঘাতী / মারাত্মক",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 410,
+      "english": "ad nauseam",
+      "bengali": "বিরক্তিকরভাবে বারবার",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 411,
+      "english": "nexus",
+      "bengali": "সংযোগ / যোগসূত্র",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 412,
+      "english": "obdurate",
+      "bengali": "একগুঁয়ে / অনমনীয়",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 413,
+      "english": "reign",
+      "bengali": "শাসনকাল / শাসন করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 414,
+      "english": "untimely",
+      "bengali": "অকাল / অসময়ে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 415,
+      "english": "maimed",
+      "bengali": "পঙ্গু করা / গুরুতর আহত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 416,
+      "english": "ad hoc",
+      "bengali": "বিশেষ উদ্দেশ্যে / অস্থায়ীভাবে",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 417,
+      "english": "sought to",
+      "bengali": "চেষ্টা করেছিল",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 418,
+      "english": "congestion",
+      "bengali": "যানজট / ভিড় / জটলা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 419,
+      "english": "mulling",
+      "bengali": "গভীরভাবে চিন্তা করা",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 420,
+      "english": "constituted",
+      "bengali": "গঠিত",
+      "sources": [
+        "Random"
+      ]
+    },
+    {
+      "id": 421,
+      "english": "conceal",
+      "bengali": "আড়ালে থাকা, গোপন",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 422,
+      "english": "blunt",
+      "bengali": "সাদাসিধে",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 423,
+      "english": "impassive",
+      "bengali": "অনুভূতিহীন",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 424,
+      "english": "lineage",
+      "bengali": "বংশ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 425,
+      "english": "mere",
+      "bengali": "নিছক",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 426,
+      "english": "impoverished",
+      "bengali": "দরিদ্র্য",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 427,
+      "english": "entertained",
+      "bengali": "আশা পোষণ করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 428,
+      "english": "prospective",
+      "bengali": "সম্ভাব্য",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 429,
+      "english": "archduchess",
+      "bengali": "উচ্চস্তরের রাজকন্যা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 430,
+      "english": "rigid",
+      "bengali": "কঠোর, অনমনীয়",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 431,
+      "english": "consort",
+      "bengali": "স্ত্রী",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 432,
+      "english": "progenitor",
+      "bengali": "পুর্বপুরুষ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 433,
+      "english": "solemnly",
+      "bengali": "গুরুত্বের সাথে, আনুষ্ঠানিকভাবে",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 434,
+      "english": "Descendants",
+      "bengali": "বংশধর",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 435,
+      "english": "spinster",
+      "bengali": "অবিবাহিত",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 436,
+      "english": "notorious",
+      "bengali": "কুখ্যাত",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 437,
+      "english": "libertine",
+      "bengali": "ভোগবিলাসী ব্যক্তি, নৈতিক বিধিনিষেধ না মানা মানুষ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 438,
+      "english": "stiff",
+      "bengali": "কঠোর, শক্ত",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 439,
+      "english": "relent",
+      "bengali": "কঠোরতা ছেড়ে দেওয়া, অবশেষে রাজি হওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 440,
+      "english": "snub",
+      "bengali": "অসম্মান করা, পাত্তা না দেওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 441,
+      "english": "improvised",
+      "bengali": "অস্থায়ীভাবে বানানো, যা আগে থেকে পরিকল্পিত নয়",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 442,
+      "english": "faint",
+      "bengali": "দূর্বল, অস্পষ্ট",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 443,
+      "english": "ornate",
+      "bengali": "অলংকৃত, অতিশয় সাজানো",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 444,
+      "english": "ample",
+      "bengali": "প্রচুর",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 445,
+      "english": "torso",
+      "bengali": "দেহের মধ্যাংশ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 446,
+      "english": "bonnet",
+      "bengali": "মহিলাদের টুপি",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 447,
+      "english": "dainty",
+      "bengali": "সুন্দর, কোমল",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 448,
+      "english": "parasol",
+      "bengali": "রোদ ঠেকানোর ছাতা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 449,
+      "english": "percussion",
+      "bengali": "আঘাত, ধাক্কা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 450,
+      "english": "vanquish",
+      "bengali": "পরাজিত করা, সম্পুর্ণভাবে হারানো",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 451,
+      "english": "avenge",
+      "bengali": "প্রতিশোধ নেওয়া, বদলা নেওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 452,
+      "english": "Conqueror",
+      "bengali": "বিজয়ী",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 453,
+      "english": "fragment",
+      "bengali": "খন্ড",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 454,
+      "english": "sharpnel",
+      "bengali": "বিস্ফোরণে ছিটকে পড়া ধাতব টুকরো",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 455,
+      "english": "graze",
+      "bengali": "হালকা আঁচড় লাগা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 456,
+      "english": "procession",
+      "bengali": "শোভাযাত্রা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 457,
+      "english": "protest march",
+      "bengali": "বিক্ষোভ মিছিল",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 458,
+      "english": "motorcade",
+      "bengali": "গুতুত্বপূর্ণ ব্যক্তির গাড়িবহর",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 459,
+      "english": "absurd",
+      "bengali": "হাস্যকর",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 460,
+      "english": "deviate",
+      "bengali": "বিচ্যুত হওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 461,
+      "english": "delight",
+      "bengali": "আনন্দ, খুশি করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 462,
+      "english": "Itinerary",
+      "bengali": "ভ্রমণসূচি",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 463,
+      "english": "demonstration",
+      "bengali": "বিক্ষোভ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 464,
+      "english": "devoted",
+      "bengali": "নিষ্ঠাবান, অনুগত",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 465,
+      "english": "fanatics",
+      "bengali": "উগ্রপন্থী",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 466,
+      "english": "reckless",
+      "bengali": "বেপরোয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 467,
+      "english": "halt",
+      "bengali": "থামানো, থেমে যাওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 468,
+      "english": "reverberate",
+      "bengali": "প্রতিধ্বনি হওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 469,
+      "english": "spurting",
+      "bengali": "ছিটকে বেরোনো",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 470,
+      "english": "slumped over",
+      "bengali": "ঢলে পড়া / হেলে পড়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 471,
+      "english": "fainted",
+      "bengali": "অজ্ঞান হয়ে যাওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 472,
+      "english": "tunic",
+      "bengali": "ঢিলেঢালা পোশাক",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 473,
+      "english": "weakly",
+      "bengali": "দুর্বলভাবে",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 474,
+      "english": "captured",
+      "bengali": "বন্দি করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 475,
+      "english": "severing",
+      "bengali": "বিচ্ছিন্ন করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 476,
+      "english": "nuisance",
+      "bengali": "বিরক্তির কারণ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 477,
+      "english": "ironically",
+      "bengali": "বিদ্রূপাত্মকভাবে",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 478,
+      "english": "governance",
+      "bengali": "শাসনব্যবস্থা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 479,
+      "english": "declared",
+      "bengali": "ঘোষণা করলেন",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 480,
+      "english": "inherited",
+      "bengali": "উত্তরাধিকারসূত্রে পাওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 481,
+      "english": "survival",
+      "bengali": "বেঁচে থাকা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 482,
+      "english": "accustomed",
+      "bengali": "অভ্যস্ত",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 483,
+      "english": "cataclysm",
+      "bengali": "ভয়াবহ বিপর্যয়",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 484,
+      "english": "slain",
+      "bengali": "নিহত / হত্যা করা হয়েছে",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 485,
+      "english": "clot",
+      "bengali": "রক্ত জমাট",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 486,
+      "english": "arouse",
+      "bengali": "জাগিয়ে তোলা / উদ্রেক করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 487,
+      "english": "conferring",
+      "bengali": "পরামর্শ করা / আলোচনা করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 488,
+      "english": "accomplish",
+      "bengali": "সম্পন্ন করা / সফলভাবে করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 489,
+      "english": "confine",
+      "bengali": "সীমাবদ্ধ করা / আটকিয়ে রাখা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 490,
+      "english": "verge",
+      "bengali": "কিনারা / প্রান্ত; প্রায় পৌঁছানো",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 491,
+      "english": "embroil",
+      "bengali": "জড়িয়ে ফেলা / জটিলতায় ফেলা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 492,
+      "english": "virtuous",
+      "bengali": "নৈতিক / সদাচারী",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 493,
+      "english": "antiquated",
+      "bengali": "সেকেলে / পুরনো ধাঁচের",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 494,
+      "english": "superfluous",
+      "bengali": "অপ্রয়োজনীয় / অতিরিক্ত",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 495,
+      "english": "disarmament",
+      "bengali": "নিরস্ত্রীকরণ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 496,
+      "english": "fellow",
+      "bengali": "সহকর্মী / সঙ্গী; সমজাতীয়",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 497,
+      "english": "wounded",
+      "bengali": "আহত",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 498,
+      "english": "plunge",
+      "bengali": "ঝাঁপ দেওয়া / হঠাৎ পড়ে যাওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 499,
+      "english": "foresee",
+      "bengali": "পূর্বানুমান করা / আগেই বুঝতে পারা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 500,
+      "english": "weep",
+      "bengali": "কাঁদা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 501,
+      "english": "pursue",
+      "bengali": "অনুসরণ করা / সাধনা করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 502,
+      "english": "perhaps",
+      "bengali": "সম্ভবত / হয়তো",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 503,
+      "english": "credentials",
+      "bengali": "যোগ্যতার প্রমাণপত্র / সনদ",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 504,
+      "english": "possess",
+      "bengali": "অধিকার করা / মালিক হওয়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 505,
+      "english": "exclude",
+      "bengali": "বাদ দেওয়া / অন্তর্ভুক্ত না করা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 506,
+      "english": "led",
+      "bengali": "নেতৃত্ব দিয়েছিল / পথ দেখিয়েছিল",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 507,
+      "english": "aside",
+      "bengali": "পাশে / আলাদা করে",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 508,
+      "english": "chapel",
+      "bengali": "উপাসনালয় / ছোট গির্জা",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 509,
+      "english": "rode",
+      "bengali": "চড়েছিল / আরোহন করেছিল",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 510,
+      "english": "imperial",
+      "bengali": "সাম্রাজ্যিক",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 511,
+      "english": "swung",
+      "bengali": "দুলেছিল / ঘুরিয়েছিল",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 512,
+      "english": "slipped into",
+      "bengali": "অজান্তে প্রবেশ করা / ধীরে ধীরে ঢুকে পড়া",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 513,
+      "english": "vial",
+      "bengali": "ছোট কাঁচের শিশি",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 514,
+      "english": "groin",
+      "bengali": "কুঁচকি",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 515,
+      "english": "estate",
+      "bengali": "সম্পত্তি / জমিদারি / বড় বাড়ি ও জমি",
+      "sources": [
+        "A World Undone"
+      ]
+    },
+    {
+      "id": 516,
+      "english": "Abhor",
+      "bengali": "ঘৃণা করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 517,
+      "english": "Abate",
+      "bengali": "কমে যাওয়া / প্রশমিত হওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 518,
+      "english": "Aberrant",
+      "bengali": "অস্বাভাবিক",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 519,
+      "english": "Abeyance",
+      "bengali": "স্থগিত অবস্থা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 520,
+      "english": "Abscond",
+      "bengali": "পালিয়ে যাওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 521,
+      "english": "Abstemious",
+      "bengali": "বিরত থাকা / সংযমী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 522,
+      "english": "Admonish",
+      "bengali": "সতর্ক করা / তিরস্কার করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 523,
+      "english": "Adulterate",
+      "bengali": "ভেজাল মেশানো",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 524,
+      "english": "Aesthetic",
+      "bengali": "নান্দনিক",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 525,
+      "english": "Aggregate",
+      "bengali": "মোট / সমষ্টি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 526,
+      "english": "Alacrity",
+      "bengali": "আগ্রহপূর্ণ দ্রুততা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 527,
+      "english": "Alleviate",
+      "bengali": "উপশম করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 528,
+      "english": "Amalgamate",
+      "bengali": "একীভূত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 529,
+      "english": "Ambiguous",
+      "bengali": "অস্পষ্ট",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 530,
+      "english": "Ambivalent",
+      "bengali": "দ্বিধাগ্রস্ত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 531,
+      "english": "Ameliorate",
+      "bengali": "উন্নত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 532,
+      "english": "Anachronism",
+      "bengali": "কালবৈষম্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 533,
+      "english": "Anarchy",
+      "bengali": "নৈরাজ্য, বিশৃঙ্খলা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 534,
+      "english": "Anomalous",
+      "bengali": "অস্বাভাবিক, ব্যতিক্রমী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 535,
+      "english": "Antipathy",
+      "bengali": "বিরাগ, বিরোধিতা, বিদ্বেষ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 536,
+      "english": "Apathy",
+      "bengali": "উদাসীনতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 537,
+      "english": "Appease",
+      "bengali": "শান্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 538,
+      "english": "Apprise",
+      "bengali": "অবহিত করা, জানানো",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 539,
+      "english": "Approbation",
+      "bengali": "অনুমোদন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 540,
+      "english": "Abortive",
+      "bengali": "ব্যর্থ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 541,
+      "english": "Appropriate",
+      "bengali": "উপযুক্ত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 542,
+      "english": "Arduous",
+      "bengali": "কষ্টসাধ্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 543,
+      "english": "Artless",
+      "bengali": "সরল / কৃত্রিমতাহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 544,
+      "english": "Ascetic",
+      "bengali": "ত্যাগী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 545,
+      "english": "Assiduous",
+      "bengali": "অধ্যবসায়ী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 546,
+      "english": "Assuage",
+      "bengali": "প্রশমিত করা / উপশম করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 547,
+      "english": "Attenuate",
+      "bengali": "দুর্বল করা / হ্রাস করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 548,
+      "english": "Audacious",
+      "bengali": "দুঃসাহসী, স্পর্ধা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 549,
+      "english": "Austere",
+      "bengali": "বিলাসিতা-বিহীন / সংযমী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 550,
+      "english": "Autonomous",
+      "bengali": "স্বায়ত্তশাসিত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 551,
+      "english": "Aver",
+      "bengali": "দৃঢ়ভাবে বলা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 552,
+      "english": "Baffle",
+      "bengali": "বিভ্রান্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 553,
+      "english": "Banal",
+      "bengali": "গতানুগতিক",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 554,
+      "english": "Belie",
+      "bengali": "মিথ্যা প্রমাণ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 555,
+      "english": "Belittle",
+      "bengali": "তুচ্ছ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 556,
+      "english": "Beneficent",
+      "bengali": "উপকারী / কল্যাণকর / দয়ালু",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 557,
+      "english": "Bolster",
+      "bengali": "শক্তিশালী করা / সমর্থন জোগানো",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 558,
+      "english": "Bombastic",
+      "bengali": "আড়ম্বরপূর্ণ / অতিরঞ্জিত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 559,
+      "english": "Boorish",
+      "bengali": "অভদ্র / রূঢ়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 560,
+      "english": "Burgeon",
+      "bengali": "দ্রুত বৃদ্ধি পাওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 561,
+      "english": "Burnish",
+      "bengali": "পালিশ করা / উজ্জ্বল করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 562,
+      "english": "Buttress",
+      "bengali": "সমর্থন করা, কোন যুক্তির পক্ষে অবস্থা নেওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 563,
+      "english": "Capricious",
+      "bengali": "খামখেয়ালী / অনিশ্চিত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 564,
+      "english": "Castigate",
+      "bengali": "তীব্র সমালোচনা করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 565,
+      "english": "Catalyst",
+      "bengali": "অনুঘটক / পরিবর্তনের কারণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 566,
+      "english": "Caustic",
+      "bengali": "তীব্র / কটূক্তিপূর্ণ/ দগ্ধকারক পদার্থ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 567,
+      "english": "Chicanery",
+      "bengali": "প্রতারণা / ধোঁকাবাজি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 568,
+      "english": "Coagulate",
+      "bengali": "জমাট বাঁধা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 569,
+      "english": "Clandestine",
+      "bengali": "গোপন / গোপনীয়/ গুপ্ত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 570,
+      "english": "Coda",
+      "bengali": "উপসংহার / সমাপ্তি অংশ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 571,
+      "english": "Construe",
+      "bengali": "ব্যাখ্যা করা / অর্থ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 572,
+      "english": "Cogent",
+      "bengali": "শক্তিশালী ও যুক্তিসঙ্গত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 573,
+      "english": "Commensurate",
+      "bengali": "সমানুপাতিক",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 574,
+      "english": "Compendium",
+      "bengali": "সংক্ষিপ্ত সংগ্রহ, সারসংক্ষেপ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 575,
+      "english": "Complaisance",
+      "bengali": "অতিরিক্ত তোষামোদ, কাউকে সন্তুষ্ট করার ইচ্ছা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 576,
+      "english": "Compliant",
+      "bengali": "বাধ্য / অনুগত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 577,
+      "english": "Conciliatory",
+      "bengali": "সমঝোতামূলক, বন্ধুত্বপূর্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 578,
+      "english": "Condone",
+      "bengali": "ক্ষমা করা / সমর্থন করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 579,
+      "english": "Confound",
+      "bengali": "বিভ্রান্ত করা, কিংকর্তব্যবিমূঢ় করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 580,
+      "english": "Connoisseur",
+      "bengali": "রসজ্ঞ, রসপন্ডিত, পারদর্শী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 581,
+      "english": "Contention",
+      "bengali": "বিতর্ক / দাবি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 582,
+      "english": "Contentious",
+      "bengali": "বিতর্কিত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 583,
+      "english": "Contrite",
+      "bengali": "অনুতপ্ত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 584,
+      "english": "Conundrum",
+      "bengali": "জটিল সমস্যা, Dillema",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 585,
+      "english": "Cordial",
+      "bengali": "আন্তরিক",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 586,
+      "english": "Corroborate",
+      "bengali": "সমর্থন করা / প্রমাণ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 587,
+      "english": "Cynical",
+      "bengali": "সংশয়বাদী / নৈরাশ্যবাদী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 588,
+      "english": "Convoluted",
+      "bengali": "জটিল / প্যাঁচানো",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 589,
+      "english": "Craven",
+      "bengali": "ভীরু, কাপুরুষ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 590,
+      "english": "Cruel",
+      "bengali": "নিষ্ঠুর",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 591,
+      "english": "Daunt",
+      "bengali": "ভয় দেখানো / ভীত করা / নিরুৎসাহিত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 592,
+      "english": "Decorous",
+      "bengali": "শালীন / ভদ্র",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 593,
+      "english": "Default",
+      "bengali": "দায়িত্ব পালন না করা / ব্যর্থ হওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 594,
+      "english": "Deference",
+      "bengali": "সম্মান প্রদর্শন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 595,
+      "english": "Delineate",
+      "bengali": "বর্ণনা করা / স্পষ্টভাবে তুলে ধরা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 596,
+      "english": "Denigrate",
+      "bengali": "নিন্দা করা / ছোট করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 597,
+      "english": "Deride",
+      "bengali": "উপহাস করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 598,
+      "english": "Derivative",
+      "bengali": "অনুকরণমূলক / মৌলিক নয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 599,
+      "english": "Desiccate",
+      "bengali": "শুকিয়ে ফেলা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 600,
+      "english": "Defiant",
+      "bengali": "অবাধ্য / প্রতিবাদী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 601,
+      "english": "Desultory",
+      "bengali": "অগোছালো / উদ্দেশ্যহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 602,
+      "english": "Deterrent",
+      "bengali": "প্রতিবন্ধক / নিরুৎসাহকারী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 603,
+      "english": "Diatribe",
+      "bengali": "তীব্র সমালোচনা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 604,
+      "english": "Dichotomy",
+      "bengali": "দ্বিভাগ / বিভাজন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 605,
+      "english": "Diffidence",
+      "bengali": "আত্মবিশ্বাসের অভাব",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 606,
+      "english": "Diffuse",
+      "bengali": "ছড়িয়ে পড়া / বিস্তৃত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 607,
+      "english": "Digression",
+      "bengali": "প্রসঙ্গচ্যুতি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 608,
+      "english": "Dirge",
+      "bengali": "শোকগাথা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 609,
+      "english": "Distinct",
+      "bengali": "স্পষ্ট / আলাদা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 610,
+      "english": "Divulge",
+      "bengali": "গোপন তথ্য প্রকাশ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 611,
+      "english": "Disabuse",
+      "bengali": "ভুল ধারণা দূর করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 612,
+      "english": "Discerning",
+      "bengali": "বিচক্ষণ / সূক্ষ্ম বিচারশক্তিসম্পন্ন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 613,
+      "english": "Discordant",
+      "bengali": "বিসদৃশ/ বেসুরো / অসামঞ্জস্যপূর্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 614,
+      "english": "Discredit",
+      "bengali": "সুনামহানি / বদনাম করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 615,
+      "english": "Discord",
+      "bengali": "বিরোধ / অসামঞ্জস্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 616,
+      "english": "Discrepancy",
+      "bengali": "অমিল / অসঙ্গতি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 617,
+      "english": "Discrete",
+      "bengali": "পৃথক / স্বতন্ত্র",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 618,
+      "english": "Disingenuous",
+      "bengali": "অসৎ / ভানপূর্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 619,
+      "english": "Disinterested",
+      "bengali": "নিরপেক্ষ / স্বার্থহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 620,
+      "english": "Disjointed",
+      "bengali": "অসংলগ্ন / বিচ্ছিন্ন / টুকরা টুকরা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 621,
+      "english": "Disparage",
+      "bengali": "ছোট করা / তুচ্ছ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 622,
+      "english": "Disperse",
+      "bengali": "ছত্রভঙ্গ করা / ছড়িয়ে দেওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 623,
+      "english": "Dismiss",
+      "bengali": "খারিজ করা / বিদায় করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 624,
+      "english": "Disparate",
+      "bengali": "ভিন্নধর্মী / অসম",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 625,
+      "english": "Dissemble",
+      "bengali": "ভান করা / সত্য গোপন করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 626,
+      "english": "Disseminate",
+      "bengali": "ছড়িয়ে দেওয়া / প্রচার করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 627,
+      "english": "Dogged",
+      "bengali": "দৃঢ়প্রতিজ্ঞ / অবিচল",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 628,
+      "english": "Dissolution",
+      "bengali": "বিলুপ্তি / ভেঙে যাওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 629,
+      "english": "Dissonance",
+      "bengali": "বেসুরো অবস্থা / বিরোধ / অসামঞ্জস্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 630,
+      "english": "Distend",
+      "bengali": "ফুলে ওঠা / প্রসারিত হওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 631,
+      "english": "Despise",
+      "bengali": "ঘৃণা করা / তুচ্ছ জ্ঞান করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 632,
+      "english": "Distill",
+      "bengali": "পাতন করা / পরিশোধন করা / নির্যাস বের করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 633,
+      "english": "Diverge",
+      "bengali": "ভিন্ন পথে যাওয়া / বিচ্ছিন্ন হওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 634,
+      "english": "Divest",
+      "bengali": "বঞ্চিত করা / সম্পদ থেকে মুক্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 635,
+      "english": "Denial",
+      "bengali": "অস্বীকার",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 636,
+      "english": "Dogmatic",
+      "bengali": "একগুঁয়ে মতবাদী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 637,
+      "english": "Dormant",
+      "bengali": "সুপ্ত / নিষ্ক্রিয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 638,
+      "english": "Dupe",
+      "bengali": "প্রতারিত করা / প্রতারিত ব্যক্তি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 639,
+      "english": "Ebullient",
+      "bengali": "উচ্ছ্বসিত / উৎফুল্ল / প্রাণবন্ত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 640,
+      "english": "Eclectic",
+      "bengali": "বিভিন্ন উৎস থেকে বাছাই করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 641,
+      "english": "Eccentric",
+      "bengali": "অদ্ভুত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 642,
+      "english": "Efficacy",
+      "bengali": "কার্যকারিতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 643,
+      "english": "Eminent",
+      "bengali": "বিশিষ্ট / খ্যাতনামা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 644,
+      "english": "Elegant",
+      "bengali": "রুচিশীল / মার্জিত / সৌন্দর্যময়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 645,
+      "english": "Effrontery",
+      "bengali": "বেহায়াপনা / নির্লজ্জ সাহস",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 646,
+      "english": "Elegy",
+      "bengali": "শোকগাথা / বিলাপ কবিতা / শোকসংগীত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 647,
+      "english": "Elicit",
+      "bengali": "প্রকাশ করা / বের করে আনা / উদঘাটন করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 648,
+      "english": "Embellish",
+      "bengali": "সুশোভিত করা / অলংকৃত করা / অতিরঞ্জিত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 649,
+      "english": "Empirical",
+      "bengali": "গবেষণাভিত্তিক / পরীক্ষালব্ধ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 650,
+      "english": "Emulate",
+      "bengali": "অনুসরণ করা / অনুকরণ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 651,
+      "english": "Enervate",
+      "bengali": "দুর্বল করা / শক্তিহীন করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 652,
+      "english": "Engender",
+      "bengali": "সৃষ্টি করা / উৎপন্ন করা / জন্ম দেওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 653,
+      "english": "Enhance",
+      "bengali": "বৃদ্ধি করা / উন্নত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 654,
+      "english": "Ephemeral",
+      "bengali": "ক্ষণস্থায়ী / অস্থায়ী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 655,
+      "english": "Equanimity",
+      "bengali": "মানসিক স্থিরতা / ধীরস্থিরতা / চাপের মধ্যেও শান্ত থাকা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 656,
+      "english": "Equivocal",
+      "bengali": "দ্ব্যর্থক / অস্পষ্ট",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 657,
+      "english": "Erudite",
+      "bengali": "পণ্ডিত / জ্ঞানী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 658,
+      "english": "Esoteric",
+      "bengali": "দুর্বোধ্য / বিশেষজ্ঞদের জন্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 659,
+      "english": "Exasperate",
+      "bengali": "অত্যন্ত বিরক্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 660,
+      "english": "Extravagant",
+      "bengali": "অপচয়ী / বিলাসী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 661,
+      "english": "Eulogy",
+      "bengali": "প্রশংসাপূর্ণ উক্তি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 662,
+      "english": "Euphemism",
+      "bengali": "নম্র প্রকাশ / শ্রতিমধুর শব্দ ব্যবহার",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 663,
+      "english": "Exacerbate",
+      "bengali": "আরো খারাপ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 664,
+      "english": "Exculpate",
+      "bengali": "দোষমুক্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 665,
+      "english": "Exigency",
+      "bengali": "জরুরি অবস্থা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 666,
+      "english": "Extrapolation",
+      "bengali": "অনুমানভিত্তিক প্রসারণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 667,
+      "english": "Facetious",
+      "bengali": "ঠাট্টাপূর্ণ / অপ্রাসঙ্গিক রসিক",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 668,
+      "english": "Facilitate",
+      "bengali": "সহজ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 669,
+      "english": "Fallacious",
+      "bengali": "ভ্রান্ত / ভুল যুক্তিপূর্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 670,
+      "english": "Fatuous",
+      "bengali": "নির্বোধ / অর্থহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 671,
+      "english": "Feral",
+      "bengali": "বন্য / গৃহপালিত নয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 672,
+      "english": "Felicitous",
+      "bengali": "উপযুক্ত / সুন্দরভাবে বলা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 673,
+      "english": "Fervor",
+      "bengali": "উদ্দীপনা / উত্সাহ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 674,
+      "english": "Flexible",
+      "bengali": "নমনীয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 675,
+      "english": "Fledgling",
+      "bengali": "অনভিজ্ঞ ব্যক্তি / নবীন / শিক্ষানবিশ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 676,
+      "english": "Flimsy",
+      "bengali": "দুর্বল / অযথেষ্ট",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 677,
+      "english": "Foremost",
+      "bengali": "সর্বাগ্রে / প্রধান",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 678,
+      "english": "Futile",
+      "bengali": "নিরর্থক / বৃথা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 679,
+      "english": "Flout",
+      "bengali": "অমান্য করা / উপেক্ষা করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 680,
+      "english": "Foment",
+      "bengali": "উসকে দেওয়া / উত্তেজিত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 681,
+      "english": "Forestall",
+      "bengali": "আগেই প্রতিরোধ করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 682,
+      "english": "Frugality",
+      "bengali": "মিতব্যয়িতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 683,
+      "english": "Gainsay",
+      "bengali": "অস্বীকার করা / বিরোধিতা করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 684,
+      "english": "Garrulous",
+      "bengali": "বাচাল / বেশি কথা বলে",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 685,
+      "english": "Goad",
+      "bengali": "উস্কে দেওয়া / প্ররোচিত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 686,
+      "english": "Gratis",
+      "bengali": "বিনামূল্যে",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 687,
+      "english": "Grandiloquent",
+      "bengali": "জাঁকজমকপূর্ণ ভাষা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 688,
+      "english": "Gentle",
+      "bengali": "নম্র / কোমল",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 689,
+      "english": "Genuine",
+      "bengali": "আসল / সত্যিকারের",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 690,
+      "english": "Gregarious",
+      "bengali": "মিশুক / সমাজপ্রিয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 691,
+      "english": "Gorgeous",
+      "bengali": "দৃষ্টিনন্দন / অত্যন্ত সুন্দর",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 692,
+      "english": "Gallant",
+      "bengali": "বীরত্বপূর্ণ / সাহসী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 693,
+      "english": "Guileless",
+      "bengali": "নির্দোষ / সরল",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 694,
+      "english": "Harangue",
+      "bengali": "তিরস্কারমূলক বক্তৃতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 695,
+      "english": "Homogeneous",
+      "bengali": "সমজাতীয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 696,
+      "english": "Hyperbole",
+      "bengali": "অতিশয়োক্তি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 697,
+      "english": "Haphazard",
+      "bengali": "এলোমেলো / পরিকল্পনাহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 698,
+      "english": "Harsh",
+      "bengali": "কঠোর / রূঢ়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 699,
+      "english": "Iconoclastic",
+      "bengali": "প্রচলিত ধারণা ভাঙে এমন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 700,
+      "english": "Idolatry",
+      "bengali": "মূর্তিপূজা / অন্ধ ভক্তি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 701,
+      "english": "Immutable",
+      "bengali": "অপরিবর্তনীয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 702,
+      "english": "Impair",
+      "bengali": "ক্ষতিগ্রস্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 703,
+      "english": "Impassive",
+      "bengali": "আবেগহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 704,
+      "english": "Impede",
+      "bengali": "বাধা দেওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 705,
+      "english": "Impediment",
+      "bengali": "প্রতিবন্ধকতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 706,
+      "english": "Impermeable",
+      "bengali": "অপ্রবেশ্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 707,
+      "english": "Imperturbable",
+      "bengali": "শান্ত / অবিচল / বিচলিত হয় না",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 708,
+      "english": "Impervious",
+      "bengali": "প্রভাবিত হয় না / অপ্রবেশ্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 709,
+      "english": "Implacable",
+      "bengali": "অমার্জনীয় / শান্ত করা যায় না",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 710,
+      "english": "Impeccable",
+      "bengali": "নিখুঁত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 711,
+      "english": "Implicit",
+      "bengali": "অন্তর্নিহিত / প্রচ্ছন্ন / পরোক্ষ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 712,
+      "english": "Implode",
+      "bengali": "ভেতরের দিকে ধসে পড়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 713,
+      "english": "Inadvertent",
+      "bengali": "অনিচ্ছাকৃত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 714,
+      "english": "Inadvertently",
+      "bengali": "অনিচ্ছাকৃতভাবে",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 715,
+      "english": "Inchoate",
+      "bengali": "অপরিণত / অসম্পূর্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 716,
+      "english": "Incongruous",
+      "bengali": "অসামঞ্জস্যপূর্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 717,
+      "english": "Incongruity",
+      "bengali": "অসামঞ্জস্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 718,
+      "english": "Inconsequential",
+      "bengali": "তুচ্ছ / গুরুত্বহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 719,
+      "english": "Incorporate",
+      "bengali": "অন্তর্ভুক্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 720,
+      "english": "Indeterminate",
+      "bengali": "অনির্দিষ্ট / অনিশ্চিত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 721,
+      "english": "Indigenous",
+      "bengali": "আদিবাসী / স্থানীয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 722,
+      "english": "Indigent",
+      "bengali": "দরিদ্র",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 723,
+      "english": "Indolent",
+      "bengali": "অলস",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 724,
+      "english": "Indolence",
+      "bengali": "অলসতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 725,
+      "english": "Incredible",
+      "bengali": "অবিশ্বাস্য",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 726,
+      "english": "Ingenuous",
+      "bengali": "সরল / নির্দোষ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 727,
+      "english": "Ingenious",
+      "bengali": "চতুর / উদ্ভাবনী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 728,
+      "english": "Inherent",
+      "bengali": "অন্তর্নিহিত, সহজাত",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 729,
+      "english": "Innocuous",
+      "bengali": "নিরীহ / ক্ষতিহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 730,
+      "english": "Insensible",
+      "bengali": "অনুভূতিহীন / অচেতন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 731,
+      "english": "Insinuate",
+      "bengali": "পরোক্ষভাবে কটাক্ষ করা / ইঙ্গিত দেওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 732,
+      "english": "Insularity",
+      "bengali": "সংকীর্ণতা / বিচ্ছিন্নতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 733,
+      "english": "Intractable",
+      "bengali": "একগুঁয়ে / নিয়ন্ত্রণ করা কঠিন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 734,
+      "english": "Infringe",
+      "bengali": "লঙ্ঘন করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 735,
+      "english": "Inundate",
+      "bengali": "প্লাবিত করা / ভাসিয়ে দেওয়া",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 736,
+      "english": "Inured",
+      "bengali": "অভ্যস্ত / সহনশীল হয়ে ওঠা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 737,
+      "english": "Invective",
+      "bengali": "হিংসাত্মক / তীব্র নিন্দা / গালাগালি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 738,
+      "english": "Indignant",
+      "bengali": "ক্ষুব্ধ / ক্ষোভপূর্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 739,
+      "english": "Indifferent",
+      "bengali": "উদাসীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 740,
+      "english": "Indistinct",
+      "bengali": "অস্পষ্ট",
+      "sources": [
+        "Competitive Exams",
+        "Analogy"
+      ]
+    },
+    {
+      "id": 741,
+      "english": "Irascible",
+      "bengali": "সহজেই রেগে যায়, বদমেজাজি, খিটখিটে",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 742,
+      "english": "Irresolute",
+      "bengali": "অস্থির / সিদ্ধান্তহীন",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 743,
+      "english": "Itinerary",
+      "bengali": "ভ্রমণ পরিকল্পনা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 744,
+      "english": "Jeer",
+      "bengali": "উপহাস করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 745,
+      "english": "Jeopardy",
+      "bengali": "বিপদ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 746,
+      "english": "Jocund",
+      "bengali": "প্রফুল্ল / হাসিখুশি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 747,
+      "english": "Laconic",
+      "bengali": "সংক্ষিপ্তভাষী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 748,
+      "english": "Lassitude",
+      "bengali": "ক্লান্তি / অবসাদ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 749,
+      "english": "Latent",
+      "bengali": "সুপ্ত / লুকানো",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 750,
+      "english": "Laud",
+      "bengali": "প্রশংসা করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 751,
+      "english": "Lethargic",
+      "bengali": "অলস / নিষ্ক্রিয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 752,
+      "english": "Levee",
+      "bengali": "বাঁধ / নদীর তীররক্ষা বাঁধ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 753,
+      "english": "Levity",
+      "bengali": "হালকা আচরণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 754,
+      "english": "Legendary",
+      "bengali": "কিংবদন্তি",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 755,
+      "english": "Lackluster",
+      "bengali": "নিষ্প্রভ / অনুজ্জ্বল",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 756,
+      "english": "Loquacious",
+      "bengali": "বাচাল",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 757,
+      "english": "Lucid",
+      "bengali": "স্পষ্ট / পরিষ্কার",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 758,
+      "english": "Licentious",
+      "bengali": "নীতিহীন / অসচ্চরিত্র",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 759,
+      "english": "Magnanimity",
+      "bengali": "উদারতা / মহানুভবতা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 760,
+      "english": "Malingerer",
+      "bengali": "অসুস্থতার ভানকারী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 761,
+      "english": "Malleable",
+      "bengali": "নমনীয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 762,
+      "english": "Massive",
+      "bengali": "বিশাল / বৃহৎ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 763,
+      "english": "Maverick",
+      "bengali": "স্বাধীনচেতা ব্যক্তি / যারা প্রচলিত মতে বিশ্বাসী নয়",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 764,
+      "english": "Mendacity",
+      "bengali": "মিথ্যাচার",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 765,
+      "english": "Metamorphosis",
+      "bengali": "রূপান্তর",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 766,
+      "english": "Meticulous",
+      "bengali": "সূক্ষ্মদৃষ্টি সম্পন্ন / যত্নবান / খুঁতখুঁতে",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 767,
+      "english": "Misanthrope",
+      "bengali": "মানুষবিদ্বেষী",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 768,
+      "english": "Mitigate",
+      "bengali": "কমানো / লাঘব করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 769,
+      "english": "Mollify",
+      "bengali": "শান্ত করা",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 770,
+      "english": "Morose",
+      "bengali": "মনমরা / বিমর্ষ / বিষণ্ণ",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 771,
+      "english": "Mundane",
+      "bengali": "সাধারণ / একঘেয়ে / জাগতিক",
+      "sources": [
+        "Competitive Exams"
+      ]
+    },
+    {
+      "id": 772,
+      "english": "abut",
+      "bengali": "সংলগ্ন থাকা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 773,
+      "english": "accidental",
+      "bengali": "দুর্ঘটনাজনিত / অনিচ্ছাকৃত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 774,
+      "english": "accuser",
+      "bengali": "অভিযোগকারী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 775,
+      "english": "admonitory",
+      "bengali": "সতর্কতামূলক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 776,
+      "english": "Anesthetic",
+      "bengali": "অবশকারী ওষুধ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 777,
+      "english": "Antidote",
+      "bengali": "প্রতিষেধক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 778,
+      "english": "arbitrator",
+      "bengali": "সালিসকারী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 779,
+      "english": "Arrogant",
+      "bengali": "অহংকারী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 780,
+      "english": "augury",
+      "bengali": "লক্ষণ / পূর্বাভাস",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 781,
+      "english": "burial",
+      "bengali": "দাফন / সমাধি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 782,
+      "english": "cataclysmic",
+      "bengali": "বিপর্যয়কর",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 783,
+      "english": "Caucus",
+      "bengali": "দলীয় বৈঠক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 784,
+      "english": "centurion",
+      "bengali": "রোমান সেনাপতি (১০০ সৈন্যের নেতা)",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 785,
+      "english": "commendable",
+      "bengali": "প্রশংসনীয়",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 786,
+      "english": "Commuter",
+      "bengali": "যাতায়াতকারী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 787,
+      "english": "comply",
+      "bengali": "মেনে চলা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 788,
+      "english": "comprehensive",
+      "bengali": "বিস্তৃত / পূর্ণাঙ্গ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 789,
+      "english": "Contagiousness",
+      "bengali": "সংক্রামকতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 790,
+      "english": "Courageous",
+      "bengali": "সাহসী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 791,
+      "english": "courteous",
+      "bengali": "ভদ্র",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 792,
+      "english": "dawdler",
+      "bengali": "ধীরগতির ব্যক্তি /বেকার",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 793,
+      "english": "deflect",
+      "bengali": "ঘুরিয়ে দেওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 794,
+      "english": "Dispute",
+      "bengali": "বিরোধ / তর্ক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 795,
+      "english": "doomed",
+      "bengali": "ধ্বংসের দিকে ধাবিত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 796,
+      "english": "Dote",
+      "bengali": "অতিরিক্ত স্নেহ করা / অন্ধভাবে ভালোবাসা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 797,
+      "english": "drone",
+      "bengali": "গুনগুন শব্দ / একঘেয়ে কথা বলা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 798,
+      "english": "Drowsiness",
+      "bengali": "তন্দ্রাচ্ছন্নতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 799,
+      "english": "enigma",
+      "bengali": "রহস্য",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 800,
+      "english": "erratic",
+      "bengali": "অনিয়মিত / অস্থির",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 801,
+      "english": "evanescent",
+      "bengali": "ক্ষণস্থায়ী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 802,
+      "english": "faucet",
+      "bengali": "পানির কল",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 803,
+      "english": "feckless",
+      "bengali": "অকার্যকর / অদক্ষ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 804,
+      "english": "flatter",
+      "bengali": "তোষামোদ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 805,
+      "english": "fortuitous",
+      "bengali": "সৌভাগ্যজনক / আকস্মিকভাবে ভালো",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 806,
+      "english": "Frugal",
+      "bengali": "মিতব্যয়ী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 807,
+      "english": "Humor",
+      "bengali": "রসবোধ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 808,
+      "english": "illusory",
+      "bengali": "মায়াময় / বিভ্রমমূলক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 809,
+      "english": "imperative",
+      "bengali": "অত্যাবশ্যক / আদেশ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 810,
+      "english": "indicted",
+      "bengali": "অভিযুক্ত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 811,
+      "english": "irksome",
+      "bengali": "বিরক্তিকর",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 812,
+      "english": "Lag",
+      "bengali": "পিছিয়ে পড়া / বিলম্ব",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 813,
+      "english": "laudatory",
+      "bengali": "প্রশংসামূলক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 814,
+      "english": "Laxative",
+      "bengali": "জোলাপ / পায়খানা নরম করে এমন ঔষধ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 815,
+      "english": "Lethargy",
+      "bengali": "অবসাদ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 816,
+      "english": "luminary",
+      "bengali": "বিশিষ্ট ব্যক্তি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 817,
+      "english": "mediate",
+      "bengali": "মধ্যস্থতা করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 818,
+      "english": "millinery",
+      "bengali": "টুপি তৈরির কাজ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 819,
+      "english": "monotonous",
+      "bengali": "একঘেয়ে / বিরক্ত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 820,
+      "english": "mortuary",
+      "bengali": "মর্গ / মৃতদেহাগার",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 821,
+      "english": "mutter",
+      "bengali": "বিড়বিড় করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 822,
+      "english": "Narcotic",
+      "bengali": "মাদক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 823,
+      "english": "nondescript",
+      "bengali": "সাধারণ / বৈশিষ্ট্যহীন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 824,
+      "english": "noxious",
+      "bengali": "ক্ষতিকর / বিষাক্ত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 825,
+      "english": "Numbness",
+      "bengali": "অসাড়তা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 826,
+      "english": "onerous",
+      "bengali": "কষ্টসাধ্য / বোঝাস্বরূপ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 827,
+      "english": "penetrate",
+      "bengali": "ভেদ করা / প্রবেশ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 828,
+      "english": "Peremptory",
+      "bengali": "কর্তৃত্বপূর্ণ / দৃঢ়ভাবে নির্দেশমূলক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 829,
+      "english": "pest",
+      "bengali": "বিরক্তিকর ব্যক্তি / পোকা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 830,
+      "english": "plead",
+      "bengali": "অনুরোধ করা / মিনতি করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 831,
+      "english": "pliant",
+      "bengali": "নমনীয় / সহজে প্রভাবিত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 832,
+      "english": "preamble",
+      "bengali": "আনুষ্ঠানিক দলিলের ভূমিকা / প্রস্তাবনা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 833,
+      "english": "proficient",
+      "bengali": "দক্ষ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 834,
+      "english": "prohibitive",
+      "bengali": "নিষেধমূলক / অত্যধিক ব্যয়বহুল",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 835,
+      "english": "proliferate",
+      "bengali": "দ্রুত বৃদ্ধি পাওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 836,
+      "english": "prologue",
+      "bengali": "গল্প বা কাব্যের ভূমিকা / প্রস্তাবনা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 837,
+      "english": "Psychosis",
+      "bengali": "মানসিক বিকার",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 838,
+      "english": "Pugnacious",
+      "bengali": "ঝগড়াটে",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 839,
+      "english": "pyre",
+      "bengali": "চিতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 840,
+      "english": "Rash",
+      "bengali": "অবিবেচক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 841,
+      "english": "Recast",
+      "bengali": "নতুনভাবে গঠন করা / পুনর্গঠন করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 842,
+      "english": "Relapse",
+      "bengali": "পুনরাবৃত্তি (রোগ)",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 843,
+      "english": "reproach",
+      "bengali": "ভর্ত্সনা / দোষারোপ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 844,
+      "english": "Resuscitation",
+      "bengali": "পুনরুজ্জীবন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 845,
+      "english": "salesclerk",
+      "bengali": "বিক্রয়কর্মী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 846,
+      "english": "Sedative",
+      "bengali": "স্নায়ুবিক উত্তেজনা ও মানসিক অস্থিরতা প্রশমন করার ঔষধ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 847,
+      "english": "Senator",
+      "bengali": "সিনেট সদস্য",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 848,
+      "english": "sink",
+      "bengali": "সিঙ্ক / ডুবে যাওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 849,
+      "english": "statute",
+      "bengali": "আইন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 850,
+      "english": "Stimulant",
+      "bengali": "উত্তেজক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 851,
+      "english": "Stray",
+      "bengali": "পথভ্রষ্ট হওয়া / ছিটকে যাওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 852,
+      "english": "stygian",
+      "bengali": "অন্ধকারাচ্ছন্ন / ঘোর অন্ধকার",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 853,
+      "english": "synthetic",
+      "bengali": "কৃত্রিম",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 854,
+      "english": "Temptation",
+      "bengali": "প্রলোভন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 855,
+      "english": "Timid",
+      "bengali": "ভীতু",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 856,
+      "english": "toil",
+      "bengali": "কঠোর পরিশ্রম",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 857,
+      "english": "Tonic",
+      "bengali": "শক্তিবর্ধক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 858,
+      "english": "upbraid",
+      "bengali": "ভর্ৎসনা করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 859,
+      "english": "Vex",
+      "bengali": "বিরক্ত করা / উৎকণ্ঠিত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 860,
+      "english": "Wanderlust",
+      "bengali": "ভ্রমণপিপাসা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 861,
+      "english": "Ward",
+      "bengali": "ওয়ার্ড/রোগী কক্ষ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 862,
+      "english": "worship",
+      "bengali": "উপাসনা / পূজা করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 863,
+      "english": "yield",
+      "bengali": "ফলন / আত্মসমর্পণ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 864,
+      "english": "Abdomen",
+      "bengali": "উদর",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 865,
+      "english": "Abraded",
+      "bengali": "ঘষে ক্ষয়প্রাপ্ত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 866,
+      "english": "Acrobat",
+      "bengali": "কসরতবিদ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 867,
+      "english": "Adapt",
+      "bengali": "খাপ খাওয়ানো",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 868,
+      "english": "Adjustment",
+      "bengali": "সমন্বয়",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 869,
+      "english": "Agility",
+      "bengali": "ক্ষিপ্রতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 870,
+      "english": "Align",
+      "bengali": "সারিবদ্ধ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 871,
+      "english": "Anodized",
+      "bengali": "সুরক্ষিত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 872,
+      "english": "Aorta",
+      "bengali": "মহাধমনী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 873,
+      "english": "Argumentative",
+      "bengali": "তর্কপ্রবণ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 874,
+      "english": "Assay",
+      "bengali": "বিশ্লেষণ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 875,
+      "english": "Assuage",
+      "bengali": "লাঘব করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 876,
+      "english": "Awe",
+      "bengali": "বিস্ময়ভক্তি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 877,
+      "english": "Bale",
+      "bengali": "আঁটি / গাঁট",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 878,
+      "english": "Boor",
+      "bengali": "অশিক্ষিত / অসভ্য ব্যক্তি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 879,
+      "english": "Boredom",
+      "bengali": "একঘেয়েমি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 880,
+      "english": "Calibrate",
+      "bengali": "ক্যালিব্রেট করা / মান নির্ধারণ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 881,
+      "english": "Centrifuge",
+      "bengali": "কেন্দ্রীভূত ঘূর্ণনযন্ত্র",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 882,
+      "english": "Chisel",
+      "bengali": "বাটালি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 883,
+      "english": "Clarity",
+      "bengali": "স্পষ্টতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 884,
+      "english": "Clay",
+      "bengali": "মাটি (আঠালো) / কাদামাটি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 885,
+      "english": "Colander",
+      "bengali": "ছাঁকনি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 886,
+      "english": "Combustion",
+      "bengali": "দহন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 887,
+      "english": "Condense",
+      "bengali": "সংক্ষিপ্ত করা / ঘনীভূত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 888,
+      "english": "Contempt",
+      "bengali": "অবজ্ঞা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 889,
+      "english": "Credulous",
+      "bengali": "সহজে বিশ্বাসপ্রবণ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 890,
+      "english": "Damp",
+      "bengali": "স্যাঁতসেঁতে",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 891,
+      "english": "Dexterity",
+      "bengali": "দক্ষতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 892,
+      "english": "Diluted",
+      "bengali": "পাতলা করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 893,
+      "english": "Distillate",
+      "bengali": "পাতিত তরল",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 894,
+      "english": "Dredge",
+      "bengali": "খনন করা (পানির নিচে)",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 895,
+      "english": "Drench",
+      "bengali": "ভিজিয়ে দেওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 896,
+      "english": "Dupe",
+      "bengali": "প্রতারিত ব্যক্তি / প্রতারণা করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 897,
+      "english": "Elegy",
+      "bengali": "শোকগাথা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 898,
+      "english": "Equivocation",
+      "bengali": "দ্ব্যর্থকতা / এড়িয়ে যাওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 899,
+      "english": "Extraction",
+      "bengali": "নিষ্কাশন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 900,
+      "english": "Fatigue",
+      "bengali": "ক্লান্তি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 901,
+      "english": "Floodgate",
+      "bengali": "জলকপাট",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 902,
+      "english": "Gavel",
+      "bengali": "হাতুড়ি (বিচারকের)",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 903,
+      "english": "Glib",
+      "bengali": "চটপটে কিন্তু উপর উপর",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 904,
+      "english": "Gravel",
+      "bengali": "কঙ্কর",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 905,
+      "english": "Gristle",
+      "bengali": "শক্ত মাংসপেশির অংশ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 906,
+      "english": "Hay",
+      "bengali": "খড়",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 907,
+      "english": "Hedge",
+      "bengali": "বেড়া / এড়িয়ে যাওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 908,
+      "english": "Hone",
+      "bengali": "শান দেওয়া / দক্ষতা বৃদ্ধি করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 909,
+      "english": "Housecleaning",
+      "bengali": "ঘর পরিষ্কার",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 910,
+      "english": "Imperfection",
+      "bengali": "ত্রুটি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 911,
+      "english": "Insignia",
+      "bengali": "প্রতীক / চিহ্ন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 912,
+      "english": "Intuition",
+      "bengali": "অন্তর্দৃষ্টি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 913,
+      "english": "Kneecap",
+      "bengali": "হাঁটুর ঢাকনা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 914,
+      "english": "Lament",
+      "bengali": "বিলাপ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 915,
+      "english": "Lint",
+      "bengali": "সূক্ষ্ম তুলা/ধুলো",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 916,
+      "english": "Maladroit",
+      "bengali": "অদক্ষ / কৌশলহীন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 917,
+      "english": "Mitigation",
+      "bengali": "লাঘব",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 918,
+      "english": "Modification",
+      "bengali": "পরিবর্তন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 919,
+      "english": "Mold",
+      "bengali": "ছাঁচ / গড়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 920,
+      "english": "Monarch",
+      "bengali": "রাজা / সম্রাট",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 921,
+      "english": "Morose",
+      "bengali": "মনমরা / বিষণ্ন / গম্ভীর",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 922,
+      "english": "Navigation",
+      "bengali": "নৌচালনা / দিকনির্দেশনা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 923,
+      "english": "Notoriety",
+      "bengali": "কুখ্যাতি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 924,
+      "english": "Parody",
+      "bengali": "অনুকরণমূলক ব্যঙ্গ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 925,
+      "english": "Perforation",
+      "bengali": "ছিদ্র",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 926,
+      "english": "Placate",
+      "bengali": "শান্ত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 927,
+      "english": "Platitude",
+      "bengali": "গতানুগতিক কথা / সস্তা মন্তব্য",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 928,
+      "english": "Podium",
+      "bengali": "বক্তৃতামঞ্চ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 929,
+      "english": "Precedent",
+      "bengali": "নজির /অতীতের উদাহরণ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 930,
+      "english": "Precept",
+      "bengali": "নীতি / উপদেশ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 931,
+      "english": "Profundity",
+      "bengali": "গভীরতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 932,
+      "english": "Prune",
+      "bengali": "ছাঁটাই করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 933,
+      "english": "Quarry",
+      "bengali": "পাথর খনি / শিকার",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 934,
+      "english": "Reap",
+      "bengali": "ফসল কাটা / ফল ভোগ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 935,
+      "english": "Rib",
+      "bengali": "পাঁজরের হাড়",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 936,
+      "english": "Satirize",
+      "bengali": "ব্যঙ্গ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 937,
+      "english": "Sawdust",
+      "bengali": "করাতের গুঁড়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 938,
+      "english": "Seal",
+      "bengali": "সিল / বন্ধ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 939,
+      "english": "Shuck",
+      "bengali": "খোসা ছাড়ানো",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 940,
+      "english": "Sluggish",
+      "bengali": "মন্থর / ধীরগতির",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 941,
+      "english": "Soot",
+      "bengali": "ধোঁয়ার কালো ছাই",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 942,
+      "english": "Spontaneous",
+      "bengali": "স্বতঃস্ফূর্ত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 943,
+      "english": "Stanch",
+      "bengali": "রক্তপাত বন্ধ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 944,
+      "english": "Taunt",
+      "bengali": "কটাক্ষ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 945,
+      "english": "Temper",
+      "bengali": "মেজাজ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 946,
+      "english": "Tenderizing",
+      "bengali": "কোমল করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 947,
+      "english": "Timber",
+      "bengali": "কাঠ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 948,
+      "english": "Tirade",
+      "bengali": "তীব্র বক্তৃতা / রাগান্বিত ভাষণ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 949,
+      "english": "Unintelligible",
+      "bengali": "দুর্বোধ্য",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 950,
+      "english": "Volatile",
+      "bengali": "অস্থির / পরিবর্তনশীল",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 951,
+      "english": "Weary",
+      "bengali": "ক্লান্ত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 952,
+      "english": "Wit",
+      "bengali": "রসবোধ / তীক্ষ্ণ বুদ্ধি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 953,
+      "english": "Woodcutting",
+      "bengali": "কাঠ কাটা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 954,
+      "english": "Adversary",
+      "bengali": "প্রতিপক্ষ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 955,
+      "english": "Adversity",
+      "bengali": "প্রতিকূলতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 956,
+      "english": "Affection",
+      "bengali": "স্নেহ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 957,
+      "english": "Arbitrate",
+      "bengali": "মীমাংসা করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 958,
+      "english": "Avaricious",
+      "bengali": "লোভী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 959,
+      "english": "Barter",
+      "bengali": "বিনিময় বাণিজ্য",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 960,
+      "english": "Blame",
+      "bengali": "দোষারোপ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 961,
+      "english": "Caret",
+      "bengali": "চিহ্ন (^)",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 962,
+      "english": "Censure",
+      "bengali": "নিন্দা করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 963,
+      "english": "Circumlocution",
+      "bengali": "ঘুরিয়ে বলা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 964,
+      "english": "Confront",
+      "bengali": "মুখোমুখি হওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 965,
+      "english": "Corpuscle",
+      "bengali": "কণিকা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 966,
+      "english": "Correspond",
+      "bengali": "মিল থাকা / যোগাযোগ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 967,
+      "english": "Cower",
+      "bengali": "ভয়ে সঙ্কুচিত হওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 968,
+      "english": "Culpable",
+      "bengali": "দোষী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 969,
+      "english": "Curtain",
+      "bengali": "পর্দা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 970,
+      "english": "Derision",
+      "bengali": "উপহাস",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 971,
+      "english": "Dilettantism",
+      "bengali": "উপর উপর জ্ঞান",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 972,
+      "english": "Disguise",
+      "bengali": "ছদ্মবেশ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 973,
+      "english": "Dogmatism",
+      "bengali": "গোঁড়ামি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 974,
+      "english": "Dyslexia",
+      "bengali": "পড়ার অসুবিধা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 975,
+      "english": "Emit",
+      "bengali": "নির্গত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 976,
+      "english": "Enchant",
+      "bengali": "মোহিত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 977,
+      "english": "Endorse",
+      "bengali": "সমর্থন করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 978,
+      "english": "Endow",
+      "bengali": "দান করা / গুণ প্রদান করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 979,
+      "english": "Espionage",
+      "bengali": "গুপ্তচরবৃত্তি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 980,
+      "english": "Facade",
+      "bengali": "মিথ্যা বা ভুল সম্মুখভাব / কোন অট্টালিকার সম্মুখভাব",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 981,
+      "english": "Fawn",
+      "bengali": "তোষামোদ করা / হরিণশাবক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 982,
+      "english": "Felon",
+      "bengali": "গুরুতর অপরাধী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 983,
+      "english": "Fidget",
+      "bengali": "অস্থিরভাবে নড়াচড়া করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 984,
+      "english": "Footlight",
+      "bengali": "মঞ্চের সামনের আলো",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 985,
+      "english": "Forgery",
+      "bengali": "জালিয়াতি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 986,
+      "english": "Frown",
+      "bengali": "ভ্রুকুটি করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 987,
+      "english": "Fur",
+      "bengali": "পশম",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 988,
+      "english": "Gregariousness",
+      "bengali": "মিশুক স্বভাব",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 989,
+      "english": "Hemophilia",
+      "bengali": "রক্তক্ষরণ রোগ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 990,
+      "english": "Humility",
+      "bengali": "নম্রতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 991,
+      "english": "Hurl",
+      "bengali": "জোরে নিক্ষেপ করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 992,
+      "english": "Hyperactivity",
+      "bengali": "অতিরিক্ত চঞ্চলতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 993,
+      "english": "Insomnia",
+      "bengali": "অনিদ্রা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 994,
+      "english": "Inveigle",
+      "bengali": "ফুসলে নেওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 995,
+      "english": "Lid",
+      "bengali": "ঢাকনা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 996,
+      "english": "Limb",
+      "bengali": "অঙ্গ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 997,
+      "english": "Menace",
+      "bengali": "হুমকি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 998,
+      "english": "Nondescript",
+      "bengali": "সাধারণ / অনির্দিষ্ট",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 999,
+      "english": "Nonporous",
+      "bengali": "ছিদ্রবিহীন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1000,
+      "english": "Opaque",
+      "bengali": "অস্বচ্ছ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1001,
+      "english": "Orchestra",
+      "bengali": "বাদ্যযন্ত্র দল",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1002,
+      "english": "Pacify",
+      "bengali": "শান্ত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1003,
+      "english": "Parry",
+      "bengali": "প্রতিহত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1004,
+      "english": "Pear",
+      "bengali": "নাশপাতি",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1005,
+      "english": "Perplexed",
+      "bengali": "বিভ্রান্ত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1006,
+      "english": "Persecute",
+      "bengali": "নির্যাতন করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1007,
+      "english": "Perturb",
+      "bengali": "বিচলিত করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1008,
+      "english": "Pompous",
+      "bengali": "আড়ম্বরপূর্ণ / গর্বিত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1009,
+      "english": "Prattle",
+      "bengali": "অর্থহীন বকবক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1010,
+      "english": "Prodigal",
+      "bengali": "অপব্যয়ী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1011,
+      "english": "Prose",
+      "bengali": "গদ্য",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1012,
+      "english": "Querulous",
+      "bengali": "অভিযোগপ্রবণ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1013,
+      "english": "Scales",
+      "bengali": "আঁশ",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1014,
+      "english": "Scheme",
+      "bengali": "পরিকল্পনা / ষড়যন্ত্র",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1015,
+      "english": "Shirk",
+      "bengali": "এড়িয়ে যাওয়া",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1016,
+      "english": "Slouch",
+      "bengali": "কুঁজো হয়ে বসা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1017,
+      "english": "Succinct",
+      "bengali": "সংক্ষিপ্ত ও স্পষ্ট",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1018,
+      "english": "Supplicant",
+      "bengali": "প্রার্থনাকারী",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1019,
+      "english": "Toe",
+      "bengali": "পায়ের আঙুল",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1020,
+      "english": "Tongs",
+      "bengali": "চিমটা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1021,
+      "english": "Tranquil",
+      "bengali": "শান্ত",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1022,
+      "english": "Treacherous",
+      "bengali": "বিশ্বাসঘাতক / বিপজ্জনক",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1023,
+      "english": "Upholstery",
+      "bengali": "আসবাবের কাপড়",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1024,
+      "english": "Veil",
+      "bengali": "ঘোমটা / আড়াল করা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1025,
+      "english": "Verbiage",
+      "bengali": "শব্দবাহুল্য",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1026,
+      "english": "Vigilance",
+      "bengali": "সতর্কতা",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1027,
+      "english": "Viscous",
+      "bengali": "আঠালো / ঘন",
+      "sources": [
+        "Analogy"
+      ]
+    },
+    {
+      "id": 1028,
+      "english": "Voyage",
+      "bengali": "দীর্ঘযাত্রা / সমুদ্রযাত্রা",
+      "sources": [
+        "Analogy"
+      ]
+    }
+  ]
+}
