@@ -7,6 +7,7 @@ const mongoose = require("mongoose");
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
 const app = express();
+const distPath = path.resolve(process.cwd(), "dist");
 app.use(express.json());
 
 const optionSchema = new mongoose.Schema(
@@ -241,6 +242,17 @@ app.post("/api/users/:userId/sessions/complete", async (request, response) => {
       .status(400)
       .json({ error: error.message || "Failed to complete and save quiz." });
   }
+});
+
+app.use(express.static(distPath));
+
+app.get("*", (request, response, next) => {
+  if (request.path.startsWith("/api/")) {
+    next();
+    return;
+  }
+
+  response.sendFile(path.join(distPath, "index.html"));
 });
 
 async function start() {
