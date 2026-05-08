@@ -146,7 +146,7 @@ function formatDate(value) {
 function PageShell({ children }) {
   return (
     <main className="relative isolate overflow-hidden">
-      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[28rem] bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.68),transparent_55%)]" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-112 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.68),transparent_55%)]" />
       <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8 lg:py-10">
         <div className="flex items-center gap-4">
           <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
@@ -161,7 +161,7 @@ function PageShell({ children }) {
 function Panel({ className = "", children }) {
   return (
     <section
-      className={`rounded-[2rem] border border-stone-900/8 bg-white/72 p-5 shadow-[0_18px_45px_rgba(89,64,30,0.12)] backdrop-blur sm:p-6 ${className}`}
+      className={`rounded-4xl border border-stone-900/8 bg-white/72 p-5 shadow-[0_18px_45px_rgba(89,64,30,0.12)] backdrop-blur sm:p-6 ${className}`}
     >
       {children}
     </section>
@@ -1371,7 +1371,7 @@ function App() {
           </div>
         </div>
 
-        <div className="mt-5 rounded-[2rem] border border-emerald-900/8 bg-[linear-gradient(135deg,rgba(255,255,255,0.95),rgba(232,248,242,0.92))] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] sm:p-8">
+        <div className="mt-5 rounded-4xl border border-emerald-900/8 bg-[linear-gradient(135deg,rgba(255,255,255,0.95),rgba(232,248,242,0.92))] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] sm:p-8">
           <p className="font-['Sora'] text-2xl font-extrabold leading-tight tracking-tight text-stone-950 sm:text-4xl">
             {roundComplete
               ? `${score} out of ${totalQuestions} correct.`
