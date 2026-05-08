@@ -148,6 +148,10 @@ function PageShell({ children }) {
     <main className="relative isolate overflow-hidden">
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[28rem] bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.68),transparent_55%)]" />
       <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8 lg:py-10">
+        <div className="flex items-center gap-4">
+          <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
+          <h2 className="font-['Sora'] text-2xl font-bold text-stone-900">Vocabuild</h2>
+        </div>
         {children}
       </div>
     </main>
@@ -246,7 +250,7 @@ function QuestionCountPicker({ value, disabled, onChange }) {
       value={value}
       onChange={(event) => onChange(event.target.value)}
       disabled={disabled}
-      className="mt-3 w-32 rounded-2xl border border-white/10 bg-white/10 px-4 py-3 text-sm font-medium text-white outline-none ring-0 disabled:cursor-not-allowed disabled:opacity-60"
+      className="mt-3 w-32 rounded-2xl border border-amber-200 bg-white px-4 py-3 text-sm font-medium text-stone-900 outline-none ring-0 disabled:cursor-not-allowed disabled:opacity-60"
     >
       {QUESTION_OPTIONS.map((option) => (
         <option key={option.value} value={option.value} className="text-stone-900">
@@ -271,13 +275,56 @@ function QuestionOrderPicker({ value, disabled, onChange }) {
             className={`rounded-2xl border px-4 py-3 text-sm font-semibold transition ${
               active
                 ? "border-amber-300 bg-amber-300 text-stone-950"
-                : "border-white/12 bg-white/10 text-white"
+                : "border-amber-200 bg-white text-stone-900 hover:bg-amber-50"
             } disabled:cursor-not-allowed disabled:opacity-60`}
           >
             {option.label}
           </button>
         );
       })}
+    </div>
+  );
+}
+
+function RowRangePicker({ sheet, rowRange, disabled, onChange, metadata }) {
+  const range = metadata?.rowRanges?.[sheet];
+  if (!range) return null;
+
+  return (
+    <div className="rounded-2xl border border-emerald-900/20 bg-emerald-50/50 p-4">
+      <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-700 mb-3">
+        {sheet} - Rows {range.min}-{range.max}
+      </p>
+      <div className="grid grid-cols-2 gap-3">
+        <div>
+          <label className="block text-xs font-medium text-stone-600 mb-2">From</label>
+          <input
+            type="number"
+            min={range.min}
+            max={range.max}
+            value={rowRange.from}
+            onChange={(e) =>
+              onChange(sheet, { ...rowRange, from: Math.max(range.min, Number(e.target.value)) })
+            }
+            disabled={disabled}
+            className="w-full rounded-lg border border-emerald-200 bg-white px-3 py-2 text-sm text-stone-900 outline-none disabled:opacity-60"
+          />
+        </div>
+        <div>
+          <label className="block text-xs font-medium text-stone-600 mb-2">To</label>
+          <input
+            type="number"
+            min={range.min}
+            max={range.max}
+            value={rowRange.to}
+            onChange={(e) =>
+              onChange(sheet, { ...rowRange, to: Math.min(range.max, Number(e.target.value)) })
+            }
+            disabled={disabled}
+            className="w-full rounded-lg border border-emerald-200 bg-white px-3 py-2 text-sm text-stone-900 outline-none disabled:opacity-60"
+          />
+        </div>
+      </div>
     </div>
   );
 }
@@ -296,6 +343,7 @@ function App() {
   const [questionCount, setQuestionCount] = useState("20");
   const [customQuestionCount, setCustomQuestionCount] = useState("25");
   const [questionOrder, setQuestionOrder] = useState("random");
+  const [rowRanges, setRowRanges] = useState({});
   const [activeDeck, setActiveDeck] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -319,6 +367,18 @@ function App() {
         const nextDataset = await response.json();
         setDataset(nextDataset);
         setSelectedSheets(nextDataset.metadata.includedSheets);
+        
+        // Initialize row ranges
+        const initialRowRanges = {};
+        for (const sheet of nextDataset.metadata.includedSheets) {
+          const range = nextDataset.metadata.rowRanges[sheet];
+          initialRowRanges[sheet] = {
+            from: range?.min ?? 1,
+            to: range?.max ?? 100,
+          };
+        }
+        setRowRanges(initialRowRanges);
+        
         setLoadState("ready");
 
         const rememberedUserId = window.localStorage.getItem("voa-user-id");
@@ -393,6 +453,17 @@ function App() {
       user.progress?.questionOrder || user.preferences?.questionOrder || "random",
     );
 
+    // Apply saved row ranges
+    const nextRowRanges = {};
+    for (const sheet of activeDataset.metadata.includedSheets) {
+      const range = activeDataset.metadata.rowRanges[sheet];
+      nextRowRanges[sheet] = user.preferences?.rowRanges?.[sheet] || {
+        from: range?.min ?? 1,
+        to: range?.max ?? 100,
+      };
+    }
+    setRowRanges(nextRowRanges);
+
     const savedProgress = user.progress;
     if (savedProgress?.isActive && savedProgress.deckEntryIds?.length) {
       const restoredDeck = savedProgress.deckEntryIds
@@ -443,9 +514,19 @@ function App() {
   }
 
   const filteredEntries = dataset
-    ? dataset.entries.filter((entry) =>
-        entry.sources.some((source) => selectedSheets.includes(source)),
-      )
+    ? dataset.entries.filter((entry) => {
+        // Check if entry has any of the selected sheets
+        const hasSheet = selectedSheets.some((sheet) => sheet in entry.sources);
+        if (!hasSheet) return false;
+
+        // Check if entry is within row range for any selected sheet
+        return selectedSheets.some((sheet) => {
+          const rowInSheet = entry.sources[sheet];
+          if (rowInSheet === undefined) return false;
+          const range = rowRanges[sheet];
+          return rowInSheet >= range.from && rowInSheet <= range.to;
+        });
+      })
     : [];
 
   const availableCount = filteredEntries.length;
@@ -497,6 +578,7 @@ function App() {
         customQuestionCount,
         questionOrder,
         selectedSheets,
+        rowRanges,
       });
     } catch (error) {
       setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
@@ -520,6 +602,7 @@ function App() {
         customQuestionCount,
         questionOrder,
         selectedSheets: nextSheets,
+        rowRanges,
       });
     } catch (error) {
       setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
@@ -539,6 +622,7 @@ function App() {
         customQuestionCount,
         questionOrder,
         selectedSheets,
+        rowRanges,
       });
     } catch (error) {
       setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
@@ -558,6 +642,7 @@ function App() {
         customQuestionCount: value,
         questionOrder,
         selectedSheets,
+        rowRanges,
       });
     } catch (error) {
       setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
@@ -577,6 +662,29 @@ function App() {
         customQuestionCount,
         questionOrder: value,
         selectedSheets,
+        rowRanges,
+      });
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
+    }
+  }
+
+  async function updateRowRange(sheet, range) {
+    const nextRowRanges = { ...rowRanges, [sheet]: range };
+    setRowRanges(nextRowRanges);
+
+    if (!currentUser || applyingUserRef.current) {
+      return;
+    }
+
+    try {
+      await savePreferences({
+        activeMode,
+        questionCount,
+        customQuestionCount,
+        questionOrder,
+        selectedSheets,
+        rowRanges: nextRowRanges,
       });
     } catch (error) {
       setAuthError(error instanceof Error ? error.message : "Failed to save preferences.");
@@ -1060,38 +1168,90 @@ function App() {
                 />
               </div>
 
-              <div className="rounded-[1.6rem] border border-stone-900/8 bg-stone-950 px-5 py-5 text-stone-50">
-                <SectionTitle label="Questions" />
-                <QuestionCountPicker
-                  value={questionCount}
-                  disabled={controlsLocked}
-                  onChange={updateQuestionCount}
-                />
-                {questionCount === "custom" && (
-                  <input
-                    type="number"
-                    min="1"
-                    step="1"
-                    value={customQuestionCount}
-                    onChange={(event) => updateCustomQuestionCount(event.target.value)}
-                    disabled={controlsLocked}
-                    placeholder="Enter custom count"
-                    className="mt-4 w-40 rounded-2xl border border-white/10 bg-white/10 px-4 py-3 text-sm text-white outline-none disabled:cursor-not-allowed disabled:opacity-60"
-                  />
-                )}
-                <div className="mt-5">
-                  <SectionTitle label="Question Order" />
-                  <QuestionOrderPicker
-                    value={questionOrder}
-                    disabled={controlsLocked}
-                    onChange={updateQuestionOrder}
-                  />
+              {selectedSheets.length > 0 && (
+                <div>
+                  <SectionTitle label="Row Range (Optional)" meta="customize per sheet" />
+                  <div className="mt-3 space-y-3">
+                    {selectedSheets.map((sheet) => (
+                      <RowRangePicker
+                        key={sheet}
+                        sheet={sheet}
+                        rowRange={rowRanges[sheet] || { from: 1, to: 100 }}
+                        disabled={controlsLocked}
+                        onChange={updateRowRange}
+                        metadata={dataset.metadata}
+                      />
+                    ))}
+                  </div>
                 </div>
-                {controlsLocked && (
-                  <p className="mt-4 text-xs text-stone-300">
-                    Finish or resume the saved quiz before changing deck settings.
-                  </p>
-                )}
+              )}
+
+              <div className="rounded-[1.6rem] border border-amber-200/30 bg-[linear-gradient(135deg,rgba(255,255,255,0.92),rgba(255,252,235,0.88))] px-6 py-6">
+                <div className="space-y-5">
+                  <div>
+                    <SectionTitle label="Questions" />
+                    <div className="flex gap-4 items-end">
+                      <QuestionCountPicker
+                        value={questionCount}
+                        disabled={controlsLocked}
+                        onChange={updateQuestionCount}
+                      />
+                      {questionCount === "custom" && (
+                        <input
+                          type="number"
+                          min="1"
+                          step="1"
+                          value={customQuestionCount}
+                          onChange={(event) => updateCustomQuestionCount(event.target.value)}
+                          disabled={controlsLocked}
+                          placeholder="Enter custom count"
+                          className="flex-1 rounded-2xl border border-amber-200 bg-white px-4 py-3 text-sm text-stone-900 placeholder-stone-500 outline-none disabled:cursor-not-allowed disabled:opacity-60"
+                        />
+                      )}
+                    </div>
+                  </div>
+
+                  <div className="border-t border-amber-100" />
+
+                  <div>
+                    <SectionTitle label="Question Order" />
+                    <QuestionOrderPicker
+                      value={questionOrder}
+                      disabled={controlsLocked}
+                      onChange={updateQuestionOrder}
+                    />
+                  </div>
+
+                  {controlsLocked && (
+                    <div className="rounded-xl border border-amber-200/50 bg-amber-50/50 p-3">
+                      <p className="text-xs font-medium text-amber-900">
+                        ⓘ Finish or resume the saved quiz before changing deck settings.
+                      </p>
+                    </div>
+                  )}
+
+                  <div className="border-t border-amber-100" />
+
+                  <div className="flex flex-col gap-3 sm:flex-row">
+                    <button
+                      type="button"
+                      onClick={() => startQuiz(false)}
+                      disabled={controlsLocked || selectedSheets.length === 0}
+                      className="flex-1 rounded-2xl bg-emerald-700 px-6 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-emerald-600 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0"
+                    >
+                      ▶ Start Quiz
+                    </button>
+                    {currentUser.progress?.isActive && (
+                      <button
+                        type="button"
+                        onClick={resumeSavedQuiz}
+                        className="flex-1 rounded-2xl border border-amber-300 bg-white px-6 py-3 text-sm font-semibold text-stone-900 transition hover:-translate-y-0.5 hover:bg-amber-50"
+                      >
+                        ↻ Resume
+                      </button>
+                    )}
+                  </div>
+                </div>
               </div>
             </div>
           </Panel>
@@ -1202,7 +1362,7 @@ function App() {
             </p>
             <p className="mt-2 text-sm text-stone-500">
               {currentQuestion
-                ? `Source: ${currentQuestion.entry.sources.join(", ")}`
+                ? `Source: ${Object.keys(currentQuestion.entry.sources).join(", ")}`
                 : "This page auto-saves while you work."}
             </p>
           </div>
@@ -1246,9 +1406,35 @@ function App() {
         </div>
 
         <div className="mt-5 flex flex-wrap items-center justify-between gap-4">
-          <p className="min-h-6 text-sm text-stone-600">
-            {roundComplete ? `Final accuracy: ${roundAccuracy}%.` : feedbackText}
-          </p>
+          <div className="flex-1">
+            <p className="min-h-6 text-sm text-stone-600">
+              {roundComplete ? `Final accuracy: ${roundAccuracy}%.` : feedbackText}
+            </p>
+            {selectedAnswer && !roundComplete && currentQuestion && (
+              <div className="mt-4 space-y-3 rounded-xl border border-emerald-200 bg-emerald-50 p-4">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.24em] text-emerald-700">
+                    Meaning
+                  </p>
+                  <p className="mt-2 text-sm font-medium text-stone-900">
+                    {activeMode === "en-bn"
+                      ? currentQuestion.entry.bengali
+                      : currentQuestion.entry.english}
+                  </p>
+                </div>
+                {currentQuestion.entry.example && (
+                  <div className="border-t border-emerald-200 pt-3">
+                    <p className="text-xs font-semibold uppercase tracking-[0.24em] text-emerald-700">
+                      Example
+                    </p>
+                    <p className="mt-2 text-sm italic text-stone-800">
+                      "{currentQuestion.entry.example}"
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
           <div className="flex flex-wrap gap-3">
             {selectedAnswer && !roundComplete && (
               <button

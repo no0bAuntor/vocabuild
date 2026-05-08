@@ -40,23 +40,27 @@ def build_dataset() -> dict:
     source_counts: dict[str, int] = {}
     blank_rows: dict[str, int] = {}
     incomplete_rows: dict[str, int] = {}
+    row_ranges: dict[str, dict[str, int]] = {}
 
     for sheet_name, meaning_header in TARGET_SHEETS.items():
         sheet = workbook[sheet_name]
-        rows = sheet.iter_rows(values_only=True)
-        header = next(rows)
+        rows = list(sheet.iter_rows(values_only=True))
+        header = rows[0]
         normalized_header = [
             clean_text(cell).casefold() if clean_text(cell) else "" for cell in header
         ]
 
         word_index = normalized_header.index("word")
         meaning_index = normalized_header.index(meaning_header)
+        example_index = normalized_header.index("example") if "example" in normalized_header else None
 
         source_counts[sheet_name] = 0
         blank_rows[sheet_name] = 0
         incomplete_rows[sheet_name] = 0
+        min_row = float('inf')
+        max_row = 0
 
-        for row in rows:
+        for row_idx, row in enumerate(rows[1:], start=2):  # Start from row 2 (after header)
             values = list(row)
             visible_values = [
                 clean_text(value) for value in values if clean_text(value) is not None
@@ -73,12 +77,17 @@ def build_dataset() -> dict:
                 values[meaning_index] if meaning_index < len(values) else None,
                 strip_terminal_punctuation=True,
             )
+            example = clean_text(
+                values[example_index] if example_index is not None and example_index < len(values) else None,
+            )
 
             if not word or not bengali:
                 incomplete_rows[sheet_name] += 1
                 continue
 
             source_counts[sheet_name] += 1
+            min_row = min(min_row, row_idx)
+            max_row = max(max_row, row_idx)
             key = (word.casefold(), bengali.casefold())
 
             if key not in entries_by_key:
@@ -86,12 +95,16 @@ def build_dataset() -> dict:
                     "id": len(entries_by_key) + 1,
                     "english": word,
                     "bengali": bengali,
-                    "sources": [sheet_name],
+                    "example": example,
+                    "sources": {sheet_name: row_idx},
                 }
                 continue
 
             if sheet_name not in entries_by_key[key]["sources"]:
-                entries_by_key[key]["sources"].append(sheet_name)
+                entries_by_key[key]["sources"][sheet_name] = row_idx
+
+        if min_row != float('inf'):
+            row_ranges[sheet_name] = {"min": min_row, "max": max_row}
 
     entries = list(entries_by_key.values())
 
@@ -104,6 +117,7 @@ def build_dataset() -> dict:
             "incompleteRows": incomplete_rows,
             "totalSourcePairs": sum(source_counts.values()),
             "uniqueEntries": len(entries),
+            "rowRanges": row_ranges,
         },
         "entries": entries,
     }
