@@ -290,6 +290,46 @@ function RowRangePicker({ sheet, rowRange, disabled, onChange, metadata }) {
   const range = metadata?.rowRanges?.[sheet];
   if (!range) return null;
 
+  const handleFromChange = (e) => {
+    const input = e.target.value;
+    // Allow user to type freely, only validate on blur
+    onChange(sheet, { ...rowRange, from: input });
+  };
+
+  const handleFromBlur = () => {
+    if (rowRange.from === "" || rowRange.from === undefined) {
+      onChange(sheet, { ...rowRange, from: range.min });
+      return;
+    }
+    const num = Number(rowRange.from);
+    if (isNaN(num)) {
+      onChange(sheet, { ...rowRange, from: range.min });
+    } else {
+      const validFrom = Math.max(range.min, Math.min(num, rowRange.to || range.max));
+      onChange(sheet, { ...rowRange, from: validFrom });
+    }
+  };
+
+  const handleToChange = (e) => {
+    const input = e.target.value;
+    // Allow user to type freely, only validate on blur
+    onChange(sheet, { ...rowRange, to: input });
+  };
+
+  const handleToBlur = () => {
+    if (rowRange.to === "" || rowRange.to === undefined) {
+      onChange(sheet, { ...rowRange, to: range.max });
+      return;
+    }
+    const num = Number(rowRange.to);
+    if (isNaN(num)) {
+      onChange(sheet, { ...rowRange, to: range.max });
+    } else {
+      const validTo = Math.max(rowRange.from || range.min, Math.min(num, range.max));
+      onChange(sheet, { ...rowRange, to: validTo });
+    }
+  };
+
   return (
     <div className="rounded-2xl border border-emerald-900/20 bg-emerald-50/50 p-4">
       <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-700 mb-3">
@@ -299,13 +339,12 @@ function RowRangePicker({ sheet, rowRange, disabled, onChange, metadata }) {
         <div>
           <label className="block text-xs font-medium text-stone-600 mb-2">From</label>
           <input
-            type="number"
-            min={range.min}
-            max={range.max}
+            type="text"
+            inputMode="numeric"
             value={rowRange.from}
-            onChange={(e) =>
-              onChange(sheet, { ...rowRange, from: Math.max(range.min, Number(e.target.value)) })
-            }
+            onChange={handleFromChange}
+            onBlur={handleFromBlur}
+            placeholder={String(range.min)}
             disabled={disabled}
             className="w-full rounded-lg border border-emerald-200 bg-white px-3 py-2 text-sm text-stone-900 outline-none disabled:opacity-60"
           />
@@ -313,13 +352,12 @@ function RowRangePicker({ sheet, rowRange, disabled, onChange, metadata }) {
         <div>
           <label className="block text-xs font-medium text-stone-600 mb-2">To</label>
           <input
-            type="number"
-            min={range.min}
-            max={range.max}
+            type="text"
+            inputMode="numeric"
             value={rowRange.to}
-            onChange={(e) =>
-              onChange(sheet, { ...rowRange, to: Math.min(range.max, Number(e.target.value)) })
-            }
+            onChange={handleToChange}
+            onBlur={handleToBlur}
+            placeholder={String(range.max)}
             disabled={disabled}
             className="w-full rounded-lg border border-emerald-200 bg-white px-3 py-2 text-sm text-stone-900 outline-none disabled:opacity-60"
           />
