@@ -217,7 +217,7 @@ function ModePicker({ activeMode, disabled, onChange }) {
 
 function SheetPicker({ sheets, selectedSheets, disabled, onToggle }) {
   return (
-    <div className="mt-3 grid gap-3 sm:grid-cols-2">
+    <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
       {sheets.map((sheet) => {
         const checked = selectedSheets.includes(sheet);
         return (
@@ -250,7 +250,7 @@ function QuestionCountPicker({ value, disabled, onChange }) {
       value={value}
       onChange={(event) => onChange(event.target.value)}
       disabled={disabled}
-      className="mt-3 w-32 rounded-2xl border border-amber-200 bg-white px-4 py-3 text-sm font-medium text-stone-900 outline-none ring-0 disabled:cursor-not-allowed disabled:opacity-60"
+      className="mt-3 w-full sm:w-32 rounded-2xl border border-amber-200 bg-white px-4 py-3 text-sm font-medium text-stone-900 outline-none ring-0 disabled:cursor-not-allowed disabled:opacity-60"
     >
       {QUESTION_OPTIONS.map((option) => (
         <option key={option.value} value={option.value} className="text-stone-900">
@@ -335,7 +335,7 @@ function RowRangePicker({ sheet, rowRange, disabled, onChange, metadata }) {
       <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-700 mb-3">
         {sheet} - Rows {range.min}-{range.max}
       </p>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div>
           <label className="block text-xs font-medium text-stone-600 mb-2">From</label>
           <input
@@ -1181,7 +1181,7 @@ function App() {
           />
         </section>
 
-        <section className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
+        <section className="grid gap-6 md:gap-6 lg:grid-cols-[0.95fr_1.05fr]">
           <Panel>
             <div className="space-y-6">
               <div>
@@ -1228,12 +1228,14 @@ function App() {
                 <div className="space-y-5">
                   <div>
                     <SectionTitle label="Questions" />
-                    <div className="flex gap-4 items-end">
-                      <QuestionCountPicker
-                        value={questionCount}
-                        disabled={controlsLocked}
-                        onChange={updateQuestionCount}
-                      />
+                    <div className="flex flex-col sm:flex-row gap-4 sm:items-end">
+                      <div className="w-full sm:w-32">
+                        <QuestionCountPicker
+                          value={questionCount}
+                          disabled={controlsLocked}
+                          onChange={updateQuestionCount}
+                        />
+                      </div>
                       {questionCount === "custom" && (
                         <input
                           type="number"
@@ -1243,7 +1245,7 @@ function App() {
                           onChange={(event) => updateCustomQuestionCount(event.target.value)}
                           disabled={controlsLocked}
                           placeholder="Enter custom count"
-                          className="flex-1 rounded-2xl border border-amber-200 bg-white px-4 py-3 text-sm text-stone-900 placeholder-stone-500 outline-none disabled:cursor-not-allowed disabled:opacity-60"
+                          className="w-full sm:flex-1 rounded-2xl border border-amber-200 bg-white px-4 py-3 text-sm text-stone-900 placeholder-stone-500 outline-none disabled:cursor-not-allowed disabled:opacity-60"
                         />
                       )}
                     </div>
