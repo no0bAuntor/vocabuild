@@ -1445,13 +1445,13 @@ function App() {
           })}
         </div>
 
-        <div className="mt-5 flex flex-wrap items-center justify-between gap-4">
+        <div className="mt-5 flex flex-col md:flex-row md:items-start md:justify-between gap-4">
           <div className="flex-1">
             <p className="min-h-6 text-sm text-stone-600">
               {roundComplete ? `Final accuracy: ${roundAccuracy}%.` : feedbackText}
             </p>
             {selectedAnswer && !roundComplete && currentQuestion && (
-              <div className="mt-4 space-y-3 rounded-xl border border-emerald-200 bg-emerald-50 p-4">
+              <div className="mt-4 space-y-3 rounded-xl border border-emerald-200 bg-emerald-50 p-4 md:p-5">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.24em] text-emerald-700">
                     Meaning
@@ -1475,12 +1475,12 @@ function App() {
               </div>
             )}
           </div>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
             {selectedAnswer && !roundComplete && (
               <button
                 type="button"
                 onClick={moveToNextQuestion}
-                className="rounded-2xl bg-emerald-800 px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-emerald-700"
+                className="rounded-2xl bg-emerald-800 px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-emerald-700 flex-1 sm:flex-initial"
               >
                 Next
               </button>
@@ -1488,7 +1488,7 @@ function App() {
             <button
               type="button"
               onClick={goToDashboard}
-              className="rounded-2xl border border-stone-900/10 bg-white px-5 py-3 text-sm font-semibold text-stone-900 transition hover:-translate-y-0.5 hover:bg-stone-50"
+              className="rounded-2xl border border-stone-900/10 bg-white px-5 py-3 text-sm font-semibold text-stone-900 transition hover:-translate-y-0.5 hover:bg-stone-50 flex-1 sm:flex-initial"
             >
               Dashboard
             </button>
