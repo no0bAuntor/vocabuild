@@ -11,7 +11,7 @@
     ],
     "sourceCounts": {
       "War": 204,
-      "Random": 220,
+      "Random": 221,
       "A World Undone": 97,
       "Competitive Exams": 259,
       "Analogy": 259
@@ -25,13 +25,13 @@
     },
     "incompleteRows": {
       "War": 785,
-      "Random": 717,
+      "Random": 715,
       "A World Undone": 1,
       "Competitive Exams": 90,
       "Analogy": 3
     },
-    "totalSourcePairs": 1039,
-    "uniqueEntries": 1031,
+    "totalSourcePairs": 1040,
+    "uniqueEntries": 1032,
     "rowRanges": {
       "War": {
         "min": 2,
@@ -39,7 +39,7 @@
       },
       "Random": {
         "min": 2,
-        "max": 221
+        "max": 222
       },
       "A World Undone": {
         "min": 2,
@@ -3867,6 +3867,15 @@
       "example": "His prevarication during the interview made the reporters suspicious.",
       "sources": {
         "Random": 221
+      }
+    },
+    {
+      "id": 1032,
+      "english": "flub",
+      "bengali": "গুবলেট করা / ভুল করা",
+      "example": "The actor flubbed his lines during the live show.",
+      "sources": {
+        "Random": 222
       }
     },
     {

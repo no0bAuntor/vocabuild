@@ -5,8 +5,7 @@ import io
 import os
 from collections import OrderedDict
 from pathlib import Path
-
-import requests
+from urllib import error, request
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -101,11 +100,8 @@ def get_sheet_data(sheet_id: str, gid: int, max_retries: int = 3) -> list[list]:
     for attempt in range(max_retries):
         try:
             print(f"Fetching sheet (gid={gid})... (attempt {attempt + 1}/{max_retries})")
-            response = requests.get(csv_url, timeout=60)
-            response.raise_for_status()
-            
-            # Get raw bytes
-            raw_bytes = response.content
+            with request.urlopen(csv_url, timeout=60) as response:
+                raw_bytes = response.read()
             
             # Check if this looks like UTF-8 mojibake (too many high bytes)
             high_byte_count = sum(1 for b in raw_bytes[:500] if b > 127)
@@ -151,7 +147,7 @@ def get_sheet_data(sheet_id: str, gid: int, max_retries: int = 3) -> list[list]:
                 print(f"OK fetched {len(rows)} rows")
                 return rows
                 
-        except requests.exceptions.Timeout:
+        except error.URLError as e:
             print(f"ERR timeout (attempt {attempt + 1}/{max_retries})")
             if attempt < max_retries - 1:
                 continue
