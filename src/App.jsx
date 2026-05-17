@@ -132,6 +132,18 @@ async function requestJson(url, options = {}) {
   return payload;
 }
 
+function buildInitialRowRanges(metadata, sheets) {
+  const ranges = {};
+  for (const sheet of sheets) {
+    const range = metadata?.rowRanges?.[sheet];
+    ranges[sheet] = {
+      from: range?.min ?? 1,
+      to: range?.max ?? 100,
+    };
+  }
+  return ranges;
+}
+
 function formatDate(value) {
   if (!value) {
     return "Never";
@@ -394,29 +406,51 @@ function App() {
   const applyingUserRef = useRef(false);
   const progressSaveQueueRef = useRef(Promise.resolve());
 
+  async function loadVocabularyDataset({ initial = false } = {}) {
+    const response = await fetch(`/api/vocabulary?ts=${Date.now()}`, {
+      cache: "no-store",
+    });
+    if (!response.ok) {
+      throw new Error(`Dataset request failed with status ${response.status}`);
+    }
+
+    const nextDataset = await response.json();
+
+    if (nextDataset.entries && nextDataset.entries.length > 1) {
+      const sampleBengali = nextDataset.entries[1].bengali;
+      console.log("DEBUG - Sample Bengali from fetch:", sampleBengali);
+      console.log("DEBUG - Byte codes:", Array.from(sampleBengali).map((c) => c.charCodeAt(0)));
+    }
+
+    setDataset(nextDataset);
+
+    if (initial) {
+      setSelectedSheets(nextDataset.metadata.includedSheets);
+      setRowRanges(buildInitialRowRanges(nextDataset.metadata, nextDataset.metadata.includedSheets));
+    } else {
+      setRowRanges((current) => {
+        const merged = { ...current };
+        for (const sheet of nextDataset.metadata.includedSheets) {
+          if (!merged[sheet]) {
+            const range = nextDataset.metadata.rowRanges?.[sheet];
+            merged[sheet] = {
+              from: range?.min ?? 1,
+              to: range?.max ?? 100,
+            };
+          }
+        }
+        return merged;
+      });
+    }
+
+    return nextDataset;
+  }
+
   useEffect(() => {
     async function initializeApp() {
       try {
-        const response = await fetch(`${import.meta.env.BASE_URL}data/vocabulary.json`);
-        if (!response.ok) {
-          throw new Error(`Dataset request failed with status ${response.status}`);
-        }
+        const nextDataset = await loadVocabularyDataset({ initial: true });
 
-        const nextDataset = await response.json();
-        setDataset(nextDataset);
-        setSelectedSheets(nextDataset.metadata.includedSheets);
-        
-        // Initialize row ranges
-        const initialRowRanges = {};
-        for (const sheet of nextDataset.metadata.includedSheets) {
-          const range = nextDataset.metadata.rowRanges[sheet];
-          initialRowRanges[sheet] = {
-            from: range?.min ?? 1,
-            to: range?.max ?? 100,
-          };
-        }
-        setRowRanges(initialRowRanges);
-        
         setLoadState("ready");
 
         const rememberedUserId = window.localStorage.getItem("voa-user-id");
@@ -448,6 +482,25 @@ function App() {
     }
 
     initializeApp();
+  }, []);
+
+  useEffect(() => {
+    const stream = new EventSource("/api/vocabulary/stream");
+
+    const refreshDataset = async () => {
+      try {
+        await loadVocabularyDataset({ initial: false });
+      } catch (error) {
+        console.error("Failed to refresh vocabulary dataset:", error);
+      }
+    };
+
+    stream.addEventListener("vocabulary-updated", refreshDataset);
+
+    return () => {
+      stream.removeEventListener("vocabulary-updated", refreshDataset);
+      stream.close();
+    };
   }, []);
 
   function resetQuizState() {
@@ -1412,7 +1465,7 @@ function App() {
         </div>
 
         <div className="mt-5 rounded-4xl border border-emerald-900/8 bg-[linear-gradient(135deg,rgba(255,255,255,0.95),rgba(232,248,242,0.92))] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] sm:p-8">
-          <p className="font-['Sora'] text-2xl font-extrabold leading-tight tracking-tight text-stone-950 sm:text-4xl">
+          <p className="font-['Sora'] text-2xl font-extrabold leading-tight tracking-tight text-stone-950 sm:text-4xl" style={{ fontFamily: activeMode === "bn-en" ? '"Hind Siliguri", sans-serif' : 'inherit' }}>
             {roundComplete
               ? `${score} out of ${totalQuestions} correct.`
               : currentQuestion?.prompt ?? "Start or resume a quiz from the dashboard."}
@@ -1438,6 +1491,7 @@ function App() {
                       ? "border-rose-800/25 bg-rose-100 text-rose-950"
                       : "border-stone-900/10 bg-white text-stone-800 hover:-translate-y-0.5 hover:bg-stone-50 disabled:cursor-default"
                 }`}
+                style={{ fontFamily: '"Hind Siliguri", sans-serif' }}
               >
                 {option.text}
               </button>
@@ -1456,7 +1510,7 @@ function App() {
                   <p className="text-xs font-semibold uppercase tracking-[0.24em] text-emerald-700">
                     Meaning
                   </p>
-                  <p className="mt-2 text-sm font-medium text-stone-900">
+                  <p className="mt-2 text-sm font-medium text-stone-900" style={{ fontFamily: '"Hind Siliguri", sans-serif' }}>
                     {activeMode === "en-bn"
                       ? currentQuestion.entry.bengali
                       : currentQuestion.entry.english}

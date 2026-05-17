@@ -1,4 +1,7 @@
 const path = require("path");
+const fs = require("fs");
+const { execFile } = require("child_process");
+const { promisify } = require("util");
 
 const dotenv = require("dotenv");
 const express = require("express");
@@ -8,6 +11,19 @@ dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
 const app = express();
 const distPath = path.resolve(process.cwd(), "dist");
+const vocabPath = path.join(process.cwd(), "public", "data", "vocabulary.json");
+const buildScriptPath = path.join(process.cwd(), "scripts", "build_dataset.py");
+const execFileAsync = promisify(execFile);
+const vocabSyncIntervalMs = Number(process.env.VOCAB_SYNC_INTERVAL_MS || 5 * 60 * 1000);
+const pythonBinary =
+  process.env.PYTHON_BIN ||
+  process.env.PYTHON ||
+  (process.platform === "win32" ? "python" : "python3");
+
+let vocabSyncInFlight = null;
+let vocabSyncTimer = null;
+let vocabLastSyncAt = null;
+const vocabClients = new Set();
 app.use(express.json());
 
 const optionSchema = new mongoose.Schema(
@@ -113,8 +129,135 @@ function applyProgressUpdate(user, progress, isActive) {
   user.stats.lastPlayedAt = new Date();
 }
 
+async function syncVocabularyDataset() {
+  if (vocabSyncInFlight) {
+    return vocabSyncInFlight;
+  }
+
+  vocabSyncInFlight = (async () => {
+    await execFileAsync(pythonBinary, [buildScriptPath], {
+      cwd: process.cwd(),
+      env: process.env,
+      maxBuffer: 20 * 1024 * 1024,
+    });
+    vocabLastSyncAt = new Date();
+    console.log(`Vocabulary synced at ${vocabLastSyncAt.toISOString()}`);
+    return vocabLastSyncAt;
+  })().catch((error) => {
+    const stderr = error?.stderr ? String(error.stderr) : "";
+    console.error("Vocabulary sync failed:", stderr || error.message || error);
+    throw error;
+  }).finally(() => {
+    vocabSyncInFlight = null;
+  });
+
+  return vocabSyncInFlight;
+}
+
+function broadcastVocabularyUpdate(payload) {
+  const message = `event: vocabulary-updated\ndata: ${JSON.stringify(payload)}\n\n`;
+  for (const client of vocabClients) {
+    client.write(message);
+  }
+}
+
+function scheduleVocabularySync() {
+  const refresh = async () => {
+    try {
+      const syncedAt = await syncVocabularyDataset();
+      broadcastVocabularyUpdate({
+        syncedAt: syncedAt?.toISOString?.() || null,
+        source: "scheduled",
+      });
+    } catch (_error) {
+      // Keep serving the last successful dataset if Sheets is temporarily unavailable.
+    }
+  };
+
+  void refresh();
+
+  vocabSyncTimer = setInterval(refresh, vocabSyncIntervalMs);
+  if (typeof vocabSyncTimer.unref === "function") {
+    vocabSyncTimer.unref();
+  }
+}
+
 app.get("/api/health", (_request, response) => {
-  response.json({ ok: true });
+  response.json({
+    ok: true,
+    vocabularyLastSyncAt: vocabLastSyncAt,
+    connectedClients: vocabClients.size,
+  });
+});
+
+app.get("/api/vocabulary/stream", (_request, response) => {
+  response.setHeader("Content-Type", "text/event-stream");
+  response.setHeader("Cache-Control", "no-cache, no-transform");
+  response.setHeader("Connection", "keep-alive");
+  response.setHeader("X-Accel-Buffering", "no");
+  response.flushHeaders?.();
+
+  response.write(`event: connected\ndata: ${JSON.stringify({
+    vocabularyLastSyncAt: vocabLastSyncAt,
+  })}\n\n`);
+
+  vocabClients.add(response);
+
+  const keepAlive = setInterval(() => {
+    response.write(": keep-alive\n\n");
+  }, 30000);
+
+  const cleanup = () => {
+    clearInterval(keepAlive);
+    vocabClients.delete(response);
+  };
+
+  response.on("close", cleanup);
+  response.on("error", cleanup);
+});
+
+app.post("/api/webhooks/google-sheets", async (request, response) => {
+  const expectedSecret = process.env.GOOGLE_SHEETS_WEBHOOK_SECRET;
+  const providedSecret =
+    request.get("x-webhook-secret") || request.body?.secret || request.query?.secret;
+
+  if (expectedSecret && providedSecret !== expectedSecret) {
+    return response.status(401).json({ error: "Invalid webhook secret." });
+  }
+
+  try {
+    const syncedAt = await syncVocabularyDataset();
+    broadcastVocabularyUpdate({
+      syncedAt: syncedAt?.toISOString?.() || null,
+      source: "webhook",
+    });
+
+    return response.status(202).json({
+      ok: true,
+      vocabularyLastSyncAt: syncedAt,
+    });
+  } catch (error) {
+    return response.status(500).json({
+      ok: false,
+      error: error.message || "Failed to sync vocabulary.",
+    });
+  }
+});
+
+app.get("/api/vocabulary", (_request, response) => {
+  try {
+    const jsonString = fs.readFileSync(vocabPath, "utf8");
+    const buffer = Buffer.from(jsonString, 'utf8');
+    response.set("Content-Type", "application/json; charset=utf-8");
+    response.set("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
+    response.set("Pragma", "no-cache");
+    response.set("Expires", "0");
+    response.set("Content-Length", buffer.length);
+    response.end(buffer);
+  } catch (error) {
+    console.error("Error serving vocabulary:", error);
+    response.status(500).json({ error: "Failed to load vocabulary data", details: error.message });
+  }
 });
 
 app.post("/api/users/register", async (request, response) => {
@@ -263,6 +406,7 @@ async function start() {
   const port = Number(process.env.PORT || 4000);
   app.listen(port, () => {
     console.log(`API server listening on http://localhost:${port}`);
+    scheduleVocabularySync();
   });
 }
 

@@ -1,6 +1,7 @@
 {
   "metadata": {
-    "sourceWorkbook": "Vocabulary.xlsx",
+    "sourceWorkbook": "Google Sheets: Vocabulary.xlsx",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1TSK53uLoA8nH8QV21jByxP1Hsf_x3q9HlfGMVufp-FU",
     "includedSheets": [
       "War",
       "Random",
@@ -10,27 +11,27 @@
     ],
     "sourceCounts": {
       "War": 204,
-      "Random": 217,
+      "Random": 220,
       "A World Undone": 97,
       "Competitive Exams": 259,
       "Analogy": 259
     },
     "blankRows": {
-      "War": 785,
-      "Random": 723,
-      "A World Undone": 861,
-      "Competitive Exams": 641,
-      "Analogy": 726
-    },
-    "incompleteRows": {
       "War": 0,
       "Random": 0,
+      "A World Undone": 0,
+      "Competitive Exams": 0,
+      "Analogy": 0
+    },
+    "incompleteRows": {
+      "War": 785,
+      "Random": 717,
       "A World Undone": 1,
       "Competitive Exams": 90,
       "Analogy": 3
     },
-    "totalSourcePairs": 1036,
-    "uniqueEntries": 1028,
+    "totalSourcePairs": 1039,
+    "uniqueEntries": 1031,
     "rowRanges": {
       "War": {
         "min": 2,
@@ -38,7 +39,7 @@
       },
       "Random": {
         "min": 2,
-        "max": 218
+        "max": 221
       },
       "A World Undone": {
         "min": 2,
@@ -3843,6 +3844,33 @@
     },
     {
       "id": 421,
+      "english": "compensation",
+      "bengali": "ক্ষতিপূরণ / পারিশ্রমিক",
+      "example": "The company paid compensation to the injured workers.",
+      "sources": {
+        "Random": 219
+      }
+    },
+    {
+      "id": 1030,
+      "english": "nativities",
+      "bengali": "জন্মস্থানসমূহ / জন্মঘটনাসমূহ",
+      "example": "The museum displayed paintings of various biblical nativities.",
+      "sources": {
+        "Random": 220
+      }
+    },
+    {
+      "id": 1031,
+      "english": "prevarication",
+      "bengali": "সত্য গোপন করা / ঘুরিয়ে কথা বলা",
+      "example": "His prevarication during the interview made the reporters suspicious.",
+      "sources": {
+        "Random": 221
+      }
+    },
+    {
+      "id": 422,
       "english": "conceal",
       "bengali": "আড়ালে থাকা, গোপন",
       "example": "He is an introvert, he prefers to conceal his skills.",
@@ -3851,7 +3879,7 @@
       }
     },
     {
-      "id": 422,
+      "id": 423,
       "english": "blunt",
       "bengali": "সাদাসিধে",
       "example": "His blunt character makes him easy to deceive.",
@@ -3860,7 +3888,7 @@
       }
     },
     {
-      "id": 423,
+      "id": 424,
       "english": "impassive",
       "bengali": "অনুভূতিহীন",
       "example": "Jamy has grown increasingly impassive day by day since the accident.",
@@ -3869,7 +3897,7 @@
       }
     },
     {
-      "id": 424,
+      "id": 425,
       "english": "lineage",
       "bengali": "বংশ",
       "example": "I come from a royal lineage.",
@@ -3878,7 +3906,7 @@
       }
     },
     {
-      "id": 425,
+      "id": 426,
       "english": "mere",
       "bengali": "নিছক",
       "example": "That wind was not merely a flow, it was an allusion to a storm.",
@@ -3887,7 +3915,7 @@
       }
     },
     {
-      "id": 426,
+      "id": 427,
       "english": "impoverished",
       "bengali": "দরিদ্র্য",
       "example": "She came from an impoverished family.",
@@ -3896,7 +3924,7 @@
       }
     },
     {
-      "id": 427,
+      "id": 428,
       "english": "entertained",
       "bengali": "আশা পোষণ করা",
       "example": "I am entertaing the hope that tomorrow Bangladesh will win.",
@@ -3905,7 +3933,7 @@
       }
     },
     {
-      "id": 428,
+      "id": 429,
       "english": "prospective",
       "bengali": "সম্ভাব্য",
       "example": "He is the prospective goalkeeper for tomorrow’s match.",
@@ -3914,7 +3942,7 @@
       }
     },
     {
-      "id": 429,
+      "id": 430,
       "english": "archduchess",
       "bengali": "উচ্চস্তরের রাজকন্যা",
       "example": "Sophie, the wife of Archduke Franz Ferdinand, was known as an archduchess by marriage.",
@@ -3923,7 +3951,7 @@
       }
     },
     {
-      "id": 430,
+      "id": 431,
       "english": "rigid",
       "bengali": "কঠোর, অনমনীয়",
       "example": "This plastic pot is too rigid to break.",
@@ -3932,7 +3960,7 @@
       }
     },
     {
-      "id": 431,
+      "id": 432,
       "english": "consort",
       "bengali": "স্ত্রী",
       "example": "She was unworthy to be an emperor's consort. (তিনি সম্রাটের স্ত্রী হওয়ার যোগ্য বলে বিবেচিত হননি।)",
@@ -3941,7 +3969,7 @@
       }
     },
     {
-      "id": 432,
+      "id": 433,
       "english": "progenitor",
       "bengali": "পুর্বপুরুষ",
       "example": "The progenitor of Mac’s lineage came from Europe.",
@@ -3950,7 +3978,7 @@
       }
     },
     {
-      "id": 433,
+      "id": 434,
       "english": "solemnly",
       "bengali": "গুরুত্বের সাথে, আনুষ্ঠানিকভাবে",
       "example": "The judge solemnly delivered the verdict.",
@@ -3959,7 +3987,7 @@
       }
     },
     {
-      "id": 434,
+      "id": 435,
       "english": "Descendants",
       "bengali": "বংশধর",
       "example": "The throne passed to the king’s descendant.",
@@ -3968,7 +3996,7 @@
       }
     },
     {
-      "id": 435,
+      "id": 436,
       "english": "spinster",
       "bengali": "অবিবাহিত",
       "example": "In 19th-century Europe, an unmarried woman in her thirties was often called a spinster.",
@@ -3977,7 +4005,7 @@
       }
     },
     {
-      "id": 436,
+      "id": 437,
       "english": "notorious",
       "bengali": "কুখ্যাত",
       "example": "Netanyahu is notorious for alleged atrocities in Palestine.",
@@ -3986,7 +4014,7 @@
       }
     },
     {
-      "id": 437,
+      "id": 438,
       "english": "libertine",
       "bengali": "ভোগবিলাসী ব্যক্তি, নৈতিক বিধিনিষেধ না মানা মানুষ",
       "example": "In a military cadet academy, libertine behavior is strictly prohibited.",
@@ -3995,7 +4023,7 @@
       }
     },
     {
-      "id": 438,
+      "id": 439,
       "english": "stiff",
       "bengali": "কঠোর, শক্ত",
       "example": "She gave a stiff reply.",
@@ -4004,7 +4032,7 @@
       }
     },
     {
-      "id": 439,
+      "id": 440,
       "english": "relent",
       "bengali": "কঠোরতা ছেড়ে দেওয়া, অবশেষে রাজি হওয়া",
       "example": "At first, the principal refused to provide funding, but eventually he relented.",
@@ -4013,7 +4041,7 @@
       }
     },
     {
-      "id": 440,
+      "id": 441,
       "english": "snub",
       "bengali": "অসম্মান করা, পাত্তা না দেওয়া",
       "example": "I deliberately snub her by ignoring her messages every day.",
@@ -4022,7 +4050,7 @@
       }
     },
     {
-      "id": 441,
+      "id": 442,
       "english": "improvised",
       "bengali": "অস্থায়ীভাবে বানানো, যা আগে থেকে পরিকল্পিত নয়",
       "example": "Without informing me, guests came, so I improvised some snacks.",
@@ -4031,7 +4059,7 @@
       }
     },
     {
-      "id": 442,
+      "id": 443,
       "english": "faint",
       "bengali": "দূর্বল, অস্পষ্ট",
       "example": "The old photo is faint.",
@@ -4040,7 +4068,7 @@
       }
     },
     {
-      "id": 443,
+      "id": 444,
       "english": "ornate",
       "bengali": "অলংকৃত, অতিশয় সাজানো",
       "example": "The wedding house is ornately decorated.",
@@ -4049,7 +4077,7 @@
       }
     },
     {
-      "id": 444,
+      "id": 445,
       "english": "ample",
       "bengali": "প্রচুর",
       "example": "There is ample time to finish the work.",
@@ -4058,7 +4086,7 @@
       }
     },
     {
-      "id": 445,
+      "id": 446,
       "english": "torso",
       "bengali": "দেহের মধ্যাংশ",
       "example": "The accident injured his torso",
@@ -4067,7 +4095,7 @@
       }
     },
     {
-      "id": 446,
+      "id": 447,
       "english": "bonnet",
       "bengali": "মহিলাদের টুপি",
       "example": "She wore a bonnet to protect her from the sun.",
@@ -4076,7 +4104,7 @@
       }
     },
     {
-      "id": 447,
+      "id": 448,
       "english": "dainty",
       "bengali": "সুন্দর, কোমল",
       "example": "She looks so dainty.",
@@ -4085,7 +4113,7 @@
       }
     },
     {
-      "id": 448,
+      "id": 449,
       "english": "parasol",
       "bengali": "রোদ ঠেকানোর ছাতা",
       "example": "She carried a parasol on sunny day.",
@@ -4094,7 +4122,7 @@
       }
     },
     {
-      "id": 449,
+      "id": 450,
       "english": "percussion",
       "bengali": "আঘাত, ধাক্কা",
       "example": "The explosion caused strong percussion waves.",
@@ -4103,7 +4131,7 @@
       }
     },
     {
-      "id": 450,
+      "id": 451,
       "english": "vanquish",
       "bengali": "পরাজিত করা, সম্পুর্ণভাবে হারানো",
       "example": "In 1971, Bangladesh vanquished Pakistan in the liberation war.",
@@ -4112,7 +4140,7 @@
       }
     },
     {
-      "id": 451,
+      "id": 452,
       "english": "avenge",
       "bengali": "প্রতিশোধ নেওয়া, বদলা নেওয়া",
       "example": "He avenged his brother’s death.",
@@ -4121,7 +4149,7 @@
       }
     },
     {
-      "id": 452,
+      "id": 453,
       "english": "Conqueror",
       "bengali": "বিজয়ী",
       "example": "Alexander the Great was a famous conqueror.",
@@ -4130,7 +4158,7 @@
       }
     },
     {
-      "id": 453,
+      "id": 454,
       "english": "fragment",
       "bengali": "খন্ড",
       "example": "Fragments of glass were scattered on the road.",
@@ -4139,7 +4167,7 @@
       }
     },
     {
-      "id": 454,
+      "id": 455,
       "english": "sharpnel",
       "bengali": "বিস্ফোরণে ছিটকে পড়া ধাতব টুকরো",
       "example": "Shrapnel injured several people during the explosion.",
@@ -4148,7 +4176,7 @@
       }
     },
     {
-      "id": 455,
+      "id": 456,
       "english": "graze",
       "bengali": "হালকা আঁচড় লাগা",
       "example": "A fragment of shrapnel grazed Sophie’s neck.",
@@ -4157,7 +4185,7 @@
       }
     },
     {
-      "id": 456,
+      "id": 457,
       "english": "procession",
       "bengali": "শোভাযাত্রা",
       "example": "A wedding procession moved through the streets.",
@@ -4166,7 +4194,7 @@
       }
     },
     {
-      "id": 457,
+      "id": 458,
       "english": "protest march",
       "bengali": "বিক্ষোভ মিছিল",
       "example": "A protest march is going to be held to demand the immediate arrest of the criminals.",
@@ -4175,7 +4203,7 @@
       }
     },
     {
-      "id": 458,
+      "id": 459,
       "english": "motorcade",
       "bengali": "গুতুত্বপূর্ণ ব্যক্তির গাড়িবহর",
       "example": "The president traveled through the city in a motorcade.",
@@ -4184,7 +4212,7 @@
       }
     },
     {
-      "id": 459,
+      "id": 460,
       "english": "absurd",
       "bengali": "হাস্যকর",
       "example": "Her logic was absurd.",
@@ -4193,7 +4221,7 @@
       }
     },
     {
-      "id": 460,
+      "id": 461,
       "english": "deviate",
       "bengali": "বিচ্যুত হওয়া",
       "example": "The bus deviated from its route.",
@@ -4202,7 +4230,7 @@
       }
     },
     {
-      "id": 461,
+      "id": 462,
       "english": "delight",
       "bengali": "আনন্দ, খুশি করা",
       "example": "After seeing the result, his face lit up with delight.",
@@ -4211,7 +4239,7 @@
       }
     },
     {
-      "id": 462,
+      "id": 463,
       "english": "Itinerary",
       "bengali": "ভ্রমণসূচি",
       "example": "We skipped three spots on the itinerary.",
@@ -4220,7 +4248,7 @@
       }
     },
     {
-      "id": 463,
+      "id": 464,
       "english": "demonstration",
       "bengali": "বিক্ষোভ",
       "example": "A political demonstration was held in the capital.",
@@ -4229,7 +4257,7 @@
       }
     },
     {
-      "id": 464,
+      "id": 465,
       "english": "devoted",
       "bengali": "নিষ্ঠাবান, অনুগত",
       "example": "I will be a devoted husband.",
@@ -4238,7 +4266,7 @@
       }
     },
     {
-      "id": 465,
+      "id": 466,
       "english": "fanatics",
       "bengali": "উগ্রপন্থী",
       "example": "The attack was carried out by political fanatics.",
@@ -4247,7 +4275,7 @@
       }
     },
     {
-      "id": 466,
+      "id": 467,
       "english": "reckless",
       "bengali": "বেপরোয়া",
       "example": "The revolutionaries are reckless about everything.",
@@ -4256,7 +4284,7 @@
       }
     },
     {
-      "id": 467,
+      "id": 468,
       "english": "halt",
       "bengali": "থামানো, থেমে যাওয়া",
       "example": "The bus halted at the signal.",
@@ -4265,7 +4293,7 @@
       }
     },
     {
-      "id": 468,
+      "id": 469,
       "english": "reverberate",
       "bengali": "প্রতিধ্বনি হওয়া",
       "example": "There is a unique pleasure in hearing a shout reverberate from a mountain peak.",
@@ -4274,7 +4302,7 @@
       }
     },
     {
-      "id": 469,
+      "id": 470,
       "english": "spurting",
       "bengali": "ছিটকে বেরোনো",
       "example": null,
@@ -4283,7 +4311,7 @@
       }
     },
     {
-      "id": 470,
+      "id": 471,
       "english": "slumped over",
       "bengali": "ঢলে পড়া / হেলে পড়া",
       "example": "After hearing the bad news, she slumped over in her chair.",
@@ -4292,7 +4320,7 @@
       }
     },
     {
-      "id": 471,
+      "id": 472,
       "english": "fainted",
       "bengali": "অজ্ঞান হয়ে যাওয়া",
       "example": "The heat was so intense that he fainted in the street.",
@@ -4301,7 +4329,7 @@
       }
     },
     {
-      "id": 472,
+      "id": 473,
       "english": "tunic",
       "bengali": "ঢিলেঢালা পোশাক",
       "example": "The soldier’s tunic was torn during the fight.",
@@ -4310,7 +4338,7 @@
       }
     },
     {
-      "id": 473,
+      "id": 474,
       "english": "weakly",
       "bengali": "দুর্বলভাবে",
       "example": "He smiled weakly after the operation.",
@@ -4319,7 +4347,7 @@
       }
     },
     {
-      "id": 474,
+      "id": 475,
       "english": "captured",
       "bengali": "বন্দি করা",
       "example": "The criminal was captured by the police.",
@@ -4328,7 +4356,7 @@
       }
     },
     {
-      "id": 475,
+      "id": 476,
       "english": "severing",
       "bengali": "বিচ্ছিন্ন করা",
       "example": "The accident severed the power lines.",
@@ -4337,7 +4365,7 @@
       }
     },
     {
-      "id": 476,
+      "id": 477,
       "english": "nuisance",
       "bengali": "বিরক্তির কারণ",
       "example": "The noise from the street was a constant nuisance.",
@@ -4346,7 +4374,7 @@
       }
     },
     {
-      "id": 477,
+      "id": 478,
       "english": "ironically",
       "bengali": "বিদ্রূপাত্মকভাবে",
       "example": "Ironically, the doctor became ill himself.",
@@ -4355,7 +4383,7 @@
       }
     },
     {
-      "id": 478,
+      "id": 479,
       "english": "governance",
       "bengali": "শাসনব্যবস্থা",
       "example": "Good governance is essential for stability.",
@@ -4364,7 +4392,7 @@
       }
     },
     {
-      "id": 479,
+      "id": 480,
       "english": "declared",
       "bengali": "ঘোষণা করলেন",
       "example": "The king declared a national holiday.",
@@ -4373,7 +4401,7 @@
       }
     },
     {
-      "id": 480,
+      "id": 481,
       "english": "inherited",
       "bengali": "উত্তরাধিকারসূত্রে পাওয়া",
       "example": "He inherited the disease from his mother.",
@@ -4382,7 +4410,7 @@
       }
     },
     {
-      "id": 481,
+      "id": 482,
       "english": "survival",
       "bengali": "বেঁচে থাকা",
       "example": "His survival surprised the doctors.",
@@ -4391,7 +4419,7 @@
       }
     },
     {
-      "id": 482,
+      "id": 483,
       "english": "accustomed",
       "bengali": "অভ্যস্ত",
       "example": "People had grown accustomed to violence.",
@@ -4400,7 +4428,7 @@
       }
     },
     {
-      "id": 483,
+      "id": 484,
       "english": "cataclysm",
       "bengali": "ভয়াবহ বিপর্যয়",
       "example": "The war proved to be a global cataclysm.",
@@ -4409,7 +4437,7 @@
       }
     },
     {
-      "id": 484,
+      "id": 485,
       "english": "slain",
       "bengali": "নিহত / হত্যা করা হয়েছে",
       "example": "The slain archduke became a symbol of political crisis.",
@@ -4418,7 +4446,7 @@
       }
     },
     {
-      "id": 485,
+      "id": 486,
       "english": "clot",
       "bengali": "রক্ত জমাট",
       "example": "A blood clot blocked the artery and caused serious pain.",
@@ -4427,7 +4455,7 @@
       }
     },
     {
-      "id": 486,
+      "id": 487,
       "english": "arouse",
       "bengali": "জাগিয়ে তোলা / উদ্রেক করা",
       "example": "The incident aroused public anger and curiosity.",
@@ -4436,7 +4464,7 @@
       }
     },
     {
-      "id": 487,
+      "id": 488,
       "english": "conferring",
       "bengali": "পরামর্শ করা / আলোচনা করা",
       "example": "The leaders were conferring in private before announcing the plan.",
@@ -4445,7 +4473,7 @@
       }
     },
     {
-      "id": 488,
+      "id": 489,
       "english": "accomplish",
       "bengali": "সম্পন্ন করা / সফলভাবে করা",
       "example": "She accomplished her goal through hard work and patience.",
@@ -4454,7 +4482,7 @@
       }
     },
     {
-      "id": 489,
+      "id": 490,
       "english": "confine",
       "bengali": "সীমাবদ্ধ করা / আটকিয়ে রাখা",
       "example": "The patient was confined to bed for two weeks.",
@@ -4463,7 +4491,7 @@
       }
     },
     {
-      "id": 490,
+      "id": 491,
       "english": "verge",
       "bengali": "কিনারা / প্রান্ত; প্রায় পৌঁছানো",
       "example": "The country was on the verge of war.",
@@ -4472,7 +4500,7 @@
       }
     },
     {
-      "id": 491,
+      "id": 492,
       "english": "embroil",
       "bengali": "জড়িয়ে ফেলা / জটিলতায় ফেলা",
       "example": "He was embroiled in a political scandal.",
@@ -4481,7 +4509,7 @@
       }
     },
     {
-      "id": 492,
+      "id": 493,
       "english": "virtuous",
       "bengali": "নৈতিক / সদাচারী",
       "example": "She was known as a virtuous leader who never abused her power.",
@@ -4490,7 +4518,7 @@
       }
     },
     {
-      "id": 493,
+      "id": 494,
       "english": "antiquated",
       "bengali": "সেকেলে / পুরনো ধাঁচের",
       "example": "The company still uses an antiquated system that slows down work.",
@@ -4499,7 +4527,7 @@
       }
     },
     {
-      "id": 494,
+      "id": 495,
       "english": "superfluous",
       "bengali": "অপ্রয়োজনীয় / অতিরিক্ত",
       "example": "The report contained superfluous details that confused the reader.",
@@ -4508,7 +4536,7 @@
       }
     },
     {
-      "id": 495,
+      "id": 496,
       "english": "disarmament",
       "bengali": "নিরস্ত্রীকরণ",
       "example": "The treaty aimed at nuclear disarmament between the two nations.",
@@ -4517,7 +4545,7 @@
       }
     },
     {
-      "id": 496,
+      "id": 497,
       "english": "fellow",
       "bengali": "সহকর্মী / সঙ্গী; সমজাতীয়",
       "example": "She discussed the problem with a fellow student from her class.",
@@ -4526,7 +4554,7 @@
       }
     },
     {
-      "id": 497,
+      "id": 498,
       "english": "wounded",
       "bengali": "আহত",
       "example": "Many wounded soldiers were taken to the hospital after the battle.",
@@ -4535,7 +4563,7 @@
       }
     },
     {
-      "id": 498,
+      "id": 499,
       "english": "plunge",
       "bengali": "ঝাঁপ দেওয়া / হঠাৎ পড়ে যাওয়া",
       "example": "The country plunged into chaos after the leader’s death.",
@@ -4544,7 +4572,7 @@
       }
     },
     {
-      "id": 499,
+      "id": 500,
       "english": "foresee",
       "bengali": "পূর্বানুমান করা / আগেই বুঝতে পারা",
       "example": "Experts foresee serious challenges in the coming years.",
@@ -4553,7 +4581,7 @@
       }
     },
     {
-      "id": 500,
+      "id": 501,
       "english": "weep",
       "bengali": "কাঁদা",
       "example": "She began to weep when she heard the sad news.",
@@ -4562,7 +4590,7 @@
       }
     },
     {
-      "id": 501,
+      "id": 502,
       "english": "pursue",
       "bengali": "অনুসরণ করা / সাধনা করা",
       "example": "She decided to pursue a career in medicine.",
@@ -4571,7 +4599,7 @@
       }
     },
     {
-      "id": 502,
+      "id": 503,
       "english": "perhaps",
       "bengali": "সম্ভবত / হয়তো",
       "example": "Perhaps the meeting will be postponed.",
@@ -4580,7 +4608,7 @@
       }
     },
     {
-      "id": 503,
+      "id": 504,
       "english": "credentials",
       "bengali": "যোগ্যতার প্রমাণপত্র / সনদ",
       "example": "She presented her academic credentials during the interview.",
@@ -4589,7 +4617,7 @@
       }
     },
     {
-      "id": 504,
+      "id": 505,
       "english": "possess",
       "bengali": "অধিকার করা / মালিক হওয়া",
       "example": "She possesses great leadership skills.",
@@ -4598,7 +4626,7 @@
       }
     },
     {
-      "id": 505,
+      "id": 506,
       "english": "exclude",
       "bengali": "বাদ দেওয়া / অন্তর্ভুক্ত না করা",
       "example": "The rule excludes children under five from the competition.",
@@ -4607,7 +4635,7 @@
       }
     },
     {
-      "id": 506,
+      "id": 507,
       "english": "led",
       "bengali": "নেতৃত্ব দিয়েছিল / পথ দেখিয়েছিল",
       "example": "The general led his troops into battle.",
@@ -4616,7 +4644,7 @@
       }
     },
     {
-      "id": 507,
+      "id": 508,
       "english": "aside",
       "bengali": "পাশে / আলাদা করে",
       "example": "He pulled her aside to speak in private.",
@@ -4625,7 +4653,7 @@
       }
     },
     {
-      "id": 508,
+      "id": 509,
       "english": "chapel",
       "bengali": "উপাসনালয় / ছোট গির্জা",
       "example": "The students gathered in the chapel for morning prayers.",
@@ -4634,7 +4662,7 @@
       }
     },
     {
-      "id": 509,
+      "id": 510,
       "english": "rode",
       "bengali": "চড়েছিল / আরোহন করেছিল",
       "example": "He rode a horse across the field.",
@@ -4643,7 +4671,7 @@
       }
     },
     {
-      "id": 510,
+      "id": 511,
       "english": "imperial",
       "bengali": "সাম্রাজ্যিক",
       "example": "The imperial government controlled vast territories.",
@@ -4652,7 +4680,7 @@
       }
     },
     {
-      "id": 511,
+      "id": 512,
       "english": "swung",
       "bengali": "দুলেছিল / ঘুরিয়েছিল",
       "example": "The door swung open in the wind.",
@@ -4661,7 +4689,7 @@
       }
     },
     {
-      "id": 512,
+      "id": 513,
       "english": "slipped into",
       "bengali": "অজান্তে প্রবেশ করা / ধীরে ধীরে ঢুকে পড়া",
       "example": "The country slipped into war after weeks of tension.",
@@ -4670,7 +4698,7 @@
       }
     },
     {
-      "id": 513,
+      "id": 514,
       "english": "vial",
       "bengali": "ছোট কাঁচের শিশি",
       "example": "The doctor filled a vial with the vaccine.",
@@ -4679,7 +4707,7 @@
       }
     },
     {
-      "id": 514,
+      "id": 515,
       "english": "groin",
       "bengali": "কুঁচকি",
       "example": "The athlete felt pain in his groin after the match.",
@@ -4688,7 +4716,7 @@
       }
     },
     {
-      "id": 515,
+      "id": 516,
       "english": "estate",
       "bengali": "সম্পত্তি / জমিদারি / বড় বাড়ি ও জমি",
       "example": "He inherited a large estate from his grandfather.",
@@ -4697,4619 +4725,4619 @@
       }
     },
     {
-      "id": 516,
+      "id": 517,
       "english": "Abhor",
       "bengali": "ঘৃণা করা",
-      "example": null,
+      "example": "I abhor people who are cruel.",
       "sources": {
         "Competitive Exams": 3
       }
     },
     {
-      "id": 517,
+      "id": 518,
       "english": "Abate",
       "bengali": "কমে যাওয়া / প্রশমিত হওয়া",
-      "example": null,
+      "example": "When night came, the storm abated.",
       "sources": {
         "Competitive Exams": 4
       }
     },
     {
-      "id": 518,
+      "id": 519,
       "english": "Aberrant",
       "bengali": "অস্বাভাবিক",
-      "example": null,
+      "example": "His behavior, which was aberrant, shocked us.",
       "sources": {
         "Competitive Exams": 5
       }
     },
     {
-      "id": 519,
+      "id": 520,
       "english": "Abeyance",
       "bengali": "স্থগিত অবস্থা",
-      "example": null,
+      "example": "The project remains in abeyance because funds are not approved.",
       "sources": {
         "Competitive Exams": 6
       }
     },
     {
-      "id": 520,
+      "id": 521,
       "english": "Abscond",
       "bengali": "পালিয়ে যাওয়া",
-      "example": null,
+      "example": "The thief absconded when the police arrived.",
       "sources": {
         "Competitive Exams": 7
       }
     },
     {
-      "id": 521,
+      "id": 522,
       "english": "Abstemious",
       "bengali": "বিরত থাকা / সংযমী",
-      "example": null,
+      "example": "He is abstemious because he cares about his health.",
       "sources": {
         "Competitive Exams": 8
       }
     },
     {
-      "id": 522,
+      "id": 523,
       "english": "Admonish",
       "bengali": "সতর্ক করা / তিরস্কার করা",
-      "example": null,
+      "example": "The teacher admonished the boy because he was late.",
       "sources": {
         "Competitive Exams": 9
       }
     },
     {
-      "id": 523,
+      "id": 524,
       "english": "Adulterate",
       "bengali": "ভেজাল মেশানো",
-      "example": null,
+      "example": "They adulterate milk because they want profit.",
       "sources": {
         "Competitive Exams": 10
       }
     },
     {
-      "id": 524,
+      "id": 525,
       "english": "Aesthetic",
       "bengali": "নান্দনিক",
-      "example": null,
+      "example": "She has taste that is aesthetic.",
       "sources": {
         "Competitive Exams": 11
       }
     },
     {
-      "id": 525,
+      "id": 526,
       "english": "Aggregate",
       "bengali": "মোট / সমষ্টি",
-      "example": null,
+      "example": "The team aggregated the data because it was necessary.",
       "sources": {
         "Competitive Exams": 12
       }
     },
     {
-      "id": 526,
+      "id": 527,
       "english": "Alacrity",
       "bengali": "আগ্রহপূর্ণ দ্রুততা",
-      "example": null,
+      "example": "She accepted the offer because she showed alacrity.",
       "sources": {
         "Competitive Exams": 13
       }
     },
     {
-      "id": 527,
+      "id": 528,
       "english": "Alleviate",
       "bengali": "উপশম করা",
-      "example": null,
+      "example": "This medicine alleviates pain that patients suffer.",
       "sources": {
         "Competitive Exams": 14
       }
     },
     {
-      "id": 528,
+      "id": 529,
       "english": "Amalgamate",
       "bengali": "একীভূত করা",
-      "example": null,
+      "example": "The company amalgamated two firms that were competing.",
       "sources": {
         "Competitive Exams": 15
       }
     },
     {
-      "id": 529,
+      "id": 530,
       "english": "Ambiguous",
       "bengali": "অস্পষ্ট",
-      "example": null,
+      "example": "His statement was ambiguous because it had two meanings.",
       "sources": {
         "Competitive Exams": 16
       }
     },
     {
-      "id": 530,
+      "id": 531,
       "english": "Ambivalent",
       "bengali": "দ্বিধাগ্রস্ত",
-      "example": null,
+      "example": "She felt ambivalent because she both liked and disliked the offer.",
       "sources": {
         "Competitive Exams": 17
       }
     },
     {
-      "id": 531,
+      "id": 532,
       "english": "Ameliorate",
       "bengali": "উন্নত করা",
-      "example": null,
+      "example": "The government took steps so that it could ameliorate poverty.",
       "sources": {
         "Competitive Exams": 18
       }
     },
     {
-      "id": 532,
+      "id": 533,
       "english": "Anachronism",
       "bengali": "কালবৈষম্য",
-      "example": null,
+      "example": "The sword was an anachronism because the story was set in modern times.",
       "sources": {
         "Competitive Exams": 19
       }
     },
     {
-      "id": 533,
+      "id": 534,
       "english": "Anarchy",
       "bengali": "নৈরাজ্য, বিশৃঙ্খলা",
-      "example": null,
+      "example": "The country fell into anarchy when the government collapsed.",
       "sources": {
         "Competitive Exams": 21
       }
     },
     {
-      "id": 534,
+      "id": 535,
       "english": "Anomalous",
       "bengali": "অস্বাভাবিক, ব্যতিক্রমী",
-      "example": null,
+      "example": "The data showed results that were anomalous.",
       "sources": {
         "Competitive Exams": 22
       }
     },
     {
-      "id": 535,
+      "id": 536,
       "english": "Antipathy",
       "bengali": "বিরাগ, বিরোধিতা, বিদ্বেষ",
-      "example": null,
+      "example": "He felt antipathy toward corruption because it harms society.",
       "sources": {
         "Competitive Exams": 23
       }
     },
     {
-      "id": 536,
+      "id": 537,
       "english": "Apathy",
       "bengali": "উদাসীনতা",
-      "example": null,
+      "example": "The voters showed apathy because they lost trust.",
       "sources": {
         "Competitive Exams": 24
       }
     },
     {
-      "id": 537,
+      "id": 538,
       "english": "Appease",
       "bengali": "শান্ত করা",
-      "example": null,
+      "example": "The leader tried to appease the crowd because they were angry.",
       "sources": {
         "Competitive Exams": 25
       }
     },
     {
-      "id": 538,
+      "id": 539,
       "english": "Apprise",
       "bengali": "অবহিত করা, জানানো",
-      "example": null,
+      "example": "She apprised me of the news that shocked everyone.",
       "sources": {
         "Competitive Exams": 26
       }
     },
     {
-      "id": 539,
+      "id": 540,
       "english": "Approbation",
       "bengali": "অনুমোদন",
-      "example": null,
+      "example": "The proposal received approbation because it was beneficial.",
       "sources": {
         "Competitive Exams": 27
       }
     },
     {
-      "id": 540,
+      "id": 541,
       "english": "Abortive",
       "bengali": "ব্যর্থ",
-      "example": null,
+      "example": "The attempt was abortive because it lacked planning.",
       "sources": {
         "Competitive Exams": 28
       }
     },
     {
-      "id": 541,
+      "id": 542,
       "english": "Appropriate",
       "bengali": "উপযুক্ত",
-      "example": null,
+      "example": "This is an answer that is appropriate.",
       "sources": {
         "Competitive Exams": 30
       }
     },
     {
-      "id": 542,
+      "id": 543,
       "english": "Arduous",
       "bengali": "কষ্টসাধ্য",
-      "example": null,
+      "example": "Climbing the mountain was arduous because it was steep.",
       "sources": {
         "Competitive Exams": 31
       }
     },
     {
-      "id": 543,
+      "id": 544,
       "english": "Artless",
       "bengali": "সরল / কৃত্রিমতাহীন",
-      "example": null,
+      "example": "She gave a smile that was artless.",
       "sources": {
         "Competitive Exams": 32
       }
     },
     {
-      "id": 544,
+      "id": 545,
       "english": "Ascetic",
       "bengali": "ত্যাগী",
-      "example": null,
+      "example": "He lived a life that was ascetic.",
       "sources": {
         "Competitive Exams": 33
       }
     },
     {
-      "id": 545,
+      "id": 546,
       "english": "Assiduous",
       "bengali": "অধ্যবসায়ী",
-      "example": null,
+      "example": "She is assiduous because she studies regularly.",
       "sources": {
         "Competitive Exams": 34
       }
     },
     {
-      "id": 546,
+      "id": 547,
       "english": "Assuage",
       "bengali": "প্রশমিত করা / উপশম করা",
-      "example": null,
+      "example": "The medicine assuaged the pain that he was suffering.",
       "sources": {
         "Competitive Exams": 35
       }
     },
     {
-      "id": 547,
+      "id": 548,
       "english": "Attenuate",
       "bengali": "দুর্বল করা / হ্রাস করা",
-      "example": null,
+      "example": "The medicine attenuated the pain that he felt.",
       "sources": {
         "Competitive Exams": 36
       }
     },
     {
-      "id": 548,
+      "id": 549,
       "english": "Audacious",
       "bengali": "দুঃসাহসী, স্পর্ধা",
-      "example": null,
+      "example": "It was a plan that was audacious.",
       "sources": {
         "Competitive Exams": 37
       }
     },
     {
-      "id": 549,
+      "id": 550,
       "english": "Austere",
       "bengali": "বিলাসিতা-বিহীন / সংযমী",
-      "example": null,
+      "example": "The monk led a life that was austere.",
       "sources": {
         "Competitive Exams": 38
       }
     },
     {
-      "id": 550,
+      "id": 551,
       "english": "Autonomous",
       "bengali": "স্বায়ত্তশাসিত",
-      "example": null,
+      "example": "The region is autonomous because it governs itself.",
       "sources": {
         "Competitive Exams": 39
       }
     },
     {
-      "id": 551,
+      "id": 552,
       "english": "Aver",
       "bengali": "দৃঢ়ভাবে বলা",
-      "example": null,
+      "example": "He averred that he was innocent.",
       "sources": {
         "Competitive Exams": 40
       }
     },
     {
-      "id": 552,
+      "id": 553,
       "english": "Baffle",
       "bengali": "বিভ্রান্ত করা",
-      "example": null,
+      "example": "The puzzle baffled me because it was complex.",
       "sources": {
         "Competitive Exams": 41
       }
     },
     {
-      "id": 553,
+      "id": 554,
       "english": "Banal",
       "bengali": "গতানুগতিক",
-      "example": null,
+      "example": "The speech was banal because it lacked originality.",
       "sources": {
         "Competitive Exams": 42
       }
     },
     {
-      "id": 554,
+      "id": 555,
       "english": "Belie",
       "bengali": "মিথ্যা প্রমাণ করা",
-      "example": null,
+      "example": "His face, which was calm, belied his fear.",
       "sources": {
         "Competitive Exams": 43
       }
     },
     {
-      "id": 555,
+      "id": 556,
       "english": "Belittle",
       "bengali": "তুচ্ছ করা",
-      "example": null,
+      "example": "He belittled my effort although I worked hard.",
       "sources": {
         "Competitive Exams": 44
       }
     },
     {
-      "id": 556,
+      "id": 557,
       "english": "Beneficent",
       "bengali": "উপকারী / কল্যাণকর / দয়ালু",
-      "example": null,
+      "example": "The king was beneficent because he helped the poor.",
       "sources": {
         "Competitive Exams": 46
       }
     },
     {
-      "id": 557,
+      "id": 558,
       "english": "Bolster",
       "bengali": "শক্তিশালী করা / সমর্থন জোগানো",
-      "example": null,
+      "example": "The policy bolstered the economy because it created jobs.",
       "sources": {
         "Competitive Exams": 47
       }
     },
     {
-      "id": 558,
+      "id": 559,
       "english": "Bombastic",
       "bengali": "আড়ম্বরপূর্ণ / অতিরঞ্জিত",
-      "example": null,
+      "example": "His speech was bombastic because he exaggerated everything.",
       "sources": {
         "Competitive Exams": 48
       }
     },
     {
-      "id": 559,
+      "id": 560,
       "english": "Boorish",
       "bengali": "অভদ্র / রূঢ়",
-      "example": null,
+      "example": "His behavior was boorish because he ignored basic manners.",
       "sources": {
         "Competitive Exams": 49
       }
     },
     {
-      "id": 560,
+      "id": 561,
       "english": "Burgeon",
       "bengali": "দ্রুত বৃদ্ধি পাওয়া",
-      "example": null,
+      "example": "Small businesses burgeoned because the market expanded.",
       "sources": {
         "Competitive Exams": 50
       }
     },
     {
-      "id": 561,
+      "id": 562,
       "english": "Burnish",
       "bengali": "পালিশ করা / উজ্জ্বল করা",
-      "example": null,
+      "example": "The company burnished its reputation by helping the community.",
       "sources": {
         "Competitive Exams": 51
       }
     },
     {
-      "id": 562,
+      "id": 563,
       "english": "Buttress",
       "bengali": "সমর্থন করা, কোন যুক্তির পক্ষে অবস্থা নেওয়া",
-      "example": null,
+      "example": "Evidence buttressed his argument because it proved his claim.",
       "sources": {
         "Competitive Exams": 52
       }
     },
     {
-      "id": 563,
+      "id": 564,
       "english": "Capricious",
       "bengali": "খামখেয়ালী / অনিশ্চিত",
-      "example": null,
+      "example": "The manager was capricious because he changed rules frequently.",
       "sources": {
         "Competitive Exams": 53
       }
     },
     {
-      "id": 564,
+      "id": 565,
       "english": "Castigate",
       "bengali": "তীব্র সমালোচনা করা",
-      "example": null,
+      "example": "The teacher castigated the student because he cheated.",
       "sources": {
         "Competitive Exams": 54
       }
     },
     {
-      "id": 565,
+      "id": 566,
       "english": "Catalyst",
       "bengali": "অনুঘটক / পরিবর্তনের কারণ",
-      "example": null,
+      "example": "Education became a catalyst because it created awareness.",
       "sources": {
         "Competitive Exams": 55
       }
     },
     {
-      "id": 566,
+      "id": 567,
       "english": "Caustic",
       "bengali": "তীব্র / কটূক্তিপূর্ণ/ দগ্ধকারক পদার্থ",
-      "example": null,
+      "example": "She made a remark that was caustic because she was angry.",
       "sources": {
         "Competitive Exams": 56
       }
     },
     {
-      "id": 567,
+      "id": 568,
       "english": "Chicanery",
       "bengali": "প্রতারণা / ধোঁকাবাজি",
-      "example": null,
+      "example": "The politician used chicanery to win the election.",
       "sources": {
         "Competitive Exams": 57
       }
     },
     {
-      "id": 568,
+      "id": 569,
       "english": "Coagulate",
       "bengali": "জমাট বাঁধা",
-      "example": null,
+      "example": "The blood coagulated after the wound was treated.",
       "sources": {
         "Competitive Exams": 58
       }
     },
     {
-      "id": 569,
+      "id": 570,
       "english": "Clandestine",
       "bengali": "গোপন / গোপনীয়/ গুপ্ত",
-      "example": null,
+      "example": "They held a meeting that was clandestine to avoid suspicion.",
       "sources": {
         "Competitive Exams": 59
       }
     },
     {
-      "id": 570,
+      "id": 571,
       "english": "Coda",
       "bengali": "উপসংহার / সমাপ্তি অংশ",
-      "example": null,
+      "example": "The speech ended with a coda that summarized the message.",
       "sources": {
         "Competitive Exams": 60
       }
     },
     {
-      "id": 571,
+      "id": 572,
       "english": "Construe",
       "bengali": "ব্যাখ্যা করা / অর্থ করা",
-      "example": null,
+      "example": "People construed his silence as guilt because he refused to speak.",
       "sources": {
         "Competitive Exams": 61
       }
     },
     {
-      "id": 572,
+      "id": 573,
       "english": "Cogent",
       "bengali": "শক্তিশালী ও যুক্তিসঙ্গত",
-      "example": null,
+      "example": "He gave an argument that was cogent.",
       "sources": {
         "Competitive Exams": 63
       }
     },
     {
-      "id": 573,
+      "id": 574,
       "english": "Commensurate",
       "bengali": "সমানুপাতিক",
-      "example": null,
+      "example": "His salary is commensurate because he has great skills.",
       "sources": {
         "Competitive Exams": 64
       }
     },
     {
-      "id": 574,
+      "id": 575,
       "english": "Compendium",
       "bengali": "সংক্ষিপ্ত সংগ্রহ, সারসংক্ষেপ",
-      "example": null,
+      "example": "This book is a compendium that contains many facts.",
       "sources": {
         "Competitive Exams": 65
       }
     },
     {
-      "id": 575,
+      "id": 576,
       "english": "Complaisance",
       "bengali": "অতিরিক্ত তোষামোদ, কাউকে সন্তুষ্ট করার ইচ্ছা",
-      "example": null,
+      "example": "His behavior showed complaisance because he wanted favor.",
       "sources": {
         "Competitive Exams": 66
       }
     },
     {
-      "id": 576,
+      "id": 577,
       "english": "Compliant",
       "bengali": "বাধ্য / অনুগত",
-      "example": null,
+      "example": "The student was compliant because he followed instructions.",
       "sources": {
         "Competitive Exams": 67
       }
     },
     {
-      "id": 577,
+      "id": 578,
       "english": "Conciliatory",
       "bengali": "সমঝোতামূলক, বন্ধুত্বপূর্ণ",
-      "example": null,
+      "example": "She made a gesture that was conciliatory.",
       "sources": {
         "Competitive Exams": 68
       }
     },
     {
-      "id": 578,
+      "id": 579,
       "english": "Condone",
       "bengali": "ক্ষমা করা / সমর্থন করা",
-      "example": null,
+      "example": "The teacher did not condone cheating because it was dishonest.",
       "sources": {
         "Competitive Exams": 69
       }
     },
     {
-      "id": 579,
+      "id": 580,
       "english": "Confound",
       "bengali": "বিভ্রান্ত করা, কিংকর্তব্যবিমূঢ় করা",
-      "example": null,
+      "example": "The puzzle confounded me because it was difficult.",
       "sources": {
         "Competitive Exams": 70
       }
     },
     {
-      "id": 580,
+      "id": 581,
       "english": "Connoisseur",
       "bengali": "রসজ্ঞ, রসপন্ডিত, পারদর্শী",
-      "example": null,
+      "example": "He is a connoisseur who understands art well.",
       "sources": {
         "Competitive Exams": 71
       }
     },
     {
-      "id": 581,
+      "id": 582,
       "english": "Contention",
       "bengali": "বিতর্ক / দাবি",
-      "example": null,
+      "example": "His contention was that the law was unfair.",
       "sources": {
         "Competitive Exams": 72
       }
     },
     {
-      "id": 582,
+      "id": 583,
       "english": "Contentious",
       "bengali": "বিতর্কিত",
-      "example": null,
+      "example": "The issue is contentious because people disagree.",
       "sources": {
         "Competitive Exams": 73
       }
     },
     {
-      "id": 583,
+      "id": 584,
       "english": "Contrite",
       "bengali": "অনুতপ্ত",
-      "example": null,
+      "example": "He felt contrite because he had made a mistake.",
       "sources": {
         "Competitive Exams": 74
       }
     },
     {
-      "id": 584,
+      "id": 585,
       "english": "Conundrum",
       "bengali": "জটিল সমস্যা, Dillema",
-      "example": null,
+      "example": "The problem was a conundrum that no one could solve.",
       "sources": {
         "Competitive Exams": 75
       }
     },
     {
-      "id": 585,
+      "id": 586,
       "english": "Cordial",
       "bengali": "আন্তরিক",
-      "example": null,
+      "example": "They gave us a welcome that was cordial.",
       "sources": {
         "Competitive Exams": 76
       }
     },
     {
-      "id": 586,
+      "id": 587,
       "english": "Corroborate",
-      "bengali": "সমর্থন করা / প্রমাণ করা",
-      "example": null,
+      "bengali": "নিশ্চিত / প্রমাণ করা",
+      "example": "The witness corroborated the story because he saw the event.",
       "sources": {
         "Competitive Exams": 77
       }
     },
     {
-      "id": 587,
+      "id": 588,
       "english": "Cynical",
       "bengali": "সংশয়বাদী / নৈরাশ্যবাদী",
-      "example": null,
+      "example": "He is cynical because he distrusts politicians.",
       "sources": {
         "Competitive Exams": 78
       }
     },
     {
-      "id": 588,
+      "id": 589,
       "english": "Convoluted",
       "bengali": "জটিল / প্যাঁচানো",
-      "example": null,
+      "example": "The explanation was convoluted because it had many twists.",
       "sources": {
         "Competitive Exams": 79
       }
     },
     {
-      "id": 589,
+      "id": 590,
       "english": "Craven",
       "bengali": "ভীরু, কাপুরুষ",
-      "example": null,
+      "example": "His behavior was craven because he feared danger.",
       "sources": {
         "Competitive Exams": 80
       }
     },
     {
-      "id": 590,
+      "id": 591,
       "english": "Cruel",
       "bengali": "নিষ্ঠুর",
-      "example": null,
+      "example": "The man was cruel because he hurt animals.",
       "sources": {
         "Competitive Exams": 81
       }
     },
     {
-      "id": 591,
+      "id": 592,
       "english": "Daunt",
       "bengali": "ভয় দেখানো / ভীত করা / নিরুৎসাহিত করা",
-      "example": null,
+      "example": "The difficulty daunted him because it was severe.",
       "sources": {
         "Competitive Exams": 82
       }
     },
     {
-      "id": 592,
+      "id": 593,
       "english": "Decorous",
-      "bengali": "শালীন / ভদ্র",
-      "example": null,
+      "bengali": "শালীন / যথাযথ",
+      "example": "His behavior was decorous because he respected others.",
       "sources": {
         "Competitive Exams": 83
       }
     },
     {
-      "id": 593,
+      "id": 594,
       "english": "Default",
       "bengali": "দায়িত্ব পালন না করা / ব্যর্থ হওয়া",
-      "example": null,
+      "example": "He defaulted on the loan because he lacked money.",
       "sources": {
         "Competitive Exams": 84
       }
     },
     {
-      "id": 594,
+      "id": 595,
       "english": "Deference",
       "bengali": "সম্মান প্রদর্শন",
-      "example": null,
+      "example": "The student showed deference because he respected the teacher.",
       "sources": {
         "Competitive Exams": 85
       }
     },
     {
-      "id": 595,
+      "id": 596,
       "english": "Delineate",
       "bengali": "বর্ণনা করা / স্পষ্টভাবে তুলে ধরা",
-      "example": null,
+      "example": "The report delineated the problem that affected the company.",
       "sources": {
         "Competitive Exams": 86
       }
     },
     {
-      "id": 596,
+      "id": 597,
       "english": "Denigrate",
       "bengali": "নিন্দা করা / ছোট করা",
-      "example": null,
+      "example": "They denigrated his achievement because they were jealous.",
       "sources": {
         "Competitive Exams": 87
       }
     },
     {
-      "id": 597,
+      "id": 598,
       "english": "Deride",
       "bengali": "উপহাস করা",
-      "example": null,
+      "example": "The crowd derided the speaker because they disagreed with him.",
       "sources": {
         "Competitive Exams": 88
       }
     },
     {
-      "id": 598,
+      "id": 599,
       "english": "Derivative",
       "bengali": "অনুকরণমূলক / মৌলিক নয়",
-      "example": null,
+      "example": "His work is derivative because it copies others.",
       "sources": {
         "Competitive Exams": 89
       }
     },
     {
-      "id": 599,
+      "id": 600,
       "english": "Desiccate",
       "bengali": "শুকিয়ে ফেলা",
-      "example": null,
+      "example": "The sun desiccated the soil because the heat was intense.",
       "sources": {
         "Competitive Exams": 90
       }
     },
     {
-      "id": 600,
+      "id": 601,
       "english": "Defiant",
       "bengali": "অবাধ্য / প্রতিবাদী",
-      "example": null,
+      "example": "The prisoner remained defiant although he was punished.",
       "sources": {
         "Competitive Exams": 91
       }
     },
     {
-      "id": 601,
+      "id": 602,
       "english": "Desultory",
       "bengali": "অগোছালো / উদ্দেশ্যহীন",
-      "example": null,
+      "example": "His efforts were desultory because he lacked focus.",
       "sources": {
         "Competitive Exams": 92
       }
     },
     {
-      "id": 602,
+      "id": 603,
       "english": "Deterrent",
       "bengali": "প্রতিবন্ধক / নিরুৎসাহকারী",
-      "example": null,
+      "example": "Strict laws act as a deterrent because they punish crime.",
       "sources": {
         "Competitive Exams": 93
       }
     },
     {
-      "id": 603,
+      "id": 604,
       "english": "Diatribe",
       "bengali": "তীব্র সমালোচনা",
-      "example": null,
+      "example": "He delivered a diatribe because he hated corruption.",
       "sources": {
         "Competitive Exams": 94
       }
     },
     {
-      "id": 604,
+      "id": 605,
       "english": "Dichotomy",
       "bengali": "দ্বিভাগ / বিভাজন",
-      "example": null,
+      "example": "The theory shows a dichotomy that divides ideas.",
       "sources": {
         "Competitive Exams": 95
       }
     },
     {
-      "id": 605,
+      "id": 606,
       "english": "Diffidence",
       "bengali": "আত্মবিশ্বাসের অভাব",
-      "example": null,
+      "example": "His diffidence appeared because he lacked confidence.",
       "sources": {
         "Competitive Exams": 96
       }
     },
     {
-      "id": 606,
+      "id": 607,
       "english": "Diffuse",
       "bengali": "ছড়িয়ে পড়া / বিস্তৃত",
-      "example": null,
+      "example": "The light diffused because the window was open.",
       "sources": {
         "Competitive Exams": 97
       }
     },
     {
-      "id": 607,
+      "id": 608,
       "english": "Digression",
       "bengali": "প্রসঙ্গচ্যুতি",
-      "example": null,
+      "example": "The lecture included a digression that confused students.",
       "sources": {
         "Competitive Exams": 98
       }
     },
     {
-      "id": 608,
+      "id": 609,
       "english": "Dirge",
       "bengali": "শোকগাথা",
-      "example": null,
+      "example": "They sang a dirge because the hero had died.",
       "sources": {
         "Competitive Exams": 99
       }
     },
     {
-      "id": 609,
+      "id": 610,
       "english": "Distinct",
       "bengali": "স্পষ্ট / আলাদা",
-      "example": null,
+      "example": "The two ideas are distinct because they differ greatly.",
       "sources": {
         "Competitive Exams": 100
       }
     },
     {
-      "id": 610,
+      "id": 611,
       "english": "Divulge",
       "bengali": "গোপন তথ্য প্রকাশ করা",
-      "example": null,
+      "example": "He divulged the secret although he was warned.",
       "sources": {
         "Competitive Exams": 101
       }
     },
     {
-      "id": 611,
+      "id": 612,
       "english": "Disabuse",
       "bengali": "ভুল ধারণা দূর করা",
-      "example": null,
+      "example": "The teacher disabused him of the myth that he believed.",
       "sources": {
         "Competitive Exams": 103
       }
     },
     {
-      "id": 612,
+      "id": 613,
       "english": "Discerning",
       "bengali": "বিচক্ষণ / সূক্ষ্ম বিচারশক্তিসম্পন্ন",
-      "example": null,
+      "example": "She is discerning because she judges books carefully.",
       "sources": {
         "Competitive Exams": 104
       }
     },
     {
-      "id": 613,
+      "id": 614,
       "english": "Discordant",
       "bengali": "বিসদৃশ/ বেসুরো / অসামঞ্জস্যপূর্ণ",
-      "example": null,
+      "example": "The notes sounded discordant because they clashed.",
       "sources": {
         "Competitive Exams": 105
       }
     },
     {
-      "id": 614,
+      "id": 615,
       "english": "Discredit",
       "bengali": "সুনামহানি / বদনাম করা",
-      "example": null,
+      "example": "The scandal discredited the leader because it exposed corruption.",
       "sources": {
         "Competitive Exams": 106
       }
     },
     {
-      "id": 615,
+      "id": 616,
       "english": "Discord",
       "bengali": "বিরোধ / অসামঞ্জস্য",
-      "example": null,
+      "example": "Discord spread because they disagreed strongly.",
       "sources": {
         "Competitive Exams": 107
       }
     },
     {
-      "id": 616,
+      "id": 617,
       "english": "Discrepancy",
       "bengali": "অমিল / অসঙ্গতি",
-      "example": null,
+      "example": "The report revealed a discrepancy that confused the auditors.",
       "sources": {
         "Competitive Exams": 108
       }
     },
     {
-      "id": 617,
+      "id": 618,
       "english": "Discrete",
       "bengali": "পৃথক / স্বতন্ত্র",
-      "example": null,
+      "example": "The system has parts that are discrete.",
       "sources": {
         "Competitive Exams": 109
       }
     },
     {
-      "id": 618,
+      "id": 619,
       "english": "Disingenuous",
       "bengali": "অসৎ / ভানপূর্ণ",
-      "example": null,
+      "example": "His apology was disingenuous because he did not mean it.",
       "sources": {
         "Competitive Exams": 110
       }
     },
     {
-      "id": 619,
+      "id": 620,
       "english": "Disinterested",
       "bengali": "নিরপেক্ষ / স্বার্থহীন",
-      "example": null,
+      "example": "The judge was disinterested because he had no personal gain.",
       "sources": {
         "Competitive Exams": 111
       }
     },
     {
-      "id": 620,
+      "id": 621,
       "english": "Disjointed",
       "bengali": "অসংলগ্ন / বিচ্ছিন্ন / টুকরা টুকরা",
-      "example": null,
+      "example": "His speech was disjointed because his ideas lacked order.",
       "sources": {
         "Competitive Exams": 112
       }
     },
     {
-      "id": 621,
+      "id": 622,
       "english": "Disparage",
       "bengali": "ছোট করা / তুচ্ছ করা",
-      "example": null,
+      "example": "They disparaged his efforts because they were jealous.",
       "sources": {
         "Competitive Exams": 113
       }
     },
     {
-      "id": 622,
+      "id": 623,
       "english": "Disperse",
       "bengali": "ছত্রভঙ্গ করা / ছড়িয়ে দেওয়া",
-      "example": null,
+      "example": "The police dispersed the crowd because it became violent.",
       "sources": {
         "Competitive Exams": 114
       }
     },
     {
-      "id": 623,
+      "id": 624,
       "english": "Dismiss",
       "bengali": "খারিজ করা / বিদায় করা",
-      "example": null,
+      "example": "The manager dismissed the worker because he was late.",
       "sources": {
         "Competitive Exams": 115
       }
     },
     {
-      "id": 624,
+      "id": 625,
       "english": "Disparate",
       "bengali": "ভিন্নধর্মী / অসম",
-      "example": null,
+      "example": "The group had opinions that were disparate.",
       "sources": {
         "Competitive Exams": 116
       }
     },
     {
-      "id": 625,
+      "id": 626,
       "english": "Dissemble",
       "bengali": "ভান করা / সত্য গোপন করা",
-      "example": null,
+      "example": "He dissembled his feelings because he feared criticism.",
       "sources": {
         "Competitive Exams": 117
       }
     },
     {
-      "id": 626,
+      "id": 627,
       "english": "Disseminate",
       "bengali": "ছড়িয়ে দেওয়া / প্রচার করা",
-      "example": null,
+      "example": "The internet disseminates information that people need.",
       "sources": {
         "Competitive Exams": 118
       }
     },
     {
-      "id": 627,
+      "id": 628,
       "english": "Dogged",
       "bengali": "দৃঢ়প্রতিজ্ঞ / অবিচল",
-      "example": null,
+      "example": "His effort was dogged because he never gave up.",
       "sources": {
         "Competitive Exams": 119
       }
     },
     {
-      "id": 628,
+      "id": 629,
       "english": "Dissolution",
       "bengali": "বিলুপ্তি / ভেঙে যাওয়া",
-      "example": null,
+      "example": "Everyone was shocked when the committee was dissolved.",
       "sources": {
         "Competitive Exams": 121
       }
     },
     {
-      "id": 629,
+      "id": 630,
       "english": "Dissonance",
       "bengali": "বেসুরো অবস্থা / বিরোধ / অসামঞ্জস্য",
-      "example": null,
+      "example": "There was dissonance because the notes clashed.",
       "sources": {
         "Competitive Exams": 122
       }
     },
     {
-      "id": 630,
+      "id": 631,
       "english": "Distend",
       "bengali": "ফুলে ওঠা / প্রসারিত হওয়া",
-      "example": null,
+      "example": "The balloon distended when the temperature rose.",
       "sources": {
         "Competitive Exams": 123
       }
     },
     {
-      "id": 631,
+      "id": 632,
       "english": "Despise",
       "bengali": "ঘৃণা করা / তুচ্ছ জ্ঞান করা",
-      "example": null,
+      "example": "I despise people who are dishonest.",
       "sources": {
         "Competitive Exams": 124
       }
     },
     {
-      "id": 632,
+      "id": 633,
       "english": "Distill",
       "bengali": "পাতন করা / পরিশোধন করা / নির্যাস বের করা",
-      "example": null,
+      "example": "The scientist distilled the liquid to obtain pure water.",
       "sources": {
         "Competitive Exams": 125
       }
     },
     {
-      "id": 633,
+      "id": 634,
       "english": "Diverge",
       "bengali": "ভিন্ন পথে যাওয়া / বিচ্ছিন্ন হওয়া",
-      "example": null,
+      "example": "Their opinions diverged because they had different beliefs.",
       "sources": {
         "Competitive Exams": 126
       }
     },
     {
-      "id": 634,
+      "id": 635,
       "english": "Divest",
       "bengali": "বঞ্চিত করা / সম্পদ থেকে মুক্ত করা",
-      "example": null,
+      "example": "The company divested its assets because it faced losses.",
       "sources": {
         "Competitive Exams": 127
       }
     },
     {
-      "id": 635,
+      "id": 636,
       "english": "Denial",
       "bengali": "অস্বীকার",
-      "example": null,
+      "example": "We were surprised because he denied the accusation.",
       "sources": {
         "Competitive Exams": 128
       }
     },
     {
-      "id": 636,
+      "id": 637,
       "english": "Dogmatic",
       "bengali": "একগুঁয়ে মতবাদী",
-      "example": null,
+      "example": "His views were dogmatic because he refused other opinions.",
       "sources": {
         "Competitive Exams": 129
       }
     },
     {
-      "id": 637,
+      "id": 638,
       "english": "Dormant",
       "bengali": "সুপ্ত / নিষ্ক্রিয়",
-      "example": null,
+      "example": "The volcano remained dormant although scientists monitored it.",
       "sources": {
         "Competitive Exams": 130
       }
     },
     {
-      "id": 638,
+      "id": 639,
       "english": "Dupe",
       "bengali": "প্রতারিত করা / প্রতারিত ব্যক্তি",
-      "example": null,
+      "example": "The thief duped the tourist because he was careless.",
       "sources": {
         "Competitive Exams": 131
       }
     },
     {
-      "id": 639,
+      "id": 640,
       "english": "Ebullient",
       "bengali": "উচ্ছ্বসিত / উৎফুল্ল / প্রাণবন্ত",
-      "example": null,
+      "example": "Her personality was ebullient because she was always cheerful.",
       "sources": {
         "Competitive Exams": 132
       }
     },
     {
-      "id": 640,
+      "id": 641,
       "english": "Eclectic",
       "bengali": "বিভিন্ন উৎস থেকে বাছাই করা",
-      "example": null,
+      "example": "His taste is eclectic because he listens to many styles.",
       "sources": {
         "Competitive Exams": 133
       }
     },
     {
-      "id": 641,
+      "id": 642,
       "english": "Eccentric",
       "bengali": "অদ্ভুত",
-      "example": null,
+      "example": "The scientist was eccentric because he behaved strangely.",
       "sources": {
         "Competitive Exams": 134
       }
     },
     {
-      "id": 642,
+      "id": 643,
       "english": "Efficacy",
       "bengali": "কার্যকারিতা",
-      "example": null,
+      "example": "The medicine showed efficacy because it cured patients.",
       "sources": {
         "Competitive Exams": 135
       }
     },
     {
-      "id": 643,
+      "id": 644,
       "english": "Eminent",
       "bengali": "বিশিষ্ট / খ্যাতনামা",
-      "example": null,
+      "example": "He is eminent because he contributed greatly to science.",
       "sources": {
         "Competitive Exams": 136
       }
     },
     {
-      "id": 644,
+      "id": 645,
       "english": "Elegant",
       "bengali": "রুচিশীল / মার্জিত / সৌন্দর্যময়",
-      "example": null,
+      "example": "She wore a dress that was elegant.",
       "sources": {
         "Competitive Exams": 137
       }
     },
     {
-      "id": 645,
+      "id": 646,
       "english": "Effrontery",
       "bengali": "বেহায়াপনা / নির্লজ্জ সাহস",
-      "example": null,
+      "example": "Everyone was shocked because he showed effrontery.",
       "sources": {
         "Competitive Exams": 139
       }
     },
     {
-      "id": 646,
+      "id": 647,
       "english": "Elegy",
       "bengali": "শোকগাথা / বিলাপ কবিতা / শোকসংগীত",
-      "example": null,
+      "example": "The poet wrote an elegy after his friend died.",
       "sources": {
         "Competitive Exams": 140
       }
     },
     {
-      "id": 647,
+      "id": 648,
       "english": "Elicit",
       "bengali": "প্রকাশ করা / বের করে আনা / উদঘাটন করা",
-      "example": null,
+      "example": "The teacher elicited the answer that the student knew.",
       "sources": {
         "Competitive Exams": 141
       }
     },
     {
-      "id": 648,
+      "id": 649,
       "english": "Embellish",
       "bengali": "সুশোভিত করা / অলংকৃত করা / অতিরঞ্জিত করা",
-      "example": null,
+      "example": "She embellished the story because she wanted it to sound exciting.",
       "sources": {
         "Competitive Exams": 142
       }
     },
     {
-      "id": 649,
+      "id": 650,
       "english": "Empirical",
       "bengali": "গবেষণাভিত্তিক / পরীক্ষালব্ধ",
-      "example": null,
+      "example": "The theory is accepted because empirical evidence supports it.",
       "sources": {
         "Competitive Exams": 143
       }
     },
     {
-      "id": 650,
+      "id": 651,
       "english": "Emulate",
       "bengali": "অনুসরণ করা / অনুকরণ করা",
-      "example": null,
+      "example": "He emulated his mentor because he admired him.",
       "sources": {
         "Competitive Exams": 144
       }
     },
     {
-      "id": 651,
+      "id": 652,
       "english": "Enervate",
       "bengali": "দুর্বল করা / শক্তিহীন করা",
-      "example": null,
+      "example": "The workers were enervated because the heat was intense.",
       "sources": {
         "Competitive Exams": 145
       }
     },
     {
-      "id": 652,
+      "id": 653,
       "english": "Engender",
       "bengali": "সৃষ্টি করা / উৎপন্ন করা / জন্ম দেওয়া",
-      "example": null,
+      "example": "The policy engendered trust because it was fair.",
       "sources": {
         "Competitive Exams": 146
       }
     },
     {
-      "id": 653,
+      "id": 654,
       "english": "Enhance",
       "bengali": "বৃদ্ধি করা / উন্নত করা",
-      "example": null,
+      "example": "The lights enhanced the beauty because they were bright.",
       "sources": {
         "Competitive Exams": 147
       }
     },
     {
-      "id": 654,
+      "id": 655,
       "english": "Ephemeral",
       "bengali": "ক্ষণস্থায়ী / অস্থায়ী",
-      "example": null,
+      "example": "Fame is ephemeral because it does not last long.",
       "sources": {
         "Competitive Exams": 148
       }
     },
     {
-      "id": 655,
+      "id": 656,
       "english": "Equanimity",
       "bengali": "মানসিক স্থিরতা / ধীরস্থিরতা / চাপের মধ্যেও শান্ত থাকা",
-      "example": null,
+      "example": "He faced the crisis with equanimity although the situation was difficult.",
       "sources": {
         "Competitive Exams": 149
       }
     },
     {
-      "id": 656,
+      "id": 657,
       "english": "Equivocal",
       "bengali": "দ্ব্যর্থক / অস্পষ্ট",
-      "example": null,
+      "example": "His answer was equivocal because he wanted to avoid the truth.",
       "sources": {
         "Competitive Exams": 150
       }
     },
     {
-      "id": 657,
+      "id": 658,
       "english": "Erudite",
       "bengali": "পণ্ডিত / জ্ঞানী",
-      "example": null,
+      "example": "She is erudite because she has studied many subjects.",
       "sources": {
         "Competitive Exams": 151
       }
     },
     {
-      "id": 658,
+      "id": 659,
       "english": "Esoteric",
       "bengali": "দুর্বোধ্য / বিশেষজ্ঞদের জন্য",
-      "example": null,
+      "example": "The theory is esoteric because only experts understand it.",
       "sources": {
         "Competitive Exams": 152
       }
     },
     {
-      "id": 659,
+      "id": 660,
       "english": "Exasperate",
       "bengali": "অত্যন্ত বিরক্ত করা",
-      "example": null,
+      "example": "His delay exasperated me because it wasted time.",
       "sources": {
         "Competitive Exams": 153
       }
     },
     {
-      "id": 660,
+      "id": 661,
       "english": "Extravagant",
       "bengali": "অপচয়ী / বিলাসী",
-      "example": null,
+      "example": "He lives an extravagant life although he earns little.",
       "sources": {
         "Competitive Exams": 154
       }
     },
     {
-      "id": 661,
+      "id": 662,
       "english": "Eulogy",
       "bengali": "প্রশংসাপূর্ণ উক্তি",
-      "example": null,
+      "example": "He delivered a eulogy after the leader died.",
       "sources": {
         "Competitive Exams": 156
       }
     },
     {
-      "id": 662,
+      "id": 663,
       "english": "Euphemism",
       "bengali": "নম্র প্রকাশ / শ্রতিমধুর শব্দ ব্যবহার",
-      "example": null,
+      "example": "He used a euphemism because the truth was harsh.",
       "sources": {
         "Competitive Exams": 157
       }
     },
     {
-      "id": 663,
+      "id": 664,
       "english": "Exacerbate",
       "bengali": "আরো খারাপ করা",
-      "example": null,
+      "example": "The delay exacerbated the problem because it caused confusion.",
       "sources": {
         "Competitive Exams": 158
       }
     },
     {
-      "id": 664,
+      "id": 665,
       "english": "Exculpate",
       "bengali": "দোষমুক্ত করা",
-      "example": null,
+      "example": "The evidence exculpated him because it proved his innocence.",
       "sources": {
         "Competitive Exams": 159
       }
     },
     {
-      "id": 665,
+      "id": 666,
       "english": "Exigency",
       "bengali": "জরুরি অবস্থা",
-      "example": null,
+      "example": "The exigency required action because the situation was critical.",
       "sources": {
         "Competitive Exams": 160
       }
     },
     {
-      "id": 666,
+      "id": 667,
       "english": "Extrapolation",
       "bengali": "অনুমানভিত্তিক প্রসারণ",
-      "example": null,
+      "example": "His conclusion was an extrapolation that extended the data.",
       "sources": {
         "Competitive Exams": 161
       }
     },
     {
-      "id": 667,
+      "id": 668,
       "english": "Facetious",
       "bengali": "ঠাট্টাপূর্ণ / অপ্রাসঙ্গিক রসিক",
-      "example": null,
+      "example": "His comment was facetious although the matter was serious.",
       "sources": {
         "Competitive Exams": 162
       }
     },
     {
-      "id": 668,
+      "id": 669,
       "english": "Facilitate",
       "bengali": "সহজ করা",
-      "example": null,
+      "example": "Technology facilitates learning because it provides resources.",
       "sources": {
         "Competitive Exams": 163
       }
     },
     {
-      "id": 669,
+      "id": 670,
       "english": "Fallacious",
       "bengali": "ভ্রান্ত / ভুল যুক্তিপূর্ণ",
-      "example": null,
+      "example": "His reasoning was fallacious because it lacked logic.",
       "sources": {
         "Competitive Exams": 164
       }
     },
     {
-      "id": 670,
+      "id": 671,
       "english": "Fatuous",
       "bengali": "নির্বোধ / অর্থহীন",
-      "example": null,
+      "example": "His remark was fatuous because it had no sense.",
       "sources": {
         "Competitive Exams": 165
       }
     },
     {
-      "id": 671,
+      "id": 672,
       "english": "Feral",
       "bengali": "বন্য / গৃহপালিত নয়",
-      "example": null,
+      "example": "The dog became feral because it lived in the wild.",
       "sources": {
         "Competitive Exams": 166
       }
     },
     {
-      "id": 672,
+      "id": 673,
       "english": "Felicitous",
       "bengali": "উপযুক্ত / সুন্দরভাবে বলা",
-      "example": null,
+      "example": "Her speech was felicitous because it was well expressed.",
       "sources": {
         "Competitive Exams": 167
       }
     },
     {
-      "id": 673,
+      "id": 674,
       "english": "Fervor",
       "bengali": "উদ্দীপনা / উত্সাহ",
-      "example": null,
+      "example": "He spoke with fervor because he believed strongly.",
       "sources": {
         "Competitive Exams": 168
       }
     },
     {
-      "id": 674,
+      "id": 675,
       "english": "Flexible",
       "bengali": "নমনীয়",
-      "example": null,
+      "example": "The plan is flexible because it can change easily.",
       "sources": {
         "Competitive Exams": 169
       }
     },
     {
-      "id": 675,
+      "id": 676,
       "english": "Fledgling",
       "bengali": "অনভিজ্ঞ ব্যক্তি / নবীন / শিক্ষানবিশ",
-      "example": null,
+      "example": "The company, which was fledgling, grew fast.",
       "sources": {
         "Competitive Exams": 170
       }
     },
     {
-      "id": 676,
+      "id": 677,
       "english": "Flimsy",
       "bengali": "দুর্বল / অযথেষ্ট",
-      "example": null,
+      "example": "The excuse was flimsy because it lacked evidence.",
       "sources": {
         "Competitive Exams": 171
       }
     },
     {
-      "id": 677,
+      "id": 678,
       "english": "Foremost",
       "bengali": "সর্বাগ্রে / প্রধান",
-      "example": null,
+      "example": "He is foremost because he leads effectively.",
       "sources": {
         "Competitive Exams": 172
       }
     },
     {
-      "id": 678,
+      "id": 679,
       "english": "Futile",
       "bengali": "নিরর্থক / বৃথা",
-      "example": null,
+      "example": "His effort was futile because success was impossible.",
       "sources": {
         "Competitive Exams": 173
       }
     },
     {
-      "id": 679,
+      "id": 680,
       "english": "Flout",
       "bengali": "অমান্য করা / উপেক্ষা করা",
-      "example": null,
+      "example": "He flouted the rules because he was careless.",
       "sources": {
         "Competitive Exams": 175
       }
     },
     {
-      "id": 680,
+      "id": 681,
       "english": "Foment",
       "bengali": "উসকে দেওয়া / উত্তেজিত করা",
-      "example": null,
+      "example": "They fomented unrest because they wanted power.",
       "sources": {
         "Competitive Exams": 176
       }
     },
     {
-      "id": 681,
+      "id": 682,
       "english": "Forestall",
       "bengali": "আগেই প্রতিরোধ করা",
-      "example": null,
+      "example": "The police forestalled the attack before it began.",
       "sources": {
         "Competitive Exams": 177
       }
     },
     {
-      "id": 682,
+      "id": 683,
       "english": "Frugality",
       "bengali": "মিতব্যয়িতা",
-      "example": null,
+      "example": "His frugality helped him because he spent less.",
       "sources": {
         "Competitive Exams": 178
       }
     },
     {
-      "id": 683,
+      "id": 684,
       "english": "Gainsay",
       "bengali": "অস্বীকার করা / বিরোধিতা করা",
-      "example": null,
+      "example": "No one gainsaid his claim because it was true.",
       "sources": {
         "Competitive Exams": 179
       }
     },
     {
-      "id": 684,
+      "id": 685,
       "english": "Garrulous",
       "bengali": "বাচাল / বেশি কথা বলে",
-      "example": null,
+      "example": "He is garrulous because he talks constantly.",
       "sources": {
         "Competitive Exams": 180
       }
     },
     {
-      "id": 685,
+      "id": 686,
       "english": "Goad",
       "bengali": "উস্কে দেওয়া / প্ররোচিত করা",
-      "example": null,
+      "example": "They goaded him because they wanted a reaction.",
       "sources": {
         "Competitive Exams": 181
       }
     },
     {
-      "id": 686,
+      "id": 687,
       "english": "Gratis",
       "bengali": "বিনামূল্যে",
-      "example": null,
+      "example": "The service was provided gratis because it was promotional.",
       "sources": {
         "Competitive Exams": 182
       }
     },
     {
-      "id": 687,
+      "id": 688,
       "english": "Grandiloquent",
       "bengali": "জাঁকজমকপূর্ণ ভাষা",
-      "example": null,
+      "example": "His speech was grandiloquent because he used fancy words.",
       "sources": {
         "Competitive Exams": 183
       }
     },
     {
-      "id": 688,
+      "id": 689,
       "english": "Gentle",
       "bengali": "নম্র / কোমল",
-      "example": null,
+      "example": "She has a voice that is gentle.",
       "sources": {
         "Competitive Exams": 184
       }
     },
     {
-      "id": 689,
+      "id": 690,
       "english": "Genuine",
       "bengali": "আসল / সত্যিকারের",
-      "example": null,
+      "example": "The product is genuine because it is original.",
       "sources": {
         "Competitive Exams": 185
       }
     },
     {
-      "id": 690,
+      "id": 691,
       "english": "Gregarious",
       "bengali": "মিশুক / সমাজপ্রিয়",
-      "example": null,
+      "example": "He is gregarious because he enjoys company.",
       "sources": {
         "Competitive Exams": 186
       }
     },
     {
-      "id": 691,
+      "id": 692,
       "english": "Gorgeous",
       "bengali": "দৃষ্টিনন্দন / অত্যন্ত সুন্দর",
-      "example": null,
+      "example": "The view was gorgeous because the sky was clear.",
       "sources": {
         "Competitive Exams": 187
       }
     },
     {
-      "id": 692,
+      "id": 693,
       "english": "Gallant",
       "bengali": "বীরত্বপূর্ণ / সাহসী",
-      "example": null,
+      "example": "The soldier was gallant because he fought bravely.",
       "sources": {
         "Competitive Exams": 188
       }
     },
     {
-      "id": 693,
+      "id": 694,
       "english": "Guileless",
       "bengali": "নির্দোষ / সরল",
-      "example": null,
+      "example": "She is guileless because she has no deceit.",
       "sources": {
         "Competitive Exams": 190
       }
     },
     {
-      "id": 694,
+      "id": 695,
       "english": "Harangue",
       "bengali": "তিরস্কারমূলক বক্তৃতা",
-      "example": null,
+      "example": "He gave a harangue because he was angry.",
       "sources": {
         "Competitive Exams": 191
       }
     },
     {
-      "id": 695,
+      "id": 696,
       "english": "Homogeneous",
       "bengali": "সমজাতীয়",
-      "example": null,
+      "example": "The mixture is homogeneous because all parts are similar.",
       "sources": {
         "Competitive Exams": 193
       }
     },
     {
-      "id": 696,
+      "id": 697,
       "english": "Hyperbole",
       "bengali": "অতিশয়োক্তি",
-      "example": null,
+      "example": "His speech contained hyperbole because he exaggerated facts.",
       "sources": {
         "Competitive Exams": 194
       }
     },
     {
-      "id": 697,
+      "id": 698,
       "english": "Haphazard",
       "bengali": "এলোমেলো / পরিকল্পনাহীন",
-      "example": null,
+      "example": "His work was haphazard because he had no plan.",
       "sources": {
         "Competitive Exams": 195
       }
     },
     {
-      "id": 698,
+      "id": 699,
       "english": "Harsh",
       "bengali": "কঠোর / রূঢ়",
-      "example": null,
+      "example": "The punishment was harsh because it was severe.",
       "sources": {
         "Competitive Exams": 196
       }
     },
     {
-      "id": 699,
+      "id": 700,
       "english": "Iconoclastic",
       "bengali": "প্রচলিত ধারণা ভাঙে এমন",
-      "example": null,
+      "example": "His ideas are iconoclastic because they challenge traditions.",
       "sources": {
         "Competitive Exams": 197
       }
     },
     {
-      "id": 700,
+      "id": 701,
       "english": "Idolatry",
       "bengali": "মূর্তিপূজা / অন্ধ ভক্তি",
-      "example": null,
+      "example": "Idolatry was practiced because people believed in idols.",
       "sources": {
         "Competitive Exams": 198
       }
     },
     {
-      "id": 701,
+      "id": 702,
       "english": "Immutable",
       "bengali": "অপরিবর্তনীয়",
-      "example": null,
+      "example": "The law is immutable because it cannot be changed.",
       "sources": {
         "Competitive Exams": 199
       }
     },
     {
-      "id": 702,
+      "id": 703,
       "english": "Impair",
       "bengali": "ক্ষতিগ্রস্ত করা",
-      "example": null,
+      "example": "The disease impaired his vision because it affected his eyes.",
       "sources": {
         "Competitive Exams": 200
       }
     },
     {
-      "id": 703,
+      "id": 704,
       "english": "Impassive",
       "bengali": "আবেগহীন",
-      "example": null,
+      "example": "He remained impassive although the news was shocking.",
       "sources": {
         "Competitive Exams": 201
       }
     },
     {
-      "id": 704,
+      "id": 705,
       "english": "Impede",
       "bengali": "বাধা দেওয়া",
-      "example": null,
+      "example": "The rain impeded progress because it flooded the road.",
       "sources": {
         "Competitive Exams": 202
       }
     },
     {
-      "id": 705,
+      "id": 706,
       "english": "Impediment",
       "bengali": "প্রতিবন্ধকতা",
-      "example": null,
+      "example": "The lack of funds was an impediment because it delayed work.",
       "sources": {
         "Competitive Exams": 203
       }
     },
     {
-      "id": 706,
+      "id": 707,
       "english": "Impermeable",
       "bengali": "অপ্রবেশ্য",
-      "example": null,
+      "example": "The material is impermeable because water cannot pass through it.",
       "sources": {
         "Competitive Exams": 204
       }
     },
     {
-      "id": 707,
+      "id": 708,
       "english": "Imperturbable",
       "bengali": "শান্ত / অবিচল / বিচলিত হয় না",
-      "example": null,
+      "example": "She is imperturbable because she stays calm always.",
       "sources": {
         "Competitive Exams": 205
       }
     },
     {
-      "id": 708,
+      "id": 709,
       "english": "Impervious",
       "bengali": "প্রভাবিত হয় না / অপ্রবেশ্য",
-      "example": null,
+      "example": "He is impervious because criticism does not affect him.",
       "sources": {
         "Competitive Exams": 206
       }
     },
     {
-      "id": 709,
+      "id": 710,
       "english": "Implacable",
       "bengali": "অমার্জনীয় / শান্ত করা যায় না",
-      "example": null,
+      "example": "His anger was implacable because he refused to forgive.",
       "sources": {
         "Competitive Exams": 207
       }
     },
     {
-      "id": 710,
+      "id": 711,
       "english": "Impeccable",
       "bengali": "নিখুঁত",
-      "example": null,
+      "example": "Her performance was impeccable because she made no mistakes.",
       "sources": {
         "Competitive Exams": 208
       }
     },
     {
-      "id": 711,
+      "id": 712,
       "english": "Implicit",
       "bengali": "অন্তর্নিহিত / প্রচ্ছন্ন / পরোক্ষ",
-      "example": null,
+      "example": "His approval was implicit because he did not object.",
       "sources": {
         "Competitive Exams": 210
       }
     },
     {
-      "id": 712,
+      "id": 713,
       "english": "Implode",
       "bengali": "ভেতরের দিকে ধসে পড়া",
-      "example": null,
+      "example": "The building imploded when the pressure increased.",
       "sources": {
         "Competitive Exams": 211
       }
     },
     {
-      "id": 713,
+      "id": 714,
       "english": "Inadvertent",
       "bengali": "অনিচ্ছাকৃত",
-      "example": null,
+      "example": "He made a mistake that was inadvertent.",
       "sources": {
         "Competitive Exams": 212
       }
     },
     {
-      "id": 714,
+      "id": 715,
       "english": "Inadvertently",
       "bengali": "অনিচ্ছাকৃতভাবে",
-      "example": null,
+      "example": "He revealed the secret inadvertently because he was careless.",
       "sources": {
         "Competitive Exams": 213
       }
     },
     {
-      "id": 715,
+      "id": 716,
       "english": "Inchoate",
       "bengali": "অপরিণত / অসম্পূর্ণ",
-      "example": null,
+      "example": "His ideas were inchoate because they lacked clarity.",
       "sources": {
         "Competitive Exams": 214
       }
     },
     {
-      "id": 716,
+      "id": 717,
       "english": "Incongruous",
       "bengali": "অসামঞ্জস্যপূর্ণ",
-      "example": null,
+      "example": "His behavior was incongruous because it did not match the situation.",
       "sources": {
         "Competitive Exams": 215
       }
     },
     {
-      "id": 717,
+      "id": 718,
       "english": "Incongruity",
       "bengali": "অসামঞ্জস্য",
-      "example": null,
+      "example": "There was incongruity because the parts did not fit together.",
       "sources": {
         "Competitive Exams": 216
       }
     },
     {
-      "id": 718,
+      "id": 719,
       "english": "Inconsequential",
       "bengali": "তুচ্ছ / গুরুত্বহীন",
-      "example": null,
+      "example": "The error was inconsequential because it had no effect.",
       "sources": {
         "Competitive Exams": 217
       }
     },
     {
-      "id": 719,
+      "id": 720,
       "english": "Incorporate",
       "bengali": "অন্তর্ভুক্ত করা",
-      "example": null,
+      "example": "The design incorporates features that improve performance.",
       "sources": {
         "Competitive Exams": 218
       }
     },
     {
-      "id": 720,
+      "id": 721,
       "english": "Indeterminate",
       "bengali": "অনির্দিষ্ট / অনিশ্চিত",
-      "example": null,
+      "example": "The result was indeterminate because the data was unclear.",
       "sources": {
         "Competitive Exams": 219
       }
     },
     {
-      "id": 721,
+      "id": 722,
       "english": "Indigenous",
       "bengali": "আদিবাসী / স্থানীয়",
-      "example": null,
+      "example": "The plant is indigenous because it grows naturally there.",
       "sources": {
         "Competitive Exams": 220
       }
     },
     {
-      "id": 722,
+      "id": 723,
       "english": "Indigent",
       "bengali": "দরিদ্র",
-      "example": null,
+      "example": "The man was indigent because he had no money.",
       "sources": {
         "Competitive Exams": 221
       }
     },
     {
-      "id": 723,
+      "id": 724,
       "english": "Indolent",
       "bengali": "অলস",
-      "example": null,
+      "example": "He is indolent because he avoids work.",
       "sources": {
         "Competitive Exams": 222
       }
     },
     {
-      "id": 724,
+      "id": 725,
       "english": "Indolence",
       "bengali": "অলসতা",
-      "example": null,
+      "example": "His indolence caused failure because he did not work hard.",
       "sources": {
         "Competitive Exams": 223
       }
     },
     {
-      "id": 725,
+      "id": 726,
       "english": "Incredible",
       "bengali": "অবিশ্বাস্য",
-      "example": null,
+      "example": "The story was incredible because it seemed unreal.",
       "sources": {
         "Competitive Exams": 224
       }
     },
     {
-      "id": 726,
+      "id": 727,
       "english": "Ingenuous",
       "bengali": "সরল / নির্দোষ",
-      "example": null,
+      "example": "She gave a reply that was ingenuous because she was honest.",
       "sources": {
         "Competitive Exams": 226
       }
     },
     {
-      "id": 727,
+      "id": 728,
       "english": "Ingenious",
       "bengali": "চতুর / উদ্ভাবনী",
-      "example": null,
+      "example": "He devised a plan that was ingenious.",
       "sources": {
         "Competitive Exams": 227
       }
     },
     {
-      "id": 728,
+      "id": 729,
       "english": "Inherent",
       "bengali": "অন্তর্নিহিত, সহজাত",
-      "example": null,
+      "example": "Risk is inherent because business involves uncertainty.",
       "sources": {
         "Competitive Exams": 228
       }
     },
     {
-      "id": 729,
+      "id": 730,
       "english": "Innocuous",
       "bengali": "নিরীহ / ক্ষতিহীন",
-      "example": null,
+      "example": "The chemical is innocuous because it causes no harm.",
       "sources": {
         "Competitive Exams": 229
       }
     },
     {
-      "id": 730,
+      "id": 731,
       "english": "Insensible",
       "bengali": "অনুভূতিহীন / অচেতন",
-      "example": null,
+      "example": "He became insensible because the shock was severe.",
       "sources": {
         "Competitive Exams": 230
       }
     },
     {
-      "id": 731,
+      "id": 732,
       "english": "Insinuate",
       "bengali": "পরোক্ষভাবে কটাক্ষ করা / ইঙ্গিত দেওয়া",
-      "example": null,
+      "example": "He insinuated that something was wrong.",
       "sources": {
         "Competitive Exams": 231
       }
     },
     {
-      "id": 732,
+      "id": 733,
       "english": "Insularity",
       "bengali": "সংকীর্ণতা / বিচ্ছিন্নতা",
-      "example": null,
+      "example": "His insularity limited his growth because he ignored others.",
       "sources": {
         "Competitive Exams": 233
       }
     },
     {
-      "id": 733,
+      "id": 734,
       "english": "Intractable",
       "bengali": "একগুঁয়ে / নিয়ন্ত্রণ করা কঠিন",
-      "example": null,
+      "example": "The problem was intractable because no solution worked.",
       "sources": {
         "Competitive Exams": 234
       }
     },
     {
-      "id": 734,
+      "id": 735,
       "english": "Infringe",
       "bengali": "লঙ্ঘন করা",
-      "example": null,
+      "example": "They infringed the law because they ignored rules.",
       "sources": {
         "Competitive Exams": 235
       }
     },
     {
-      "id": 735,
+      "id": 736,
       "english": "Inundate",
       "bengali": "প্লাবিত করা / ভাসিয়ে দেওয়া",
-      "example": null,
+      "example": "The river inundated the village when heavy rain fell.",
       "sources": {
         "Competitive Exams": 236
       }
     },
     {
-      "id": 736,
+      "id": 737,
       "english": "Inured",
       "bengali": "অভ্যস্ত / সহনশীল হয়ে ওঠা",
-      "example": null,
+      "example": "He is inured because he faced hardship for years.",
       "sources": {
         "Competitive Exams": 237
       }
     },
     {
-      "id": 737,
+      "id": 738,
       "english": "Invective",
       "bengali": "হিংসাত্মক / তীব্র নিন্দা / গালাগালি",
-      "example": null,
+      "example": "He launched invective because he was angry.",
       "sources": {
         "Competitive Exams": 238
       }
     },
     {
-      "id": 738,
+      "id": 739,
       "english": "Indignant",
       "bengali": "ক্ষুব্ধ / ক্ষোভপূর্ণ",
-      "example": null,
+      "example": "She was indignant because she was insulted.",
       "sources": {
         "Competitive Exams": 239
       }
     },
     {
-      "id": 739,
+      "id": 740,
       "english": "Indifferent",
       "bengali": "উদাসীন",
-      "example": null,
+      "example": "He is indifferent because criticism does not affect him.",
       "sources": {
         "Competitive Exams": 240
       }
     },
     {
-      "id": 740,
+      "id": 741,
       "english": "Indistinct",
       "bengali": "অস্পষ্ট",
-      "example": null,
+      "example": "The image was indistinct because the light was poor.",
       "sources": {
         "Competitive Exams": 241,
         "Analogy": 42
       }
     },
     {
-      "id": 741,
+      "id": 742,
       "english": "Irascible",
       "bengali": "সহজেই রেগে যায়, বদমেজাজি, খিটখিটে",
-      "example": null,
+      "example": "He is irascible because he loses temper quickly.",
       "sources": {
         "Competitive Exams": 243
       }
     },
     {
-      "id": 742,
+      "id": 743,
       "english": "Irresolute",
       "bengali": "অস্থির / সিদ্ধান্তহীন",
-      "example": null,
+      "example": "He remained irresolute because he feared failure.",
       "sources": {
         "Competitive Exams": 244
       }
     },
     {
-      "id": 743,
+      "id": 744,
       "english": "Itinerary",
       "bengali": "ভ্রমণ পরিকল্পনা",
-      "example": null,
+      "example": "The itinerary was clear because it included all details.",
       "sources": {
         "Competitive Exams": 245
       }
     },
     {
-      "id": 744,
+      "id": 745,
       "english": "Jeer",
       "bengali": "উপহাস করা",
-      "example": null,
+      "example": "The crowd jeered because they disliked him.",
       "sources": {
         "Competitive Exams": 246
       }
     },
     {
-      "id": 745,
+      "id": 746,
       "english": "Jeopardy",
       "bengali": "বিপদ",
-      "example": null,
+      "example": "His life was in jeopardy because the storm was severe.",
       "sources": {
         "Competitive Exams": 247
       }
     },
     {
-      "id": 746,
+      "id": 747,
       "english": "Jocund",
       "bengali": "প্রফুল্ল / হাসিখুশি",
-      "example": null,
+      "example": "He was jocund because he enjoyed the moment.",
       "sources": {
         "Competitive Exams": 248
       }
     },
     {
-      "id": 747,
+      "id": 748,
       "english": "Laconic",
       "bengali": "সংক্ষিপ্তভাষী",
-      "example": null,
+      "example": "His reply was laconic because he spoke briefly.",
       "sources": {
         "Competitive Exams": 249
       }
     },
     {
-      "id": 748,
+      "id": 749,
       "english": "Lassitude",
       "bengali": "ক্লান্তি / অবসাদ",
-      "example": null,
+      "example": "Lassitude affected him because he worked hard.",
       "sources": {
         "Competitive Exams": 250
       }
     },
     {
-      "id": 749,
+      "id": 750,
       "english": "Latent",
       "bengali": "সুপ্ত / লুকানো",
-      "example": null,
+      "example": "The danger was latent although it was not visible.",
       "sources": {
         "Competitive Exams": 251
       }
     },
     {
-      "id": 750,
+      "id": 751,
       "english": "Laud",
       "bengali": "প্রশংসা করা",
-      "example": null,
+      "example": "They lauded his work because it was excellent.",
       "sources": {
         "Competitive Exams": 252
       }
     },
     {
-      "id": 751,
+      "id": 752,
       "english": "Lethargic",
       "bengali": "অলস / নিষ্ক্রিয়",
-      "example": null,
+      "example": "He felt lethargic because he was tired.",
       "sources": {
         "Competitive Exams": 253
       }
     },
     {
-      "id": 752,
+      "id": 753,
       "english": "Levee",
       "bengali": "বাঁধ / নদীর তীররক্ষা বাঁধ",
-      "example": null,
+      "example": "The levee protected the town because it blocked water.",
       "sources": {
         "Competitive Exams": 254
       }
     },
     {
-      "id": 753,
+      "id": 754,
       "english": "Levity",
       "bengali": "হালকা আচরণ",
-      "example": null,
+      "example": "His levity annoyed others because the issue was serious.",
       "sources": {
         "Competitive Exams": 255
       }
     },
     {
-      "id": 754,
+      "id": 755,
       "english": "Legendary",
       "bengali": "কিংবদন্তি",
-      "example": null,
+      "example": "He is legendary because of his bravery.",
       "sources": {
         "Competitive Exams": 256
       }
     },
     {
-      "id": 755,
+      "id": 756,
       "english": "Lackluster",
       "bengali": "নিষ্প্রভ / অনুজ্জ্বল",
-      "example": null,
+      "example": "The performance was lackluster because it lacked energy.",
       "sources": {
         "Competitive Exams": 257
       }
     },
     {
-      "id": 756,
+      "id": 757,
       "english": "Loquacious",
       "bengali": "বাচাল",
-      "example": null,
+      "example": "She is loquacious because she talks a lot.",
       "sources": {
         "Competitive Exams": 258
       }
     },
     {
-      "id": 757,
+      "id": 758,
       "english": "Lucid",
       "bengali": "স্পষ্ট / পরিষ্কার",
-      "example": null,
+      "example": "His explanation was lucid because it was simple.",
       "sources": {
         "Competitive Exams": 259
       }
     },
     {
-      "id": 758,
+      "id": 759,
       "english": "Licentious",
       "bengali": "নীতিহীন / অসচ্চরিত্র",
-      "example": null,
+      "example": "His behavior was licentious because he ignored morals.",
       "sources": {
         "Competitive Exams": 260
       }
     },
     {
-      "id": 759,
+      "id": 760,
       "english": "Magnanimity",
       "bengali": "উদারতা / মহানুভবতা",
-      "example": null,
+      "example": "His magnanimity impressed everyone because he forgave his enemy.",
       "sources": {
         "Competitive Exams": 262
       }
     },
     {
-      "id": 760,
+      "id": 761,
       "english": "Malingerer",
       "bengali": "অসুস্থতার ভানকারী",
-      "example": null,
+      "example": "The man was a malingerer because he pretended illness.",
       "sources": {
         "Competitive Exams": 263
       }
     },
     {
-      "id": 761,
+      "id": 762,
       "english": "Malleable",
       "bengali": "নমনীয়",
-      "example": null,
+      "example": "Gold is malleable because it can be shaped easily.",
       "sources": {
         "Competitive Exams": 264
       }
     },
     {
-      "id": 762,
+      "id": 763,
       "english": "Massive",
       "bengali": "বিশাল / বৃহৎ",
-      "example": null,
+      "example": "The building is massive because it is very large.",
       "sources": {
         "Competitive Exams": 265
       }
     },
     {
-      "id": 763,
+      "id": 764,
       "english": "Maverick",
       "bengali": "স্বাধীনচেতা ব্যক্তি / যারা প্রচলিত মতে বিশ্বাসী নয়",
-      "example": null,
+      "example": "He is a maverick because he follows his own ideas.",
       "sources": {
         "Competitive Exams": 266
       }
     },
     {
-      "id": 764,
+      "id": 765,
       "english": "Mendacity",
       "bengali": "মিথ্যাচার",
-      "example": null,
+      "example": "His mendacity was exposed because he lied often.",
       "sources": {
         "Competitive Exams": 267
       }
     },
     {
-      "id": 765,
+      "id": 766,
       "english": "Metamorphosis",
       "bengali": "রূপান্তর",
-      "example": null,
+      "example": "The caterpillar underwent metamorphosis as it became a butterfly.",
       "sources": {
         "Competitive Exams": 268
       }
     },
     {
-      "id": 766,
+      "id": 767,
       "english": "Meticulous",
       "bengali": "সূক্ষ্মদৃষ্টি সম্পন্ন / যত্নবান / খুঁতখুঁতে",
-      "example": null,
+      "example": "She is meticulous because she checks every detail.",
       "sources": {
         "Competitive Exams": 269
       }
     },
     {
-      "id": 767,
+      "id": 768,
       "english": "Misanthrope",
       "bengali": "মানুষবিদ্বেষী",
-      "example": null,
+      "example": "He is a misanthrope because he avoids people.",
       "sources": {
         "Competitive Exams": 270
       }
     },
     {
-      "id": 768,
+      "id": 769,
       "english": "Mitigate",
       "bengali": "কমানো / লাঘব করা",
-      "example": null,
+      "example": "Measures mitigated the damage because they reduced impact.",
       "sources": {
         "Competitive Exams": 271
       }
     },
     {
-      "id": 769,
+      "id": 770,
       "english": "Mollify",
       "bengali": "শান্ত করা",
-      "example": null,
+      "example": "He tried to mollify her because she was angry.",
       "sources": {
         "Competitive Exams": 272
       }
     },
     {
-      "id": 770,
+      "id": 771,
       "english": "Morose",
       "bengali": "মনমরা / বিমর্ষ / বিষণ্ণ",
-      "example": null,
+      "example": "He felt morose because he failed.",
       "sources": {
         "Competitive Exams": 273
       }
     },
     {
-      "id": 771,
+      "id": 772,
       "english": "Mundane",
       "bengali": "সাধারণ / একঘেয়ে / জাগতিক",
-      "example": null,
+      "example": "The task was mundane because it was repetitive.",
       "sources": {
         "Competitive Exams": 274
       }
     },
     {
-      "id": 772,
+      "id": 773,
       "english": "abut",
       "bengali": "সংলগ্ন থাকা",
-      "example": null,
+      "example": "The building abuts the river.",
       "sources": {
         "Analogy": 3
       }
     },
     {
-      "id": 773,
+      "id": 774,
       "english": "accidental",
       "bengali": "দুর্ঘটনাজনিত / অনিচ্ছাকৃত",
-      "example": null,
+      "example": "The fire was accidental.",
       "sources": {
         "Analogy": 4
       }
     },
     {
-      "id": 774,
+      "id": 775,
       "english": "accuser",
       "bengali": "অভিযোগকারী",
-      "example": null,
+      "example": "The accuser presented evidence in court.",
       "sources": {
         "Analogy": 5
       }
     },
     {
-      "id": 775,
+      "id": 776,
       "english": "admonitory",
       "bengali": "সতর্কতামূলক",
-      "example": null,
+      "example": "The teacher gave an admonitory look.",
       "sources": {
         "Analogy": 6
       }
     },
     {
-      "id": 776,
+      "id": 777,
       "english": "Anesthetic",
       "bengali": "অবশকারী ওষুধ",
-      "example": null,
+      "example": "The dentist used an anesthetic before extraction.",
       "sources": {
         "Analogy": 7
       }
     },
     {
-      "id": 777,
+      "id": 778,
       "english": "Antidote",
       "bengali": "প্রতিষেধক",
-      "example": null,
+      "example": "There is no antidote for that toxin.",
       "sources": {
         "Analogy": 8
       }
     },
     {
-      "id": 778,
+      "id": 779,
       "english": "arbitrator",
       "bengali": "সালিসকারী",
-      "example": null,
+      "example": "The arbitrator made the final decision.",
       "sources": {
         "Analogy": 9
       }
     },
     {
-      "id": 779,
+      "id": 780,
       "english": "Arrogant",
       "bengali": "অহংকারী",
-      "example": null,
+      "example": "His arrogant behavior annoyed others.",
       "sources": {
         "Analogy": 10
       }
     },
     {
-      "id": 780,
+      "id": 781,
       "english": "augury",
       "bengali": "লক্ষণ / পূর্বাভাস",
-      "example": null,
+      "example": "The dark clouds were an augury of storm.",
       "sources": {
         "Analogy": 11
       }
     },
     {
-      "id": 781,
+      "id": 782,
       "english": "burial",
       "bengali": "দাফন / সমাধি",
-      "example": null,
+      "example": "The burial took place at sunset.",
       "sources": {
         "Analogy": 12
       }
     },
     {
-      "id": 782,
+      "id": 783,
       "english": "cataclysmic",
       "bengali": "বিপর্যয়কর",
-      "example": null,
+      "example": "The earthquake had cataclysmic effects.",
       "sources": {
         "Analogy": 13
       }
     },
     {
-      "id": 783,
+      "id": 784,
       "english": "Caucus",
       "bengali": "দলীয় বৈঠক",
-      "example": null,
+      "example": "The party held a caucus before elections.",
       "sources": {
         "Analogy": 14
       }
     },
     {
-      "id": 784,
+      "id": 785,
       "english": "centurion",
       "bengali": "রোমান সেনাপতি (১০০ সৈন্যের নেতা)",
-      "example": null,
+      "example": "The centurion led his soldiers into battle.",
       "sources": {
         "Analogy": 15
       }
     },
     {
-      "id": 785,
+      "id": 786,
       "english": "commendable",
       "bengali": "প্রশংসনীয়",
-      "example": null,
+      "example": "Her honesty is commendable.",
       "sources": {
         "Analogy": 16
       }
     },
     {
-      "id": 786,
+      "id": 787,
       "english": "Commuter",
       "bengali": "যাতায়াতকারী",
-      "example": null,
+      "example": "He is a daily commuter to Dhaka.",
       "sources": {
         "Analogy": 17
       }
     },
     {
-      "id": 787,
+      "id": 788,
       "english": "comply",
       "bengali": "মেনে চলা",
-      "example": null,
+      "example": "You must comply with the law.",
       "sources": {
         "Analogy": 18
       }
     },
     {
-      "id": 788,
+      "id": 789,
       "english": "comprehensive",
       "bengali": "বিস্তৃত / পূর্ণাঙ্গ",
-      "example": null,
+      "example": "The report is comprehensive.",
       "sources": {
         "Analogy": 19
       }
     },
     {
-      "id": 789,
+      "id": 790,
       "english": "Contagiousness",
       "bengali": "সংক্রামকতা",
-      "example": null,
+      "example": "The contagiousness of the virus worried doctors.",
       "sources": {
         "Analogy": 20
       }
     },
     {
-      "id": 790,
+      "id": 791,
       "english": "Courageous",
       "bengali": "সাহসী",
-      "example": null,
+      "example": "The firefighter was very courageous.",
       "sources": {
         "Analogy": 21
       }
     },
     {
-      "id": 791,
+      "id": 792,
       "english": "courteous",
       "bengali": "ভদ্র",
-      "example": null,
+      "example": "The staff were very courteous.",
       "sources": {
         "Analogy": 22
       }
     },
     {
-      "id": 792,
+      "id": 793,
       "english": "dawdler",
       "bengali": "ধীরগতির ব্যক্তি /বেকার",
-      "example": null,
+      "example": "Stop being a dawdler and finish your work.",
       "sources": {
         "Analogy": 23
       }
     },
     {
-      "id": 793,
+      "id": 794,
       "english": "deflect",
       "bengali": "ঘুরিয়ে দেওয়া",
-      "example": null,
+      "example": "He deflected the criticism.",
       "sources": {
         "Analogy": 24
       }
     },
     {
-      "id": 794,
+      "id": 795,
       "english": "Dispute",
       "bengali": "বিরোধ / তর্ক",
-      "example": null,
+      "example": "The two countries are in a dispute over the border.",
       "sources": {
         "Analogy": 25
       }
     },
     {
-      "id": 795,
+      "id": 796,
       "english": "doomed",
       "bengali": "ধ্বংসের দিকে ধাবিত",
-      "example": null,
+      "example": "The mission seemed doomed from the start.",
       "sources": {
         "Analogy": 26
       }
     },
     {
-      "id": 796,
+      "id": 797,
       "english": "Dote",
       "bengali": "অতিরিক্ত স্নেহ করা / অন্ধভাবে ভালোবাসা",
-      "example": null,
+      "example": "She dotes on her youngest child and fulfills all his wishes.",
       "sources": {
         "Analogy": 27
       }
     },
     {
-      "id": 797,
+      "id": 798,
       "english": "drone",
       "bengali": "গুনগুন শব্দ / একঘেয়ে কথা বলা",
-      "example": null,
+      "example": "The teacher’s voice began to drone.",
       "sources": {
         "Analogy": 28
       }
     },
     {
-      "id": 798,
+      "id": 799,
       "english": "Drowsiness",
       "bengali": "তন্দ্রাচ্ছন্নতা",
-      "example": null,
+      "example": "The medicine caused severe drowsiness.",
       "sources": {
         "Analogy": 29
       }
     },
     {
-      "id": 799,
+      "id": 800,
       "english": "enigma",
       "bengali": "রহস্য",
-      "example": null,
+      "example": "His behavior remains an enigma.",
       "sources": {
         "Analogy": 30
       }
     },
     {
-      "id": 800,
+      "id": 801,
       "english": "erratic",
       "bengali": "অনিয়মিত / অস্থির",
-      "example": null,
+      "example": "His behavior was erratic.",
       "sources": {
         "Analogy": 31
       }
     },
     {
-      "id": 801,
+      "id": 802,
       "english": "evanescent",
       "bengali": "ক্ষণস্থায়ী",
-      "example": null,
+      "example": "Beauty is often evanescent.",
       "sources": {
         "Analogy": 32
       }
     },
     {
-      "id": 802,
+      "id": 803,
       "english": "faucet",
       "bengali": "পানির কল",
-      "example": null,
+      "example": "Turn off the faucet.",
       "sources": {
         "Analogy": 33
       }
     },
     {
-      "id": 803,
+      "id": 804,
       "english": "feckless",
       "bengali": "অকার্যকর / অদক্ষ",
-      "example": null,
+      "example": "The feckless manager failed to lead the team.",
       "sources": {
         "Analogy": 34
       }
     },
     {
-      "id": 804,
+      "id": 805,
       "english": "flatter",
       "bengali": "তোষামোদ করা",
-      "example": null,
+      "example": "He flattered his boss to get promotion.",
       "sources": {
         "Analogy": 35
       }
     },
     {
-      "id": 805,
+      "id": 806,
       "english": "fortuitous",
       "bengali": "সৌভাগ্যজনক / আকস্মিকভাবে ভালো",
-      "example": null,
+      "example": "A fortuitous meeting changed his life.",
       "sources": {
         "Analogy": 36
       }
     },
     {
-      "id": 806,
+      "id": 807,
       "english": "Frugal",
       "bengali": "মিতব্যয়ী",
-      "example": null,
+      "example": "She lives a frugal lifestyle.",
       "sources": {
         "Analogy": 37
       }
     },
     {
-      "id": 807,
+      "id": 808,
       "english": "Humor",
       "bengali": "রসবোধ",
-      "example": null,
+      "example": "His humor made everyone laugh.",
       "sources": {
         "Analogy": 38
       }
     },
     {
-      "id": 808,
+      "id": 809,
       "english": "illusory",
       "bengali": "মায়াময় / বিভ্রমমূলক",
-      "example": null,
+      "example": "The hope of success proved illusory.",
       "sources": {
         "Analogy": 39
       }
     },
     {
-      "id": 809,
+      "id": 810,
       "english": "imperative",
       "bengali": "অত্যাবশ্যক / আদেশ",
-      "example": null,
+      "example": "It is imperative to follow rules.",
       "sources": {
         "Analogy": 40
       }
     },
     {
-      "id": 810,
+      "id": 811,
       "english": "indicted",
       "bengali": "অভিযুক্ত করা",
-      "example": null,
+      "example": "He was indicted for fraud.",
       "sources": {
         "Analogy": 41
       }
     },
     {
-      "id": 811,
+      "id": 812,
       "english": "irksome",
       "bengali": "বিরক্তিকর",
-      "example": null,
+      "example": "His constant complaints were irksome.",
       "sources": {
         "Analogy": 43
       }
     },
     {
-      "id": 812,
+      "id": 813,
       "english": "Lag",
       "bengali": "পিছিয়ে পড়া / বিলম্ব",
-      "example": null,
+      "example": "He began to lag behind during the race.",
       "sources": {
         "Analogy": 44
       }
     },
     {
-      "id": 813,
+      "id": 814,
       "english": "laudatory",
       "bengali": "প্রশংসামূলক",
-      "example": null,
+      "example": "He gave a laudatory speech.",
       "sources": {
         "Analogy": 45
       }
     },
     {
-      "id": 814,
+      "id": 815,
       "english": "Laxative",
       "bengali": "জোলাপ / পায়খানা নরম করে এমন ঔষধ",
-      "example": null,
+      "example": "The doctor prescribed a laxative for constipation.",
       "sources": {
         "Analogy": 46
       }
     },
     {
-      "id": 815,
+      "id": 816,
       "english": "Lethargy",
       "bengali": "অবসাদ",
-      "example": null,
+      "example": "He felt lethargy all day.",
       "sources": {
         "Analogy": 47
       }
     },
     {
-      "id": 816,
+      "id": 817,
       "english": "luminary",
       "bengali": "বিশিষ্ট ব্যক্তি",
-      "example": null,
+      "example": "He is a luminary in science.",
       "sources": {
         "Analogy": 48
       }
     },
     {
-      "id": 817,
+      "id": 818,
       "english": "mediate",
       "bengali": "মধ্যস্থতা করা",
-      "example": null,
+      "example": "She mediated between the two parties.",
       "sources": {
         "Analogy": 49
       }
     },
     {
-      "id": 818,
+      "id": 819,
       "english": "millinery",
       "bengali": "টুপি তৈরির কাজ",
-      "example": null,
+      "example": "She works in millinery.",
       "sources": {
         "Analogy": 50
       }
     },
     {
-      "id": 819,
+      "id": 820,
       "english": "monotonous",
       "bengali": "একঘেয়ে / বিরক্ত করা",
-      "example": null,
+      "example": "The job became monotonous.",
       "sources": {
         "Analogy": 51
       }
     },
     {
-      "id": 820,
+      "id": 821,
       "english": "mortuary",
       "bengali": "মর্গ / মৃতদেহাগার",
-      "example": null,
+      "example": "The body was taken to the mortuary.",
       "sources": {
         "Analogy": 52
       }
     },
     {
-      "id": 821,
+      "id": 822,
       "english": "mutter",
       "bengali": "বিড়বিড় করা",
-      "example": null,
+      "example": "He muttered something under his breath.",
       "sources": {
         "Analogy": 53
       }
     },
     {
-      "id": 822,
+      "id": 823,
       "english": "Narcotic",
       "bengali": "মাদক",
-      "example": null,
+      "example": "Narcotics are strictly controlled.",
       "sources": {
         "Analogy": 54
       }
     },
     {
-      "id": 823,
+      "id": 824,
       "english": "nondescript",
       "bengali": "সাধারণ / বৈশিষ্ট্যহীন",
-      "example": null,
+      "example": "He lived in a nondescript house.",
       "sources": {
         "Analogy": 55
       }
     },
     {
-      "id": 824,
+      "id": 825,
       "english": "noxious",
       "bengali": "ক্ষতিকর / বিষাক্ত",
-      "example": null,
+      "example": "The factory released noxious fumes.",
       "sources": {
         "Analogy": 56
       }
     },
     {
-      "id": 825,
+      "id": 826,
       "english": "Numbness",
       "bengali": "অসাড়তা",
-      "example": null,
+      "example": "He felt numbness in his fingers.",
       "sources": {
         "Analogy": 57
       }
     },
     {
-      "id": 826,
+      "id": 827,
       "english": "onerous",
       "bengali": "কষ্টসাধ্য / বোঝাস্বরূপ",
-      "example": null,
+      "example": "The job came with onerous responsibilities.",
       "sources": {
         "Analogy": 58
       }
     },
     {
-      "id": 827,
+      "id": 828,
       "english": "penetrate",
       "bengali": "ভেদ করা / প্রবেশ করা",
-      "example": null,
+      "example": "The bullet penetrated the wall.",
       "sources": {
         "Analogy": 59
       }
     },
     {
-      "id": 828,
+      "id": 829,
       "english": "Peremptory",
       "bengali": "কর্তৃত্বপূর্ণ / দৃঢ়ভাবে নির্দেশমূলক",
-      "example": null,
+      "example": "He gave a peremptory order that no one dared to question.",
       "sources": {
         "Analogy": 60
       }
     },
     {
-      "id": 829,
+      "id": 830,
       "english": "pest",
       "bengali": "বিরক্তিকর ব্যক্তি / পোকা",
-      "example": null,
+      "example": "Mosquitoes are a common pest.",
       "sources": {
         "Analogy": 61
       }
     },
     {
-      "id": 830,
+      "id": 831,
       "english": "plead",
       "bengali": "অনুরোধ করা / মিনতি করা",
-      "example": null,
+      "example": "She pleaded for help.",
       "sources": {
         "Analogy": 62
       }
     },
     {
-      "id": 831,
+      "id": 832,
       "english": "pliant",
       "bengali": "নমনীয় / সহজে প্রভাবিত",
-      "example": null,
+      "example": "He was a pliant follower of authority.",
       "sources": {
         "Analogy": 63
       }
     },
     {
-      "id": 832,
+      "id": 833,
       "english": "preamble",
       "bengali": "আনুষ্ঠানিক দলিলের ভূমিকা / প্রস্তাবনা",
-      "example": null,
+      "example": "The constitution begins with a preamble.",
       "sources": {
         "Analogy": 64
       }
     },
     {
-      "id": 833,
+      "id": 834,
       "english": "proficient",
       "bengali": "দক্ষ",
-      "example": null,
+      "example": "She is proficient in English.",
       "sources": {
         "Analogy": 65
       }
     },
     {
-      "id": 834,
+      "id": 835,
       "english": "prohibitive",
       "bengali": "নিষেধমূলক / অত্যধিক ব্যয়বহুল",
-      "example": null,
+      "example": "The cost was prohibitive.",
       "sources": {
         "Analogy": 66
       }
     },
     {
-      "id": 835,
+      "id": 836,
       "english": "proliferate",
       "bengali": "দ্রুত বৃদ্ধি পাওয়া",
-      "example": null,
+      "example": "Online businesses are proliferating.",
       "sources": {
         "Analogy": 67
       }
     },
     {
-      "id": 836,
+      "id": 837,
       "english": "prologue",
       "bengali": "গল্প বা কাব্যের ভূমিকা / প্রস্তাবনা",
-      "example": null,
+      "example": "The prologue sets the story.",
       "sources": {
         "Analogy": 68
       }
     },
     {
-      "id": 837,
+      "id": 838,
       "english": "Psychosis",
       "bengali": "মানসিক বিকার",
-      "example": null,
+      "example": "The patient was diagnosed with psychosis.",
       "sources": {
         "Analogy": 69
       }
     },
     {
-      "id": 838,
+      "id": 839,
       "english": "Pugnacious",
       "bengali": "ঝগড়াটে",
-      "example": null,
+      "example": "He has a pugnacious attitude.",
       "sources": {
         "Analogy": 70
       }
     },
     {
-      "id": 839,
+      "id": 840,
       "english": "pyre",
       "bengali": "চিতা",
-      "example": null,
+      "example": "The body was placed on the funeral pyre.",
       "sources": {
         "Analogy": 71
       }
     },
     {
-      "id": 840,
+      "id": 841,
       "english": "Rash",
       "bengali": "অবিবেচক",
-      "example": null,
+      "example": "His rash decision caused problems.",
       "sources": {
         "Analogy": 72
       }
     },
     {
-      "id": 841,
+      "id": 842,
       "english": "Recast",
       "bengali": "নতুনভাবে গঠন করা / পুনর্গঠন করা",
-      "example": null,
+      "example": "The director decided to recast the role with a new actor.",
       "sources": {
         "Analogy": 73
       }
     },
     {
-      "id": 842,
+      "id": 843,
       "english": "Relapse",
       "bengali": "পুনরাবৃত্তি (রোগ)",
-      "example": null,
+      "example": "He had a relapse after treatment.",
       "sources": {
         "Analogy": 74
       }
     },
     {
-      "id": 843,
+      "id": 844,
       "english": "reproach",
       "bengali": "ভর্ত্সনা / দোষারোপ করা",
-      "example": null,
+      "example": "He looked at her with reproach.",
       "sources": {
         "Analogy": 75
       }
     },
     {
-      "id": 844,
+      "id": 845,
       "english": "Resuscitation",
       "bengali": "পুনরুজ্জীবন",
-      "example": null,
+      "example": "The doctors performed resuscitation.",
       "sources": {
         "Analogy": 76
       }
     },
     {
-      "id": 845,
+      "id": 846,
       "english": "salesclerk",
       "bengali": "বিক্রয়কর্মী",
-      "example": null,
+      "example": "The salesclerk helped me choose a shirt.",
       "sources": {
         "Analogy": 77
       }
     },
     {
-      "id": 846,
+      "id": 847,
       "english": "Sedative",
       "bengali": "স্নায়ুবিক উত্তেজনা ও মানসিক অস্থিরতা প্রশমন করার ঔষধ",
-      "example": null,
+      "example": "The doctor gave him a sedative before surgery.",
       "sources": {
         "Analogy": 78
       }
     },
     {
-      "id": 847,
+      "id": 848,
       "english": "Senator",
       "bengali": "সিনেট সদস্য",
-      "example": null,
+      "example": "The senator proposed a new law.",
       "sources": {
         "Analogy": 79
       }
     },
     {
-      "id": 848,
+      "id": 849,
       "english": "sink",
       "bengali": "সিঙ্ক / ডুবে যাওয়া",
-      "example": null,
+      "example": "The ship began to sink.",
       "sources": {
         "Analogy": 80
       }
     },
     {
-      "id": 849,
+      "id": 850,
       "english": "statute",
       "bengali": "আইন",
-      "example": null,
+      "example": "The statute protects citizens’ rights.",
       "sources": {
         "Analogy": 81
       }
     },
     {
-      "id": 850,
+      "id": 851,
       "english": "Stimulant",
       "bengali": "উত্তেজক",
-      "example": null,
+      "example": "Coffee is a common stimulant.",
       "sources": {
         "Analogy": 82
       }
     },
     {
-      "id": 851,
+      "id": 852,
       "english": "Stray",
       "bengali": "পথভ্রষ্ট হওয়া / ছিটকে যাওয়া",
-      "example": null,
+      "example": "The dog began to stray from its owner.",
       "sources": {
         "Analogy": 83
       }
     },
     {
-      "id": 852,
+      "id": 853,
       "english": "stygian",
       "bengali": "অন্ধকারাচ্ছন্ন / ঘোর অন্ধকার",
-      "example": null,
+      "example": "The cave was filled with stygian darkness.",
       "sources": {
         "Analogy": 84
       }
     },
     {
-      "id": 853,
+      "id": 854,
       "english": "synthetic",
       "bengali": "কৃত্রিম",
-      "example": null,
+      "example": "Synthetic fibers are widely used.",
       "sources": {
         "Analogy": 85
       }
     },
     {
-      "id": 854,
+      "id": 855,
       "english": "Temptation",
       "bengali": "প্রলোভন",
-      "example": null,
+      "example": "He resisted the temptation to cheat.",
       "sources": {
         "Analogy": 86
       }
     },
     {
-      "id": 855,
+      "id": 856,
       "english": "Timid",
       "bengali": "ভীতু",
-      "example": null,
+      "example": "The timid child avoided strangers.",
       "sources": {
         "Analogy": 87
       }
     },
     {
-      "id": 856,
+      "id": 857,
       "english": "toil",
       "bengali": "কঠোর পরিশ্রম",
-      "example": null,
+      "example": "Farmers toil in the fields daily.",
       "sources": {
         "Analogy": 88
       }
     },
     {
-      "id": 857,
+      "id": 858,
       "english": "Tonic",
       "bengali": "শক্তিবর্ধক",
-      "example": null,
+      "example": "This herbal tonic improves health.",
       "sources": {
         "Analogy": 89
       }
     },
     {
-      "id": 858,
+      "id": 859,
       "english": "upbraid",
       "bengali": "ভর্ৎসনা করা",
-      "example": null,
+      "example": "She upbraided him for his careless mistake.",
       "sources": {
         "Analogy": 90
       }
     },
     {
-      "id": 859,
+      "id": 860,
       "english": "Vex",
       "bengali": "বিরক্ত করা / উৎকণ্ঠিত করা",
-      "example": null,
+      "example": "The constant noise began to vex her.",
       "sources": {
         "Analogy": 91
       }
     },
     {
-      "id": 860,
+      "id": 861,
       "english": "Wanderlust",
       "bengali": "ভ্রমণপিপাসা",
-      "example": null,
+      "example": "Her wanderlust took her across Asia.",
       "sources": {
         "Analogy": 92
       }
     },
     {
-      "id": 861,
+      "id": 862,
       "english": "Ward",
       "bengali": "ওয়ার্ড/রোগী কক্ষ",
-      "example": null,
+      "example": "He was admitted to the general ward.",
       "sources": {
         "Analogy": 93
       }
     },
     {
-      "id": 862,
+      "id": 863,
       "english": "worship",
       "bengali": "উপাসনা / পূজা করা",
-      "example": null,
+      "example": "They worship their deity every morning.",
       "sources": {
         "Analogy": 94
       }
     },
     {
-      "id": 863,
+      "id": 864,
       "english": "yield",
       "bengali": "ফলন / আত্মসমর্পণ করা",
-      "example": null,
+      "example": "The farm yields a good harvest.",
       "sources": {
         "Analogy": 95
       }
     },
     {
-      "id": 864,
+      "id": 865,
       "english": "Abdomen",
       "bengali": "উদর",
-      "example": null,
+      "example": "He felt pain in his abdomen.",
       "sources": {
         "Analogy": 97
       }
     },
     {
-      "id": 865,
+      "id": 866,
       "english": "Abraded",
       "bengali": "ঘষে ক্ষয়প্রাপ্ত",
-      "example": null,
+      "example": "The surface was abraded over time.",
       "sources": {
         "Analogy": 98
       }
     },
     {
-      "id": 866,
+      "id": 867,
       "english": "Acrobat",
       "bengali": "কসরতবিদ",
-      "example": null,
+      "example": "The acrobat performed amazing tricks.",
       "sources": {
         "Analogy": 99
       }
     },
     {
-      "id": 867,
+      "id": 868,
       "english": "Adapt",
       "bengali": "খাপ খাওয়ানো",
-      "example": null,
+      "example": "Animals adapt to their environment.",
       "sources": {
         "Analogy": 100
       }
     },
     {
-      "id": 868,
+      "id": 869,
       "english": "Adjustment",
       "bengali": "সমন্বয়",
-      "example": null,
+      "example": "He made an adjustment to the machine.",
       "sources": {
         "Analogy": 101
       }
     },
     {
-      "id": 869,
+      "id": 870,
       "english": "Agility",
       "bengali": "ক্ষিপ্রতা",
-      "example": null,
+      "example": "The cat showed great agility.",
       "sources": {
         "Analogy": 102
       }
     },
     {
-      "id": 870,
+      "id": 871,
       "english": "Align",
       "bengali": "সারিবদ্ধ করা",
-      "example": null,
+      "example": "Please align the chairs properly.",
       "sources": {
         "Analogy": 103
       }
     },
     {
-      "id": 871,
+      "id": 872,
       "english": "Anodized",
       "bengali": "সুরক্ষিত করা",
-      "example": null,
+      "example": "The metal was anodized for durability.",
       "sources": {
         "Analogy": 104
       }
     },
     {
-      "id": 872,
+      "id": 873,
       "english": "Aorta",
       "bengali": "মহাধমনী",
-      "example": null,
+      "example": "The aorta distributes oxygenated blood.",
       "sources": {
         "Analogy": 105
       }
     },
     {
-      "id": 873,
+      "id": 874,
       "english": "Argumentative",
       "bengali": "তর্কপ্রবণ",
-      "example": null,
+      "example": "He is very argumentative in debates.",
       "sources": {
         "Analogy": 106
       }
     },
     {
-      "id": 874,
+      "id": 875,
       "english": "Assay",
       "bengali": "বিশ্লেষণ",
-      "example": null,
+      "example": "The lab will assay the sample.",
       "sources": {
         "Analogy": 107
       }
     },
     {
-      "id": 875,
+      "id": 876,
       "english": "Assuage",
       "bengali": "লাঘব করা",
-      "example": null,
+      "example": "The medicine helped assuage his pain.",
       "sources": {
         "Analogy": 108
       }
     },
     {
-      "id": 876,
+      "id": 877,
       "english": "Awe",
       "bengali": "বিস্ময়ভক্তি",
-      "example": null,
+      "example": "The mountains filled him with awe.",
       "sources": {
         "Analogy": 109
       }
     },
     {
-      "id": 877,
+      "id": 878,
       "english": "Bale",
       "bengali": "আঁটি / গাঁট",
-      "example": null,
+      "example": "Farmers stored hay in bales.",
       "sources": {
         "Analogy": 110
       }
     },
     {
-      "id": 878,
+      "id": 879,
       "english": "Boor",
       "bengali": "অশিক্ষিত / অসভ্য ব্যক্তি",
-      "example": null,
+      "example": "His behavior made him seem like a boor.",
       "sources": {
         "Analogy": 111
       }
     },
     {
-      "id": 879,
+      "id": 880,
       "english": "Boredom",
       "bengali": "একঘেয়েমি",
-      "example": null,
+      "example": "He suffered from boredom at work.",
       "sources": {
         "Analogy": 112
       }
     },
     {
-      "id": 880,
+      "id": 881,
       "english": "Calibrate",
       "bengali": "ক্যালিব্রেট করা / মান নির্ধারণ",
-      "example": null,
+      "example": "The engineer calibrated the instrument.",
       "sources": {
         "Analogy": 113
       }
     },
     {
-      "id": 881,
+      "id": 882,
       "english": "Centrifuge",
       "bengali": "কেন্দ্রীভূত ঘূর্ণনযন্ত্র",
-      "example": null,
+      "example": "The lab used a centrifuge for testing.",
       "sources": {
         "Analogy": 114
       }
     },
     {
-      "id": 882,
+      "id": 883,
       "english": "Chisel",
       "bengali": "বাটালি",
-      "example": null,
+      "example": "He used a chisel to shape the wood.",
       "sources": {
         "Analogy": 115
       }
     },
     {
-      "id": 883,
+      "id": 884,
       "english": "Clarity",
       "bengali": "স্পষ্টতা",
-      "example": null,
+      "example": "The teacher explained with clarity.",
       "sources": {
         "Analogy": 116
       }
     },
     {
-      "id": 884,
+      "id": 885,
       "english": "Clay",
       "bengali": "মাটি (আঠালো) / কাদামাটি",
-      "example": null,
+      "example": "The pot was made of clay.",
       "sources": {
         "Analogy": 117
       }
     },
     {
-      "id": 885,
+      "id": 886,
       "english": "Colander",
       "bengali": "ছাঁকনি",
-      "example": null,
+      "example": "She used a colander to drain pasta.",
       "sources": {
         "Analogy": 118
       }
     },
     {
-      "id": 886,
+      "id": 887,
       "english": "Combustion",
       "bengali": "দহন",
-      "example": null,
+      "example": "Combustion releases heat energy.",
       "sources": {
         "Analogy": 119
       }
     },
     {
-      "id": 887,
+      "id": 888,
       "english": "Condense",
       "bengali": "সংক্ষিপ্ত করা / ঘনীভূত করা",
-      "example": null,
+      "example": "He condensed the report into one page.",
       "sources": {
         "Analogy": 120
       }
     },
     {
-      "id": 888,
+      "id": 889,
       "english": "Contempt",
       "bengali": "অবজ্ঞা",
-      "example": null,
+      "example": "He looked at them with contempt.",
       "sources": {
         "Analogy": 121
       }
     },
     {
-      "id": 889,
+      "id": 890,
       "english": "Credulous",
       "bengali": "সহজে বিশ্বাসপ্রবণ",
-      "example": null,
+      "example": "He is too credulous of rumors.",
       "sources": {
         "Analogy": 122
       }
     },
     {
-      "id": 890,
+      "id": 891,
       "english": "Damp",
       "bengali": "স্যাঁতসেঁতে",
-      "example": null,
+      "example": "The clothes felt damp.",
       "sources": {
         "Analogy": 123
       }
     },
     {
-      "id": 891,
+      "id": 892,
       "english": "Dexterity",
       "bengali": "দক্ষতা",
-      "example": null,
+      "example": "The artist showed great dexterity.",
       "sources": {
         "Analogy": 124
       }
     },
     {
-      "id": 892,
+      "id": 893,
       "english": "Diluted",
       "bengali": "পাতলা করা",
-      "example": null,
+      "example": "The juice was diluted with water.",
       "sources": {
         "Analogy": 125
       }
     },
     {
-      "id": 893,
+      "id": 894,
       "english": "Distillate",
       "bengali": "পাতিত তরল",
-      "example": null,
+      "example": "The distillate was collected carefully.",
       "sources": {
         "Analogy": 126
       }
     },
     {
-      "id": 894,
+      "id": 895,
       "english": "Dredge",
       "bengali": "খনন করা (পানির নিচে)",
-      "example": null,
+      "example": "Workers dredged the river.",
       "sources": {
         "Analogy": 127
       }
     },
     {
-      "id": 895,
+      "id": 896,
       "english": "Drench",
       "bengali": "ভিজিয়ে দেওয়া",
-      "example": null,
+      "example": "The rain drenched him.",
       "sources": {
         "Analogy": 128
       }
     },
     {
-      "id": 896,
+      "id": 897,
       "english": "Dupe",
       "bengali": "প্রতারিত ব্যক্তি / প্রতারণা করা",
-      "example": null,
+      "example": "He was duped by a scam.",
       "sources": {
         "Analogy": 129
       }
     },
     {
-      "id": 897,
+      "id": 898,
       "english": "Elegy",
       "bengali": "শোকগাথা",
-      "example": null,
+      "example": "He wrote an elegy for his friend.",
       "sources": {
         "Analogy": 130
       }
     },
     {
-      "id": 898,
+      "id": 899,
       "english": "Equivocation",
       "bengali": "দ্ব্যর্থকতা / এড়িয়ে যাওয়া",
-      "example": null,
+      "example": "His equivocation confused everyone.",
       "sources": {
         "Analogy": 131
       }
     },
     {
-      "id": 899,
+      "id": 900,
       "english": "Extraction",
       "bengali": "নিষ্কাশন",
-      "example": null,
+      "example": "Tooth extraction can be painful.",
       "sources": {
         "Analogy": 132
       }
     },
     {
-      "id": 900,
+      "id": 901,
       "english": "Fatigue",
       "bengali": "ক্লান্তি",
-      "example": null,
+      "example": "He suffered from fatigue after working all day.",
       "sources": {
         "Analogy": 133
       }
     },
     {
-      "id": 901,
+      "id": 902,
       "english": "Floodgate",
       "bengali": "জলকপাট",
-      "example": null,
+      "example": "The floodgates were opened during heavy rain.",
       "sources": {
         "Analogy": 134
       }
     },
     {
-      "id": 902,
+      "id": 903,
       "english": "Gavel",
       "bengali": "হাতুড়ি (বিচারকের)",
-      "example": null,
+      "example": "The judge struck the gavel to start the session.",
       "sources": {
         "Analogy": 135
       }
     },
     {
-      "id": 903,
+      "id": 904,
       "english": "Glib",
       "bengali": "চটপটে কিন্তু উপর উপর",
-      "example": null,
+      "example": "He gave a glib answer without much thought.",
       "sources": {
         "Analogy": 136
       }
     },
     {
-      "id": 904,
+      "id": 905,
       "english": "Gravel",
       "bengali": "কঙ্কর",
-      "example": null,
+      "example": "The path was covered with gravel.",
       "sources": {
         "Analogy": 137
       }
     },
     {
-      "id": 905,
+      "id": 906,
       "english": "Gristle",
       "bengali": "শক্ত মাংসপেশির অংশ",
-      "example": null,
+      "example": "The steak had too much gristle.",
       "sources": {
         "Analogy": 138
       }
     },
     {
-      "id": 906,
+      "id": 907,
       "english": "Hay",
       "bengali": "খড়",
-      "example": null,
+      "example": "The cows ate hay.",
       "sources": {
         "Analogy": 139
       }
     },
     {
-      "id": 907,
+      "id": 908,
       "english": "Hedge",
       "bengali": "বেড়া / এড়িয়ে যাওয়া",
-      "example": null,
+      "example": "He hedged when asked about the plan.",
       "sources": {
         "Analogy": 140
       }
     },
     {
-      "id": 908,
+      "id": 909,
       "english": "Hone",
       "bengali": "শান দেওয়া / দক্ষতা বৃদ্ধি করা",
-      "example": null,
+      "example": "He honed his skills through practice.",
       "sources": {
         "Analogy": 141
       }
     },
     {
-      "id": 909,
+      "id": 910,
       "english": "Housecleaning",
       "bengali": "ঘর পরিষ্কার",
-      "example": null,
+      "example": "She spent the day housecleaning.",
       "sources": {
         "Analogy": 142
       }
     },
     {
-      "id": 910,
+      "id": 911,
       "english": "Imperfection",
       "bengali": "ত্রুটি",
-      "example": null,
+      "example": "The product had a minor imperfection.",
       "sources": {
         "Analogy": 143
       }
     },
     {
-      "id": 911,
+      "id": 912,
       "english": "Insignia",
       "bengali": "প্রতীক / চিহ্ন",
-      "example": null,
+      "example": "The uniform bore military insignia.",
       "sources": {
         "Analogy": 144
       }
     },
     {
-      "id": 912,
+      "id": 913,
       "english": "Intuition",
       "bengali": "অন্তর্দৃষ্টি",
-      "example": null,
+      "example": "Her intuition told her something was wrong.",
       "sources": {
         "Analogy": 145
       }
     },
     {
-      "id": 913,
+      "id": 914,
       "english": "Kneecap",
       "bengali": "হাঁটুর ঢাকনা",
-      "example": null,
+      "example": "He injured his kneecap in the fall.",
       "sources": {
         "Analogy": 146
       }
     },
     {
-      "id": 914,
+      "id": 915,
       "english": "Lament",
       "bengali": "বিলাপ করা",
-      "example": null,
+      "example": "She lamented the loss of her pet.",
       "sources": {
         "Analogy": 147
       }
     },
     {
-      "id": 915,
+      "id": 916,
       "english": "Lint",
       "bengali": "সূক্ষ্ম তুলা/ধুলো",
-      "example": null,
+      "example": "Lint collected in the dryer filter.",
       "sources": {
         "Analogy": 148
       }
     },
     {
-      "id": 916,
+      "id": 917,
       "english": "Maladroit",
       "bengali": "অদক্ষ / কৌশলহীন",
-      "example": null,
+      "example": "His maladroit handling of the situation made things worse.",
       "sources": {
         "Analogy": 149
       }
     },
     {
-      "id": 917,
+      "id": 918,
       "english": "Mitigation",
       "bengali": "লাঘব",
-      "example": null,
+      "example": "The apology helped in mitigation of the issue.",
       "sources": {
         "Analogy": 150
       }
     },
     {
-      "id": 918,
+      "id": 919,
       "english": "Modification",
       "bengali": "পরিবর্তন",
-      "example": null,
+      "example": "The design needs slight modification.",
       "sources": {
         "Analogy": 151
       }
     },
     {
-      "id": 919,
+      "id": 920,
       "english": "Mold",
       "bengali": "ছাঁচ / গড়া",
-      "example": null,
+      "example": "The clay was put into a mold.",
       "sources": {
         "Analogy": 152
       }
     },
     {
-      "id": 920,
+      "id": 921,
       "english": "Monarch",
       "bengali": "রাজা / সম্রাট",
-      "example": null,
+      "example": "The monarch ruled wisely.",
       "sources": {
         "Analogy": 153
       }
     },
     {
-      "id": 921,
+      "id": 922,
       "english": "Morose",
       "bengali": "মনমরা / বিষণ্ন / গম্ভীর",
-      "example": null,
+      "example": "He became morose after hearing the bad news.",
       "sources": {
         "Analogy": 154
       }
     },
     {
-      "id": 922,
+      "id": 923,
       "english": "Navigation",
       "bengali": "নৌচালনা / দিকনির্দেশনা",
-      "example": null,
+      "example": "GPS helps in navigation.",
       "sources": {
         "Analogy": 155
       }
     },
     {
-      "id": 923,
+      "id": 924,
       "english": "Notoriety",
       "bengali": "কুখ্যাতি",
-      "example": null,
+      "example": "The criminal gained notoriety.",
       "sources": {
         "Analogy": 156
       }
     },
     {
-      "id": 924,
+      "id": 925,
       "english": "Parody",
       "bengali": "অনুকরণমূলক ব্যঙ্গ",
-      "example": null,
+      "example": "The show is a parody of politics.",
       "sources": {
         "Analogy": 157
       }
     },
     {
-      "id": 925,
+      "id": 926,
       "english": "Perforation",
       "bengali": "ছিদ্র",
-      "example": null,
+      "example": "The paper had neat perforations.",
       "sources": {
         "Analogy": 158
       }
     },
     {
-      "id": 926,
+      "id": 927,
       "english": "Placate",
       "bengali": "শান্ত করা",
-      "example": null,
+      "example": "He tried to placate the angry crowd.",
       "sources": {
         "Analogy": 159
       }
     },
     {
-      "id": 927,
+      "id": 928,
       "english": "Platitude",
       "bengali": "গতানুগতিক কথা / সস্তা মন্তব্য",
-      "example": null,
+      "example": "His speech was full of platitudes.",
       "sources": {
         "Analogy": 160
       }
     },
     {
-      "id": 928,
+      "id": 929,
       "english": "Podium",
       "bengali": "বক্তৃতামঞ্চ",
-      "example": null,
+      "example": "She stood at the podium to deliver her speech.",
       "sources": {
         "Analogy": 161
       }
     },
     {
-      "id": 929,
+      "id": 930,
       "english": "Precedent",
       "bengali": "নজির /অতীতের উদাহরণ",
-      "example": null,
+      "example": "The case set a legal precedent.",
       "sources": {
         "Analogy": 162
       }
     },
     {
-      "id": 930,
+      "id": 931,
       "english": "Precept",
       "bengali": "নীতি / উপদেশ",
-      "example": null,
+      "example": "Follow moral precepts in life.",
       "sources": {
         "Analogy": 163
       }
     },
     {
-      "id": 931,
+      "id": 932,
       "english": "Profundity",
       "bengali": "গভীরতা",
-      "example": null,
+      "example": "The speech was admired for its profundity.",
       "sources": {
         "Analogy": 164
       }
     },
     {
-      "id": 932,
+      "id": 933,
       "english": "Prune",
       "bengali": "ছাঁটাই করা",
-      "example": null,
+      "example": "She pruned the tree branches.",
       "sources": {
         "Analogy": 165
       }
     },
     {
-      "id": 933,
+      "id": 934,
       "english": "Quarry",
       "bengali": "পাথর খনি / শিকার",
-      "example": null,
+      "example": "The stone came from a quarry.",
       "sources": {
         "Analogy": 166
       }
     },
     {
-      "id": 934,
+      "id": 935,
       "english": "Reap",
       "bengali": "ফসল কাটা / ফল ভোগ করা",
-      "example": null,
+      "example": "You reap what you sow.",
       "sources": {
         "Analogy": 167
       }
     },
     {
-      "id": 935,
+      "id": 936,
       "english": "Rib",
       "bengali": "পাঁজরের হাড়",
-      "example": null,
+      "example": "He broke a rib during the match.",
       "sources": {
         "Analogy": 168
       }
     },
     {
-      "id": 936,
+      "id": 937,
       "english": "Satirize",
       "bengali": "ব্যঙ্গ করা",
-      "example": null,
+      "example": "The writer satirized political leaders.",
       "sources": {
         "Analogy": 169
       }
     },
     {
-      "id": 937,
+      "id": 938,
       "english": "Sawdust",
       "bengali": "করাতের গুঁড়া",
-      "example": null,
+      "example": "The floor was covered in sawdust.",
       "sources": {
         "Analogy": 170
       }
     },
     {
-      "id": 938,
+      "id": 939,
       "english": "Seal",
       "bengali": "সিল / বন্ধ করা",
-      "example": null,
+      "example": "Seal the envelope properly.",
       "sources": {
         "Analogy": 171
       }
     },
     {
-      "id": 939,
+      "id": 940,
       "english": "Shuck",
       "bengali": "খোসা ছাড়ানো",
-      "example": null,
+      "example": "He shucked the corn quickly.",
       "sources": {
         "Analogy": 172
       }
     },
     {
-      "id": 940,
+      "id": 941,
       "english": "Sluggish",
       "bengali": "মন্থর / ধীরগতির",
-      "example": null,
+      "example": "The system became sluggish after the update.",
       "sources": {
         "Analogy": 173
       }
     },
     {
-      "id": 941,
+      "id": 942,
       "english": "Soot",
       "bengali": "ধোঁয়ার কালো ছাই",
-      "example": null,
+      "example": "The chimney was covered with soot.",
       "sources": {
         "Analogy": 174
       }
     },
     {
-      "id": 942,
+      "id": 943,
       "english": "Spontaneous",
       "bengali": "স্বতঃস্ফূর্ত",
-      "example": null,
+      "example": "The crowd gave a spontaneous applause.",
       "sources": {
         "Analogy": 175
       }
     },
     {
-      "id": 943,
+      "id": 944,
       "english": "Stanch",
       "bengali": "রক্তপাত বন্ধ করা",
-      "example": null,
+      "example": "He tried to stanch the bleeding.",
       "sources": {
         "Analogy": 176
       }
     },
     {
-      "id": 944,
+      "id": 945,
       "english": "Taunt",
       "bengali": "কটাক্ষ করা",
-      "example": null,
+      "example": "The bully taunted the new student.",
       "sources": {
         "Analogy": 177
       }
     },
     {
-      "id": 945,
+      "id": 946,
       "english": "Temper",
       "bengali": "মেজাজ",
-      "example": null,
+      "example": "He lost his temper quickly.",
       "sources": {
         "Analogy": 178
       }
     },
     {
-      "id": 946,
+      "id": 947,
       "english": "Tenderizing",
       "bengali": "কোমল করা",
-      "example": null,
+      "example": "Tenderizing improves the texture of meat.",
       "sources": {
         "Analogy": 179
       }
     },
     {
-      "id": 947,
+      "id": 948,
       "english": "Timber",
       "bengali": "কাঠ",
-      "example": null,
+      "example": "The house was built with timber.",
       "sources": {
         "Analogy": 180
       }
     },
     {
-      "id": 948,
+      "id": 949,
       "english": "Tirade",
       "bengali": "তীব্র বক্তৃতা / রাগান্বিত ভাষণ",
-      "example": null,
+      "example": "She launched into a tirade about injustice.",
       "sources": {
         "Analogy": 181
       }
     },
     {
-      "id": 949,
+      "id": 950,
       "english": "Unintelligible",
       "bengali": "দুর্বোধ্য",
-      "example": null,
+      "example": "His handwriting was unintelligible.",
       "sources": {
         "Analogy": 182
       }
     },
     {
-      "id": 950,
+      "id": 951,
       "english": "Volatile",
       "bengali": "অস্থির / পরিবর্তনশীল",
-      "example": null,
+      "example": "The situation is highly volatile.",
       "sources": {
         "Analogy": 183
       }
     },
     {
-      "id": 951,
+      "id": 952,
       "english": "Weary",
       "bengali": "ক্লান্ত",
-      "example": null,
+      "example": "She was weary after the long journey.",
       "sources": {
         "Analogy": 184
       }
     },
     {
-      "id": 952,
+      "id": 953,
       "english": "Wit",
       "bengali": "রসবোধ / তীক্ষ্ণ বুদ্ধি",
-      "example": null,
+      "example": "His wit made the conversation lively.",
       "sources": {
         "Analogy": 185
       }
     },
     {
-      "id": 953,
+      "id": 954,
       "english": "Woodcutting",
       "bengali": "কাঠ কাটা",
-      "example": null,
+      "example": "Woodcutting requires sharp tools.",
       "sources": {
         "Analogy": 186
       }
     },
     {
-      "id": 954,
+      "id": 955,
       "english": "Adversary",
       "bengali": "প্রতিপক্ষ",
-      "example": null,
+      "example": "He faced his adversary bravely.",
       "sources": {
         "Analogy": 188
       }
     },
     {
-      "id": 955,
+      "id": 956,
       "english": "Adversity",
       "bengali": "প্রতিকূলতা",
-      "example": null,
+      "example": "He overcame adversity with courage.",
       "sources": {
         "Analogy": 189
       }
     },
     {
-      "id": 956,
+      "id": 957,
       "english": "Affection",
       "bengali": "স্নেহ",
-      "example": null,
+      "example": "She showed affection to her child.",
       "sources": {
         "Analogy": 190
       }
     },
     {
-      "id": 957,
+      "id": 958,
       "english": "Arbitrate",
       "bengali": "মীমাংসা করা",
-      "example": null,
+      "example": "The judge will arbitrate the conflict.",
       "sources": {
         "Analogy": 191
       }
     },
     {
-      "id": 958,
+      "id": 959,
       "english": "Avaricious",
       "bengali": "লোভী",
-      "example": null,
+      "example": "The avaricious man hoarded money.",
       "sources": {
         "Analogy": 192
       }
     },
     {
-      "id": 959,
+      "id": 960,
       "english": "Barter",
       "bengali": "বিনিময় বাণিজ্য",
-      "example": null,
+      "example": "They bartered goods in the market.",
       "sources": {
         "Analogy": 193
       }
     },
     {
-      "id": 960,
+      "id": 961,
       "english": "Blame",
       "bengali": "দোষারোপ",
-      "example": null,
+      "example": "She blamed him for the mistake.",
       "sources": {
         "Analogy": 194
       }
     },
     {
-      "id": 961,
+      "id": 962,
       "english": "Caret",
       "bengali": "চিহ্ন (^)",
-      "example": null,
+      "example": "Add the word above the caret.",
       "sources": {
         "Analogy": 195
       }
     },
     {
-      "id": 962,
+      "id": 963,
       "english": "Censure",
       "bengali": "নিন্দা করা",
-      "example": null,
+      "example": "The leader faced censure for his actions.",
       "sources": {
         "Analogy": 196
       }
     },
     {
-      "id": 963,
+      "id": 964,
       "english": "Circumlocution",
       "bengali": "ঘুরিয়ে বলা",
-      "example": null,
+      "example": "His circumlocution confused listeners.",
       "sources": {
         "Analogy": 197
       }
     },
     {
-      "id": 964,
+      "id": 965,
       "english": "Confront",
       "bengali": "মুখোমুখি হওয়া",
-      "example": null,
+      "example": "She confronted her fears.",
       "sources": {
         "Analogy": 198
       }
     },
     {
-      "id": 965,
+      "id": 966,
       "english": "Corpuscle",
       "bengali": "কণিকা",
-      "example": null,
+      "example": "Red corpuscles carry oxygen.",
       "sources": {
         "Analogy": 199
       }
     },
     {
-      "id": 966,
+      "id": 967,
       "english": "Correspond",
       "bengali": "মিল থাকা / যোগাযোগ করা",
-      "example": null,
+      "example": "The results correspond with expectations.",
       "sources": {
         "Analogy": 200
       }
     },
     {
-      "id": 967,
+      "id": 968,
       "english": "Cower",
       "bengali": "ভয়ে সঙ্কুচিত হওয়া",
-      "example": null,
+      "example": "The dog cowered in the corner.",
       "sources": {
         "Analogy": 201
       }
     },
     {
-      "id": 968,
+      "id": 969,
       "english": "Culpable",
       "bengali": "দোষী",
-      "example": null,
+      "example": "He was found culpable for the error.",
       "sources": {
         "Analogy": 202
       }
     },
     {
-      "id": 969,
+      "id": 970,
       "english": "Curtain",
       "bengali": "পর্দা",
-      "example": null,
+      "example": "The curtain rose at the start of the play.",
       "sources": {
         "Analogy": 203
       }
     },
     {
-      "id": 970,
+      "id": 971,
       "english": "Derision",
       "bengali": "উপহাস",
-      "example": null,
+      "example": "His idea was met with derision.",
       "sources": {
         "Analogy": 204
       }
     },
     {
-      "id": 971,
+      "id": 972,
       "english": "Dilettantism",
       "bengali": "উপর উপর জ্ঞান",
-      "example": null,
+      "example": "His dilettantism prevented deep learning.",
       "sources": {
         "Analogy": 205
       }
     },
     {
-      "id": 972,
+      "id": 973,
       "english": "Disguise",
       "bengali": "ছদ্মবেশ",
-      "example": null,
+      "example": "He wore a disguise to escape.",
       "sources": {
         "Analogy": 206
       }
     },
     {
-      "id": 973,
+      "id": 974,
       "english": "Dogmatism",
       "bengali": "গোঁড়ামি",
-      "example": null,
+      "example": "His dogmatism limited discussion.",
       "sources": {
         "Analogy": 207
       }
     },
     {
-      "id": 974,
+      "id": 975,
       "english": "Dyslexia",
       "bengali": "পড়ার অসুবিধা",
-      "example": null,
+      "example": "The child was diagnosed with dyslexia.",
       "sources": {
         "Analogy": 208
       }
     },
     {
-      "id": 975,
+      "id": 976,
       "english": "Emit",
       "bengali": "নির্গত করা",
-      "example": null,
+      "example": "The factory emits smoke.",
       "sources": {
         "Analogy": 209
       }
     },
     {
-      "id": 976,
+      "id": 977,
       "english": "Enchant",
       "bengali": "মোহিত করা",
-      "example": null,
+      "example": "The story enchanted the children.",
       "sources": {
         "Analogy": 210
       }
     },
     {
-      "id": 977,
+      "id": 978,
       "english": "Endorse",
       "bengali": "সমর্থন করা",
-      "example": null,
+      "example": "The leader endorsed the proposal.",
       "sources": {
         "Analogy": 211
       }
     },
     {
-      "id": 978,
+      "id": 979,
       "english": "Endow",
       "bengali": "দান করা / গুণ প্রদান করা",
-      "example": null,
+      "example": "She was endowed with great talent.",
       "sources": {
         "Analogy": 212
       }
     },
     {
-      "id": 979,
+      "id": 980,
       "english": "Espionage",
       "bengali": "গুপ্তচরবৃত্তি",
-      "example": null,
+      "example": "The country was involved in espionage.",
       "sources": {
         "Analogy": 213
       }
     },
     {
-      "id": 980,
+      "id": 981,
       "english": "Facade",
       "bengali": "মিথ্যা বা ভুল সম্মুখভাব / কোন অট্টালিকার সম্মুখভাব",
-      "example": null,
+      "example": "His smile was just a facade.",
       "sources": {
         "Analogy": 214
       }
     },
     {
-      "id": 981,
+      "id": 982,
       "english": "Fawn",
       "bengali": "তোষামোদ করা / হরিণশাবক",
-      "example": null,
+      "example": "He fawned over his boss for promotion.",
       "sources": {
         "Analogy": 215
       }
     },
     {
-      "id": 982,
+      "id": 983,
       "english": "Felon",
       "bengali": "গুরুতর অপরাধী",
-      "example": null,
+      "example": "The felon was sentenced to prison.",
       "sources": {
         "Analogy": 216
       }
     },
     {
-      "id": 983,
+      "id": 984,
       "english": "Fidget",
       "bengali": "অস্থিরভাবে নড়াচড়া করা",
-      "example": null,
+      "example": "He began to fidget during the lecture.",
       "sources": {
         "Analogy": 217
       }
     },
     {
-      "id": 984,
+      "id": 985,
       "english": "Footlight",
       "bengali": "মঞ্চের সামনের আলো",
-      "example": null,
+      "example": "The actors stood in the glow of the footlights.",
       "sources": {
         "Analogy": 218
       }
     },
     {
-      "id": 985,
+      "id": 986,
       "english": "Forgery",
       "bengali": "জালিয়াতি",
-      "example": null,
+      "example": "He was arrested for forgery.",
       "sources": {
         "Analogy": 219
       }
     },
     {
-      "id": 986,
+      "id": 987,
       "english": "Frown",
       "bengali": "ভ্রুকুটি করা",
-      "example": null,
+      "example": "She frowned at the mistake.",
       "sources": {
         "Analogy": 220
       }
     },
     {
-      "id": 987,
+      "id": 988,
       "english": "Fur",
       "bengali": "পশম",
-      "example": null,
+      "example": "The coat was made of soft fur.",
       "sources": {
         "Analogy": 221
       }
     },
     {
-      "id": 988,
+      "id": 989,
       "english": "Gregariousness",
       "bengali": "মিশুক স্বভাব",
-      "example": null,
+      "example": "Her gregariousness made her popular.",
       "sources": {
         "Analogy": 222
       }
     },
     {
-      "id": 989,
+      "id": 990,
       "english": "Hemophilia",
       "bengali": "রক্তক্ষরণ রোগ",
-      "example": null,
+      "example": "Hemophilia requires careful treatment.",
       "sources": {
         "Analogy": 223
       }
     },
     {
-      "id": 990,
+      "id": 991,
       "english": "Humility",
       "bengali": "নম্রতা",
-      "example": null,
+      "example": "His humility made him respected by all.",
       "sources": {
         "Analogy": 224
       }
     },
     {
-      "id": 991,
+      "id": 992,
       "english": "Hurl",
       "bengali": "জোরে নিক্ষেপ করা",
-      "example": null,
+      "example": "He hurled the ball across the field.",
       "sources": {
         "Analogy": 225
       }
     },
     {
-      "id": 992,
+      "id": 993,
       "english": "Hyperactivity",
       "bengali": "অতিরিক্ত চঞ্চলতা",
-      "example": null,
+      "example": "The child showed signs of hyperactivity.",
       "sources": {
         "Analogy": 226
       }
     },
     {
-      "id": 993,
+      "id": 994,
       "english": "Insomnia",
       "bengali": "অনিদ্রা",
-      "example": null,
+      "example": "Stress caused his insomnia.",
       "sources": {
         "Analogy": 227
       }
     },
     {
-      "id": 994,
+      "id": 995,
       "english": "Inveigle",
       "bengali": "ফুসলে নেওয়া",
-      "example": null,
+      "example": "He inveigled her into joining the plan.",
       "sources": {
         "Analogy": 228
       }
     },
     {
-      "id": 995,
+      "id": 996,
       "english": "Lid",
       "bengali": "ঢাকনা",
-      "example": null,
+      "example": "Put the lid on the jar tightly.",
       "sources": {
         "Analogy": 229
       }
     },
     {
-      "id": 996,
+      "id": 997,
       "english": "Limb",
       "bengali": "অঙ্গ",
-      "example": null,
+      "example": "He injured his limb in the accident.",
       "sources": {
         "Analogy": 230
       }
     },
     {
-      "id": 997,
+      "id": 998,
       "english": "Menace",
       "bengali": "হুমকি",
-      "example": null,
+      "example": "The storm was a menace to the village.",
       "sources": {
         "Analogy": 231
       }
     },
     {
-      "id": 998,
+      "id": 999,
       "english": "Nondescript",
       "bengali": "সাধারণ / অনির্দিষ্ট",
-      "example": null,
+      "example": "He wore nondescript clothes.",
       "sources": {
         "Analogy": 232
       }
     },
     {
-      "id": 999,
+      "id": 1000,
       "english": "Nonporous",
       "bengali": "ছিদ্রবিহীন",
-      "example": null,
+      "example": "Plastic is a nonporous material.",
       "sources": {
         "Analogy": 233
       }
     },
     {
-      "id": 1000,
+      "id": 1001,
       "english": "Opaque",
       "bengali": "অস্বচ্ছ",
-      "example": null,
+      "example": "The glass was opaque and you couldn't see through it.",
       "sources": {
         "Analogy": 234
       }
     },
     {
-      "id": 1001,
+      "id": 1002,
       "english": "Orchestra",
       "bengali": "বাদ্যযন্ত্র দল",
-      "example": null,
+      "example": "The orchestra performed beautifully.",
       "sources": {
         "Analogy": 235
       }
     },
     {
-      "id": 1002,
+      "id": 1003,
       "english": "Pacify",
       "bengali": "শান্ত করা",
-      "example": null,
+      "example": "He tried to pacify the crying child.",
       "sources": {
         "Analogy": 236
       }
     },
     {
-      "id": 1003,
+      "id": 1004,
       "english": "Parry",
       "bengali": "প্রতিহত করা",
-      "example": null,
+      "example": "He parried the opponent’s strike.",
       "sources": {
         "Analogy": 237
       }
     },
     {
-      "id": 1004,
+      "id": 1005,
       "english": "Pear",
       "bengali": "নাশপাতি",
-      "example": null,
+      "example": "She ate a ripe pear after lunch.",
       "sources": {
         "Analogy": 238
       }
     },
     {
-      "id": 1005,
+      "id": 1006,
       "english": "Perplexed",
       "bengali": "বিভ্রান্ত",
-      "example": null,
+      "example": "He looked perplexed by the question.",
       "sources": {
         "Analogy": 239
       }
     },
     {
-      "id": 1006,
+      "id": 1007,
       "english": "Persecute",
       "bengali": "নির্যাতন করা",
-      "example": null,
+      "example": "The group was persecuted for religion.",
       "sources": {
         "Analogy": 240
       }
     },
     {
-      "id": 1007,
+      "id": 1008,
       "english": "Perturb",
       "bengali": "বিচলিত করা",
-      "example": null,
+      "example": "The news perturbed her greatly.",
       "sources": {
         "Analogy": 241
       }
     },
     {
-      "id": 1008,
+      "id": 1009,
       "english": "Pompous",
       "bengali": "আড়ম্বরপূর্ণ / গর্বিত",
-      "example": null,
+      "example": "His pompous attitude annoyed others.",
       "sources": {
         "Analogy": 242
       }
     },
     {
-      "id": 1009,
+      "id": 1010,
       "english": "Prattle",
       "bengali": "অর্থহীন বকবক",
-      "example": null,
+      "example": "The child prattled endlessly.",
       "sources": {
         "Analogy": 243
       }
     },
     {
-      "id": 1010,
+      "id": 1011,
       "english": "Prodigal",
       "bengali": "অপব্যয়ী",
-      "example": null,
+      "example": "The prodigal son wasted his inheritance.",
       "sources": {
         "Analogy": 244
       }
     },
     {
-      "id": 1011,
+      "id": 1012,
       "english": "Prose",
       "bengali": "গদ্য",
-      "example": null,
+      "example": "The novel is written in prose.",
       "sources": {
         "Analogy": 245
       }
     },
     {
-      "id": 1012,
+      "id": 1013,
       "english": "Querulous",
       "bengali": "অভিযোগপ্রবণ",
-      "example": null,
+      "example": "The querulous customer annoyed everyone.",
       "sources": {
         "Analogy": 246
       }
     },
     {
-      "id": 1013,
+      "id": 1014,
       "english": "Scales",
       "bengali": "আঁশ",
-      "example": null,
+      "example": "Fish have shiny scales.",
       "sources": {
         "Analogy": 248
       }
     },
     {
-      "id": 1014,
+      "id": 1015,
       "english": "Scheme",
       "bengali": "পরিকল্পনা / ষড়যন্ত্র",
-      "example": null,
+      "example": "They made a scheme to win.",
       "sources": {
         "Analogy": 249
       }
     },
     {
-      "id": 1015,
+      "id": 1016,
       "english": "Shirk",
       "bengali": "এড়িয়ে যাওয়া",
-      "example": null,
+      "example": "He tried to shirk his duties.",
       "sources": {
         "Analogy": 250
       }
     },
     {
-      "id": 1016,
+      "id": 1017,
       "english": "Slouch",
       "bengali": "কুঁজো হয়ে বসা",
-      "example": null,
+      "example": "He slouched in his chair.",
       "sources": {
         "Analogy": 251
       }
     },
     {
-      "id": 1017,
+      "id": 1018,
       "english": "Succinct",
       "bengali": "সংক্ষিপ্ত ও স্পষ্ট",
-      "example": null,
+      "example": "Give a succinct answer.",
       "sources": {
         "Analogy": 252
       }
     },
     {
-      "id": 1018,
+      "id": 1019,
       "english": "Supplicant",
       "bengali": "প্রার্থনাকারী",
-      "example": null,
+      "example": "The supplicant begged for help.",
       "sources": {
         "Analogy": 253
       }
     },
     {
-      "id": 1019,
+      "id": 1020,
       "english": "Toe",
       "bengali": "পায়ের আঙুল",
-      "example": null,
+      "example": "He hurt his toe while running.",
       "sources": {
         "Analogy": 254
       }
     },
     {
-      "id": 1020,
+      "id": 1021,
       "english": "Tongs",
       "bengali": "চিমটা",
-      "example": null,
+      "example": "She used tongs to pick up the hot coal.",
       "sources": {
         "Analogy": 255
       }
     },
     {
-      "id": 1021,
+      "id": 1022,
       "english": "Tranquil",
       "bengali": "শান্ত",
-      "example": null,
+      "example": "The village was tranquil at night.",
       "sources": {
         "Analogy": 256
       }
     },
     {
-      "id": 1022,
+      "id": 1023,
       "english": "Treacherous",
       "bengali": "বিশ্বাসঘাতক / বিপজ্জনক",
-      "example": null,
+      "example": "The path was treacherous in winter.",
       "sources": {
         "Analogy": 257
       }
     },
     {
-      "id": 1023,
+      "id": 1024,
       "english": "Upholstery",
       "bengali": "আসবাবের কাপড়",
-      "example": null,
+      "example": "The sofa had elegant upholstery.",
       "sources": {
         "Analogy": 258
       }
     },
     {
-      "id": 1024,
+      "id": 1025,
       "english": "Veil",
       "bengali": "ঘোমটা / আড়াল করা",
-      "example": null,
+      "example": "She wore a veil at the ceremony.",
       "sources": {
         "Analogy": 259
       }
     },
     {
-      "id": 1025,
+      "id": 1026,
       "english": "Verbiage",
       "bengali": "শব্দবাহুল্য",
-      "example": null,
+      "example": "The report was full of verbiage.",
       "sources": {
         "Analogy": 260
       }
     },
     {
-      "id": 1026,
+      "id": 1027,
       "english": "Vigilance",
       "bengali": "সতর্কতা",
-      "example": null,
+      "example": "Constant vigilance is necessary for safety.",
       "sources": {
         "Analogy": 261
       }
     },
     {
-      "id": 1027,
+      "id": 1028,
       "english": "Viscous",
       "bengali": "আঠালো / ঘন",
-      "example": null,
+      "example": "Honey is a viscous liquid.",
       "sources": {
         "Analogy": 262
       }
     },
     {
-      "id": 1028,
+      "id": 1029,
       "english": "Voyage",
       "bengali": "দীর্ঘযাত্রা / সমুদ্রযাত্রা",
-      "example": null,
+      "example": "They set out on a long voyage.",
       "sources": {
         "Analogy": 263
       }

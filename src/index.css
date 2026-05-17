@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -16,7 +17,13 @@ body {
     radial-gradient(circle at bottom right, rgba(20, 120, 109, 0.22), transparent 34%),
     linear-gradient(180deg, #f7f1e7 0%, #ece2d1 100%);
   color: #1f1a16;
+  font-family: "Hind Siliguri", "Sora", sans-serif;
+}
+
+/* Bengali text support */
+:lang(bn) {
   font-family: "Hind Siliguri", sans-serif;
+  font-size: 1.1em;
 }
 
 button,
