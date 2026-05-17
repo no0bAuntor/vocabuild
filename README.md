@@ -1,6 +1,6 @@
 # Vocabulary Quiz
 
-React + Tailwind quiz app built from `Vocabulary.xlsx`, with MongoDB-backed user profiles and saved quiz progress.
+React + Tailwind quiz app built from Google Sheets, with MongoDB-backed user profiles and saved quiz progress.
 
 Included sheets:
 - `War`

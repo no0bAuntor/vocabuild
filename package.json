@@ -2,7 +2,7 @@
   "name": "voabuild",
   "private": true,
   "version": "1.0.0",
-  "description": "React and Tailwind quiz app built from `Vocabulary.xlsx`.",
+  "description": "React and Tailwind quiz app built from Google Sheets.",
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:client": "vite",

@@ -1499,7 +1499,7 @@ function App() {
           })}
         </div>
 
-        <div className="mt-5 flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+        <div className="mt-5 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="flex-1">
             <p className="min-h-6 text-sm text-stone-600">
               {roundComplete ? `Final accuracy: ${roundAccuracy}%.` : feedbackText}
@@ -1529,12 +1529,12 @@ function App() {
               </div>
             )}
           </div>
-          <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+          <div className="flex w-full flex-col gap-3 sm:flex-row md:w-auto md:shrink-0 md:justify-end">
             {selectedAnswer && !roundComplete && (
               <button
                 type="button"
                 onClick={moveToNextQuestion}
-                className="rounded-2xl bg-emerald-800 px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-emerald-700 flex-1 sm:flex-initial"
+                className="rounded-2xl bg-emerald-800 px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-emerald-700 sm:flex-initial"
               >
                 Next
               </button>
@@ -1542,7 +1542,7 @@ function App() {
             <button
               type="button"
               onClick={goToDashboard}
-              className="rounded-2xl border border-stone-900/10 bg-white px-5 py-3 text-sm font-semibold text-stone-900 transition hover:-translate-y-0.5 hover:bg-stone-50 flex-1 sm:flex-initial"
+              className="rounded-2xl border border-stone-900/10 bg-white px-5 py-3 text-sm font-semibold text-stone-900 transition hover:-translate-y-0.5 hover:bg-stone-50 sm:flex-initial"
             >
               Dashboard
             </button>

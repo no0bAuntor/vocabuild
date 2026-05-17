@@ -286,7 +286,7 @@ def build_dataset() -> dict:
 
     return {
         "metadata": {
-            "sourceWorkbook": "Google Sheets: Vocabulary.xlsx",
+            "sourceWorkbook": "Google Sheets: Vocabulary",
             "sourceUrl": f"https://docs.google.com/spreadsheets/d/{GOOGLE_SHEETS_ID}",
             "includedSheets": list(TARGET_SHEETS.keys()),
             "sourceCounts": source_counts,
