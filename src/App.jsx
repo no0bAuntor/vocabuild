@@ -27,9 +27,112 @@ function shuffle(items) {
   return copy;
 }
 
-function pickUnique(source, count) {
-  const unique = [...new Set(source)];
-  return shuffle(unique).slice(0, Math.min(count, unique.length));
+function normalizeOptionText(value) {
+  return String(value ?? "")
+    .normalize("NFKC")
+    .replace(/[\u200c\u200d]/g, "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+}
+
+function compactOptionText(value) {
+  return normalizeOptionText(value).replace(/[^\p{L}\p{N}]+/gu, "");
+}
+
+function splitOptionVariants(value) {
+  return normalizeOptionText(value)
+    .split(/[\/|,;•]+/g)
+    .map((part) => compactOptionText(part))
+    .filter(Boolean);
+}
+
+function areOptionTextsTooSimilar(left, right) {
+  const leftCompact = compactOptionText(left);
+  const rightCompact = compactOptionText(right);
+
+  if (!leftCompact || !rightCompact) {
+    return false;
+  }
+
+  if (leftCompact === rightCompact) {
+    return true;
+  }
+
+  if (leftCompact.includes(rightCompact) || rightCompact.includes(leftCompact)) {
+    return true;
+  }
+
+  const leftVariants = splitOptionVariants(left);
+  const rightVariants = splitOptionVariants(right);
+
+  return leftVariants.some((leftVariant) =>
+    rightVariants.some(
+      (rightVariant) =>
+        leftVariant === rightVariant ||
+        leftVariant.includes(rightVariant) ||
+        rightVariant.includes(leftVariant),
+    ),
+  );
+}
+
+function buildOptionObjects(answer, sourceTexts, optionCount = 3) {
+  const uniqueSourceTexts = [
+    ...new Map(
+      sourceTexts
+        .map((text) => [compactOptionText(text), text])
+        .filter(([key]) => Boolean(key)),
+    ).values(),
+  ];
+  const distractors = [];
+
+  for (const candidate of shuffle(uniqueSourceTexts)) {
+    if (areOptionTextsTooSimilar(candidate, answer)) {
+      continue;
+    }
+
+    if (distractors.some((existing) => areOptionTextsTooSimilar(existing, candidate))) {
+      continue;
+    }
+
+    distractors.push(candidate);
+    if (distractors.length >= optionCount) {
+      break;
+    }
+  }
+
+  return shuffle([answer, ...distractors]).map((text) => ({
+    text,
+    correct: text === answer,
+  }));
+}
+
+function optionsAreValid(answer, options) {
+  if (!Array.isArray(options) || !options.length) {
+    return false;
+  }
+
+  const texts = options.map((option) => option?.text).filter(Boolean);
+  if (!texts.some((text) => normalizeOptionText(text) === normalizeOptionText(answer))) {
+    return false;
+  }
+
+  for (let index = 0; index < texts.length; index += 1) {
+    if (
+      texts[index] !== answer &&
+      areOptionTextsTooSimilar(texts[index], answer)
+    ) {
+      return false;
+    }
+
+    for (let otherIndex = index + 1; otherIndex < texts.length; otherIndex += 1) {
+      if (areOptionTextsTooSimilar(texts[index], texts[otherIndex])) {
+        return false;
+      }
+    }
+  }
+
+  return true;
 }
 
 function sortEntries(entries, mode) {
@@ -53,22 +156,16 @@ function buildDeck(entries, requestedCount, questionOrder) {
 function buildQuestion(entry, pool, mode) {
   const prompt = mode === "en-bn" ? entry.english : entry.bengali;
   const answer = mode === "en-bn" ? entry.bengali : entry.english;
-  const distractors = pickUnique(
-    pool
-      .filter((candidate) => candidate.id !== entry.id)
-      .map((candidate) => (mode === "en-bn" ? candidate.bengali : candidate.english))
-      .filter((candidate) => candidate !== answer),
-    3,
-  );
+  const sourceTexts = pool
+    .filter((candidate) => candidate.id !== entry.id)
+    .map((candidate) => (mode === "en-bn" ? candidate.bengali : candidate.english))
+    .filter((candidate) => candidate !== answer);
 
   return {
     entry,
     prompt,
     answer,
-    options: shuffle([answer, ...distractors]).map((text) => ({
-      text,
-      correct: text === answer,
-    })),
+    options: buildOptionObjects(answer, sourceTexts),
   };
 }
 
@@ -566,6 +663,18 @@ function App() {
       const restoredEntry = savedProgress.currentQuestion?.entryId
         ? entryMap.get(savedProgress.currentQuestion.entryId)
         : null;
+      const restoredMode = savedProgress.mode || user.progress?.mode || user.preferences?.activeMode || "en-bn";
+      const restoredQuestion =
+        restoredEntry && savedProgress.currentQuestion
+          ? optionsAreValid(savedProgress.currentQuestion.answer, savedProgress.currentQuestion.options)
+            ? {
+                entry: restoredEntry,
+                prompt: savedProgress.currentQuestion.prompt,
+                answer: savedProgress.currentQuestion.answer,
+                options: savedProgress.currentQuestion.options,
+              }
+            : buildQuestion(restoredEntry, filteredEntries, restoredMode)
+          : null;
 
       setActiveDeck(restoredDeck);
       setCurrentIndex(savedProgress.currentIndex ?? 0);
@@ -575,16 +684,7 @@ function App() {
       setReviewMode(Boolean(savedProgress.reviewMode));
       setSelectedAnswer(savedProgress.selectedAnswer || null);
       setFeedbackText(savedProgress.feedbackText || "");
-      setCurrentQuestion(
-        restoredEntry && savedProgress.currentQuestion
-          ? {
-              entry: restoredEntry,
-              prompt: savedProgress.currentQuestion.prompt,
-              answer: savedProgress.currentQuestion.answer,
-              options: savedProgress.currentQuestion.options,
-            }
-          : null,
-      );
+      setCurrentQuestion(restoredQuestion);
       applyingUserRef.current = false;
       return;
     }
