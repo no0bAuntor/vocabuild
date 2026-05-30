@@ -4,50 +4,58 @@
     "sourceUrl": "https://docs.google.com/spreadsheets/d/1TSK53uLoA8nH8QV21jByxP1Hsf_x3q9HlfGMVufp-FU",
     "includedSheets": [
       "War",
-      "Random",
       "A World Undone",
+      "word smart",
+      "Random",
       "Competitive Exams",
       "Analogy"
     ],
     "sourceCounts": {
       "War": 204,
-      "Random": 221,
       "A World Undone": 97,
-      "Competitive Exams": 259,
+      "word smart": 52,
+      "Random": 228,
+      "Competitive Exams": 293,
       "Analogy": 259
     },
     "blankRows": {
       "War": 0,
-      "Random": 0,
       "A World Undone": 0,
+      "word smart": 0,
+      "Random": 0,
       "Competitive Exams": 0,
       "Analogy": 0
     },
     "incompleteRows": {
       "War": 785,
-      "Random": 715,
       "A World Undone": 1,
-      "Competitive Exams": 90,
+      "word smart": 948,
+      "Random": 703,
+      "Competitive Exams": 54,
       "Analogy": 3
     },
-    "totalSourcePairs": 1040,
-    "uniqueEntries": 1032,
+    "totalSourcePairs": 1133,
+    "uniqueEntries": 1121,
     "rowRanges": {
       "War": {
         "min": 2,
         "max": 205
       },
-      "Random": {
-        "min": 2,
-        "max": 222
-      },
       "A World Undone": {
         "min": 2,
         "max": 99
       },
+      "word smart": {
+        "min": 2,
+        "max": 53
+      },
+      "Random": {
+        "min": 2,
+        "max": 229
+      },
       "Competitive Exams": {
         "min": 3,
-        "max": 274
+        "max": 309
       },
       "Analogy": {
         "min": 3,
@@ -1894,6 +1902,1332 @@
       "example": "She worked zealously to achieve her goals.",
       "sources": {
         "War": 205
+      }
+    },
+    {
+      "id": 422,
+      "english": "conceal",
+      "bengali": "আড়ালে থাকা, গোপন",
+      "example": "He is an introvert, he prefers to conceal his skills.",
+      "sources": {
+        "A World Undone": 2
+      }
+    },
+    {
+      "id": 423,
+      "english": "blunt",
+      "bengali": "সাদাসিধে",
+      "example": "His blunt character makes him easy to deceive.",
+      "sources": {
+        "A World Undone": 3
+      }
+    },
+    {
+      "id": 424,
+      "english": "impassive",
+      "bengali": "অনুভূতিহীন",
+      "example": "Jamy has grown increasingly impassive day by day since the accident.",
+      "sources": {
+        "A World Undone": 4
+      }
+    },
+    {
+      "id": 425,
+      "english": "lineage",
+      "bengali": "বংশ",
+      "example": "I come from a royal lineage.",
+      "sources": {
+        "A World Undone": 5
+      }
+    },
+    {
+      "id": 426,
+      "english": "mere",
+      "bengali": "নিছক",
+      "example": "That wind was not merely a flow, it was an allusion to a storm.",
+      "sources": {
+        "A World Undone": 6
+      }
+    },
+    {
+      "id": 427,
+      "english": "impoverished",
+      "bengali": "দরিদ্র্য",
+      "example": "She came from an impoverished family.",
+      "sources": {
+        "A World Undone": 8
+      }
+    },
+    {
+      "id": 428,
+      "english": "entertained",
+      "bengali": "আশা পোষণ করা",
+      "example": "I am entertaing the hope that tomorrow Bangladesh will win.",
+      "sources": {
+        "A World Undone": 9
+      }
+    },
+    {
+      "id": 429,
+      "english": "prospective",
+      "bengali": "সম্ভাব্য",
+      "example": "He is the prospective goalkeeper for tomorrow’s match.",
+      "sources": {
+        "A World Undone": 10
+      }
+    },
+    {
+      "id": 430,
+      "english": "archduchess",
+      "bengali": "উচ্চস্তরের রাজকন্যা",
+      "example": "Sophie, the wife of Archduke Franz Ferdinand, was known as an archduchess by marriage.",
+      "sources": {
+        "A World Undone": 11
+      }
+    },
+    {
+      "id": 431,
+      "english": "rigid",
+      "bengali": "কঠোর, অনমনীয়",
+      "example": "This plastic pot is too rigid to break.",
+      "sources": {
+        "A World Undone": 12
+      }
+    },
+    {
+      "id": 432,
+      "english": "consort",
+      "bengali": "স্ত্রী",
+      "example": "She was unworthy to be an emperor's consort. (তিনি সম্রাটের স্ত্রী হওয়ার যোগ্য বলে বিবেচিত হননি।)",
+      "sources": {
+        "A World Undone": 13
+      }
+    },
+    {
+      "id": 433,
+      "english": "progenitor",
+      "bengali": "পুর্বপুরুষ",
+      "example": "The progenitor of Mac’s lineage came from Europe.",
+      "sources": {
+        "A World Undone": 14
+      }
+    },
+    {
+      "id": 434,
+      "english": "solemnly",
+      "bengali": "গুরুত্বের সাথে, আনুষ্ঠানিকভাবে",
+      "example": "The judge solemnly delivered the verdict.",
+      "sources": {
+        "A World Undone": 15
+      }
+    },
+    {
+      "id": 435,
+      "english": "Descendants",
+      "bengali": "বংশধর",
+      "example": "The throne passed to the king’s descendant.",
+      "sources": {
+        "A World Undone": 16
+      }
+    },
+    {
+      "id": 436,
+      "english": "spinster",
+      "bengali": "অবিবাহিত",
+      "example": "In 19th-century Europe, an unmarried woman in her thirties was often called a spinster.",
+      "sources": {
+        "A World Undone": 17
+      }
+    },
+    {
+      "id": 437,
+      "english": "notorious",
+      "bengali": "কুখ্যাত",
+      "example": "Netanyahu is notorious for alleged atrocities in Palestine.",
+      "sources": {
+        "A World Undone": 18
+      }
+    },
+    {
+      "id": 438,
+      "english": "libertine",
+      "bengali": "ভোগবিলাসী ব্যক্তি, নৈতিক বিধিনিষেধ না মানা মানুষ",
+      "example": "In a military cadet academy, libertine behavior is strictly prohibited.",
+      "sources": {
+        "A World Undone": 19
+      }
+    },
+    {
+      "id": 439,
+      "english": "stiff",
+      "bengali": "কঠোর, শক্ত",
+      "example": "She gave a stiff reply.",
+      "sources": {
+        "A World Undone": 20
+      }
+    },
+    {
+      "id": 440,
+      "english": "relent",
+      "bengali": "কঠোরতা ছেড়ে দেওয়া, অবশেষে রাজি হওয়া",
+      "example": "At first, the principal refused to provide funding, but eventually he relented.",
+      "sources": {
+        "A World Undone": 21
+      }
+    },
+    {
+      "id": 441,
+      "english": "snub",
+      "bengali": "অসম্মান করা, পাত্তা না দেওয়া",
+      "example": "I deliberately snub her by ignoring her messages every day.",
+      "sources": {
+        "A World Undone": 22
+      }
+    },
+    {
+      "id": 442,
+      "english": "improvised",
+      "bengali": "অস্থায়ীভাবে বানানো, যা আগে থেকে পরিকল্পিত নয়",
+      "example": "Without informing me, guests came, so I improvised some snacks.",
+      "sources": {
+        "A World Undone": 23
+      }
+    },
+    {
+      "id": 443,
+      "english": "faint",
+      "bengali": "দূর্বল, অস্পষ্ট",
+      "example": "The old photo is faint.",
+      "sources": {
+        "A World Undone": 24
+      }
+    },
+    {
+      "id": 444,
+      "english": "ornate",
+      "bengali": "অলংকৃত, অতিশয় সাজানো",
+      "example": "The wedding house is ornately decorated.",
+      "sources": {
+        "A World Undone": 25
+      }
+    },
+    {
+      "id": 445,
+      "english": "ample",
+      "bengali": "প্রচুর",
+      "example": "There is ample time to finish the work.",
+      "sources": {
+        "A World Undone": 26
+      }
+    },
+    {
+      "id": 446,
+      "english": "torso",
+      "bengali": "দেহের মধ্যাংশ",
+      "example": "The accident injured his torso",
+      "sources": {
+        "A World Undone": 27
+      }
+    },
+    {
+      "id": 447,
+      "english": "bonnet",
+      "bengali": "মহিলাদের টুপি",
+      "example": "She wore a bonnet to protect her from the sun.",
+      "sources": {
+        "A World Undone": 28
+      }
+    },
+    {
+      "id": 448,
+      "english": "dainty",
+      "bengali": "সুন্দর, কোমল",
+      "example": "She looks so dainty.",
+      "sources": {
+        "A World Undone": 29
+      }
+    },
+    {
+      "id": 449,
+      "english": "parasol",
+      "bengali": "রোদ ঠেকানোর ছাতা",
+      "example": "She carried a parasol on sunny day.",
+      "sources": {
+        "A World Undone": 30
+      }
+    },
+    {
+      "id": 450,
+      "english": "percussion",
+      "bengali": "আঘাত, ধাক্কা",
+      "example": "The explosion caused strong percussion waves.",
+      "sources": {
+        "A World Undone": 31
+      }
+    },
+    {
+      "id": 451,
+      "english": "vanquish",
+      "bengali": "পরাজিত করা, সম্পুর্ণভাবে হারানো",
+      "example": "In 1971, Bangladesh vanquished Pakistan in the liberation war.",
+      "sources": {
+        "A World Undone": 32
+      }
+    },
+    {
+      "id": 452,
+      "english": "avenge",
+      "bengali": "প্রতিশোধ নেওয়া, বদলা নেওয়া",
+      "example": "He avenged his brother’s death.",
+      "sources": {
+        "A World Undone": 33
+      }
+    },
+    {
+      "id": 453,
+      "english": "Conqueror",
+      "bengali": "বিজয়ী",
+      "example": "Alexander the Great was a famous conqueror.",
+      "sources": {
+        "A World Undone": 34
+      }
+    },
+    {
+      "id": 454,
+      "english": "fragment",
+      "bengali": "খন্ড",
+      "example": "Fragments of glass were scattered on the road.",
+      "sources": {
+        "A World Undone": 35
+      }
+    },
+    {
+      "id": 455,
+      "english": "sharpnel",
+      "bengali": "বিস্ফোরণে ছিটকে পড়া ধাতব টুকরো",
+      "example": "Shrapnel injured several people during the explosion.",
+      "sources": {
+        "A World Undone": 36
+      }
+    },
+    {
+      "id": 456,
+      "english": "graze",
+      "bengali": "হালকা আঁচড় লাগা",
+      "example": "A fragment of shrapnel grazed Sophie’s neck.",
+      "sources": {
+        "A World Undone": 37
+      }
+    },
+    {
+      "id": 457,
+      "english": "procession",
+      "bengali": "শোভাযাত্রা",
+      "example": "A wedding procession moved through the streets.",
+      "sources": {
+        "A World Undone": 38
+      }
+    },
+    {
+      "id": 458,
+      "english": "protest march",
+      "bengali": "বিক্ষোভ মিছিল",
+      "example": "A protest march is going to be held to demand the immediate arrest of the criminals.",
+      "sources": {
+        "A World Undone": 39
+      }
+    },
+    {
+      "id": 459,
+      "english": "motorcade",
+      "bengali": "গুতুত্বপূর্ণ ব্যক্তির গাড়িবহর",
+      "example": "The president traveled through the city in a motorcade.",
+      "sources": {
+        "A World Undone": 40
+      }
+    },
+    {
+      "id": 460,
+      "english": "absurd",
+      "bengali": "হাস্যকর",
+      "example": "Her logic was absurd.",
+      "sources": {
+        "A World Undone": 41
+      }
+    },
+    {
+      "id": 461,
+      "english": "deviate",
+      "bengali": "বিচ্যুত হওয়া",
+      "example": "The bus deviated from its route.",
+      "sources": {
+        "A World Undone": 42
+      }
+    },
+    {
+      "id": 462,
+      "english": "delight",
+      "bengali": "আনন্দ, খুশি করা",
+      "example": "After seeing the result, his face lit up with delight.",
+      "sources": {
+        "A World Undone": 43
+      }
+    },
+    {
+      "id": 463,
+      "english": "Itinerary",
+      "bengali": "ভ্রমণসূচি",
+      "example": "We skipped three spots on the itinerary.",
+      "sources": {
+        "A World Undone": 44
+      }
+    },
+    {
+      "id": 464,
+      "english": "demonstration",
+      "bengali": "বিক্ষোভ",
+      "example": "A political demonstration was held in the capital.",
+      "sources": {
+        "A World Undone": 45
+      }
+    },
+    {
+      "id": 465,
+      "english": "devoted",
+      "bengali": "নিষ্ঠাবান, অনুগত",
+      "example": "I will be a devoted husband.",
+      "sources": {
+        "A World Undone": 46
+      }
+    },
+    {
+      "id": 466,
+      "english": "fanatics",
+      "bengali": "উগ্রপন্থী",
+      "example": "The attack was carried out by political fanatics.",
+      "sources": {
+        "A World Undone": 47
+      }
+    },
+    {
+      "id": 467,
+      "english": "reckless",
+      "bengali": "বেপরোয়া",
+      "example": "The revolutionaries are reckless about everything.",
+      "sources": {
+        "A World Undone": 48
+      }
+    },
+    {
+      "id": 468,
+      "english": "halt",
+      "bengali": "থামানো, থেমে যাওয়া",
+      "example": "The bus halted at the signal.",
+      "sources": {
+        "A World Undone": 49
+      }
+    },
+    {
+      "id": 469,
+      "english": "reverberate",
+      "bengali": "প্রতিধ্বনি হওয়া",
+      "example": "There is a unique pleasure in hearing a shout reverberate from a mountain peak.",
+      "sources": {
+        "A World Undone": 50
+      }
+    },
+    {
+      "id": 470,
+      "english": "spurting",
+      "bengali": "ছিটকে বেরোনো",
+      "example": null,
+      "sources": {
+        "A World Undone": 51
+      }
+    },
+    {
+      "id": 471,
+      "english": "slumped over",
+      "bengali": "ঢলে পড়া / হেলে পড়া",
+      "example": "After hearing the bad news, she slumped over in her chair.",
+      "sources": {
+        "A World Undone": 52
+      }
+    },
+    {
+      "id": 472,
+      "english": "fainted",
+      "bengali": "অজ্ঞান হয়ে যাওয়া",
+      "example": "The heat was so intense that he fainted in the street.",
+      "sources": {
+        "A World Undone": 53
+      }
+    },
+    {
+      "id": 473,
+      "english": "tunic",
+      "bengali": "ঢিলেঢালা পোশাক",
+      "example": "The soldier’s tunic was torn during the fight.",
+      "sources": {
+        "A World Undone": 54
+      }
+    },
+    {
+      "id": 474,
+      "english": "weakly",
+      "bengali": "দুর্বলভাবে",
+      "example": "He smiled weakly after the operation.",
+      "sources": {
+        "A World Undone": 55
+      }
+    },
+    {
+      "id": 475,
+      "english": "captured",
+      "bengali": "বন্দি করা",
+      "example": "The criminal was captured by the police.",
+      "sources": {
+        "A World Undone": 56
+      }
+    },
+    {
+      "id": 476,
+      "english": "severing",
+      "bengali": "বিচ্ছিন্ন করা",
+      "example": "The accident severed the power lines.",
+      "sources": {
+        "A World Undone": 57
+      }
+    },
+    {
+      "id": 477,
+      "english": "nuisance",
+      "bengali": "বিরক্তির কারণ",
+      "example": "The noise from the street was a constant nuisance.",
+      "sources": {
+        "A World Undone": 58
+      }
+    },
+    {
+      "id": 478,
+      "english": "ironically",
+      "bengali": "বিদ্রূপাত্মকভাবে",
+      "example": "Ironically, the doctor became ill himself.",
+      "sources": {
+        "A World Undone": 59
+      }
+    },
+    {
+      "id": 479,
+      "english": "governance",
+      "bengali": "শাসনব্যবস্থা",
+      "example": "Good governance is essential for stability.",
+      "sources": {
+        "A World Undone": 60
+      }
+    },
+    {
+      "id": 480,
+      "english": "declared",
+      "bengali": "ঘোষণা করলেন",
+      "example": "The king declared a national holiday.",
+      "sources": {
+        "A World Undone": 61
+      }
+    },
+    {
+      "id": 481,
+      "english": "inherited",
+      "bengali": "উত্তরাধিকারসূত্রে পাওয়া",
+      "example": "He inherited the disease from his mother.",
+      "sources": {
+        "A World Undone": 62
+      }
+    },
+    {
+      "id": 482,
+      "english": "survival",
+      "bengali": "বেঁচে থাকা",
+      "example": "His survival surprised the doctors.",
+      "sources": {
+        "A World Undone": 63
+      }
+    },
+    {
+      "id": 483,
+      "english": "accustomed",
+      "bengali": "অভ্যস্ত",
+      "example": "People had grown accustomed to violence.",
+      "sources": {
+        "A World Undone": 64
+      }
+    },
+    {
+      "id": 484,
+      "english": "cataclysm",
+      "bengali": "ভয়াবহ বিপর্যয়",
+      "example": "The war proved to be a global cataclysm.",
+      "sources": {
+        "A World Undone": 65
+      }
+    },
+    {
+      "id": 485,
+      "english": "slain",
+      "bengali": "নিহত / হত্যা করা হয়েছে",
+      "example": "The slain archduke became a symbol of political crisis.",
+      "sources": {
+        "A World Undone": 66
+      }
+    },
+    {
+      "id": 486,
+      "english": "clot",
+      "bengali": "রক্ত জমাট",
+      "example": "A blood clot blocked the artery and caused serious pain.",
+      "sources": {
+        "A World Undone": 67
+      }
+    },
+    {
+      "id": 487,
+      "english": "arouse",
+      "bengali": "জাগিয়ে তোলা / উদ্রেক করা",
+      "example": "The incident aroused public anger and curiosity.",
+      "sources": {
+        "A World Undone": 69
+      }
+    },
+    {
+      "id": 488,
+      "english": "conferring",
+      "bengali": "পরামর্শ করা / আলোচনা করা",
+      "example": "The leaders were conferring in private before announcing the plan.",
+      "sources": {
+        "A World Undone": 70
+      }
+    },
+    {
+      "id": 489,
+      "english": "accomplish",
+      "bengali": "সম্পন্ন করা / সফলভাবে করা",
+      "example": "She accomplished her goal through hard work and patience.",
+      "sources": {
+        "A World Undone": 71
+      }
+    },
+    {
+      "id": 490,
+      "english": "confine",
+      "bengali": "সীমাবদ্ধ করা / আটকিয়ে রাখা",
+      "example": "The patient was confined to bed for two weeks.",
+      "sources": {
+        "A World Undone": 72
+      }
+    },
+    {
+      "id": 491,
+      "english": "verge",
+      "bengali": "কিনারা / প্রান্ত; প্রায় পৌঁছানো",
+      "example": "The country was on the verge of war.",
+      "sources": {
+        "A World Undone": 73
+      }
+    },
+    {
+      "id": 492,
+      "english": "embroil",
+      "bengali": "জড়িয়ে ফেলা / জটিলতায় ফেলা",
+      "example": "He was embroiled in a political scandal.",
+      "sources": {
+        "A World Undone": 74
+      }
+    },
+    {
+      "id": 493,
+      "english": "virtuous",
+      "bengali": "নৈতিক / সদাচারী",
+      "example": "She was known as a virtuous leader who never abused her power.",
+      "sources": {
+        "A World Undone": 75
+      }
+    },
+    {
+      "id": 494,
+      "english": "antiquated",
+      "bengali": "সেকেলে / পুরনো ধাঁচের",
+      "example": "The company still uses an antiquated system that slows down work.",
+      "sources": {
+        "A World Undone": 76
+      }
+    },
+    {
+      "id": 495,
+      "english": "superfluous",
+      "bengali": "অপ্রয়োজনীয় / অতিরিক্ত",
+      "example": "The report contained superfluous details that confused the reader.",
+      "sources": {
+        "A World Undone": 77
+      }
+    },
+    {
+      "id": 496,
+      "english": "disarmament",
+      "bengali": "নিরস্ত্রীকরণ",
+      "example": "The treaty aimed at nuclear disarmament between the two nations.",
+      "sources": {
+        "A World Undone": 78
+      }
+    },
+    {
+      "id": 497,
+      "english": "fellow",
+      "bengali": "সহকর্মী / সঙ্গী; সমজাতীয়",
+      "example": "She discussed the problem with a fellow student from her class.",
+      "sources": {
+        "A World Undone": 79
+      }
+    },
+    {
+      "id": 498,
+      "english": "wounded",
+      "bengali": "আহত",
+      "example": "Many wounded soldiers were taken to the hospital after the battle.",
+      "sources": {
+        "A World Undone": 80
+      }
+    },
+    {
+      "id": 499,
+      "english": "plunge",
+      "bengali": "ঝাঁপ দেওয়া / হঠাৎ পড়ে যাওয়া",
+      "example": "The country plunged into chaos after the leader’s death.",
+      "sources": {
+        "A World Undone": 81
+      }
+    },
+    {
+      "id": 500,
+      "english": "foresee",
+      "bengali": "পূর্বানুমান করা / আগেই বুঝতে পারা",
+      "example": "Experts foresee serious challenges in the coming years.",
+      "sources": {
+        "A World Undone": 82
+      }
+    },
+    {
+      "id": 501,
+      "english": "weep",
+      "bengali": "কাঁদা",
+      "example": "She began to weep when she heard the sad news.",
+      "sources": {
+        "A World Undone": 83
+      }
+    },
+    {
+      "id": 502,
+      "english": "pursue",
+      "bengali": "অনুসরণ করা / সাধনা করা",
+      "example": "She decided to pursue a career in medicine.",
+      "sources": {
+        "A World Undone": 85,
+        "Competitive Exams": 309
+      }
+    },
+    {
+      "id": 503,
+      "english": "perhaps",
+      "bengali": "সম্ভবত / হয়তো",
+      "example": "Perhaps the meeting will be postponed.",
+      "sources": {
+        "A World Undone": 86
+      }
+    },
+    {
+      "id": 504,
+      "english": "credentials",
+      "bengali": "যোগ্যতার প্রমাণপত্র / সনদ",
+      "example": "She presented her academic credentials during the interview.",
+      "sources": {
+        "A World Undone": 87
+      }
+    },
+    {
+      "id": 505,
+      "english": "possess",
+      "bengali": "অধিকার করা / মালিক হওয়া",
+      "example": "She possesses great leadership skills.",
+      "sources": {
+        "A World Undone": 88
+      }
+    },
+    {
+      "id": 506,
+      "english": "exclude",
+      "bengali": "বাদ দেওয়া / অন্তর্ভুক্ত না করা",
+      "example": "The rule excludes children under five from the competition.",
+      "sources": {
+        "A World Undone": 89
+      }
+    },
+    {
+      "id": 507,
+      "english": "led",
+      "bengali": "নেতৃত্ব দিয়েছিল / পথ দেখিয়েছিল",
+      "example": "The general led his troops into battle.",
+      "sources": {
+        "A World Undone": 90
+      }
+    },
+    {
+      "id": 508,
+      "english": "aside",
+      "bengali": "পাশে / আলাদা করে",
+      "example": "He pulled her aside to speak in private.",
+      "sources": {
+        "A World Undone": 91
+      }
+    },
+    {
+      "id": 509,
+      "english": "chapel",
+      "bengali": "উপাসনালয় / ছোট গির্জা",
+      "example": "The students gathered in the chapel for morning prayers.",
+      "sources": {
+        "A World Undone": 92
+      }
+    },
+    {
+      "id": 510,
+      "english": "rode",
+      "bengali": "চড়েছিল / আরোহন করেছিল",
+      "example": "He rode a horse across the field.",
+      "sources": {
+        "A World Undone": 93
+      }
+    },
+    {
+      "id": 511,
+      "english": "imperial",
+      "bengali": "সাম্রাজ্যিক",
+      "example": "The imperial government controlled vast territories.",
+      "sources": {
+        "A World Undone": 94
+      }
+    },
+    {
+      "id": 512,
+      "english": "swung",
+      "bengali": "দুলেছিল / ঘুরিয়েছিল",
+      "example": "The door swung open in the wind.",
+      "sources": {
+        "A World Undone": 95
+      }
+    },
+    {
+      "id": 513,
+      "english": "slipped into",
+      "bengali": "অজান্তে প্রবেশ করা / ধীরে ধীরে ঢুকে পড়া",
+      "example": "The country slipped into war after weeks of tension.",
+      "sources": {
+        "A World Undone": 96
+      }
+    },
+    {
+      "id": 514,
+      "english": "vial",
+      "bengali": "ছোট কাঁচের শিশি",
+      "example": "The doctor filled a vial with the vaccine.",
+      "sources": {
+        "A World Undone": 97
+      }
+    },
+    {
+      "id": 515,
+      "english": "groin",
+      "bengali": "কুঁচকি",
+      "example": "The athlete felt pain in his groin after the match.",
+      "sources": {
+        "A World Undone": 98
+      }
+    },
+    {
+      "id": 516,
+      "english": "estate",
+      "bengali": "সম্পত্তি / জমিদারি / বড় বাড়ি ও জমি",
+      "example": "He inherited a large estate from his grandfather.",
+      "sources": {
+        "A World Undone": 99
+      }
+    },
+    {
+      "id": 1033,
+      "english": "abash",
+      "bengali": "লজ্জা দেওয়া",
+      "example": "Meredith felt abashed by her inability to remember her lines in the school chorus (group of people singing together) of \"Old McDonald Had a Farm\"",
+      "sources": {
+        "word smart": 2
+      }
+    },
+    {
+      "id": 1034,
+      "english": "abate",
+      "bengali": "কমানো",
+      "example": "George spilled a pot of hot coffee on his leg. It hurt quite a bit. Then, gradually, the agony abated",
+      "sources": {
+        "word smart": 3
+      }
+    },
+    {
+      "id": 1035,
+      "english": "abdicate",
+      "bengali": "উপর মহল থেকে নামানো",
+      "example": "Abby abdicated her responsibilities as a secretary by dumping in the garbage the reports she was supposed to type and flying to the Bahamas.",
+      "sources": {
+        "word smart": 4
+      }
+    },
+    {
+      "id": 1036,
+      "english": "aberration",
+      "bengali": "অস্বাভাবিক",
+      "example": "Sorren badehavior was an abberration. So was Harry's good behavior. That is, Soren's was usually good and Harry's was usually bad.",
+      "sources": {
+        "word smart": 5
+      }
+    },
+    {
+      "id": 1037,
+      "english": "abhor",
+      "bengali": "চরমভাবে ঘৃণা করা",
+      "example": "Emanuel abhorred having anvils dropped on his head.",
+      "sources": {
+        "word smart": 6
+      }
+    },
+    {
+      "id": 1038,
+      "english": "abject",
+      "bengali": "আশাহীন",
+      "example": "While most people would quickly recover from a banana-peel accident, Mia felt abject humiliation",
+      "sources": {
+        "word smart": 7
+      }
+    },
+    {
+      "id": 1039,
+      "english": "abnegate",
+      "bengali": "অগ্রাহ্য করা",
+      "example": "Ascetics practice self abnegation because they believe it will bring them closer to spiritual purity.",
+      "sources": {
+        "word smart": 8
+      }
+    },
+    {
+      "id": 541,
+      "english": "abortive",
+      "bengali": "ব্যর্থ",
+      "example": "Mari and Elizabeth made an abbortive effort to bake a birthday cake.",
+      "sources": {
+        "word smart": 9,
+        "Competitive Exams": 28
+      }
+    },
+    {
+      "id": 1040,
+      "english": "abridge",
+      "bengali": "ছোট করা",
+      "example": "The thoughtful editor abridged the massive book by removing the boring parts.",
+      "sources": {
+        "word smart": 10
+      }
+    },
+    {
+      "id": 1041,
+      "english": "absolute",
+      "bengali": "সব কিছুর উপরে, পরম সত্য",
+      "example": "The classroom was in absolute chaos after the teacher left",
+      "sources": {
+        "word smart": 11
+      }
+    },
+    {
+      "id": 1042,
+      "english": "absolve",
+      "bengali": "অপরাধ থেকে মুক্ত করা",
+      "example": "The priest absolved the sinner who had come to church to confess.",
+      "sources": {
+        "word smart": 12
+      }
+    },
+    {
+      "id": 1043,
+      "english": "abstinent",
+      "bengali": "বিরত থাকা",
+      "example": "Beulah used to be a chain-smoker, now she was abstinent.",
+      "sources": {
+        "word smart": 13
+      }
+    },
+    {
+      "id": 1044,
+      "english": "abstract",
+      "bengali": "সারাংশ",
+      "example": "Tell me the abstract of the context.",
+      "sources": {
+        "word smart": 14
+      }
+    },
+    {
+      "id": 1045,
+      "english": "abstruse",
+      "bengali": "দুর্বোধ্য",
+      "example": "This topic is abstruse.",
+      "sources": {
+        "word smart": 15
+      }
+    },
+    {
+      "id": 1046,
+      "english": "abysmal",
+      "bengali": "অতল",
+      "example": "The unemployed man considers his life abysmal.",
+      "sources": {
+        "word smart": 16
+      }
+    },
+    {
+      "id": 1047,
+      "english": "accolade",
+      "bengali": "সম্মান, পুরষ্কার",
+      "example": "During my school years, I achieved many accolades in sports.",
+      "sources": {
+        "word smart": 17
+      }
+    },
+    {
+      "id": 1048,
+      "english": "accost",
+      "bengali": "আক্রমনাত্মকভাবে কথা বলা",
+      "example": "The police accosted the passer-by.",
+      "sources": {
+        "word smart": 18
+      }
+    },
+    {
+      "id": 1049,
+      "english": "acerbic",
+      "bengali": "তীক্ষ্ণ, কটু, বিদ্রূপপূর্ণ বা তিক্ত ভাষা/মন্তব্য",
+      "example": "He mad ean acerbic remark. (সে একটি কটু/বিদ্রূপপূর্ণ মন্তব্য করেছিল।)",
+      "sources": {
+        "word smart": 19
+      }
+    },
+    {
+      "id": 1050,
+      "english": "acquiesce",
+      "bengali": "মেনে নেওয়া/ অনিচ্ছাসত্ত্বেও রাজি হওয়া",
+      "example": "The girl acquiesced in marrying.",
+      "sources": {
+        "word smart": 20
+      }
+    },
+    {
+      "id": 1051,
+      "english": "acrid",
+      "bengali": "তিক্ত, কটু, ঝাঝালো গন্ধ বা স্বাদযুক্ত",
+      "example": "This restaurant's food tastes acrid.",
+      "sources": {
+        "word smart": 21
+      }
+    },
+    {
+      "id": 1052,
+      "english": "acrimonious",
+      "bengali": "বিদ্বেষপূর্ণ, ঝগড়াটে",
+      "example": "Last night, the spouses were so acrimonious.",
+      "sources": {
+        "word smart": 22
+      }
+    },
+    {
+      "id": 1053,
+      "english": "acumen",
+      "bengali": "তীক্ষ্ম বিচারশক্তি",
+      "example": "Thought he is tiny boy, he has great acumen.",
+      "sources": {
+        "word smart": 23
+      }
+    },
+    {
+      "id": 1054,
+      "english": "acute",
+      "bengali": "তীক্ষ্ম",
+      "example": "If your eyesight is acute, you can see things that other people can't.",
+      "sources": {
+        "word smart": 24
+      }
+    },
+    {
+      "id": 1055,
+      "english": "adamant",
+      "bengali": "একগুয়ে, অবিচল, অনমনীয়, অটল",
+      "example": "Candidate was adamant, she coild never go out with Paul again",
+      "sources": {
+        "word smart": 25
+      }
+    },
+    {
+      "id": 1056,
+      "english": "address",
+      "bengali": "ভাষণ দেওয়া/ মনোযোগ দেওয়া",
+      "example": "Ernie addressed the problem of addressing the convention by sitting down and writing his speech.",
+      "sources": {
+        "word smart": 26
+      }
+    },
+    {
+      "id": 1057,
+      "english": "adherent",
+      "bengali": "সমর্থক, অনুগামী",
+      "example": "The king's adherents threw a big birthday party for him, just to show him how much they lked him.",
+      "sources": {
+        "word smart": 27
+      }
+    },
+    {
+      "id": 1058,
+      "english": "admonish",
+      "bengali": "সাবধান করা, মৃদু তিরষ্কার করা",
+      "example": "The boys' father admonished them not to eat the pie he had just baked. When they did so anyway, he admonished them.",
+      "sources": {
+        "word smart": 28
+      }
+    },
+    {
+      "id": 1059,
+      "english": "adroit",
+      "bengali": "দক্ষ, চতুর, কৌশলী, সাবলীল, বুদ্ধিমানভাবে পারদর্শী",
+      "example": "Julio was an adroit salesperson.",
+      "sources": {
+        "word smart": 29
+      }
+    },
+    {
+      "id": 1060,
+      "english": "adulation",
+      "bengali": "অতিরিক্ত প্রশংসা, চাটুকারিতা, অন্ধ ভক্তি",
+      "example": "The boss thrived on the adulation of his scheming secretary.",
+      "sources": {
+        "word smart": 30
+      }
+    },
+    {
+      "id": 1061,
+      "english": "adulterate",
+      "bengali": "দূষিত করা, ভেজাল মেশানো",
+      "example": "Vegetarians do not like their foods adulterated with animal fats.",
+      "sources": {
+        "word smart": 31
+      }
+    },
+    {
+      "id": 1062,
+      "english": "adverse",
+      "bengali": "প্রতিকূল, বিরূপ",
+      "example": "Airplane often don't fly in adverse weather.",
+      "sources": {
+        "word smart": 32
+      }
+    },
+    {
+      "id": 525,
+      "english": "aesthetic",
+      "bengali": "নান্দনিক",
+      "example": "Our art professor had a highly developed aesthetic sense.",
+      "sources": {
+        "word smart": 33,
+        "Competitive Exams": 11
+      }
+    },
+    {
+      "id": 1063,
+      "english": "affable",
+      "bengali": "সহজে মিশুক",
+      "example": "Susan was an affable girl; she could strike up a pleasant conversation with almost anyone.",
+      "sources": {
+        "word smart": 34
+      }
+    },
+    {
+      "id": 1064,
+      "english": "affectation",
+      "bengali": "ভান; অভিনয়সুলভ আচরন",
+      "example": "Becky's English accent is an affectation. She spent only a week in English, and that was several years ago.",
+      "sources": {
+        "word smart": 35
+      }
+    },
+    {
+      "id": 1065,
+      "english": "affinity",
+      "bengali": "আকর্ষণ; স্বাভাবিক টান; সাদৃশ্যতা",
+      "example": "Ducks have an affinity for water; There is an affinity between snow and sleet",
+      "sources": {
+        "word smart": 36
+      }
+    },
+    {
+      "id": 1066,
+      "english": "affluent",
+      "bengali": "ধনী, সমৃদ্ধ",
+      "example": "A person can be affluent.",
+      "sources": {
+        "word smart": 37
+      }
+    },
+    {
+      "id": 1067,
+      "english": "agenda",
+      "bengali": "কর্মসূচি",
+      "example": "What's on the agenda for the board meeting? A little gossip, then lunch.",
+      "sources": {
+        "word smart": 38
+      }
+    },
+    {
+      "id": 1068,
+      "english": "aggregate",
+      "bengali": "সমষ্টি, মোট পরিমাণ",
+      "example": "Govt isn't serous about unemployemnt issue, the aggregate data are alarming",
+      "sources": {
+        "word smart": 39
+      }
+    },
+    {
+      "id": 1069,
+      "english": "agnostic",
+      "bengali": "সংশয়বাদী",
+      "example": "An atheist doesn’t believe in God, but an agnostic neither believes nor disbelieves.",
+      "sources": {
+        "word smart": 40
+      }
+    },
+    {
+      "id": 1070,
+      "english": "agrarian",
+      "bengali": "কৃষিজ",
+      "example": "Besides the health sector, govt should focus on the agrarian sector.",
+      "sources": {
+        "word smart": 41
+      }
+    },
+    {
+      "id": 1071,
+      "english": "alacrity",
+      "bengali": "উৎসাহ, উৎসুক মনোভাব",
+      "example": "He came out of ATM with alacrity.",
+      "sources": {
+        "word smart": 42
+      }
+    },
+    {
+      "id": 1072,
+      "english": "allege",
+      "bengali": "প্র্রমান ছাড়া অভিযুক্ত করা",
+      "example": "The police alleged his involvement in a rape case.",
+      "sources": {
+        "word smart": 43
+      }
+    },
+    {
+      "id": 1073,
+      "english": "alleviate",
+      "bengali": "সাময়িক মুক্তির ব্যবস্থা",
+      "example": "This embankment only alleviates flooding temporarily, so the authorities must take steps for a permanent solution.",
+      "sources": {
+        "word smart": 44
+      }
+    },
+    {
+      "id": 1074,
+      "english": "allocate",
+      "bengali": "বণ্টন করা, বরাদ্দ দেওয়া",
+      "example": "The hall provost allocates seats for the listed student.",
+      "sources": {
+        "word smart": 45
+      }
+    },
+    {
+      "id": 1075,
+      "english": "alloy",
+      "bengali": "দুই বা ততোধিক ধাতুর মিশ্রণ",
+      "example": "Yesterday in the chemistry laboratory, we mixed Cu and Ag to make an alloy.",
+      "sources": {
+        "word smart": 46
+      }
+    },
+    {
+      "id": 1076,
+      "english": "allusion",
+      "bengali": "পরোক্ষ উল্লেখ, ইঙ্গিত",
+      "example": "This sign was an allusion to the upcoming event.",
+      "sources": {
+        "word smart": 47
+      }
+    },
+    {
+      "id": 1077,
+      "english": "aloof",
+      "bengali": "নির্লিপ্ত, উদাসীন, আলাদা থাকা",
+      "example": "John cut a sorry figure in the exam, he wants to stay aloof.",
+      "sources": {
+        "word smart": 48
+      }
+    },
+    {
+      "id": 1078,
+      "english": "altruism",
+      "bengali": "নিঃস্বার্থতা, পরার্থপরতা",
+      "example": "This school is supported by the altruism of rich people.",
+      "sources": {
+        "word smart": 49
+      }
+    },
+    {
+      "id": 1079,
+      "english": "ambience",
+      "bengali": "পরিবেশ, আবহ, চারপাশের অনুভূতি",
+      "example": "In winter season, the ambience is very white.",
+      "sources": {
+        "word smart": 50
+      }
+    },
+    {
+      "id": 1080,
+      "english": "ambiguous",
+      "bengali": "অস্পষ্ট, দ্ব্যর্থক, বিভ্রান্তিকর",
+      "example": "Last night's viral news was ambiguous.",
+      "sources": {
+        "word smart": 51
+      }
+    },
+    {
+      "id": 1081,
+      "english": "ambivalent",
+      "bengali": "দ্বিধাগ্রস্থ, মিশ্র অনুভূতি সমপন্ন, একসাথে বিপরীত অনুভূতি থাকা",
+      "example": "I am ambivalent about choosing between biomedical engineering and data science.",
+      "sources": {
+        "word smart": 52
+      }
+    },
+    {
+      "id": 1082,
+      "english": "ameliorate",
+      "bengali": "উন্নত করা, সহনীয় করে তোলা",
+      "example": "After the injection was given, the patient's condition began to ameliorate.",
+      "sources": {
+        "word smart": 53
       }
     },
     {
@@ -3879,858 +5213,66 @@
       }
     },
     {
-      "id": 422,
-      "english": "conceal",
-      "bengali": "আড়ালে থাকা, গোপন",
-      "example": "He is an introvert, he prefers to conceal his skills.",
+      "id": 1083,
+      "english": "exonerate",
+      "bengali": "দোষমুক্ত করা / নির্দোষ প্রমাণ করা",
+      "example": "New evidence helped exonerate the accused man.",
       "sources": {
-        "A World Undone": 2
+        "Random": 223
       }
     },
     {
-      "id": 423,
-      "english": "blunt",
-      "bengali": "সাদাসিধে",
-      "example": "His blunt character makes him easy to deceive.",
+      "id": 1084,
+      "english": "optimistic",
+      "bengali": "আশাবাদী",
+      "example": "She is optimistic about passing the exam.",
       "sources": {
-        "A World Undone": 3
+        "Random": 224
       }
     },
     {
-      "id": 424,
-      "english": "impassive",
-      "bengali": "অনুভূতিহীন",
-      "example": "Jamy has grown increasingly impassive day by day since the accident.",
+      "id": 1085,
+      "english": "pessimistic",
+      "bengali": "হতাশাবাদী / নৈরাশ্যবাদী",
+      "example": "He felt pessimistic about the company’s future.",
       "sources": {
-        "A World Undone": 4
+        "Random": 225
       }
     },
     {
-      "id": 425,
-      "english": "lineage",
-      "bengali": "বংশ",
-      "example": "I come from a royal lineage.",
+      "id": 1086,
+      "english": "stipulate",
+      "bengali": "শর্ত আরোপ করা / নির্দিষ্টভাবে উল্লেখ করা",
+      "example": "The contract stipulates that payment must be made within thirty days.",
       "sources": {
-        "A World Undone": 5
+        "Random": 226
       }
     },
     {
-      "id": 426,
-      "english": "mere",
-      "bengali": "নিছক",
-      "example": "That wind was not merely a flow, it was an allusion to a storm.",
+      "id": 1087,
+      "english": "decree",
+      "bengali": "ফরমান জারি করা / সরকারি আদেশ",
+      "example": "The president decreed a national holiday.",
       "sources": {
-        "A World Undone": 6
+        "Random": 227
       }
     },
     {
-      "id": 427,
-      "english": "impoverished",
-      "bengali": "দরিদ্র্য",
-      "example": "She came from an impoverished family.",
+      "id": 1088,
+      "english": "abolish",
+      "bengali": "বিলুপ্ত করা / বাতিল করা",
+      "example": "The country decided to abolish the outdated law.",
       "sources": {
-        "A World Undone": 8
+        "Random": 228
       }
     },
     {
-      "id": 428,
-      "english": "entertained",
-      "bengali": "আশা পোষণ করা",
-      "example": "I am entertaing the hope that tomorrow Bangladesh will win.",
+      "id": 1089,
+      "english": "adjourn",
+      "bengali": "মুলতবি করা / স্থগিত করা",
+      "example": "The judge decided to adjourn the hearing until next week.",
       "sources": {
-        "A World Undone": 9
-      }
-    },
-    {
-      "id": 429,
-      "english": "prospective",
-      "bengali": "সম্ভাব্য",
-      "example": "He is the prospective goalkeeper for tomorrow’s match.",
-      "sources": {
-        "A World Undone": 10
-      }
-    },
-    {
-      "id": 430,
-      "english": "archduchess",
-      "bengali": "উচ্চস্তরের রাজকন্যা",
-      "example": "Sophie, the wife of Archduke Franz Ferdinand, was known as an archduchess by marriage.",
-      "sources": {
-        "A World Undone": 11
-      }
-    },
-    {
-      "id": 431,
-      "english": "rigid",
-      "bengali": "কঠোর, অনমনীয়",
-      "example": "This plastic pot is too rigid to break.",
-      "sources": {
-        "A World Undone": 12
-      }
-    },
-    {
-      "id": 432,
-      "english": "consort",
-      "bengali": "স্ত্রী",
-      "example": "She was unworthy to be an emperor's consort. (তিনি সম্রাটের স্ত্রী হওয়ার যোগ্য বলে বিবেচিত হননি।)",
-      "sources": {
-        "A World Undone": 13
-      }
-    },
-    {
-      "id": 433,
-      "english": "progenitor",
-      "bengali": "পুর্বপুরুষ",
-      "example": "The progenitor of Mac’s lineage came from Europe.",
-      "sources": {
-        "A World Undone": 14
-      }
-    },
-    {
-      "id": 434,
-      "english": "solemnly",
-      "bengali": "গুরুত্বের সাথে, আনুষ্ঠানিকভাবে",
-      "example": "The judge solemnly delivered the verdict.",
-      "sources": {
-        "A World Undone": 15
-      }
-    },
-    {
-      "id": 435,
-      "english": "Descendants",
-      "bengali": "বংশধর",
-      "example": "The throne passed to the king’s descendant.",
-      "sources": {
-        "A World Undone": 16
-      }
-    },
-    {
-      "id": 436,
-      "english": "spinster",
-      "bengali": "অবিবাহিত",
-      "example": "In 19th-century Europe, an unmarried woman in her thirties was often called a spinster.",
-      "sources": {
-        "A World Undone": 17
-      }
-    },
-    {
-      "id": 437,
-      "english": "notorious",
-      "bengali": "কুখ্যাত",
-      "example": "Netanyahu is notorious for alleged atrocities in Palestine.",
-      "sources": {
-        "A World Undone": 18
-      }
-    },
-    {
-      "id": 438,
-      "english": "libertine",
-      "bengali": "ভোগবিলাসী ব্যক্তি, নৈতিক বিধিনিষেধ না মানা মানুষ",
-      "example": "In a military cadet academy, libertine behavior is strictly prohibited.",
-      "sources": {
-        "A World Undone": 19
-      }
-    },
-    {
-      "id": 439,
-      "english": "stiff",
-      "bengali": "কঠোর, শক্ত",
-      "example": "She gave a stiff reply.",
-      "sources": {
-        "A World Undone": 20
-      }
-    },
-    {
-      "id": 440,
-      "english": "relent",
-      "bengali": "কঠোরতা ছেড়ে দেওয়া, অবশেষে রাজি হওয়া",
-      "example": "At first, the principal refused to provide funding, but eventually he relented.",
-      "sources": {
-        "A World Undone": 21
-      }
-    },
-    {
-      "id": 441,
-      "english": "snub",
-      "bengali": "অসম্মান করা, পাত্তা না দেওয়া",
-      "example": "I deliberately snub her by ignoring her messages every day.",
-      "sources": {
-        "A World Undone": 22
-      }
-    },
-    {
-      "id": 442,
-      "english": "improvised",
-      "bengali": "অস্থায়ীভাবে বানানো, যা আগে থেকে পরিকল্পিত নয়",
-      "example": "Without informing me, guests came, so I improvised some snacks.",
-      "sources": {
-        "A World Undone": 23
-      }
-    },
-    {
-      "id": 443,
-      "english": "faint",
-      "bengali": "দূর্বল, অস্পষ্ট",
-      "example": "The old photo is faint.",
-      "sources": {
-        "A World Undone": 24
-      }
-    },
-    {
-      "id": 444,
-      "english": "ornate",
-      "bengali": "অলংকৃত, অতিশয় সাজানো",
-      "example": "The wedding house is ornately decorated.",
-      "sources": {
-        "A World Undone": 25
-      }
-    },
-    {
-      "id": 445,
-      "english": "ample",
-      "bengali": "প্রচুর",
-      "example": "There is ample time to finish the work.",
-      "sources": {
-        "A World Undone": 26
-      }
-    },
-    {
-      "id": 446,
-      "english": "torso",
-      "bengali": "দেহের মধ্যাংশ",
-      "example": "The accident injured his torso",
-      "sources": {
-        "A World Undone": 27
-      }
-    },
-    {
-      "id": 447,
-      "english": "bonnet",
-      "bengali": "মহিলাদের টুপি",
-      "example": "She wore a bonnet to protect her from the sun.",
-      "sources": {
-        "A World Undone": 28
-      }
-    },
-    {
-      "id": 448,
-      "english": "dainty",
-      "bengali": "সুন্দর, কোমল",
-      "example": "She looks so dainty.",
-      "sources": {
-        "A World Undone": 29
-      }
-    },
-    {
-      "id": 449,
-      "english": "parasol",
-      "bengali": "রোদ ঠেকানোর ছাতা",
-      "example": "She carried a parasol on sunny day.",
-      "sources": {
-        "A World Undone": 30
-      }
-    },
-    {
-      "id": 450,
-      "english": "percussion",
-      "bengali": "আঘাত, ধাক্কা",
-      "example": "The explosion caused strong percussion waves.",
-      "sources": {
-        "A World Undone": 31
-      }
-    },
-    {
-      "id": 451,
-      "english": "vanquish",
-      "bengali": "পরাজিত করা, সম্পুর্ণভাবে হারানো",
-      "example": "In 1971, Bangladesh vanquished Pakistan in the liberation war.",
-      "sources": {
-        "A World Undone": 32
-      }
-    },
-    {
-      "id": 452,
-      "english": "avenge",
-      "bengali": "প্রতিশোধ নেওয়া, বদলা নেওয়া",
-      "example": "He avenged his brother’s death.",
-      "sources": {
-        "A World Undone": 33
-      }
-    },
-    {
-      "id": 453,
-      "english": "Conqueror",
-      "bengali": "বিজয়ী",
-      "example": "Alexander the Great was a famous conqueror.",
-      "sources": {
-        "A World Undone": 34
-      }
-    },
-    {
-      "id": 454,
-      "english": "fragment",
-      "bengali": "খন্ড",
-      "example": "Fragments of glass were scattered on the road.",
-      "sources": {
-        "A World Undone": 35
-      }
-    },
-    {
-      "id": 455,
-      "english": "sharpnel",
-      "bengali": "বিস্ফোরণে ছিটকে পড়া ধাতব টুকরো",
-      "example": "Shrapnel injured several people during the explosion.",
-      "sources": {
-        "A World Undone": 36
-      }
-    },
-    {
-      "id": 456,
-      "english": "graze",
-      "bengali": "হালকা আঁচড় লাগা",
-      "example": "A fragment of shrapnel grazed Sophie’s neck.",
-      "sources": {
-        "A World Undone": 37
-      }
-    },
-    {
-      "id": 457,
-      "english": "procession",
-      "bengali": "শোভাযাত্রা",
-      "example": "A wedding procession moved through the streets.",
-      "sources": {
-        "A World Undone": 38
-      }
-    },
-    {
-      "id": 458,
-      "english": "protest march",
-      "bengali": "বিক্ষোভ মিছিল",
-      "example": "A protest march is going to be held to demand the immediate arrest of the criminals.",
-      "sources": {
-        "A World Undone": 39
-      }
-    },
-    {
-      "id": 459,
-      "english": "motorcade",
-      "bengali": "গুতুত্বপূর্ণ ব্যক্তির গাড়িবহর",
-      "example": "The president traveled through the city in a motorcade.",
-      "sources": {
-        "A World Undone": 40
-      }
-    },
-    {
-      "id": 460,
-      "english": "absurd",
-      "bengali": "হাস্যকর",
-      "example": "Her logic was absurd.",
-      "sources": {
-        "A World Undone": 41
-      }
-    },
-    {
-      "id": 461,
-      "english": "deviate",
-      "bengali": "বিচ্যুত হওয়া",
-      "example": "The bus deviated from its route.",
-      "sources": {
-        "A World Undone": 42
-      }
-    },
-    {
-      "id": 462,
-      "english": "delight",
-      "bengali": "আনন্দ, খুশি করা",
-      "example": "After seeing the result, his face lit up with delight.",
-      "sources": {
-        "A World Undone": 43
-      }
-    },
-    {
-      "id": 463,
-      "english": "Itinerary",
-      "bengali": "ভ্রমণসূচি",
-      "example": "We skipped three spots on the itinerary.",
-      "sources": {
-        "A World Undone": 44
-      }
-    },
-    {
-      "id": 464,
-      "english": "demonstration",
-      "bengali": "বিক্ষোভ",
-      "example": "A political demonstration was held in the capital.",
-      "sources": {
-        "A World Undone": 45
-      }
-    },
-    {
-      "id": 465,
-      "english": "devoted",
-      "bengali": "নিষ্ঠাবান, অনুগত",
-      "example": "I will be a devoted husband.",
-      "sources": {
-        "A World Undone": 46
-      }
-    },
-    {
-      "id": 466,
-      "english": "fanatics",
-      "bengali": "উগ্রপন্থী",
-      "example": "The attack was carried out by political fanatics.",
-      "sources": {
-        "A World Undone": 47
-      }
-    },
-    {
-      "id": 467,
-      "english": "reckless",
-      "bengali": "বেপরোয়া",
-      "example": "The revolutionaries are reckless about everything.",
-      "sources": {
-        "A World Undone": 48
-      }
-    },
-    {
-      "id": 468,
-      "english": "halt",
-      "bengali": "থামানো, থেমে যাওয়া",
-      "example": "The bus halted at the signal.",
-      "sources": {
-        "A World Undone": 49
-      }
-    },
-    {
-      "id": 469,
-      "english": "reverberate",
-      "bengali": "প্রতিধ্বনি হওয়া",
-      "example": "There is a unique pleasure in hearing a shout reverberate from a mountain peak.",
-      "sources": {
-        "A World Undone": 50
-      }
-    },
-    {
-      "id": 470,
-      "english": "spurting",
-      "bengali": "ছিটকে বেরোনো",
-      "example": null,
-      "sources": {
-        "A World Undone": 51
-      }
-    },
-    {
-      "id": 471,
-      "english": "slumped over",
-      "bengali": "ঢলে পড়া / হেলে পড়া",
-      "example": "After hearing the bad news, she slumped over in her chair.",
-      "sources": {
-        "A World Undone": 52
-      }
-    },
-    {
-      "id": 472,
-      "english": "fainted",
-      "bengali": "অজ্ঞান হয়ে যাওয়া",
-      "example": "The heat was so intense that he fainted in the street.",
-      "sources": {
-        "A World Undone": 53
-      }
-    },
-    {
-      "id": 473,
-      "english": "tunic",
-      "bengali": "ঢিলেঢালা পোশাক",
-      "example": "The soldier’s tunic was torn during the fight.",
-      "sources": {
-        "A World Undone": 54
-      }
-    },
-    {
-      "id": 474,
-      "english": "weakly",
-      "bengali": "দুর্বলভাবে",
-      "example": "He smiled weakly after the operation.",
-      "sources": {
-        "A World Undone": 55
-      }
-    },
-    {
-      "id": 475,
-      "english": "captured",
-      "bengali": "বন্দি করা",
-      "example": "The criminal was captured by the police.",
-      "sources": {
-        "A World Undone": 56
-      }
-    },
-    {
-      "id": 476,
-      "english": "severing",
-      "bengali": "বিচ্ছিন্ন করা",
-      "example": "The accident severed the power lines.",
-      "sources": {
-        "A World Undone": 57
-      }
-    },
-    {
-      "id": 477,
-      "english": "nuisance",
-      "bengali": "বিরক্তির কারণ",
-      "example": "The noise from the street was a constant nuisance.",
-      "sources": {
-        "A World Undone": 58
-      }
-    },
-    {
-      "id": 478,
-      "english": "ironically",
-      "bengali": "বিদ্রূপাত্মকভাবে",
-      "example": "Ironically, the doctor became ill himself.",
-      "sources": {
-        "A World Undone": 59
-      }
-    },
-    {
-      "id": 479,
-      "english": "governance",
-      "bengali": "শাসনব্যবস্থা",
-      "example": "Good governance is essential for stability.",
-      "sources": {
-        "A World Undone": 60
-      }
-    },
-    {
-      "id": 480,
-      "english": "declared",
-      "bengali": "ঘোষণা করলেন",
-      "example": "The king declared a national holiday.",
-      "sources": {
-        "A World Undone": 61
-      }
-    },
-    {
-      "id": 481,
-      "english": "inherited",
-      "bengali": "উত্তরাধিকারসূত্রে পাওয়া",
-      "example": "He inherited the disease from his mother.",
-      "sources": {
-        "A World Undone": 62
-      }
-    },
-    {
-      "id": 482,
-      "english": "survival",
-      "bengali": "বেঁচে থাকা",
-      "example": "His survival surprised the doctors.",
-      "sources": {
-        "A World Undone": 63
-      }
-    },
-    {
-      "id": 483,
-      "english": "accustomed",
-      "bengali": "অভ্যস্ত",
-      "example": "People had grown accustomed to violence.",
-      "sources": {
-        "A World Undone": 64
-      }
-    },
-    {
-      "id": 484,
-      "english": "cataclysm",
-      "bengali": "ভয়াবহ বিপর্যয়",
-      "example": "The war proved to be a global cataclysm.",
-      "sources": {
-        "A World Undone": 65
-      }
-    },
-    {
-      "id": 485,
-      "english": "slain",
-      "bengali": "নিহত / হত্যা করা হয়েছে",
-      "example": "The slain archduke became a symbol of political crisis.",
-      "sources": {
-        "A World Undone": 66
-      }
-    },
-    {
-      "id": 486,
-      "english": "clot",
-      "bengali": "রক্ত জমাট",
-      "example": "A blood clot blocked the artery and caused serious pain.",
-      "sources": {
-        "A World Undone": 67
-      }
-    },
-    {
-      "id": 487,
-      "english": "arouse",
-      "bengali": "জাগিয়ে তোলা / উদ্রেক করা",
-      "example": "The incident aroused public anger and curiosity.",
-      "sources": {
-        "A World Undone": 69
-      }
-    },
-    {
-      "id": 488,
-      "english": "conferring",
-      "bengali": "পরামর্শ করা / আলোচনা করা",
-      "example": "The leaders were conferring in private before announcing the plan.",
-      "sources": {
-        "A World Undone": 70
-      }
-    },
-    {
-      "id": 489,
-      "english": "accomplish",
-      "bengali": "সম্পন্ন করা / সফলভাবে করা",
-      "example": "She accomplished her goal through hard work and patience.",
-      "sources": {
-        "A World Undone": 71
-      }
-    },
-    {
-      "id": 490,
-      "english": "confine",
-      "bengali": "সীমাবদ্ধ করা / আটকিয়ে রাখা",
-      "example": "The patient was confined to bed for two weeks.",
-      "sources": {
-        "A World Undone": 72
-      }
-    },
-    {
-      "id": 491,
-      "english": "verge",
-      "bengali": "কিনারা / প্রান্ত; প্রায় পৌঁছানো",
-      "example": "The country was on the verge of war.",
-      "sources": {
-        "A World Undone": 73
-      }
-    },
-    {
-      "id": 492,
-      "english": "embroil",
-      "bengali": "জড়িয়ে ফেলা / জটিলতায় ফেলা",
-      "example": "He was embroiled in a political scandal.",
-      "sources": {
-        "A World Undone": 74
-      }
-    },
-    {
-      "id": 493,
-      "english": "virtuous",
-      "bengali": "নৈতিক / সদাচারী",
-      "example": "She was known as a virtuous leader who never abused her power.",
-      "sources": {
-        "A World Undone": 75
-      }
-    },
-    {
-      "id": 494,
-      "english": "antiquated",
-      "bengali": "সেকেলে / পুরনো ধাঁচের",
-      "example": "The company still uses an antiquated system that slows down work.",
-      "sources": {
-        "A World Undone": 76
-      }
-    },
-    {
-      "id": 495,
-      "english": "superfluous",
-      "bengali": "অপ্রয়োজনীয় / অতিরিক্ত",
-      "example": "The report contained superfluous details that confused the reader.",
-      "sources": {
-        "A World Undone": 77
-      }
-    },
-    {
-      "id": 496,
-      "english": "disarmament",
-      "bengali": "নিরস্ত্রীকরণ",
-      "example": "The treaty aimed at nuclear disarmament between the two nations.",
-      "sources": {
-        "A World Undone": 78
-      }
-    },
-    {
-      "id": 497,
-      "english": "fellow",
-      "bengali": "সহকর্মী / সঙ্গী; সমজাতীয়",
-      "example": "She discussed the problem with a fellow student from her class.",
-      "sources": {
-        "A World Undone": 79
-      }
-    },
-    {
-      "id": 498,
-      "english": "wounded",
-      "bengali": "আহত",
-      "example": "Many wounded soldiers were taken to the hospital after the battle.",
-      "sources": {
-        "A World Undone": 80
-      }
-    },
-    {
-      "id": 499,
-      "english": "plunge",
-      "bengali": "ঝাঁপ দেওয়া / হঠাৎ পড়ে যাওয়া",
-      "example": "The country plunged into chaos after the leader’s death.",
-      "sources": {
-        "A World Undone": 81
-      }
-    },
-    {
-      "id": 500,
-      "english": "foresee",
-      "bengali": "পূর্বানুমান করা / আগেই বুঝতে পারা",
-      "example": "Experts foresee serious challenges in the coming years.",
-      "sources": {
-        "A World Undone": 82
-      }
-    },
-    {
-      "id": 501,
-      "english": "weep",
-      "bengali": "কাঁদা",
-      "example": "She began to weep when she heard the sad news.",
-      "sources": {
-        "A World Undone": 83
-      }
-    },
-    {
-      "id": 502,
-      "english": "pursue",
-      "bengali": "অনুসরণ করা / সাধনা করা",
-      "example": "She decided to pursue a career in medicine.",
-      "sources": {
-        "A World Undone": 85
-      }
-    },
-    {
-      "id": 503,
-      "english": "perhaps",
-      "bengali": "সম্ভবত / হয়তো",
-      "example": "Perhaps the meeting will be postponed.",
-      "sources": {
-        "A World Undone": 86
-      }
-    },
-    {
-      "id": 504,
-      "english": "credentials",
-      "bengali": "যোগ্যতার প্রমাণপত্র / সনদ",
-      "example": "She presented her academic credentials during the interview.",
-      "sources": {
-        "A World Undone": 87
-      }
-    },
-    {
-      "id": 505,
-      "english": "possess",
-      "bengali": "অধিকার করা / মালিক হওয়া",
-      "example": "She possesses great leadership skills.",
-      "sources": {
-        "A World Undone": 88
-      }
-    },
-    {
-      "id": 506,
-      "english": "exclude",
-      "bengali": "বাদ দেওয়া / অন্তর্ভুক্ত না করা",
-      "example": "The rule excludes children under five from the competition.",
-      "sources": {
-        "A World Undone": 89
-      }
-    },
-    {
-      "id": 507,
-      "english": "led",
-      "bengali": "নেতৃত্ব দিয়েছিল / পথ দেখিয়েছিল",
-      "example": "The general led his troops into battle.",
-      "sources": {
-        "A World Undone": 90
-      }
-    },
-    {
-      "id": 508,
-      "english": "aside",
-      "bengali": "পাশে / আলাদা করে",
-      "example": "He pulled her aside to speak in private.",
-      "sources": {
-        "A World Undone": 91
-      }
-    },
-    {
-      "id": 509,
-      "english": "chapel",
-      "bengali": "উপাসনালয় / ছোট গির্জা",
-      "example": "The students gathered in the chapel for morning prayers.",
-      "sources": {
-        "A World Undone": 92
-      }
-    },
-    {
-      "id": 510,
-      "english": "rode",
-      "bengali": "চড়েছিল / আরোহন করেছিল",
-      "example": "He rode a horse across the field.",
-      "sources": {
-        "A World Undone": 93
-      }
-    },
-    {
-      "id": 511,
-      "english": "imperial",
-      "bengali": "সাম্রাজ্যিক",
-      "example": "The imperial government controlled vast territories.",
-      "sources": {
-        "A World Undone": 94
-      }
-    },
-    {
-      "id": 512,
-      "english": "swung",
-      "bengali": "দুলেছিল / ঘুরিয়েছিল",
-      "example": "The door swung open in the wind.",
-      "sources": {
-        "A World Undone": 95
-      }
-    },
-    {
-      "id": 513,
-      "english": "slipped into",
-      "bengali": "অজান্তে প্রবেশ করা / ধীরে ধীরে ঢুকে পড়া",
-      "example": "The country slipped into war after weeks of tension.",
-      "sources": {
-        "A World Undone": 96
-      }
-    },
-    {
-      "id": 514,
-      "english": "vial",
-      "bengali": "ছোট কাঁচের শিশি",
-      "example": "The doctor filled a vial with the vaccine.",
-      "sources": {
-        "A World Undone": 97
-      }
-    },
-    {
-      "id": 515,
-      "english": "groin",
-      "bengali": "কুঁচকি",
-      "example": "The athlete felt pain in his groin after the match.",
-      "sources": {
-        "A World Undone": 98
-      }
-    },
-    {
-      "id": 516,
-      "english": "estate",
-      "bengali": "সম্পত্তি / জমিদারি / বড় বাড়ি ও জমি",
-      "example": "He inherited a large estate from his grandfather.",
-      "sources": {
-        "A World Undone": 99
+        "Random": 229
       }
     },
     {
@@ -4806,15 +5348,6 @@
       }
     },
     {
-      "id": 525,
-      "english": "Aesthetic",
-      "bengali": "নান্দনিক",
-      "example": "She has taste that is aesthetic.",
-      "sources": {
-        "Competitive Exams": 11
-      }
-    },
-    {
       "id": 526,
       "english": "Aggregate",
       "bengali": "মোট / সমষ্টি",
@@ -4833,9 +5366,9 @@
       }
     },
     {
-      "id": 528,
+      "id": 1090,
       "english": "Alleviate",
-      "bengali": "উপশম করা",
+      "bengali": "উপশম করা, পুরোপুরি দূর হয়নি এমন",
       "example": "This medicine alleviates pain that patients suffer.",
       "sources": {
         "Competitive Exams": 14
@@ -4905,9 +5438,9 @@
       }
     },
     {
-      "id": 536,
+      "id": 1091,
       "english": "Antipathy",
-      "bengali": "বিরাগ, বিরোধিতা, বিদ্বেষ",
+      "bengali": "প্রচন্ড অপছন্দ করা, বিরোধিতা, বিদ্বেষ",
       "example": "He felt antipathy toward corruption because it harms society.",
       "sources": {
         "Competitive Exams": 23
@@ -4950,15 +5483,6 @@
       }
     },
     {
-      "id": 541,
-      "english": "Abortive",
-      "bengali": "ব্যর্থ",
-      "example": "The attempt was abortive because it lacked planning.",
-      "sources": {
-        "Competitive Exams": 28
-      }
-    },
-    {
       "id": 542,
       "english": "Appropriate",
       "bengali": "উপযুক্ত",
@@ -4986,9 +5510,9 @@
       }
     },
     {
-      "id": 545,
+      "id": 1092,
       "english": "Ascetic",
-      "bengali": "ত্যাগী",
+      "bengali": "সন্ন্যাসীর মতো ব্যক্তি, ত্যাগী",
       "example": "He lived a life that was ascetic.",
       "sources": {
         "Competitive Exams": 33
@@ -5076,9 +5600,9 @@
       }
     },
     {
-      "id": 555,
+      "id": 1093,
       "english": "Belie",
-      "bengali": "মিথ্যা প্রমাণ করা",
+      "bengali": "মিথ্যা ধারণা দেওয়া",
       "example": "His face, which was calm, belied his fear.",
       "sources": {
         "Competitive Exams": 43
@@ -5310,9 +5834,9 @@
       }
     },
     {
-      "id": 581,
+      "id": 1094,
       "english": "Connoisseur",
-      "bengali": "রসজ্ঞ, রসপন্ডিত, পারদর্শী",
+      "bengali": "শিল্পকলায় পারদর্শী, রসপন্ডিত, পারদর্শী",
       "example": "He is a connoisseur who understands art well.",
       "sources": {
         "Competitive Exams": 71
@@ -7039,6 +7563,304 @@
       }
     },
     {
+      "id": 1095,
+      "english": "Nefarious",
+      "bengali": "জঘন্য / মারাত্মক খারাপ",
+      "example": "He was involved in activities that were nefarious.",
+      "sources": {
+        "Competitive Exams": 276
+      }
+    },
+    {
+      "id": 1096,
+      "english": "Neophyte",
+      "bengali": "নবাগত / শিক্ষানবিশ",
+      "example": "The student was a neophyte because he had just joined.",
+      "sources": {
+        "Competitive Exams": 277
+      }
+    },
+    {
+      "id": 1097,
+      "english": "Obdurate",
+      "bengali": "একগুঁয়ে / অনমনীয়",
+      "example": "He remained obdurate although others advised him.",
+      "sources": {
+        "Competitive Exams": 278
+      }
+    },
+    {
+      "id": 1098,
+      "english": "Obsequious",
+      "bengali": "তোষামোদকারী",
+      "example": "The servant was obsequious because he wanted favor.",
+      "sources": {
+        "Competitive Exams": 279
+      }
+    },
+    {
+      "id": 1099,
+      "english": "Obviate",
+      "bengali": "দূর করা / প্রতিরোধ করা",
+      "example": "This measure obviates confusion because it clarifies the rules.",
+      "sources": {
+        "Competitive Exams": 280
+      }
+    },
+    {
+      "id": 1100,
+      "english": "Occlude",
+      "bengali": "বন্ধ করা / আচ্ছাদিত করা",
+      "example": "Clouds occluded the sun because they were dense.",
+      "sources": {
+        "Competitive Exams": 281
+      }
+    },
+    {
+      "id": 1101,
+      "english": "Officious",
+      "bengali": "অযাচিত হস্তক্ষেপকারী",
+      "example": "He became officious because he interfered constantly.",
+      "sources": {
+        "Competitive Exams": 282
+      }
+    },
+    {
+      "id": 1102,
+      "english": "Opaque",
+      "bengali": "অস্বচ্ছ / দুর্বোধ্য",
+      "example": "The glass is opaque because light cannot pass through it.",
+      "sources": {
+        "Competitive Exams": 283
+      }
+    },
+    {
+      "id": 1103,
+      "english": "Opprobrium",
+      "bengali": "তীব্র নিন্দা / ঘৃণা",
+      "example": "His actions brought opprobrium because they were dishonest.",
+      "sources": {
+        "Competitive Exams": 284
+      }
+    },
+    {
+      "id": 1104,
+      "english": "Opulent",
+      "bengali": "বিলাসবহুল / ধনী",
+      "example": "They lived in a house that was opulent.",
+      "sources": {
+        "Competitive Exams": 285
+      }
+    },
+    {
+      "id": 1105,
+      "english": "Oscillate",
+      "bengali": "দোল খাওয়া / ওঠানামা করা",
+      "example": "Prices oscillate because the market is unstable.",
+      "sources": {
+        "Competitive Exams": 286
+      }
+    },
+    {
+      "id": 1106,
+      "english": "Ostentatious",
+      "bengali": "লোক দেখানো জাকজমক",
+      "example": "He wore clothes that were ostentatious.",
+      "sources": {
+        "Competitive Exams": 287
+      }
+    },
+    {
+      "id": 1107,
+      "english": "Paragon",
+      "bengali": "আদর্শ উদাহরণ",
+      "example": "She is a paragon because she is completely honest.",
+      "sources": {
+        "Competitive Exams": 288
+      }
+    },
+    {
+      "id": 1108,
+      "english": "Partisan",
+      "bengali": "পক্ষপাতদুষ্ট",
+      "example": "His views were partisan because he supported one party blindly.",
+      "sources": {
+        "Competitive Exams": 289
+      }
+    },
+    {
+      "id": 1109,
+      "english": "Pathological",
+      "bengali": "রোগগ্রস্ত / অস্বাভাবিক",
+      "example": "His fear was pathological because it was irrational.",
+      "sources": {
+        "Competitive Exams": 290
+      }
+    },
+    {
+      "id": 1110,
+      "english": "Paucity",
+      "bengali": "স্বল্পতা / অভাব",
+      "example": "There was a paucity of food because supplies were limited.",
+      "sources": {
+        "Competitive Exams": 291
+      }
+    },
+    {
+      "id": 1111,
+      "english": "Pedantic",
+      "bengali": "অতিরিক্ত নিয়মমাফিক",
+      "example": "The teacher was pedantic because he focused on minor details.",
+      "sources": {
+        "Competitive Exams": 292
+      }
+    },
+    {
+      "id": 1112,
+      "english": "Penchant",
+      "bengali": "প্রবণতা / আসক্তি",
+      "example": "He has a penchant because he loves music deeply.",
+      "sources": {
+        "Competitive Exams": 293
+      }
+    },
+    {
+      "id": 1113,
+      "english": "Penury",
+      "bengali": "চরম দারিদ্র্য",
+      "example": "The family lived in penury because they had no income.",
+      "sources": {
+        "Competitive Exams": 294
+      }
+    },
+    {
+      "id": 1114,
+      "english": "Perennial",
+      "bengali": "চিরস্থায়ী / বারবার ঘটে এমন",
+      "example": "Water shortage is perennial because it occurs every year.",
+      "sources": {
+        "Competitive Exams": 295
+      }
+    },
+    {
+      "id": 1115,
+      "english": "Perfidious",
+      "bengali": "বিশ্বাসঘাতক",
+      "example": "The spy was perfidious because he betrayed his country.",
+      "sources": {
+        "Competitive Exams": 296
+      }
+    },
+    {
+      "id": 1116,
+      "english": "Perfunctory",
+      "bengali": "দ্রুতসম্পাদিত / অনাগ্রহপূর্ণ",
+      "example": "He gave a reply that was perfunctory.",
+      "sources": {
+        "Competitive Exams": 297
+      }
+    },
+    {
+      "id": 1117,
+      "english": "Permeable",
+      "bengali": "ভেদ্য / প্রবেশযোগ্য",
+      "example": "The soil is permeable because water passes through it.",
+      "sources": {
+        "Competitive Exams": 298
+      }
+    },
+    {
+      "id": 1118,
+      "english": "Pervasive",
+      "bengali": "সর্বব্যাপী",
+      "example": "Corruption is pervasive because it exists everywhere.",
+      "sources": {
+        "Competitive Exams": 299
+      }
+    },
+    {
+      "id": 1119,
+      "english": "Phlegmatic",
+      "bengali": "উদাসীন / সহজে উত্তেজিত হয় না এমন",
+      "example": "He remained phlegmatic although others panicked.",
+      "sources": {
+        "Competitive Exams": 300
+      }
+    },
+    {
+      "id": 1120,
+      "english": "Piety",
+      "bengali": "ধর্মভীরুতা / ভক্তি",
+      "example": "Her piety impressed people because she prayed regularly.",
+      "sources": {
+        "Competitive Exams": 301
+      }
+    },
+    {
+      "id": 927,
+      "english": "Placate",
+      "bengali": "শান্ত করা",
+      "example": "He tried to placate the crowd because they were angry.",
+      "sources": {
+        "Competitive Exams": 302,
+        "Analogy": 159
+      }
+    },
+    {
+      "id": 1121,
+      "english": "Plasticity",
+      "bengali": "নমনীয়তা / পরিবর্তনশীলতা",
+      "example": "The brain has plasticity because it can adapt.",
+      "sources": {
+        "Competitive Exams": 303
+      }
+    },
+    {
+      "id": 1122,
+      "english": "Platitude",
+      "bengali": "গতানুগতিক মন্তব্য",
+      "example": "His speech was dull because it contained platitudes.",
+      "sources": {
+        "Competitive Exams": 304
+      }
+    },
+    {
+      "id": 1123,
+      "english": "Plethora",
+      "bengali": "প্রাচুর্য / আধিক্য",
+      "example": "There was a plethora of options because many choices were available.",
+      "sources": {
+        "Competitive Exams": 305
+      }
+    },
+    {
+      "id": 1124,
+      "english": "Precedence",
+      "bengali": "অগ্রাধিকার",
+      "example": "Safety takes precedence because lives are important.",
+      "sources": {
+        "Competitive Exams": 306
+      }
+    },
+    {
+      "id": 1125,
+      "english": "Porous",
+      "bengali": "ছিদ্রযুক্ত",
+      "example": "The rock is porous because water passes through it.",
+      "sources": {
+        "Competitive Exams": 307
+      }
+    },
+    {
+      "id": 1126,
+      "english": "Provoke",
+      "bengali": "উস্কে দেওয়া",
+      "example": "His words provoked anger because they were insulting.",
+      "sources": {
+        "Competitive Exams": 308
+      }
+    },
+    {
       "id": 773,
       "english": "abut",
       "bengali": "সংলগ্ন থাকা",
@@ -8422,15 +9244,6 @@
       "example": "The paper had neat perforations.",
       "sources": {
         "Analogy": 158
-      }
-    },
-    {
-      "id": 927,
-      "english": "Placate",
-      "bengali": "শান্ত করা",
-      "example": "He tried to placate the angry crowd.",
-      "sources": {
-        "Analogy": 159
       }
     },
     {

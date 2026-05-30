@@ -17,8 +17,9 @@ GOOGLE_SHEETS_ID = "1TSK53uLoA8nH8QV21jByxP1Hsf_x3q9HlfGMVufp-FU"
 TARGET_SHEETS = OrderedDict(
     [
         ("War", "meaning"),
-        ("Random", "meaning"),
         ("A World Undone", "meaning"),
+        ("word smart", "meaning"),
+        ("Random", "meaning"),
         ("Competitive Exams", "bengali meaning"),
         ("Analogy", "bengali meaning"),
     ]
@@ -169,8 +170,9 @@ def build_dataset() -> dict:
     # You can find gid in the URL: #gid=998634496
     sheet_gids = {
         "War": 0,
-        "Random": 2437002,
         "A World Undone": 14183764,
+        "word smart": 1593336705,
+        "Random": 2437002,
         "Competitive Exams": 81797183,
         "Analogy": 998634496,
     }
