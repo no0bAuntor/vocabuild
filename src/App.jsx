@@ -257,9 +257,15 @@ function PageShell({ children }) {
     <main className="relative isolate overflow-hidden">
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-112 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.68),transparent_55%)]" />
       <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8 lg:py-10">
-        <div className="flex items-center gap-4">
-          <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
-          <h2 className="font-['Sora'] text-2xl font-bold text-stone-900">Vocabuild</h2>
+        <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:gap-4">
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="h-44 w-auto shrink-0 object-contain sm:h-52 lg:h-64"
+          />
+          <h2 className="text-center font-['Sora'] text-3xl font-bold text-stone-900 sm:text-left sm:text-4xl lg:text-5xl">
+            Vocabuild
+          </h2>
         </div>
         {children}
       </div>
