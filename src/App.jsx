@@ -1606,7 +1606,7 @@ function App() {
                           </p>
                         </div>
 
-                        <div className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-4 lg:min-w-[26rem]">
+                        <div className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-4 lg:min-w-104">
                           <div className="rounded-2xl bg-white/80 p-3">
                             <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-stone-500">
                               Mode
