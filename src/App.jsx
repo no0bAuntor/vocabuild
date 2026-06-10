@@ -169,6 +169,16 @@ function buildQuestion(entry, pool, mode) {
   };
 }
 
+function buildMistakeSnapshot(entry, mode) {
+  return {
+    entryId: entry.id,
+    english: entry.english,
+    bengali: entry.bengali,
+    prompt: mode === "en-bn" ? entry.english : entry.bengali,
+    answer: mode === "en-bn" ? entry.bengali : entry.english,
+  };
+}
+
 function buildProgressPayload({
   activeDeck,
   currentIndex,
@@ -183,6 +193,7 @@ function buildProgressPayload({
   questionCount,
   questionOrder,
   selectedSheets,
+  rowRanges,
   isActive,
   completed,
 }) {
@@ -194,11 +205,13 @@ function buildProgressPayload({
     questionCount,
     questionOrder,
     selectedSheets,
+    rowRanges,
     deckEntryIds: activeDeck.map((entry) => entry.id),
     currentIndex,
     score,
     answeredCount,
     mistakeEntryIds: mistakes.map((entry) => entry.id),
+    mistakes: mistakes.map((entry) => buildMistakeSnapshot(entry, activeMode)),
     selectedAnswer,
     feedbackText,
     currentQuestion: currentQuestion
@@ -250,6 +263,41 @@ function formatDate(value) {
     dateStyle: "medium",
     timeStyle: "short",
   }).format(new Date(value));
+}
+
+function formatRowRange(range) {
+  if (!range) {
+    return "All rows";
+  }
+
+  const from = Number(range.from);
+  const to = Number(range.to);
+  if (!Number.isFinite(from) || !Number.isFinite(to)) {
+    return "All rows";
+  }
+
+  return `Rows ${from}-${to}`;
+}
+
+function getSessionRowRangeEntries(record) {
+  if (Array.isArray(record?.rowRangeEntries) && record.rowRangeEntries.length) {
+    return record.rowRangeEntries;
+  }
+
+  if (!record?.selectedSheets?.length || !record?.rowRanges) {
+    return [];
+  }
+
+  return record.selectedSheets
+    .map((sheet) => {
+      const range = record.rowRanges?.[sheet];
+      if (!range) {
+        return null;
+      }
+
+      return { sheet, from: range.from, to: range.to };
+    })
+    .filter(Boolean);
 }
 
 function PageShell({ children }) {
@@ -682,6 +730,11 @@ function App() {
             : buildQuestion(restoredEntry, filteredEntries, restoredMode)
           : null;
 
+      const restoredRowRanges =
+        savedProgress.rowRanges && typeof savedProgress.rowRanges === "object"
+          ? savedProgress.rowRanges
+          : null;
+
       setActiveDeck(restoredDeck);
       setCurrentIndex(savedProgress.currentIndex ?? 0);
       setScore(savedProgress.score ?? 0);
@@ -691,6 +744,9 @@ function App() {
       setSelectedAnswer(savedProgress.selectedAnswer || null);
       setFeedbackText(savedProgress.feedbackText || "");
       setCurrentQuestion(restoredQuestion);
+      if (restoredRowRanges) {
+        setRowRanges((current) => ({ ...current, ...restoredRowRanges }));
+      }
       applyingUserRef.current = false;
       return;
     }
@@ -733,6 +789,8 @@ function App() {
   const roundAccuracy = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
   const roundComplete = totalQuestions > 0 && currentIndex >= totalQuestions;
   const controlsLocked = Boolean(currentUser?.progress?.isActive);
+  const sessionRecords = currentUser?.sessionRecords || [];
+  const latestSessionRecord = sessionRecords[0] || null;
   const userAccuracy =
     currentUser?.stats?.answeredCount > 0
       ? Math.round((currentUser.stats.correctCount / currentUser.stats.answeredCount) * 100)
@@ -971,6 +1029,7 @@ function App() {
         questionCount: effectiveQuestionCount,
         questionOrder,
         selectedSheets,
+        rowRanges,
         isActive: true,
         completed: false,
       });
@@ -1015,6 +1074,7 @@ function App() {
         questionCount,
         questionOrder,
         selectedSheets,
+        rowRanges,
         isActive: true,
         completed: false,
       });
@@ -1049,6 +1109,7 @@ function App() {
           questionCount,
           questionOrder,
           selectedSheets,
+          rowRanges,
           isActive: false,
           completed: true,
         });
@@ -1080,6 +1141,7 @@ function App() {
         questionCount,
         questionOrder,
         selectedSheets,
+        rowRanges,
         isActive: true,
         completed: false,
       });
@@ -1496,6 +1558,161 @@ function App() {
             </div>
           </Panel>
         </section>
+
+        <Panel>
+          <div className="space-y-5">
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <SectionTitle label="Session Record" meta={`${sessionRecords.length} stored`} />
+                <p className="mt-2 text-sm leading-7 text-stone-600">
+                  Review your recent quiz sessions and the words you missed in each attempt.
+                </p>
+              </div>
+              {latestSessionRecord && (
+                <div className="rounded-2xl bg-stone-50 px-4 py-3 text-sm text-stone-600">
+                  Latest:{" "}
+                  <span className="font-semibold text-stone-900">
+                    {formatDate(latestSessionRecord.completedAt)}
+                  </span>
+                </div>
+              )}
+            </div>
+
+            {sessionRecords.length ? (
+              <div className="grid gap-4">
+                {sessionRecords.slice(0, 5).map((record, index) => {
+                  const recordMistakes = record.mistakes || [];
+                  const mistakePreview = recordMistakes.slice(0, 4);
+                  const rowRangeEntries = getSessionRowRangeEntries(record);
+
+                  return (
+                    <div
+                      key={`${record.completedAt || index}-${index}`}
+                      className="rounded-[1.6rem] border border-stone-900/8 bg-[linear-gradient(135deg,rgba(255,255,255,0.96),rgba(250,248,242,0.92))] p-5 shadow-[0_12px_30px_rgba(89,64,30,0.08)]"
+                    >
+                      <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+                        <div>
+                          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-500">
+                            {record.reviewMode ? "Review Session" : "Quiz Session"}
+                          </p>
+                          <p className="mt-2 font-['Sora'] text-lg font-bold text-stone-950">
+                            {record.score}/{record.answeredCount} correct
+                            <span className="ml-2 text-sm font-medium text-stone-500">
+                              ({record.accuracy ?? 0}%)
+                            </span>
+                          </p>
+                          <p className="mt-2 text-sm text-stone-600">
+                            {formatDate(record.completedAt)}
+                          </p>
+                        </div>
+
+                        <div className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-4 lg:min-w-[26rem]">
+                          <div className="rounded-2xl bg-white/80 p-3">
+                            <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-stone-500">
+                              Mode
+                            </p>
+                            <p className="mt-2 font-semibold text-stone-900">
+                              {record.mode === "en-bn" ? "E → B" : "B → E"}
+                            </p>
+                          </div>
+                          <div className="rounded-2xl bg-white/80 p-3">
+                            <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-stone-500">
+                              Questions
+                            </p>
+                            <p className="mt-2 font-semibold text-stone-900">
+                              {record.answeredCount || 0}
+                            </p>
+                            <p className="mt-1 text-xs text-stone-500">attempted</p>
+                          </div>
+                          <div className="rounded-2xl bg-white/80 p-3">
+                            <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-stone-500">
+                              Mistakes
+                            </p>
+                            <p className="mt-2 font-semibold text-stone-900">
+                              {recordMistakes.length}
+                            </p>
+                          </div>
+                          <div className="rounded-2xl bg-white/80 p-3">
+                            <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-stone-500">
+                              Sheets
+                            </p>
+                            <p className="mt-2 font-semibold text-stone-900">
+                              {record.selectedSheets?.length || 0}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="mt-5 rounded-2xl bg-white/70 p-4">
+                        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-500">
+                          Sheets and Row Ranges
+                        </p>
+                        {rowRangeEntries.length ? (
+                          <div className="mt-3 flex flex-wrap gap-2">
+                            {rowRangeEntries.map((entry) => {
+                              return (
+                                <span
+                                  key={`${record.completedAt}-${entry.sheet}`}
+                                  className="rounded-full border border-stone-200 bg-white px-3 py-1.5 text-sm font-medium text-stone-800"
+                                >
+                                  {entry.sheet}
+                                  <span className="mx-2 text-stone-400">·</span>
+                                  {Number.isFinite(Number(entry.from)) && Number.isFinite(Number(entry.to))
+                                    ? `${Number(entry.from)}-${Number(entry.to)}`
+                                    : "All rows"}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        ) : (
+                          <p className="mt-3 text-sm text-stone-600">
+                            No sheet snapshot was saved for this session.
+                          </p>
+                        )}
+                      </div>
+
+                      <div className="mt-5 border-t border-stone-900/8 pt-4">
+                        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-500">
+                          Missed Words
+                        </p>
+                        {mistakePreview.length ? (
+                          <div className="mt-3 flex flex-wrap gap-2">
+                            {mistakePreview.map((mistake) => (
+                              <span
+                                key={`${record.completedAt}-${mistake.entryId}`}
+                                className="rounded-full border border-rose-200 bg-rose-50 px-3 py-1.5 text-sm font-medium text-rose-900"
+                              >
+                                {mistake.prompt}
+                                <span className="mx-1 text-rose-400">→</span>
+                                {mistake.answer}
+                              </span>
+                            ))}
+                            {recordMistakes.length > mistakePreview.length && (
+                              <span className="rounded-full border border-stone-200 bg-stone-50 px-3 py-1.5 text-sm font-medium text-stone-600">
+                                +{recordMistakes.length - mistakePreview.length} more
+                              </span>
+                            )}
+                          </div>
+                        ) : (
+                          <p className="mt-3 text-sm text-emerald-800">
+                            No mistakes in this session.
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="rounded-[1.6rem] border border-stone-900/8 bg-stone-50 p-5">
+                <p className="text-sm leading-7 text-stone-600">
+                  No completed sessions yet. Finish a quiz and this area will show the words you
+                  missed, along with a summary of each attempt.
+                </p>
+              </div>
+            )}
+          </div>
+        </Panel>
       </PageShell>
     );
   }

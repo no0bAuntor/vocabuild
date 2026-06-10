@@ -13,7 +13,7 @@
     "sourceCounts": {
       "War": 204,
       "A World Undone": 97,
-      "word smart": 95,
+      "word smart": 107,
       "Random": 380,
       "Competitive Exams": 308,
       "Analogy": 259
@@ -34,8 +34,8 @@
       "Competitive Exams": 16,
       "Analogy": 3
     },
-    "totalSourcePairs": 1343,
-    "uniqueEntries": 1328,
+    "totalSourcePairs": 1355,
+    "uniqueEntries": 1339,
     "rowRanges": {
       "War": {
         "min": 2,
@@ -47,7 +47,7 @@
       },
       "word smart": {
         "min": 2,
-        "max": 96
+        "max": 108
       },
       "Random": {
         "min": 2,
@@ -2762,7 +2762,7 @@
     },
     {
       "id": 1033,
-      "english": "abash",
+      "english": "Abash",
       "bengali": "লজ্জা দেওয়া",
       "example": "Meredith felt abashed by her inability to remember her lines in the school chorus (group of people singing together) of \"Old McDonald Had a Farm\"",
       "sources": {
@@ -2771,7 +2771,7 @@
     },
     {
       "id": 1034,
-      "english": "abate",
+      "english": "Abate",
       "bengali": "কমানো",
       "example": "George spilled a pot of hot coffee on his leg. It hurt quite a bit. Then, gradually, the agony abated",
       "sources": {
@@ -2780,7 +2780,7 @@
     },
     {
       "id": 1035,
-      "english": "abdicate",
+      "english": "Abdicate",
       "bengali": "উপর মহল থেকে নামানো",
       "example": "Abby abdicated her responsibilities as a secretary by dumping in the garbage the reports she was supposed to type and flying to the Bahamas.",
       "sources": {
@@ -2789,7 +2789,7 @@
     },
     {
       "id": 1036,
-      "english": "aberration",
+      "english": "Aberration",
       "bengali": "অস্বাভাবিক",
       "example": "Sorren badehavior was an abberration. So was Harry's good behavior. That is, Soren's was usually good and Harry's was usually bad.",
       "sources": {
@@ -2798,7 +2798,7 @@
     },
     {
       "id": 1037,
-      "english": "abhor",
+      "english": "Abhor",
       "bengali": "চরমভাবে ঘৃণা করা",
       "example": "Emanuel abhorred having anvils dropped on his head.",
       "sources": {
@@ -2807,7 +2807,7 @@
     },
     {
       "id": 1038,
-      "english": "abject",
+      "english": "Abject",
       "bengali": "আশাহীন",
       "example": "While most people would quickly recover from a banana-peel accident, Mia felt abject humiliation",
       "sources": {
@@ -2816,7 +2816,7 @@
     },
     {
       "id": 1039,
-      "english": "abnegate",
+      "english": "Abnegate",
       "bengali": "অগ্রাহ্য করা",
       "example": "Ascetics practice self abnegation because they believe it will bring them closer to spiritual purity.",
       "sources": {
@@ -2825,7 +2825,7 @@
     },
     {
       "id": 541,
-      "english": "abortive",
+      "english": "Abortive",
       "bengali": "ব্যর্থ",
       "example": "Mari and Elizabeth made an abbortive effort to bake a birthday cake.",
       "sources": {
@@ -2835,7 +2835,7 @@
     },
     {
       "id": 1040,
-      "english": "abridge",
+      "english": "Abridge",
       "bengali": "ছোট করা",
       "example": "The thoughtful editor abridged the massive book by removing the boring parts.",
       "sources": {
@@ -2844,7 +2844,7 @@
     },
     {
       "id": 1041,
-      "english": "absolute",
+      "english": "Absolute",
       "bengali": "সব কিছুর উপরে, পরম সত্য",
       "example": "The classroom was in absolute chaos after the teacher left",
       "sources": {
@@ -2853,7 +2853,7 @@
     },
     {
       "id": 1042,
-      "english": "absolve",
+      "english": "Absolve",
       "bengali": "অপরাধ থেকে মুক্ত করা",
       "example": "The priest absolved the sinner who had come to church to confess.",
       "sources": {
@@ -2862,7 +2862,7 @@
     },
     {
       "id": 1043,
-      "english": "abstinent",
+      "english": "Abstinent",
       "bengali": "বিরত থাকা",
       "example": "Beulah used to be a chain-smoker, now she was abstinent.",
       "sources": {
@@ -2871,7 +2871,7 @@
     },
     {
       "id": 1044,
-      "english": "abstract",
+      "english": "Abstract",
       "bengali": "সারাংশ",
       "example": "Tell me the abstract of the context.",
       "sources": {
@@ -2880,7 +2880,7 @@
     },
     {
       "id": 1045,
-      "english": "abstruse",
+      "english": "Abstruse",
       "bengali": "দুর্বোধ্য",
       "example": "This topic is abstruse.",
       "sources": {
@@ -2889,7 +2889,7 @@
     },
     {
       "id": 1046,
-      "english": "abysmal",
+      "english": "Abysmal",
       "bengali": "অতল",
       "example": "The unemployed man considers his life abysmal.",
       "sources": {
@@ -2898,7 +2898,7 @@
     },
     {
       "id": 1047,
-      "english": "accolade",
+      "english": "Accolade",
       "bengali": "সম্মান, পুরষ্কার",
       "example": "During my school years, I achieved many accolades in sports.",
       "sources": {
@@ -2907,7 +2907,7 @@
     },
     {
       "id": 1048,
-      "english": "accost",
+      "english": "Accost",
       "bengali": "আক্রমনাত্মকভাবে কথা বলা",
       "example": "The police accosted the passer-by.",
       "sources": {
@@ -2916,7 +2916,7 @@
     },
     {
       "id": 1049,
-      "english": "acerbic",
+      "english": "Acerbic",
       "bengali": "তীক্ষ্ণ, কটু, বিদ্রূপপূর্ণ বা তিক্ত ভাষা/মন্তব্য",
       "example": "He mad ean acerbic remark. (সে একটি কটু/বিদ্রূপপূর্ণ মন্তব্য করেছিল।)",
       "sources": {
@@ -2925,7 +2925,7 @@
     },
     {
       "id": 1050,
-      "english": "acquiesce",
+      "english": "Acquiesce",
       "bengali": "মেনে নেওয়া/ অনিচ্ছাসত্ত্বেও রাজি হওয়া",
       "example": "The girl acquiesced in marrying.",
       "sources": {
@@ -2934,7 +2934,7 @@
     },
     {
       "id": 1051,
-      "english": "acrid",
+      "english": "Acrid",
       "bengali": "তিক্ত, কটু, ঝাঝালো গন্ধ বা স্বাদযুক্ত",
       "example": "This restaurant's food tastes acrid.",
       "sources": {
@@ -2943,7 +2943,7 @@
     },
     {
       "id": 1052,
-      "english": "acrimonious",
+      "english": "Acrimonious",
       "bengali": "বিদ্বেষপূর্ণ, ঝগড়াটে",
       "example": "Last night, the spouses were so acrimonious.",
       "sources": {
@@ -2952,7 +2952,7 @@
     },
     {
       "id": 1053,
-      "english": "acumen",
+      "english": "Acumen",
       "bengali": "তীক্ষ্ম বিচারশক্তি",
       "example": "Thought he is tiny boy, he has great acumen.",
       "sources": {
@@ -2961,7 +2961,7 @@
     },
     {
       "id": 1054,
-      "english": "acute",
+      "english": "Acute",
       "bengali": "তীক্ষ্ম",
       "example": "If your eyesight is acute, you can see things that other people can't.",
       "sources": {
@@ -2970,7 +2970,7 @@
     },
     {
       "id": 1055,
-      "english": "adamant",
+      "english": "Adamant",
       "bengali": "একগুয়ে, অবিচল, অনমনীয়, অটল",
       "example": "Candidate was adamant, she coild never go out with Paul again",
       "sources": {
@@ -2979,7 +2979,7 @@
     },
     {
       "id": 1056,
-      "english": "address",
+      "english": "Address",
       "bengali": "ভাষণ দেওয়া/ মনোযোগ দেওয়া",
       "example": "Ernie addressed the problem of addressing the convention by sitting down and writing his speech.",
       "sources": {
@@ -2988,7 +2988,7 @@
     },
     {
       "id": 1057,
-      "english": "adherent",
+      "english": "Adherent",
       "bengali": "সমর্থক, অনুগামী",
       "example": "The king's adherents threw a big birthday party for him, just to show him how much they lked him.",
       "sources": {
@@ -2997,7 +2997,7 @@
     },
     {
       "id": 1058,
-      "english": "admonish",
+      "english": "Admonish",
       "bengali": "সাবধান করা, মৃদু তিরষ্কার করা",
       "example": "The boys' father admonished them not to eat the pie he had just baked. When they did so anyway, he admonished them.",
       "sources": {
@@ -3006,7 +3006,7 @@
     },
     {
       "id": 1059,
-      "english": "adroit",
+      "english": "Adroit",
       "bengali": "দক্ষ, চতুর, কৌশলী, সাবলীল, বুদ্ধিমানভাবে পারদর্শী",
       "example": "Julio was an adroit salesperson.",
       "sources": {
@@ -3015,7 +3015,7 @@
     },
     {
       "id": 1060,
-      "english": "adulation",
+      "english": "Adulation",
       "bengali": "অতিরিক্ত প্রশংসা, চাটুকারিতা, অন্ধ ভক্তি",
       "example": "The boss thrived on the adulation of his scheming secretary.",
       "sources": {
@@ -3024,7 +3024,7 @@
     },
     {
       "id": 1061,
-      "english": "adulterate",
+      "english": "Adulterate",
       "bengali": "দূষিত করা, ভেজাল মেশানো",
       "example": "Vegetarians do not like their foods adulterated with animal fats.",
       "sources": {
@@ -3033,7 +3033,7 @@
     },
     {
       "id": 1062,
-      "english": "adverse",
+      "english": "Adverse",
       "bengali": "প্রতিকূল, বিরূপ",
       "example": "Airplane often don't fly in adverse weather.",
       "sources": {
@@ -3042,7 +3042,7 @@
     },
     {
       "id": 525,
-      "english": "aesthetic",
+      "english": "Aesthetic",
       "bengali": "নান্দনিক",
       "example": "Our art professor had a highly developed aesthetic sense.",
       "sources": {
@@ -3052,7 +3052,7 @@
     },
     {
       "id": 1127,
-      "english": "affable",
+      "english": "Affable",
       "bengali": "সহজে মিশুক, বন্ধুসুলভ",
       "example": "Susan was an affable girl; she could strike up a pleasant conversation with almost anyone.",
       "sources": {
@@ -3061,7 +3061,7 @@
     },
     {
       "id": 1064,
-      "english": "affectation",
+      "english": "Affectation",
       "bengali": "ভান; অভিনয়সুলভ আচরন",
       "example": "Becky's English accent is an affectation. She spent only a week in English, and that was several years ago.",
       "sources": {
@@ -3070,7 +3070,7 @@
     },
     {
       "id": 1065,
-      "english": "affinity",
+      "english": "Affinity",
       "bengali": "আকর্ষণ; স্বাভাবিক টান; সাদৃশ্যতা",
       "example": "Ducks have an affinity for water; There is an affinity between snow and sleet",
       "sources": {
@@ -3079,7 +3079,7 @@
     },
     {
       "id": 1066,
-      "english": "affluent",
+      "english": "Affluent",
       "bengali": "ধনী, সমৃদ্ধ",
       "example": "A person can be affluent.",
       "sources": {
@@ -3088,7 +3088,7 @@
     },
     {
       "id": 1067,
-      "english": "agenda",
+      "english": "Agenda",
       "bengali": "কর্মসূচি",
       "example": "What's on the agenda for the board meeting? A little gossip, then lunch.",
       "sources": {
@@ -3097,7 +3097,7 @@
     },
     {
       "id": 1068,
-      "english": "aggregate",
+      "english": "Aggregate",
       "bengali": "সমষ্টি, মোট পরিমাণ",
       "example": "Govt isn't serous about unemployemnt issue, the aggregate data are alarming",
       "sources": {
@@ -3106,7 +3106,7 @@
     },
     {
       "id": 1069,
-      "english": "agnostic",
+      "english": "Agnostic",
       "bengali": "সংশয়বাদী",
       "example": "An atheist doesn’t believe in God, but an agnostic neither believes nor disbelieves.",
       "sources": {
@@ -3115,7 +3115,7 @@
     },
     {
       "id": 1070,
-      "english": "agrarian",
+      "english": "Agrarian",
       "bengali": "কৃষিজ",
       "example": "Besides the health sector, govt should focus on the agrarian sector.",
       "sources": {
@@ -3124,7 +3124,7 @@
     },
     {
       "id": 1071,
-      "english": "alacrity",
+      "english": "Alacrity",
       "bengali": "উৎসাহ, উৎসুক মনোভাব",
       "example": "He came out of ATM with alacrity.",
       "sources": {
@@ -3133,7 +3133,7 @@
     },
     {
       "id": 1072,
-      "english": "allege",
+      "english": "Allege",
       "bengali": "প্র্রমান ছাড়া অভিযুক্ত করা",
       "example": "The police alleged his involvement in a rape case.",
       "sources": {
@@ -3142,7 +3142,7 @@
     },
     {
       "id": 1073,
-      "english": "alleviate",
+      "english": "Alleviate",
       "bengali": "সাময়িক মুক্তির ব্যবস্থা",
       "example": "This embankment only alleviates flooding temporarily, so the authorities must take steps for a permanent solution.",
       "sources": {
@@ -3151,7 +3151,7 @@
     },
     {
       "id": 1074,
-      "english": "allocate",
+      "english": "Allocate",
       "bengali": "বণ্টন করা, বরাদ্দ দেওয়া",
       "example": "The hall provost allocates seats for the listed student.",
       "sources": {
@@ -3160,7 +3160,7 @@
     },
     {
       "id": 1075,
-      "english": "alloy",
+      "english": "Alloy",
       "bengali": "দুই বা ততোধিক ধাতুর মিশ্রণ",
       "example": "Yesterday in the chemistry laboratory, we mixed Cu and Ag to make an alloy.",
       "sources": {
@@ -3169,7 +3169,7 @@
     },
     {
       "id": 1076,
-      "english": "allusion",
+      "english": "Allusion",
       "bengali": "পরোক্ষ উল্লেখ, ইঙ্গিত",
       "example": "This sign was an allusion to the upcoming event.",
       "sources": {
@@ -3178,7 +3178,7 @@
     },
     {
       "id": 1077,
-      "english": "aloof",
+      "english": "Aloof",
       "bengali": "নির্লিপ্ত, উদাসীন, আলাদা থাকা",
       "example": "John cut a sorry figure in the exam, he wants to stay aloof.",
       "sources": {
@@ -3187,7 +3187,7 @@
     },
     {
       "id": 1078,
-      "english": "altruism",
+      "english": "Altruism",
       "bengali": "নিঃস্বার্থতা, পরার্থপরতা",
       "example": "This school is supported by the altruism of rich people.",
       "sources": {
@@ -3196,7 +3196,7 @@
     },
     {
       "id": 1079,
-      "english": "ambience",
+      "english": "Ambience",
       "bengali": "পরিবেশ, আবহ, চারপাশের অনুভূতি",
       "example": "In winter season, the ambience is very white.",
       "sources": {
@@ -3205,7 +3205,7 @@
     },
     {
       "id": 1080,
-      "english": "ambiguous",
+      "english": "Ambiguous",
       "bengali": "অস্পষ্ট, দ্ব্যর্থক, বিভ্রান্তিকর",
       "example": "Last night's viral news was ambiguous.",
       "sources": {
@@ -3214,7 +3214,7 @@
     },
     {
       "id": 1081,
-      "english": "ambivalent",
+      "english": "Ambivalent",
       "bengali": "দ্বিধাগ্রস্থ, মিশ্র অনুভূতি সমপন্ন, একসাথে বিপরীত অনুভূতি থাকা",
       "example": "I am ambivalent about choosing between biomedical engineering and data science.",
       "sources": {
@@ -3223,7 +3223,7 @@
     },
     {
       "id": 1082,
-      "english": "ameliorate",
+      "english": "Ameliorate",
       "bengali": "উন্নত করা, সহনীয় করে তোলা",
       "example": "After the injection was given, the patient's condition began to ameliorate.",
       "sources": {
@@ -3479,7 +3479,8 @@
       "bengali": "আত্মসাৎ করা; নিজের ব্যবহারের জন্য নিয়ে নেওয়া",
       "example": "Nick appropriated my lunch; he grabbed it out of my hands and ate it.",
       "sources": {
-        "word smart": 81
+        "word smart": 81,
+        "Competitive Exams": 30
       }
     },
     {
@@ -3615,6 +3616,114 @@
       "example": "Margaret didn't have any friends when she first went to the new school, but she was gradually assimilated—she became part of the new community.",
       "sources": {
         "word smart": 96
+      }
+    },
+    {
+      "id": 1339,
+      "english": "Assuage",
+      "bengali": "প্রশমিত করা, উপশম করা, শান্ত করা",
+      "example": "The thunderstorm made the baby cry, but I assuaged her fears by singing her a lullaby.",
+      "sources": {
+        "word smart": 97
+      }
+    },
+    {
+      "id": 1340,
+      "english": "Astute",
+      "bengali": "তীক্ষ্ণবুদ্ধিসম্পন্ন, বিচক্ষণ",
+      "example": "Morris was an astute judge of character.",
+      "sources": {
+        "word smart": 98
+      }
+    },
+    {
+      "id": 1341,
+      "english": "Atheist",
+      "bengali": "নাস্তিক",
+      "example": "Emma, a lifelong atheist, preferred a Vegas elopement.",
+      "sources": {
+        "word smart": 99
+      }
+    },
+    {
+      "id": 1342,
+      "english": "Attrition",
+      "bengali": "ক্ষয়, ধীরে ধীরে হ্রাস",
+      "example": "His company preferred to lose workers through attrition when they moved away or retired.",
+      "sources": {
+        "word smart": 100
+      }
+    },
+    {
+      "id": 1343,
+      "english": "Audacity",
+      "bengali": "দুঃসাহস, স্পর্ধা",
+      "example": "Edgar's soaring leap off the top of the building was an act of great audacity.",
+      "sources": {
+        "word smart": 101
+      }
+    },
+    {
+      "id": 1344,
+      "english": "Augment",
+      "bengali": "বৃদ্ধি করা, যোগ করা",
+      "example": "The army augmented its attack by sending in a few thousand more soldiers.",
+      "sources": {
+        "word smart": 102
+      }
+    },
+    {
+      "id": 1345,
+      "english": "Auspicious",
+      "bengali": "শুভ, অনুকূল, আশাব্যঞ্জক",
+      "example": "A clear sky in the morning is an auspicious sign on the day of a picnic.",
+      "sources": {
+        "word smart": 103
+      }
+    },
+    {
+      "id": 1346,
+      "english": "Austere",
+      "bengali": "কঠোর, সরল, অনাড়ম্বর",
+      "example": "The Smiths' house was austere; there was no furniture in it.",
+      "sources": {
+        "word smart": 104
+      }
+    },
+    {
+      "id": 1347,
+      "english": "Autocratic",
+      "bengali": "স্বৈরাচারী, একচ্ছত্র ক্ষমতাসম্পন্ন",
+      "example": "The ruthless dictator's autocratic reign ended when the rebels blew up his palace.",
+      "sources": {
+        "word smart": 105
+      }
+    },
+    {
+      "id": 1348,
+      "english": "Autonomous",
+      "bengali": "স্বায়ত্তশাসিত, স্বাধীনভাবে পরিচালিত",
+      "example": "The West Coast office of the law firm was quite autonomous.",
+      "sources": {
+        "word smart": 106
+      }
+    },
+    {
+      "id": 1349,
+      "english": "Avarice",
+      "bengali": "লোভ, অর্থলোলুপতা",
+      "example": "The rich man's avarice was annoying to everyone who wanted to lay hands on some of his money.",
+      "sources": {
+        "word smart": 107
+      }
+    },
+    {
+      "id": 1350,
+      "english": "Avow",
+      "bengali": "স্বীকার করা, প্রকাশ্যে ঘোষণা করা",
+      "example": "At the age of twenty-five, Louis finally avowed that he couldn't stand his mother's apple pie.",
+      "sources": {
+        "word smart": 108
       }
     },
     {
@@ -7236,15 +7345,6 @@
       "example": "The proposal received approbation because it was beneficial.",
       "sources": {
         "Competitive Exams": 27
-      }
-    },
-    {
-      "id": 542,
-      "english": "Appropriate",
-      "bengali": "উপযুক্ত",
-      "example": "This is an answer that is appropriate.",
-      "sources": {
-        "Competitive Exams": 30
       }
     },
     {

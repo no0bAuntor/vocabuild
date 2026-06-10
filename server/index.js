@@ -44,6 +44,48 @@ const currentQuestionSchema = new mongoose.Schema(
   { _id: false },
 );
 
+const mistakeSchema = new mongoose.Schema(
+  {
+    entryId: { type: Number, required: true },
+    english: { type: String, default: null },
+    bengali: { type: String, default: null },
+    prompt: { type: String, default: null },
+    answer: { type: String, default: null },
+  },
+  { _id: false },
+);
+
+const sessionRecordSchema = new mongoose.Schema(
+  {
+    completedAt: { type: Date, default: () => new Date() },
+    reviewMode: { type: Boolean, default: false },
+    mode: { type: String, default: "en-bn" },
+    questionCount: { type: String, default: "20" },
+    questionOrder: { type: String, default: "random" },
+    selectedSheets: { type: [String], default: [] },
+    rowRanges: { type: mongoose.Schema.Types.Mixed, default: {} },
+    rowRangeEntries: {
+      type: [
+        new mongoose.Schema(
+          {
+            sheet: { type: String, default: "" },
+            from: { type: Number, default: null },
+            to: { type: Number, default: null },
+          },
+          { _id: false },
+        ),
+      ],
+      default: [],
+    },
+    deckEntryIds: { type: [Number], default: [] },
+    score: { type: Number, default: 0 },
+    answeredCount: { type: Number, default: 0 },
+    accuracy: { type: Number, default: 0 },
+    mistakes: { type: [mistakeSchema], default: [] },
+  },
+  { _id: false },
+);
+
 const progressSchema = new mongoose.Schema(
   {
     isActive: { type: Boolean, default: false },
@@ -53,11 +95,13 @@ const progressSchema = new mongoose.Schema(
     questionCount: { type: String, default: "20" },
     questionOrder: { type: String, default: "random" },
     selectedSheets: { type: [String], default: [] },
+    rowRanges: { type: mongoose.Schema.Types.Mixed, default: {} },
     deckEntryIds: { type: [Number], default: [] },
     currentIndex: { type: Number, default: -1 },
     score: { type: Number, default: 0 },
     answeredCount: { type: Number, default: 0 },
     mistakeEntryIds: { type: [Number], default: [] },
+    mistakes: { type: [mistakeSchema], default: [] },
     selectedAnswer: { type: String, default: null },
     feedbackText: { type: String, default: "" },
     currentQuestion: { type: currentQuestionSchema, default: null },
@@ -85,6 +129,7 @@ const userSchema = new mongoose.Schema(
       resumedSessions: { type: Number, default: 0 },
       lastPlayedAt: { type: Date, default: null },
     },
+    sessionRecords: { type: [sessionRecordSchema], default: [] },
     progress: { type: progressSchema, default: () => ({}) },
   },
   { timestamps: true, minimize: false },
@@ -113,6 +158,7 @@ function serializeUser(user) {
     displayName: plain.displayName,
     preferences: plain.preferences,
     stats: plain.stats,
+    sessionRecords: Array.isArray(plain.sessionRecords) ? plain.sessionRecords : [],
     progress: plain.progress,
     createdAt: plain.createdAt,
     updatedAt: plain.updatedAt,
@@ -127,6 +173,52 @@ function applyProgressUpdate(user, progress, isActive) {
     updatedAt: new Date(),
   };
   user.stats.lastPlayedAt = new Date();
+}
+
+function buildSessionRecord(progress) {
+  const answeredCount = Number(progress?.answeredCount || 0);
+  const score = Number(progress?.score || 0);
+  const accuracy = answeredCount > 0 ? Math.round((score / answeredCount) * 100) : 0;
+  const selectedSheets = Array.isArray(progress?.selectedSheets) ? progress.selectedSheets : [];
+  const rowRangesSource =
+    progress?.rowRanges && typeof progress.rowRanges === "object" ? progress.rowRanges : {};
+  const rowRanges = {};
+  const rowRangeEntries = [];
+
+  for (const sheet of selectedSheets) {
+    const sourceRange = rowRangesSource[sheet];
+    if (!sourceRange) {
+      continue;
+    }
+
+    const from = Number(sourceRange.from);
+    const to = Number(sourceRange.to);
+    rowRanges[sheet] = {
+      from: Number.isFinite(from) ? from : null,
+      to: Number.isFinite(to) ? to : null,
+    };
+    rowRangeEntries.push({
+      sheet,
+      from: rowRanges[sheet].from,
+      to: rowRanges[sheet].to,
+    });
+  }
+
+  return {
+    completedAt: new Date(),
+    reviewMode: Boolean(progress?.reviewMode),
+    mode: progress?.mode || "en-bn",
+    questionCount: progress?.questionCount || "20",
+    questionOrder: progress?.questionOrder || "random",
+    selectedSheets,
+    rowRanges,
+    rowRangeEntries,
+    deckEntryIds: Array.isArray(progress?.deckEntryIds) ? progress.deckEntryIds : [],
+    score,
+    answeredCount,
+    accuracy,
+    mistakes: Array.isArray(progress?.mistakes) ? progress.mistakes : [],
+  };
 }
 
 async function syncVocabularyDataset() {
@@ -379,6 +471,8 @@ app.post("/api/users/:userId/sessions/complete", async (request, response) => {
       Number(progress.answeredCount || 0) - Number(progress.score || 0),
       0,
     );
+    const existingSessionRecords = Array.isArray(user.sessionRecords) ? user.sessionRecords : [];
+    user.sessionRecords = [buildSessionRecord(progress), ...existingSessionRecords].slice(0, 10);
     await user.save();
 
     return response.json({ user: serializeUser(user) });
