@@ -1582,7 +1582,6 @@ function App() {
               <div className="grid gap-4">
                 {sessionRecords.slice(0, 5).map((record, index) => {
                   const recordMistakes = record.mistakes || [];
-                  const mistakePreview = recordMistakes.slice(0, 4);
                   const rowRangeEntries = getSessionRowRangeEntries(record);
 
                   return (
@@ -1675,9 +1674,9 @@ function App() {
                         <p className="text-xs font-semibold uppercase tracking-[0.24em] text-stone-500">
                           Missed Words
                         </p>
-                        {mistakePreview.length ? (
-                          <div className="mt-3 flex flex-wrap gap-2">
-                            {mistakePreview.map((mistake) => (
+                        {recordMistakes.length ? (
+                          <div className="mt-3 flex max-h-56 flex-wrap gap-2 overflow-y-auto pr-1">
+                            {recordMistakes.map((mistake) => (
                               <span
                                 key={`${record.completedAt}-${mistake.entryId}`}
                                 className="rounded-full border border-rose-200 bg-rose-50 px-3 py-1.5 text-sm font-medium text-rose-900"
@@ -1687,11 +1686,6 @@ function App() {
                                 {mistake.answer}
                               </span>
                             ))}
-                            {recordMistakes.length > mistakePreview.length && (
-                              <span className="rounded-full border border-stone-200 bg-stone-50 px-3 py-1.5 text-sm font-medium text-stone-600">
-                                +{recordMistakes.length - mistakePreview.length} more
-                              </span>
-                            )}
                           </div>
                         ) : (
                           <p className="mt-3 text-sm text-emerald-800">
