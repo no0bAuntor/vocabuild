@@ -181,7 +181,6 @@ def build_dataset() -> dict:
     source_counts: dict[str, int] = {}
     blank_rows: dict[str, int] = {}
     incomplete_rows: dict[str, int] = {}
-    row_ranges: dict[str, dict[str, int]] = {}
     previous_id_by_key = load_previous_ids()
     reserved_ids = set(previous_id_by_key.values())
     next_id = max(reserved_ids, default=0) + 1
@@ -234,8 +233,6 @@ def build_dataset() -> dict:
         source_counts[sheet_name] = 0
         blank_rows[sheet_name] = 0
         incomplete_rows[sheet_name] = 0
-        min_row = float('inf')
-        max_row = 0
 
         for row_idx, row in enumerate(rows[1:], start=2):
             values = list(row)
@@ -264,8 +261,6 @@ def build_dataset() -> dict:
                 continue
 
             source_counts[sheet_name] += 1
-            min_row = min(min_row, row_idx)
-            max_row = max(max_row, row_idx)
             key = (word.casefold(), bengali.casefold())
 
             if key not in entries_by_key:
@@ -281,9 +276,6 @@ def build_dataset() -> dict:
             if sheet_name not in entries_by_key[key]["sources"]:
                 entries_by_key[key]["sources"][sheet_name] = row_idx
 
-        if min_row != float('inf'):
-            row_ranges[sheet_name] = {"min": min_row, "max": max_row}
-
     entries = list(entries_by_key.values())
 
     return {
@@ -296,7 +288,6 @@ def build_dataset() -> dict:
             "incompleteRows": incomplete_rows,
             "totalSourcePairs": sum(source_counts.values()),
             "uniqueEntries": len(entries),
-            "rowRanges": row_ranges,
         },
         "entries": entries,
     }

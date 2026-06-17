@@ -242,15 +242,52 @@ async function requestJson(url, options = {}) {
   return payload;
 }
 
-function buildInitialRowRanges(metadata, sheets) {
+function buildSheetRowBounds(entries, sheets) {
+  const sheetSet = new Set(sheets);
   const ranges = {};
+
+  for (const entry of entries || []) {
+    const sources = entry?.sources;
+    if (!sources || typeof sources !== "object") {
+      continue;
+    }
+
+    for (const [sheet, row] of Object.entries(sources)) {
+      if (!sheetSet.has(sheet)) {
+        continue;
+      }
+
+      const numericRow = Number(row);
+      if (!Number.isFinite(numericRow)) {
+        continue;
+      }
+
+      const current = ranges[sheet];
+      if (!current) {
+        ranges[sheet] = { min: numericRow, max: numericRow };
+        continue;
+      }
+
+      current.min = Math.min(current.min, numericRow);
+      current.max = Math.max(current.max, numericRow);
+    }
+  }
+
+  return ranges;
+}
+
+function buildInitialRowRanges(entries, sheets) {
+  const ranges = {};
+  const sheetBounds = buildSheetRowBounds(entries, sheets);
+
   for (const sheet of sheets) {
-    const range = metadata?.rowRanges?.[sheet];
+    const range = sheetBounds[sheet];
     ranges[sheet] = {
       from: range?.min ?? 1,
       to: range?.max ?? 100,
     };
   }
+
   return ranges;
 }
 
@@ -449,8 +486,8 @@ function QuestionOrderPicker({ value, disabled, onChange }) {
   );
 }
 
-function RowRangePicker({ sheet, rowRange, disabled, onChange, metadata }) {
-  const range = metadata?.rowRanges?.[sheet];
+function RowRangePicker({ sheet, rowRange, disabled, onChange, sheetBounds }) {
+  const range = sheetBounds?.[sheet];
   if (!range) return null;
 
   const handleFromChange = (e) => {
@@ -577,13 +614,13 @@ function App() {
 
     if (initial) {
       setSelectedSheets(nextDataset.metadata.includedSheets);
-      setRowRanges(buildInitialRowRanges(nextDataset.metadata, nextDataset.metadata.includedSheets));
+      setRowRanges(buildInitialRowRanges(nextDataset.entries, nextDataset.metadata.includedSheets));
     } else {
       setRowRanges((current) => {
         const merged = { ...current };
         for (const sheet of nextDataset.metadata.includedSheets) {
           if (!merged[sheet]) {
-            const range = nextDataset.metadata.rowRanges?.[sheet];
+            const range = buildSheetRowBounds(nextDataset.entries, [sheet])[sheet];
             merged[sheet] = {
               from: range?.min ?? 1,
               to: range?.max ?? 100,
@@ -696,9 +733,10 @@ function App() {
     );
 
     // Apply saved row ranges
+    const sheetBounds = buildSheetRowBounds(activeDataset.entries, activeDataset.metadata.includedSheets);
     const nextRowRanges = {};
     for (const sheet of activeDataset.metadata.includedSheets) {
-      const range = activeDataset.metadata.rowRanges[sheet];
+      const range = sheetBounds[sheet];
       nextRowRanges[sheet] = user.preferences?.rowRanges?.[sheet] || {
         from: range?.min ?? 1,
         to: range?.max ?? 100,
@@ -791,6 +829,7 @@ function App() {
   const controlsLocked = Boolean(currentUser?.progress?.isActive);
   const sessionRecords = currentUser?.sessionRecords || [];
   const latestSessionRecord = sessionRecords[0] || null;
+  const sheetBounds = dataset ? buildSheetRowBounds(dataset.entries, dataset.metadata.includedSheets) : {};
   const userAccuracy =
     currentUser?.stats?.answeredCount > 0
       ? Math.round((currentUser.stats.correctCount / currentUser.stats.answeredCount) * 100)
@@ -1432,15 +1471,15 @@ function App() {
                   <SectionTitle label="Row Range (Optional)" meta="customize per sheet" />
                   <div className="mt-3 space-y-3">
                     {selectedSheets.map((sheet) => (
-                      <RowRangePicker
-                        key={sheet}
-                        sheet={sheet}
-                        rowRange={rowRanges[sheet] || { from: 1, to: 100 }}
-                        disabled={controlsLocked}
-                        onChange={updateRowRange}
-                        metadata={dataset.metadata}
-                      />
-                    ))}
+                <RowRangePicker
+                      key={sheet}
+                      sheet={sheet}
+                      rowRange={rowRanges[sheet] || { from: 1, to: 100 }}
+                      disabled={controlsLocked}
+                      onChange={updateRowRange}
+                      sheetBounds={sheetBounds}
+                    />
+                  ))}
                   </div>
                 </div>
               )}

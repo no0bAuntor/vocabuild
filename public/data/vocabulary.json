@@ -35,33 +35,7 @@
       "Analogy": 3
     },
     "totalSourcePairs": 1355,
-    "uniqueEntries": 1339,
-    "rowRanges": {
-      "War": {
-        "min": 2,
-        "max": 205
-      },
-      "A World Undone": {
-        "min": 2,
-        "max": 99
-      },
-      "word smart": {
-        "min": 2,
-        "max": 108
-      },
-      "Random": {
-        "min": 2,
-        "max": 381
-      },
-      "Competitive Exams": {
-        "min": 3,
-        "max": 325
-      },
-      "Analogy": {
-        "min": 3,
-        "max": 263
-      }
-    }
+    "uniqueEntries": 1339
   },
   "entries": [
     {
